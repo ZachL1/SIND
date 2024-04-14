@@ -6,8 +6,8 @@ import torchvision.transforms.functional as F
 from prefetch_generator import BackgroundGenerator
 
 
-from g_datasets import folders
-from g_datasets.g_transforms import RandomCropMiniPatch, NineCrop, NineCropMiniPatch, SceneSampler
+from g_iqa.g_datasets import folders
+from g_iqa.g_datasets.g_transforms import RandomCropMiniPatch, NineCrop, NineCropMiniPatch, SceneSampler
 
 class DataLoaderX(DataLoader):
     def __iter__(self):
@@ -67,7 +67,7 @@ class DataGenerator(object):
                 ])
             ]
 
-
+        dataset = dataset[0] if isinstance(dataset, list) and len(dataset) == 1 else dataset
         path = path[0] if isinstance(path, list) and len(path) == 1 else path
         if isinstance(path, list) and len(path) > 1:
             self.data = folders.MultiDatasetFolder(
@@ -81,7 +81,7 @@ class DataGenerator(object):
         elif dataset == 'csiq':
             self.data = folders.CSIQFolder(
                 root=path, index=img_indx, transform=transforms)
-        elif dataset == 'koniq-10k':
+        elif dataset == 'koniq10k':
             self.data = folders.Koniq_10kFolder(
                 root=path, index=img_indx, transform=transforms)
         elif dataset == 'bid':
@@ -93,6 +93,11 @@ class DataGenerator(object):
         elif dataset == 'piq23':
             self.data = folders.PIQ23Folder(
                 root=path, index=img_indx, transform=transforms)
+        elif dataset == 'spaq':
+            self.data = folders.SPAQFolder(
+                root=path, index=img_indx, transform=transforms)
+        else:
+            raise ValueError(f"Unknown dataset: {dataset}")
 
     def get_data(self):
         if self.scene_sampling > 0:

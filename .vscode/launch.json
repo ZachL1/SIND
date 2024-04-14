@@ -1,0 +1,36 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2",
+  "configurations": [
+    {
+      "name": "Python: G-IQA Debug",
+      "type": "python",
+      "request": "launch",
+      "module": "accelerate.commands.launch",
+      "args": [
+        // "--mixed_precision", "fp16",
+        // "--multi_gpu",
+        "train_test_IQA.py",
+        "--clip_model", "openai/ViT-B-16",
+        "--epochs", "50",
+        "--lr", "1e-5",
+        "--warmup_epoch", "5",
+        "--weight_decay", "1e-3",
+        "--batch_size", "64",
+        "--mixed_precision", "no",
+        "--loss_type", "scale_shift",
+        "--input_size", "224",
+        "--scene_sampling", "2",
+        "--train_dataset", "piq23",
+        "--test_dataset", "piq23",
+      ],
+      "env": {
+          "CUDA_VISIBLE_DEVICES": "1"
+      },
+      "console": "integratedTerminal",
+      "justMyCode": false
+    }
+  ]
+}

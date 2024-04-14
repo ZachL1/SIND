@@ -1,0 +1,159 @@
+import os
+import argparse
+import random
+import numpy as np
+import pandas as pd
+import torch
+
+from g_iqa.IQASolver import IQASolver
+
+# import multiprocessing
+# try:
+#     multiprocessing.set_start_method('spawn')
+# except RuntimeError:
+#     pass
+
+# os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+
+def get_piq23_train_test(data_dir):
+    all_set = os.path.join(data_dir, 'Scores_Overall.csv')
+    test_set = f'{data_dir}/../piq23_starter_kit/ntire24_overall_scene_test.csv'
+
+    all_set = pd.read_csv(all_set)['IMAGE PATH'].tolist()
+    test_set = pd.read_csv(test_set)['IMAGE PATH'].tolist()
+    train_set = list(set(all_set) - set(test_set))
+
+    # generate train and test set index in all_set
+    train_idx = [all_set.index(img) for img in train_set]
+    test_idx = [all_set.index(img) for img in test_set]
+
+    return train_idx, test_idx
+
+
+def split_dataset_by_domain(data_dir, domain_idx):
+    '''
+    leave one domain out
+    domain can be scene-based or distortion-based 
+    '''
+    if data_dir.endswith('PIQ23/'):
+        all_df = pd.read_csv(os.path.join(data_dir, 'Scores_Overall.csv'))
+        all_scene = all_df['CONDITION'].unique()
+        domain = all_scene[domain_idx]
+        train_idx = all_df[all_df['CONDITION'] != domain].index.tolist()
+        test_idx = all_df[all_df['CONDITION'] == domain].index.tolist()
+
+    elif data_dir.endswith('SPAQ/'):
+        annos_df = pd.read_excel(os.path.join(data_dir, 'annotations/MOS and Image attribute scores.xlsx'))
+        # the category probability distribution of images, index is the image name
+        scene_df = pd.read_excel(os.path.join(data_dir, 'annotations/Scene category labels.xlsx'))
+        assert annos_df.index.tolist() == scene_df.index.tolist()
+        all_scene = scene_df.columns[1:]
+        domain = all_scene[domain_idx]
+        train_idx = scene_df[scene_df[domain] == 0].index.tolist()
+        test_idx = scene_df[scene_df[domain] > 0].index.tolist()
+
+    else:
+        raise NotImplementedError
+
+    return train_idx, test_idx
+
+def main(config):
+
+    folder_path = {
+        'live': '/home/ssl/Database/databaserelease2/',
+        'csiq': '/home/ssl/Database/CSIQ/',
+        'tid2013': '/home/ssl/Database/TID2013/',
+        'livec': '/home/ssl/Database/ChallengeDB_release/ChallengeDB_release/',
+        # 'koniq-10k': '/home/ssl/Database/koniq-10k/',
+        # 'bid': '/home/ssl/Database/BID/',
+        'piq23': './data/PIQ23/',
+        'spaq': './data/SPAQ/',
+        'koniq10k': './data/koniq10k/',
+        'livew': './data/LIVEW/',
+        'bid': './data/BID/',
+    }
+
+    domain_lists = {
+        'live': list(range(0, 29)),
+        'csiq': list(range(0, 30)),
+        'tid2013': list(range(0, 25)),
+        # 'livec': list(range(0, 1162)),
+        # 'koniq-10k': list(range(0, 10073)),
+        # 'bid': list(range(0, 586)),
+        'piq23': list(range(0, 4)), # Outdoor, Indoor, Lowlight, Night
+        'spaq': list(range(0, 9)), # Animal, Cityscape, Human, Indoor scene, Landscape, Night scene, Plant, Still-life, Others
+
+    }
+    domain_list = domain_lists[config.train_dataset[0]] if len(config.train_dataset) == 1 else [0]
+
+    srcc_all = np.zeros(len(domain_list), dtype=np.float32)
+    plcc_all = np.zeros(len(domain_list), dtype=np.float32)
+
+    print('Training and testing on %s dataset for %d rounds...' % (config.train_dataset, len(domain_list)))
+    proj_dir = config.project_dir
+    for i in domain_list:
+        config.project_dir = os.path.join(proj_dir, f'test_domain_{i}')
+
+        if len(config.train_dataset) == 1:
+            assert config.train_dataset == config.test_dataset
+            train_index, test_index = split_dataset_by_domain(folder_path[config.train_dataset[0]], i)
+        else:
+            train_index, test_index = None, None
+
+        solver = IQASolver(config, folder_path, train_index, test_index)
+        srcc_all[i], plcc_all[i] = solver.train()
+
+        del solver
+        torch.cuda.empty_cache()
+
+    print(srcc_all)
+    print(plcc_all)
+    srcc_mean, plcc_mean = srcc_all.mean(), plcc_all.mean()
+    srcc_med, plcc_med = np.median(srcc_all), np.median(plcc_all)
+
+    print('Testing mean SRCC %4.4f,\tmean PLCC %4.4f' % (srcc_mean, plcc_mean))
+    print('Testing median SRCC %4.4f,\tmedian PLCC %4.4f' % (srcc_med, plcc_med))
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    ################## Model Config ##################
+    parser.add_argument('--clip_model', default='openai/ViT-B-16', help="pretrained clip weights, see https://github.com/mlfoundations/open_clip/blob/main/docs/openclip_results.csv")
+    parser.add_argument('--clip_freeze', action="store_true", help="freeze clip weights")
+    parser.add_argument('--ema_decay', dest='ema_decay', type=float, default=0.99, help='ema decay')
+    ################## Resume/Finetune Config ##################
+    parser.add_argument('--resume_from', type=str, default=None, help="resume from checkpoint")
+    parser.add_argument('--start_epoch', type=int, default=0, help="resume start epoch")
+    parser.add_argument('--load_from', type=str, default=None, help="load from checkpoint")
+
+    ################## Data Config ##################
+    parser.add_argument('--train_dataset', dest='train_dataset', nargs='+', type=str, default='piq23', help='datasets for training, piq23|spaq|koniq10k|livew|bid')
+    parser.add_argument('--test_dataset', dest='test_dataset', nargs='+', type=str, default='piq23', help='datasets for testing')
+    parser.add_argument('--input_size', dest='input_size', type=int, default=672, help='Crop size for training & testing image')
+    # parser.add_argument('--train_data', nargs='+', type=int, default=[0,1,2,3,4], help="train data, 0:PIQ23, 1:SPAQ, 2:Koniq10K, 3:Livew, 4:BID")
+    # parser.add_argument('--val_data', nargs='+', type=int, default=[0], help="val data, 0:PIQ23, 1:SPAQ, 2:Koniq10K, 3:Livew, 4:BID")
+
+    ################## Training Config ##################
+    # parser.add_argument('--train_test_num', dest='train_test_num', type=int, default=1, help='Train-test times')
+    parser.add_argument('--epochs', dest='epochs', type=int, default=30, help='Epochs for training')
+    parser.add_argument('--batch_size', dest='batch_size', type=int, default=32, help='Batch size')
+    parser.add_argument('--project_dir', type=str, default='exp_log/debug', help='project dir for tensorboard')
+    parser.add_argument('--mixed_precision', default='no', choices=['no', 'fp16'], help='Mixed precision training, no(fp32)|fp16')
+    ################## optimize Config ##################
+    parser.add_argument('--lr', dest='lr', type=float, default=1e-4, help='Learning rate')
+    parser.add_argument('--lr_ratio', dest='lr_ratio', type=int, default=1, help='Learning rate ratio for backbone i.e. lr/lr_ratio')
+    parser.add_argument('--weight_decay', dest='weight_decay', type=float, default=5e-4, help='Weight decay of Adam')
+    parser.add_argument('--warmup_epoch', type=int, default=10, help='epoch of warmup')
+    ################## important Config ##################
+    parser.add_argument('--loss_type', type=str, default='l1', help='loss type for training')
+    parser.add_argument('--scene_sampling', type=int, default=0, help='Number of domain categories, must be greater than 0, otherwise random sampling')
+
+    ################## Abalation Config ##################
+    parser.add_argument('--all_global', action="store_true", help='Use all global features')
+
+    config = parser.parse_args()
+
+    # os.environ["http_proxy"] = 'http://10.147.18.225:7890'
+    # os.environ["https_proxy"] = 'http://10.147.18.225:7890'
+    main(config)
+
