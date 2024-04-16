@@ -26,15 +26,15 @@ class QualityFusionHead(nn.Module):
         self.local_feature_size = local_feature_size
         self.output_size = output_size
 
-        crop_patch = 7 * 7
-        self.local_proj = nn.Sequential(
-            nn.Conv1d(local_feature_size[0], crop_patch, 1),
-            nn.ReLU(),
-            nn.Conv1d(crop_patch, 1, 1),
-            nn.ReLU(),
-            nn.Linear(local_feature_size[1], global_feature_size),
-            nn.ReLU(),
-        )
+        # crop_patch = 7 * 7
+        # self.local_proj = nn.Sequential(
+        #     nn.Conv1d(local_feature_size[0], crop_patch, 1),
+        #     nn.ReLU(),
+        #     nn.Conv1d(crop_patch, 1, 1),
+        #     nn.ReLU(),
+        #     nn.Linear(local_feature_size[1], global_feature_size),
+        #     nn.ReLU(),
+        # )
 
         self.quality_predictor = nn.Sequential(
             # nn.TransformerEncoderLayer(d_model=1024, nhead=8),
@@ -42,14 +42,12 @@ class QualityFusionHead(nn.Module):
             # nn.ReLU(),
             # nn.Linear(512, output_size),
             # nn.Linear(1024, output_size),
-            nn.Linear(global_feature_size*2, output_size),
+            nn.Linear(global_feature_size + local_feature_size[1], output_size),
         )
 
     def forward(self, global_features, local_features):
-        # if len(local_features.shape) == 3:
-        local_features = self.local_proj(local_features).squeeze(1)
-        # else:
-        #     print(local_features.shape)
+        # local_features = self.local_proj(local_features).squeeze(1)
+        local_features = torch.mean(local_features, dim=1)
 
         features = torch.cat([global_features, local_features], dim=1)
         quality = self.quality_predictor(features)
@@ -73,7 +71,7 @@ class LocalGlobalClipIQA(nn.Module):
         global_features, _ = self.clip_model.encode_image(x_global) # B, 512
         if self.all_global:
             local_features, _ = self.clip_model.encode_image(x_local) # B, 512
-            local_features = local_features.unsqueeze(1)
+            local_features = local_features.unsqueeze(1) # B, 1, 512
         else:
             _, local_features = self.clip_model.encode_image(x_local) # B, 196, 768
 
