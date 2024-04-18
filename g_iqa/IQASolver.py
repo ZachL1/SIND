@@ -23,6 +23,7 @@ class IQASolver(object):
         self.start_epoch = config.start_epoch if "start_epoch" in config else 0
         self.loss_type = config.loss_type
         self.project_dir = config.project_dir
+        self.scene_sampling = config.scene_sampling > 0
 
         # accelerator implementation distributed training
         proj_config = autils.ProjectConfiguration(
@@ -97,16 +98,21 @@ class IQASolver(object):
             torch.cuda.empty_cache()
             for sample in tqdm(self.train_data, desc=f'Epoch {t+1}/{self.epochs}'):
                 img = sample['img']
-                label = sample['label'].to(self.device)
+                label = sample['label'].to(self.device).float()
                 scene = sample['scene'].to(self.device)
 
                 self.optimizer.zero_grad()
 
                 data, data_pt = img, sample['img_pt']
-                # with torch.cuda.amp.autocast():
-                pred = self.model(data, data_pt)
+                pred = self.model(data, data_pt).squeeze(-1)
 
-                loss = loss_by_scene(pred.squeeze(), label.float(), scene, self.loss_type)
+                # If there is domain sampling, the loss is calculated within the domain, otherwise calculated directly.
+                if self.scene_sampling:
+                    loss = loss_by_scene(pred, label, scene, self.loss_type)
+                elif self.loss_type == 'l1':
+                    loss = torch.nn.functional.l1_loss(pred, label)
+                else:
+                    raise NotImplementedError(f'Loss type {self.loss_type} not implemented')
                 
                 # loss.backward()
                 self.accelerator.backward(loss)
@@ -121,7 +127,7 @@ class IQASolver(object):
                     self.accelerator.log({"train/loss": loss}, step=global_step)
                     self.accelerator.log({f"lr/{i}": self.optimizer.param_groups[i]['lr'] for i in range(len(self.optimizer.param_groups))}, step=global_step)
 
-                    pred_scores = pred_scores + pred.squeeze(-1).cpu().tolist()
+                    pred_scores = pred_scores + pred.cpu().tolist()
                     gt_scores = gt_scores + label.cpu().tolist()
                     epoch_loss.append(loss.item())
 

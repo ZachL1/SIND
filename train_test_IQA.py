@@ -1,4 +1,5 @@
 import os
+import json
 import argparse
 import random
 import numpy as np
@@ -39,6 +40,7 @@ def split_dataset_by_domain(data_dir, domain_idx):
         all_df = pd.read_csv(os.path.join(data_dir, 'Scores_Overall.csv'))
         all_scene = all_df['CONDITION'].unique()
         domain = all_scene[domain_idx]
+        all_scene = sorted(all_scene)
         train_idx = all_df[all_df['CONDITION'] != domain].index.tolist()
         test_idx = all_df[all_df['CONDITION'] == domain].index.tolist()
 
@@ -46,15 +48,37 @@ def split_dataset_by_domain(data_dir, domain_idx):
         annos_df = pd.read_excel(os.path.join(data_dir, 'annotations/MOS and Image attribute scores.xlsx'))
         # the category probability distribution of images, index is the image name
         scene_df = pd.read_excel(os.path.join(data_dir, 'annotations/Scene category labels.xlsx'))
-        assert annos_df.index.tolist() == scene_df.index.tolist()
+        assert annos_df['Image name'].tolist() == scene_df['Image name'].tolist()
         all_scene = scene_df.columns[1:]
+        all_scene = sorted(all_scene)
         domain = all_scene[domain_idx]
         train_idx = scene_df[scene_df[domain] == 0].index.tolist()
         test_idx = scene_df[scene_df[domain] > 0].index.tolist()
 
+    elif data_dir.endswith('PARA/'):
+        all_df = pd.read_csv(os.path.join(data_dir, 'annotation/PARA-GiaaAll.csv'))
+        all_scene = all_df['semantic'].unique()
+        all_scene = sorted(all_scene)
+        domain = all_scene[domain_idx]
+        train_idx = all_df[all_df['semantic'] != domain].index.tolist()
+        test_idx = all_df[all_df['semantic'] == domain].index.tolist()
+
+    elif data_dir.endswith('EVA/'):
+        all_set = os.path.join(data_dir, 'annotations/EVA_all.json')
+        with open(all_set, 'r') as f:
+            all_js = json.load(f)['files']
+        all_scene = list(set(item['category'] for item in all_js))
+        all_scene = sorted(all_scene)
+        domain = all_scene[domain_idx]
+        train_idx = [i for i, item in enumerate(all_js) if item['category'] != domain]
+        test_idx = [i for i, item in enumerate(all_js) if item['category'] == domain]
+
+
+
     else:
         raise NotImplementedError
 
+    print(all_scene)
     return train_idx, test_idx
 
 def main(config):
@@ -71,6 +95,8 @@ def main(config):
         'koniq10k': './data/koniq10k/',
         'livew': './data/LIVEW/',
         'bid': './data/BID/',
+        'para': './data/PARA/',
+        'eva': './data/EVA/',
     }
 
     domain_lists = {
@@ -82,6 +108,8 @@ def main(config):
         # 'bid': list(range(0, 586)),
         'piq23': list(range(0, 4)), # Outdoor, Indoor, Lowlight, Night
         'spaq': list(range(0, 9)), # Animal, Cityscape, Human, Indoor scene, Landscape, Night scene, Plant, Still-life, Others
+        'para': list(range(0, 10)), # 10 scenes
+        'eva': list(range(0, 6)), # 6 scenes
 
     }
     domain_list = domain_lists[config.train_dataset[0]] if len(config.train_dataset) == 1 else [0]
@@ -89,9 +117,9 @@ def main(config):
     srcc_all = np.zeros(len(domain_list), dtype=np.float32)
     plcc_all = np.zeros(len(domain_list), dtype=np.float32)
 
-    print('Training and testing on %s dataset for %d rounds...' % (config.train_dataset, len(domain_list)))
     proj_dir = config.project_dir
     for i in domain_list:
+        print('Training and testing on %s dataset for domain %d ...' % (config.train_dataset, i))
         config.project_dir = os.path.join(proj_dir, f'test_domain_{i}')
 
         if len(config.train_dataset) == 1:
