@@ -4,38 +4,12 @@ import pandas as pd
 
 from g_iqa.g_datasets.folder.PIQ23_base import PIQ23Folder
 
-'''
-import os
-import numpy as np
-import pandas as pd
-import json
-
-base_dir = '/home/dzc/workspace/G-IQA/data/EVA'
-
-all_files = []
-with open(f'{base_dir}/eva-dataset-master/data/image_content_category.csv', 'r') as f:
-    lines = f.readlines()
-
-info = pd.read_csv(f'{base_dir}/eva-dataset-master/data/votes_filtered.csv', sep='=', dtype={'image_id': str})
-for line in lines[1:]:
-    id, cat = line.strip().split(',')
-    id, cat = id.strip('"'), cat.strip('"')
-    score = info['score'][info['image_id']==id].to_numpy()
-    if len(score) == 0:
-        continue
-    all_files.append({
-        'image': f'eva-dataset-master/images/EVA_category/EVA_category/{cat}/{id}.jpg',
-        'category': cat,
-        'score': np.mean(score)
-    })
-    assert os.path.exists(os.path.join(base_dir, all_files[-1]['image']))
-
-with open(f'{base_dir}/annotations/EVA_all.json', 'w') as f:
-    json.dump({'files': all_files}, f)
-'''
-
 
 class EVAFolder(PIQ23Folder):
+    def __init__(self, root, data_json, transform):
+        super().__init__(root, data_json, transform)
+    '''
+    # old version
     def __init__(self, root, index=None, transform=None, scene_base=1100):
         data_dir = root
         all_set = os.path.join(data_dir, 'annotations/EVA_all.json')
@@ -63,3 +37,4 @@ class EVAFolder(PIQ23Folder):
                 img_name = imgs_name[item],
             ))
         self.transform = transform
+    '''

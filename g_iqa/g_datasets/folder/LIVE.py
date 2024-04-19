@@ -13,7 +13,10 @@ def getFileName(path, suffix):
     return filename
 
 class LIVEFolder(PIQ23Folder):
-    ''' Modified from https://github.com/SSL92/hyperIQA '''
+    def __init__(self, root, data_json, transform):
+        super().__init__(root, data_json, transform)
+    '''
+    # old version - Not verified
     def __init__(self, root, index=None, transform=None, scene_base=500):
 
         refpath = os.path.join(root, 'refimgs')
@@ -63,3 +66,4 @@ class LIVEFolder(PIQ23Folder):
             filename.append(os.path.join(path, name))
             index = index + 1
         return filename
+    '''

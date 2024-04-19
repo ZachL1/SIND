@@ -4,6 +4,10 @@ import pandas as pd
 from g_iqa.g_datasets.folder.PIQ23_base import PIQ23Folder
 
 class PARAFolder(PIQ23Folder):
+    def __init__(self, root, data_json, transform):
+        super().__init__(root, data_json, transform)
+    '''
+    # old version
     def __init__(self, root, index=None, transform=None, scene_base=1000, iaa=True):
         data_dir = root
         all_set = os.path.join(data_dir, 'annotation/PARA-GiaaAll.csv')
@@ -33,3 +37,4 @@ class PARAFolder(PIQ23Folder):
                 img_name = imgs_name[item],
             ))
         self.transform = transform
+    '''

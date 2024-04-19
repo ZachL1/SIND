@@ -6,7 +6,10 @@ from g_iqa.g_datasets.folder.PIQ23_base import PIQ23Folder
 
 
 class Koniq_10kFolder(PIQ23Folder):
-
+    def __init__(self, root, data_json, transform):
+        super().__init__(root, data_json, transform)
+    '''
+    # old version
     def __init__(self, root, index=None, transform=None, scene_base=300):
         # data_dir = os.path.join(root, 'koniq10k')
         data_dir = root
@@ -34,4 +37,4 @@ class Koniq_10kFolder(PIQ23Folder):
 
         self.samples = sample
         self.transform = transform
-
+    '''

@@ -8,6 +8,27 @@ def extract_positive_indices(row):
     return [idx for idx, value in enumerate(row) if value > 0]
 
 class SPAQFolder(PIQ23Folder):
+    def __init__(self, root, data_json, transform):
+        self.transform = transform
+
+        self.samples = []
+        self.scene_candidate = {}
+        for item in data_json:
+            self.samples.append(dict(
+                path = os.path.join(root, item['image']),
+                target = item['score'],
+                # scene = item['domain_id'],
+                img_name = item['image'],
+            ))
+
+            # Since a image in SPAQ may correspond to multiple scenes, all scene categories are extracted here as candidates. 
+            # In each epoch, one is randomly selected from the corresponding candidates as its scene label.
+            # The scene label is only used to distinguish different scenes (i.e. scene sampling) during training and has no meaning for testing.
+            self.scene_candidate[item['image']] = item['domain_id']
+        self.update_scene()
+
+    '''
+    # old version - Not verified
     def __init__(self, root, index=None, transform=None, scene_base=100):
         # data_dir = os.path.join(root, 'SPAQ')
         data_dir = root
@@ -42,9 +63,10 @@ class SPAQFolder(PIQ23Folder):
                 img_name = imgs_name[item],
             ))
         self.transform = transform
+    '''
     
-    def update_scene(self, scene_base):
+    def update_scene(self):
         for sample in self.samples:
-            sample['scene'] = scene_base + random.choice(self.scene_candidate[sample['img_name']])
+            sample['scene'] = random.choice(self.scene_candidate[sample['img_name']])
 
     

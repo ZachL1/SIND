@@ -143,6 +143,46 @@ def main(config):
     print('Testing median SRCC %4.4f,\tmedian PLCC %4.4f' % (srcc_med, plcc_med))
 
 
+
+def load_datajson_for_cross_set(datasets:list, json_dir:str, istrain:bool):
+    '''
+    datasets: list of dataset name
+    json_dir: directory of json files
+    istrain: True for training, False for testing
+    '''
+    train_json = {
+        'spaq': 'for_cross_set/train/spaq_train.json',
+        'koniq10k': 'for_cross_set/train/koniq10k_train.json',
+        'kadid10k': 'for_cross_set/train/kadid10k_train.json',
+    }
+    test_json = {
+        'spaq': 'for_cross_set/test/spaq_test.json',
+        'livec': 'for_cross_set/test/livec.json',
+        'koniq10k': 'for_cross_set/test/koniq10k_test.json',
+
+        'agiqa3k': 'for_cross_set/test/agiqa3k.json',
+
+        'kadid10k': 'for_cross_set/test/kadid10k_test.json',
+        'live': 'for_cross_set/test/live.json',
+        'csiq': 'for_cross_set/test/csiq.json',
+    }
+    datajson = {}
+    for dataname in datasets:
+        json_file = train_json[dataname] if istrain else test_json[dataname]
+        with open(os.path.join(json_dir, json_file), 'r') as f:
+            datajson[dataname] = json.load(f)['files']
+    return datajson
+
+def cross_dataset_exp(config):
+    data_root = '/home/dzc/workspace/G-IQA/data'
+    json_dir = '/home/dzc/workspace/G-IQA/data/data_json'
+
+    train_datajson = load_datajson_for_cross_set(config.train_dataset, json_dir, istrain=True)
+    test_datajson = load_datajson_for_cross_set(config.test_dataset, json_dir, istrain=False)
+
+    solver = IQASolver(config, data_root, train_datajson, test_datajson)
+    solver.train()
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     ################## Model Config ##################
@@ -178,10 +218,15 @@ if __name__ == '__main__':
 
     ################## Abalation Config ##################
     parser.add_argument('--all_global', action="store_true", help='Use all global features')
+    parser.add_argument('--exp_type', type=str, choices=['leave-one-out', 'cross-set'], help='Experiment type')
 
     config = parser.parse_args()
 
     # os.environ["http_proxy"] = 'http://10.147.18.225:7890'
     # os.environ["https_proxy"] = 'http://10.147.18.225:7890'
-    main(config)
+
+    if config.exp_type == 'cross-set':
+        cross_dataset_exp(config)
+    else:
+        raise NotImplementedError
 

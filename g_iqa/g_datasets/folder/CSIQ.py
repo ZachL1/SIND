@@ -14,7 +14,10 @@ def getFileName(path, suffix):
 
 
 class CSIQFolder(PIQ23Folder):
-    ''' Modified from https://github.com/SSL92/hyperIQA '''
+    def __init__(self, root, data_json, transform):
+        super().__init__(root, data_json, transform)
+    '''
+    # old version - Not verified
     def __init__(self, root, index=None, transform=None, scene_base=600):
 
         refpath = os.path.join(root, 'src_imgs')
@@ -45,3 +48,12 @@ class CSIQFolder(PIQ23Folder):
                 sample.append((os.path.join(root, 'dst_imgs_all', imgnames[item]), labels[item]))
         self.samples = sample
         self.transform = transform
+    '''
+
+
+if __name__ == "__main__":
+    import json
+    with open('/home/dzc/workspace/G-IQA/data/data_json/for_cross_set/test/csiq.json', 'r') as f:
+        data_json = json.load(f)['files']
+    data = CSIQFolder(root='/home/dzc/workspace/G-IQA/data', data_json=data_json, transform=None)
+    print(data[0])

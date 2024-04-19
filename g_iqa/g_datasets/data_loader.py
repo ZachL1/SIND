@@ -19,7 +19,7 @@ def stack_crops(crops):
 class DataGenerator(object):
     """Dataset class for IQA databases"""
 
-    def __init__(self, dataset, path, img_indx, input_size, batch_size=1, istrain=True, scene_sampling=0):
+    def __init__(self, dataset, path, data_json, input_size, batch_size=1, istrain=True, scene_sampling=0):
 
         self.batch_size = batch_size
         self.istrain = istrain
@@ -67,42 +67,51 @@ class DataGenerator(object):
                 ])
             ]
 
-        dataset = dataset[0] if isinstance(dataset, list) and len(dataset) == 1 else dataset
-        path = path[0] if isinstance(path, list) and len(path) == 1 else path
-        if isinstance(path, list) and len(path) > 1:
+        if isinstance(dataset, list) and len(dataset) == 1:
+            dataset = dataset[0]
+        if isinstance(dataset, str):
+            data_json = data_json[dataset]
+            
+        if isinstance(dataset, list) and len(dataset) > 1:
             # self.data = folder.MultiDatasetFolder(
-            #     root=path, index=img_indx, transform=transforms)
+            #     root=path, data_json=data_json, transform=transforms)
             raise NotImplementedError("MultiDatasetFolder is not implemented yet")
-        # elif dataset == 'live':
-        #     self.data = folder.LIVEFolder(
-        #         root=path, index=img_indx, transform=transforms)
+        elif dataset == 'live':
+            self.data = folder.LIVEFolder(
+                root=path, data_json=data_json, transform=transforms)
         elif dataset == 'livec':
             self.data = folder.LIVEChallengeFolder(
-                root=path, index=img_indx, transform=transforms)
-        # elif dataset == 'csiq':
-        #     self.data = folder.CSIQFolder(
-        #         root=path, index=img_indx, transform=transforms)
+                root=path, data_json=data_json, transform=transforms)
+        elif dataset == 'csiq':
+            self.data = folder.CSIQFolder(
+                root=path, data_json=data_json, transform=transforms)
+        elif dataset == 'kadid10k':
+            self.data = folder.Kadid_10kFolder(
+                root=path, data_json=data_json, transform=transforms)
+        elif dataset == 'agiqa3k':
+            self.data = folder.AGIQA3KFolder(
+                root=path, data_json=data_json, transform=transforms)
         elif dataset == 'koniq10k':
             self.data = folder.Koniq_10kFolder(
-                root=path, index=img_indx, transform=transforms)
-        elif dataset == 'bid':
-            self.data = folder.BIDFolder(
-                root=path, index=img_indx, transform=transforms)
+                root=path, data_json=data_json, transform=transforms)
+        # elif dataset == 'bid':
+        #     self.data = folder.BIDFolder(
+        #         root=path, data_json=data_json, transform=transforms)
         # elif dataset == 'tid2013':
         #     self.data = folder.TID2013Folder(
-        #         root=path, index=img_indx, transform=transforms)
+        #         root=path, data_json=data_json, transform=transforms)
         elif dataset == 'piq23':
             self.data = folder.PIQ23Folder(
-                root=path, index=img_indx, transform=transforms)
+                root=path, data_json=data_json, transform=transforms)
         elif dataset == 'spaq':
             self.data = folder.SPAQFolder(
-                root=path, index=img_indx, transform=transforms)
+                root=path, data_json=data_json, transform=transforms)
         elif dataset == 'para':
             self.data = folder.PARAFolder(
-                root=path, index=img_indx, transform=transforms)
+                root=path, data_json=data_json, transform=transforms)
         elif dataset == 'eva':
             self.data = folder.EVAFolder(
-                root=path, index=img_indx, transform=transforms)
+                root=path, data_json=data_json, transform=transforms)
         else:
             raise ValueError(f"Unknown dataset: {dataset}")
 

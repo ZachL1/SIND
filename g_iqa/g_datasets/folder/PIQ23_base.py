@@ -8,6 +8,20 @@ import pandas as pd
     
 
 class PIQ23Folder(data.Dataset):
+    def __init__(self, root, data_json, transform):
+        self.transform = transform
+
+        self.samples = []
+        for item in data_json:
+            self.samples.append(dict(
+                path = os.path.join(root, item['image']),
+                target = item['score'],
+                scene = item['domain_id'],
+                img_name = item['image'],
+            ))
+
+    '''
+    # old version - verified
     def __init__(self, root, index:list, transform, scene_base=0):
         data_dir = root
         all_set = os.path.join(data_dir, 'Scores_Overall.csv')
@@ -57,7 +71,7 @@ class PIQ23Folder(data.Dataset):
         #     for sample in self.samples:
         #         std, mean = scene_std_mean_dict[sample['scene']]
         #         sample['target'] = (sample['target'] - mean) / std
-        
+    '''
 
 
     def __getitem__(self, index):
@@ -75,6 +89,7 @@ class PIQ23Folder(data.Dataset):
         img_name = sample['img_name']
         
         img = pil_loader(path)
+        img_pt = img
         if self.transform is not None:
             img, img_pt = (tf(img) for tf in self.transform)
 
@@ -143,15 +158,6 @@ class TID2013Folder(data.Dataset):
     def __len__(self):
         length = len(self.samples)
         return length
-
-
-def getFileName(path, suffix):
-    filename = []
-    f_list = os.listdir(path)
-    for i in f_list:
-        if os.path.splitext(i)[1] == suffix:
-            filename.append(i)
-    return filename
 
 
 def getTIDFileName(path, suffix):

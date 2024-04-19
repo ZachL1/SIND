@@ -6,7 +6,10 @@ from g_iqa.g_datasets.folder.PIQ23_base import PIQ23Folder
 
 
 class LIVEChallengeFolder(PIQ23Folder):
-
+    def __init__(self, root, data_json, transform):
+        super().__init__(root, data_json, transform)
+    '''
+    # old version
     def __init__(self, root, index=None, transform=None, scene_base=200):
 
         # data_dir = os.path.join(root, 'LIVEW')
@@ -32,3 +35,4 @@ class LIVEChallengeFolder(PIQ23Folder):
             ))
 
         self.transform = transform
+    '''

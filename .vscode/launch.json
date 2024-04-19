@@ -23,8 +23,10 @@
         "--loss_type", "scale_shift",
         "--input_size", "224",
         "--scene_sampling", "2",
-        "--train_dataset", "piq23",
-        "--test_dataset", "piq23",
+        "--train_dataset", "spaq",
+        "--test_dataset", "spaq",
+        "--test_dataset", "csiq",
+        "--exp_type", "cross-set",
       ],
       "env": {
           "CUDA_VISIBLE_DEVICES": "1"
