@@ -1,0 +1,2374 @@
+{
+  "files": [
+    {
+      "image": "CID2013/IS_I_C01_D01.jpg",
+      "score": 3.3436430335190703,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C01_D02.jpg",
+      "score": 71.18189020792481,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C01_D03.jpg",
+      "score": 45.58109475556601,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C01_D04.jpg",
+      "score": 3.604864385643294,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C01_D05.jpg",
+      "score": 25.252354220185673,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C01_D06.jpg",
+      "score": 20.307932539177987,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C01_D07.jpg",
+      "score": 9.88964655415763,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C01_D08.jpg",
+      "score": 49.063366582178894,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C01_D09.jpg",
+      "score": 47.85276342762087,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C01_D10.jpg",
+      "score": 52.176152453006885,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C01_D11.jpg",
+      "score": 73.5651284538055,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C01_D12.jpg",
+      "score": 25.24092770953272,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C01_D13.jpg",
+      "score": 60.682120879554795,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C01_D14.jpg",
+      "score": 55.71241105543697,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C02_D01.jpg",
+      "score": 28.596330010415222,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C02_D02.jpg",
+      "score": 58.0406571932505,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C02_D03.jpg",
+      "score": 28.180940444584376,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C02_D04.jpg",
+      "score": 28.0510117821647,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C02_D05.jpg",
+      "score": 29.108915852570775,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C02_D06.jpg",
+      "score": 18.55251126214866,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C02_D07.jpg",
+      "score": 26.322799864320427,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C02_D08.jpg",
+      "score": 43.66863931104205,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C02_D09.jpg",
+      "score": 53.45228935752622,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C02_D10.jpg",
+      "score": 42.370607197831866,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C02_D11.jpg",
+      "score": 54.40594770477686,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C02_D12.jpg",
+      "score": 20.737033023132142,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C02_D13.jpg",
+      "score": 52.84545596623882,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C02_D14.jpg",
+      "score": 44.57504876980038,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C03_D01.jpg",
+      "score": 16.52776728373287,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C03_D02.jpg",
+      "score": 50.86401558722235,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C03_D03.jpg",
+      "score": 19.70635060176418,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C03_D04.jpg",
+      "score": 7.370528872341481,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C03_D05.jpg",
+      "score": 12.771323836183509,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C03_D06.jpg",
+      "score": 2.7220653832086676,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C03_D07.jpg",
+      "score": 12.854903423503718,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C03_D08.jpg",
+      "score": 24.028075849200864,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C03_D09.jpg",
+      "score": 48.29078088837637,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C03_D10.jpg",
+      "score": 29.647875717160176,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C03_D11.jpg",
+      "score": 39.223418631749446,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C03_D12.jpg",
+      "score": 4.639709745903342,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C03_D13.jpg",
+      "score": 45.682984279504886,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C03_D14.jpg",
+      "score": 35.88521319753135,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C04_D01.jpg",
+      "score": 63.6576024280957,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C04_D02.jpg",
+      "score": 75.22493389778404,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C04_D03.jpg",
+      "score": 74.3549557116498,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C04_D04.jpg",
+      "score": 61.840104474719155,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C04_D05.jpg",
+      "score": 64.76028256739563,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C04_D06.jpg",
+      "score": 54.31216803886361,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C04_D07.jpg",
+      "score": 59.85379268234218,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C04_D08.jpg",
+      "score": 76.50806888248668,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C04_D09.jpg",
+      "score": 66.98072434807538,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C04_D10.jpg",
+      "score": 76.656391970091,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C04_D11.jpg",
+      "score": 82.99267555921134,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C04_D12.jpg",
+      "score": 65.27223821261691,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C04_D13.jpg",
+      "score": 77.90552701846426,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C04_D14.jpg",
+      "score": 71.35867290280707,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C05_D01.jpg",
+      "score": 41.81645053384817,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C05_D02.jpg",
+      "score": 68.24542978778946,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C05_D03.jpg",
+      "score": 57.51182382164114,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C05_D04.jpg",
+      "score": 31.030661321657156,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C05_D05.jpg",
+      "score": 56.58381782667748,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C05_D06.jpg",
+      "score": 44.831413186148254,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C05_D07.jpg",
+      "score": 47.02688358040409,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C05_D08.jpg",
+      "score": 68.60369684448897,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C05_D09.jpg",
+      "score": 73.28348448047561,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C05_D10.jpg",
+      "score": 66.23942870728898,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C05_D11.jpg",
+      "score": 61.29534558039573,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C05_D12.jpg",
+      "score": 52.49314477256147,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C05_D13.jpg",
+      "score": 79.8848736209052,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C05_D14.jpg",
+      "score": 64.88455578639982,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C06_D01.jpg",
+      "score": 33.59227262625416,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C06_D02.jpg",
+      "score": 59.80910757776099,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C06_D03.jpg",
+      "score": 39.709054650225234,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C06_D04.jpg",
+      "score": 28.53591884673292,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C06_D05.jpg",
+      "score": 50.464394142935596,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C06_D06.jpg",
+      "score": 74.57709229720236,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C06_D07.jpg",
+      "score": 50.84793762787573,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C06_D08.jpg",
+      "score": 80.79247559379063,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C06_D09.jpg",
+      "score": 82.49181559834697,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C06_D10.jpg",
+      "score": 78.42093454126659,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C06_D11.jpg",
+      "score": 75.44444733411699,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C06_D12.jpg",
+      "score": 45.57750125454307,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C06_D13.jpg",
+      "score": 72.88602416335661,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_I_C06_D14.jpg",
+      "score": 58.21514855532299,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C01_D01.jpg",
+      "score": 1.2424539225096507,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C01_D02.jpg",
+      "score": 65.7492618835285,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C01_D03.jpg",
+      "score": 53.54720134729624,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C01_D04.jpg",
+      "score": 10.905710707045344,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C01_D05.jpg",
+      "score": 22.220093347026435,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C01_D06.jpg",
+      "score": 56.43689529754847,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C01_D07.jpg",
+      "score": 71.01730682743094,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C01_D08.jpg",
+      "score": 53.0277360594854,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C01_D09.jpg",
+      "score": 49.28930646694596,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C01_D10.jpg",
+      "score": 16.692722151479153,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C01_D11.jpg",
+      "score": 60.972591068732655,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C01_D12.jpg",
+      "score": 41.42485557384218,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C01_D13.jpg",
+      "score": 14.17210297754504,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C02_D01.jpg",
+      "score": 16.53269458537706,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C02_D02.jpg",
+      "score": 50.489605173391354,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C02_D03.jpg",
+      "score": 45.59829297907251,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C02_D04.jpg",
+      "score": 13.430298160437424,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C02_D05.jpg",
+      "score": 32.131975200688906,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C02_D06.jpg",
+      "score": 52.63182394425365,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C02_D07.jpg",
+      "score": 42.35304775608989,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C02_D08.jpg",
+      "score": 46.444469072659516,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C02_D09.jpg",
+      "score": 28.562251855585817,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C02_D10.jpg",
+      "score": 23.942055632530792,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C02_D11.jpg",
+      "score": 43.69762055138363,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C02_D12.jpg",
+      "score": 25.635958362312106,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C02_D13.jpg",
+      "score": 37.738644837976274,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C03_D01.jpg",
+      "score": 11.018360270345285,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C03_D02.jpg",
+      "score": 46.66007242803539,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C03_D03.jpg",
+      "score": 24.38781819283541,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C03_D04.jpg",
+      "score": 0.6622222222765919,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C03_D05.jpg",
+      "score": 8.11237473674549,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C03_D06.jpg",
+      "score": 42.81304807679328,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C03_D07.jpg",
+      "score": 40.620743067825735,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C03_D08.jpg",
+      "score": 19.24172955398317,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C03_D09.jpg",
+      "score": 25.440885598339563,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C03_D10.jpg",
+      "score": 3.691678576236364,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C03_D11.jpg",
+      "score": 40.21522662351563,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C03_D12.jpg",
+      "score": 16.19702925703071,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C03_D13.jpg",
+      "score": 31.66037364455684,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C04_D01.jpg",
+      "score": 58.097946554913456,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C04_D02.jpg",
+      "score": 67.64291498502315,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C04_D03.jpg",
+      "score": 75.72950716114471,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C04_D04.jpg",
+      "score": 48.80159293386222,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C04_D05.jpg",
+      "score": 61.41575828770179,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C04_D06.jpg",
+      "score": 68.93831033069597,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C04_D07.jpg",
+      "score": 74.26097678848971,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C04_D08.jpg",
+      "score": 71.82976500257512,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C04_D09.jpg",
+      "score": 71.89731350818664,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C04_D10.jpg",
+      "score": 61.03612497938391,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C04_D11.jpg",
+      "score": 76.55881805858586,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C04_D12.jpg",
+      "score": 71.53743221418385,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C04_D13.jpg",
+      "score": 73.6302151788784,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C05_D01.jpg",
+      "score": 30.132640164846862,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C05_D02.jpg",
+      "score": 68.66920299838844,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C05_D03.jpg",
+      "score": 47.00841372470944,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C05_D04.jpg",
+      "score": 47.212807317998255,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C05_D05.jpg",
+      "score": 54.86456855015439,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C05_D06.jpg",
+      "score": 76.9077926053052,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C05_D07.jpg",
+      "score": 66.13587346776774,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C05_D08.jpg",
+      "score": 72.15576822020309,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C05_D09.jpg",
+      "score": 65.63310170351943,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C05_D10.jpg",
+      "score": 32.07173237174442,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C05_D11.jpg",
+      "score": 69.645538646326,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C05_D12.jpg",
+      "score": 55.11448318558629,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C05_D13.jpg",
+      "score": 48.00768861662721,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C06_D01.jpg",
+      "score": 31.323313840500962,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C06_D02.jpg",
+      "score": 79.37448432944473,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C06_D03.jpg",
+      "score": 58.01000374831669,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C06_D04.jpg",
+      "score": 41.895557361864284,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C06_D05.jpg",
+      "score": 40.64070945108687,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C06_D06.jpg",
+      "score": 71.2866901212377,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C06_D07.jpg",
+      "score": 82.40148743506477,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C06_D08.jpg",
+      "score": 71.88696117480617,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C06_D09.jpg",
+      "score": 57.85428882877526,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C06_D10.jpg",
+      "score": 39.27067029065576,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C06_D11.jpg",
+      "score": 73.16725292238921,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C06_D12.jpg",
+      "score": 62.95633071509729,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_II_C06_D13.jpg",
+      "score": 61.895105270395604,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C01_D01.jpg",
+      "score": 74.00610361594026,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C01_D02.jpg",
+      "score": 58.475139760051654,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C01_D03.jpg",
+      "score": 64.15728582519922,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C01_D04.jpg",
+      "score": 40.07741315907783,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C01_D05.jpg",
+      "score": 3.701388081868355,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C01_D06.jpg",
+      "score": 33.12556842221044,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C01_D07.jpg",
+      "score": 32.48751695909869,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C01_D08.jpg",
+      "score": 36.90258081763412,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C01_D09.jpg",
+      "score": 65.77387508079964,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C01_D10.jpg",
+      "score": 6.950150698586689,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C01_D11.jpg",
+      "score": 57.61493250041183,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C01_D12.jpg",
+      "score": 41.853886371863624,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C01_D13.jpg",
+      "score": 21.419699731876126,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C02_D01.jpg",
+      "score": 60.33618945611484,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C02_D02.jpg",
+      "score": 56.6940511011672,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C02_D03.jpg",
+      "score": 46.22430943761746,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C02_D04.jpg",
+      "score": 26.395451150948066,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C02_D05.jpg",
+      "score": 13.568258150101729,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C02_D06.jpg",
+      "score": 19.332464381521355,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C02_D07.jpg",
+      "score": 28.493869238256124,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C02_D08.jpg",
+      "score": 42.08499087751279,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C02_D09.jpg",
+      "score": 51.821923422931654,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C02_D10.jpg",
+      "score": 21.337401377912343,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C02_D11.jpg",
+      "score": 37.460262099455285,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C02_D12.jpg",
+      "score": 40.508746789609575,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C02_D13.jpg",
+      "score": 42.849484946189264,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C03_D01.jpg",
+      "score": 50.321488675867414,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C03_D02.jpg",
+      "score": 48.30173240163475,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C03_D03.jpg",
+      "score": 44.640713805871705,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C03_D04.jpg",
+      "score": 9.508563475881353,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C03_D05.jpg",
+      "score": 3.6502765935185835,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C03_D06.jpg",
+      "score": 4.601306381138961,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C03_D07.jpg",
+      "score": 14.735604132553537,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C03_D08.jpg",
+      "score": 23.132861323753538,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C03_D09.jpg",
+      "score": 35.92382717634453,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C03_D10.jpg",
+      "score": 5.410990174262638,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C03_D11.jpg",
+      "score": 38.82157275636034,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C03_D12.jpg",
+      "score": 20.10112783719003,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C03_D13.jpg",
+      "score": 18.86963630082039,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C04_D01.jpg",
+      "score": 78.39601768006828,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C04_D02.jpg",
+      "score": 72.29139163632611,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C04_D03.jpg",
+      "score": 79.1874155581609,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C04_D04.jpg",
+      "score": 74.37374844518921,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C04_D05.jpg",
+      "score": 53.85345139952475,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C04_D06.jpg",
+      "score": 63.236502365118945,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C04_D07.jpg",
+      "score": 68.42196181111615,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C04_D08.jpg",
+      "score": 58.08204841735834,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C04_D09.jpg",
+      "score": 70.38219405424086,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C04_D10.jpg",
+      "score": 69.79361818981096,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C04_D11.jpg",
+      "score": 75.91849423341037,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C04_D12.jpg",
+      "score": 70.69895227005054,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C04_D13.jpg",
+      "score": 76.5996578706912,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C05_D01.jpg",
+      "score": 68.70337127371833,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C05_D02.jpg",
+      "score": 65.40910034635,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C05_D03.jpg",
+      "score": 72.31359980924002,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C05_D04.jpg",
+      "score": 36.174603096299506,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C05_D05.jpg",
+      "score": 37.67269416771985,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C05_D06.jpg",
+      "score": 43.642608079229824,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C05_D07.jpg",
+      "score": 45.717849584641634,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C05_D08.jpg",
+      "score": 66.87962919045705,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C05_D09.jpg",
+      "score": 75.9814337622023,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C05_D10.jpg",
+      "score": 35.74386643372117,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C05_D11.jpg",
+      "score": 66.61440972743593,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C05_D12.jpg",
+      "score": 56.06223635403491,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C05_D13.jpg",
+      "score": 42.95850525093065,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C06_D01.jpg",
+      "score": 76.26031556457858,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C06_D02.jpg",
+      "score": 70.16986846944143,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C06_D03.jpg",
+      "score": 78.95595234118349,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C06_D04.jpg",
+      "score": 39.7704797581003,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C06_D05.jpg",
+      "score": 38.47386290167513,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C06_D06.jpg",
+      "score": 32.97760807783587,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C06_D07.jpg",
+      "score": 57.23444390133216,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C06_D08.jpg",
+      "score": 71.01695617638894,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C06_D09.jpg",
+      "score": 72.48622838382322,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C06_D10.jpg",
+      "score": 50.87150007188238,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C06_D11.jpg",
+      "score": 81.53314918356175,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C06_D12.jpg",
+      "score": 61.91855705824222,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_III_C06_D13.jpg",
+      "score": 51.092442773440965,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C01_D01.jpg",
+      "score": 43.499909838732634,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C01_D02.jpg",
+      "score": 74.29367288544402,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C01_D03.jpg",
+      "score": 61.04882767323344,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C01_D04.jpg",
+      "score": 16.83669634155391,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C01_D05.jpg",
+      "score": 44.87920557363772,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C01_D06.jpg",
+      "score": 37.22056669676081,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C01_D07.jpg",
+      "score": 40.14168509567246,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C01_D08.jpg",
+      "score": 13.174949211073114,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C01_D09.jpg",
+      "score": 11.936528854033963,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C01_D10.jpg",
+      "score": 43.33081039999562,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C01_D11.jpg",
+      "score": 20.52176281070946,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C01_D12.jpg",
+      "score": -9.549063082595364,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C01_D13.jpg",
+      "score": 61.43362629968216,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C02_D01.jpg",
+      "score": 39.09636543940052,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C02_D02.jpg",
+      "score": 56.92049734900057,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C02_D03.jpg",
+      "score": 42.559165015969675,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C02_D04.jpg",
+      "score": 25.472891234495233,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C02_D05.jpg",
+      "score": 38.14547780688226,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C02_D06.jpg",
+      "score": 38.62855622568265,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C02_D07.jpg",
+      "score": 33.81017769092005,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C02_D08.jpg",
+      "score": 28.580965603582722,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C02_D09.jpg",
+      "score": 20.27751319043742,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C02_D10.jpg",
+      "score": 36.15943702751729,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C02_D11.jpg",
+      "score": 26.65229708714725,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C02_D12.jpg",
+      "score": 32.4261305134986,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C02_D13.jpg",
+      "score": 47.11599060294725,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C03_D01.jpg",
+      "score": 10.711468836145356,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C03_D02.jpg",
+      "score": 49.51327501243779,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C03_D03.jpg",
+      "score": 39.81530323612281,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C03_D04.jpg",
+      "score": 10.98063779770004,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C03_D05.jpg",
+      "score": 30.418010808651523,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C03_D06.jpg",
+      "score": 1.8897504392183049,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C03_D07.jpg",
+      "score": 20.180234700099614,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C03_D08.jpg",
+      "score": 0.2641401758618763,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C03_D09.jpg",
+      "score": 4.940605386279059,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C03_D10.jpg",
+      "score": 35.11767355725709,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C03_D11.jpg",
+      "score": 9.078433889314157,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C03_D12.jpg",
+      "score": -4.851538522203676,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C03_D13.jpg",
+      "score": 33.42559943429234,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C04_D01.jpg",
+      "score": 78.6188312145314,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C04_D02.jpg",
+      "score": 79.5850904425369,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C04_D03.jpg",
+      "score": 71.60131547563161,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C04_D04.jpg",
+      "score": 70.79510195871177,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C04_D05.jpg",
+      "score": 59.667842069371545,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C04_D06.jpg",
+      "score": 74.2400661820187,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C04_D07.jpg",
+      "score": 69.44225649601361,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C04_D08.jpg",
+      "score": 74.71786777476454,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C04_D09.jpg",
+      "score": 70.4676570728467,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C04_D10.jpg",
+      "score": 70.82122124387683,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C04_D11.jpg",
+      "score": 75.73602518068935,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C04_D12.jpg",
+      "score": 70.19760691225507,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C04_D13.jpg",
+      "score": 73.03539581582353,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C05_D01.jpg",
+      "score": 65.15314468621685,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C05_D02.jpg",
+      "score": 71.46095145470126,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C05_D03.jpg",
+      "score": 50.42631934227258,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C05_D04.jpg",
+      "score": 26.70991647045734,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C05_D05.jpg",
+      "score": 61.297002601352624,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C05_D06.jpg",
+      "score": 70.02542898812928,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C05_D07.jpg",
+      "score": 66.33885887520432,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C05_D08.jpg",
+      "score": 66.09832132445713,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C05_D09.jpg",
+      "score": 57.98018824096654,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C05_D10.jpg",
+      "score": 66.25532491282883,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C05_D11.jpg",
+      "score": 54.89651342018922,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C05_D12.jpg",
+      "score": 75.8530020780713,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C05_D13.jpg",
+      "score": 72.89572960181778,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C06_D01.jpg",
+      "score": 52.686221060027336,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C06_D02.jpg",
+      "score": 79.90408598859365,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C06_D03.jpg",
+      "score": 80.30797249161743,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C06_D04.jpg",
+      "score": 26.306875313051687,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C06_D05.jpg",
+      "score": 65.44073857389365,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C06_D06.jpg",
+      "score": 82.60292426918552,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C06_D07.jpg",
+      "score": 75.77460152424433,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C06_D08.jpg",
+      "score": 74.43186203777306,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C06_D09.jpg",
+      "score": 46.25584443756319,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C06_D10.jpg",
+      "score": 69.81359635225148,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C06_D11.jpg",
+      "score": 53.90197838603483,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C06_D12.jpg",
+      "score": 67.36693144775266,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_IV_C06_D13.jpg",
+      "score": 77.148591422386,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C01_D01.jpg",
+      "score": 42.09717512262773,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C01_D02.jpg",
+      "score": 75.40552392047381,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C01_D03.jpg",
+      "score": 69.39695296023112,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C01_D04.jpg",
+      "score": 39.24320352673026,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C01_D05.jpg",
+      "score": 7.901030783732065,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C01_D06.jpg",
+      "score": 50.599975030917,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C01_D07.jpg",
+      "score": 59.49635527415279,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C01_D08.jpg",
+      "score": 16.212994406346574,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C01_D09.jpg",
+      "score": 71.35184395284485,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C01_D10.jpg",
+      "score": 8.526270349540134,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C01_D11.jpg",
+      "score": 39.23934362924179,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C01_D12.jpg",
+      "score": 20.178087832382605,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C02_D01.jpg",
+      "score": 38.5272763473874,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C02_D02.jpg",
+      "score": 62.54852792390402,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C02_D03.jpg",
+      "score": 59.151796871395014,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C02_D04.jpg",
+      "score": 25.55314227584934,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C02_D05.jpg",
+      "score": 18.211012192081746,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C02_D06.jpg",
+      "score": 30.716390195136448,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C02_D07.jpg",
+      "score": 45.59335338348228,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C02_D08.jpg",
+      "score": 37.60060774099272,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C02_D09.jpg",
+      "score": 56.73271723255817,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C02_D10.jpg",
+      "score": 27.194878678493787,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C02_D11.jpg",
+      "score": 29.85044331361039,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C02_D12.jpg",
+      "score": 44.94389126623523,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C03_D01.jpg",
+      "score": 27.261954081446895,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C03_D02.jpg",
+      "score": 51.70355081333069,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C03_D03.jpg",
+      "score": 48.795248336348216,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C03_D04.jpg",
+      "score": 20.695505201665355,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C03_D05.jpg",
+      "score": 8.534633264632415,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C03_D06.jpg",
+      "score": 20.58177916278089,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C03_D07.jpg",
+      "score": 29.161986164382455,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C03_D08.jpg",
+      "score": 17.092480007891712,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C03_D09.jpg",
+      "score": 50.81344772348181,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C03_D10.jpg",
+      "score": 4.960138969524878,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C03_D11.jpg",
+      "score": 17.783626424031155,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C03_D12.jpg",
+      "score": 10.86861769419103,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C05_D01.jpg",
+      "score": 45.96027489660088,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C05_D02.jpg",
+      "score": 83.17370163244448,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C05_D03.jpg",
+      "score": 81.74901549136753,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C05_D04.jpg",
+      "score": 24.024383031703877,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C05_D05.jpg",
+      "score": 33.26197431249979,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C05_D06.jpg",
+      "score": 69.261769674621,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C05_D07.jpg",
+      "score": 75.79882617818583,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C05_D08.jpg",
+      "score": 32.31332802010443,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C05_D09.jpg",
+      "score": 81.53323810470349,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C05_D10.jpg",
+      "score": 23.05407116638775,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C05_D11.jpg",
+      "score": 46.41355047522044,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C05_D12.jpg",
+      "score": 49.01237033042008,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C06_D01.jpg",
+      "score": 62.45561711920347,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C06_D02.jpg",
+      "score": 80.72389613612019,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C06_D03.jpg",
+      "score": 82.67039139413968,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C06_D04.jpg",
+      "score": 32.47051258353572,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C06_D05.jpg",
+      "score": 35.30363891539423,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C06_D06.jpg",
+      "score": 84.439558523415,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C06_D07.jpg",
+      "score": 74.18347319290866,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C06_D08.jpg",
+      "score": 69.99560646226094,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C06_D09.jpg",
+      "score": 86.38814490175952,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C06_D10.jpg",
+      "score": 45.28670029194739,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C06_D11.jpg",
+      "score": 59.506072267535274,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C06_D12.jpg",
+      "score": 47.36425014540838,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C08_D01.jpg",
+      "score": 39.65242889464388,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C08_D02.jpg",
+      "score": 80.51092385326811,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C08_D03.jpg",
+      "score": 64.14188410765128,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C08_D04.jpg",
+      "score": 34.82728842146123,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C08_D05.jpg",
+      "score": 4.7599905870909325,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C08_D06.jpg",
+      "score": 36.47540985366639,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C08_D07.jpg",
+      "score": 55.519069982700586,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C08_D08.jpg",
+      "score": 23.746152078399263,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C08_D09.jpg",
+      "score": 63.24047875132198,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C08_D10.jpg",
+      "score": 21.557286599066725,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C08_D11.jpg",
+      "score": 37.320815305875314,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_V_C08_D12.jpg",
+      "score": 28.95073939135942,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C01_D01.jpg",
+      "score": 3.192850703654879,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C01_D02.jpg",
+      "score": 52.797206509139514,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C01_D03.jpg",
+      "score": 1.2532041483375507,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C01_D04.jpg",
+      "score": 64.62754898589554,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C01_D05.jpg",
+      "score": 29.966979761796157,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C01_D06.jpg",
+      "score": 58.229528448614886,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C01_D07.jpg",
+      "score": 64.78111064670057,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C01_D08.jpg",
+      "score": 49.68576188877448,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C01_D09.jpg",
+      "score": 50.70736078815569,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C01_D10.jpg",
+      "score": 58.588111198906674,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C01_D11.jpg",
+      "score": 65.01549084892265,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C01_D12.jpg",
+      "score": 38.071582613936016,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C01_D13.jpg",
+      "score": 41.73208722041465,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C01_D14.jpg",
+      "score": 0.4559336030562881,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C02_D01.jpg",
+      "score": 15.299404424372229,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C02_D02.jpg",
+      "score": 50.60322190821496,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C02_D03.jpg",
+      "score": 33.13377041814247,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C02_D04.jpg",
+      "score": 46.038490516654775,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C02_D05.jpg",
+      "score": 29.367405065255316,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C02_D06.jpg",
+      "score": 52.354260100687306,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C02_D07.jpg",
+      "score": 52.47195627055529,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C02_D08.jpg",
+      "score": 40.75408654322073,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C02_D09.jpg",
+      "score": 43.643118565796065,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C02_D10.jpg",
+      "score": 47.24203262913085,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C02_D11.jpg",
+      "score": 47.230211007871844,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C02_D12.jpg",
+      "score": 40.554870937669186,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C02_D13.jpg",
+      "score": 35.06736693787043,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C02_D14.jpg",
+      "score": 14.775920172368814,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C03_D01.jpg",
+      "score": 1.9607061325302624,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C03_D02.jpg",
+      "score": 23.26579268365111,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C03_D03.jpg",
+      "score": 2.2782403090726646,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C03_D04.jpg",
+      "score": 33.726565390489405,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C03_D05.jpg",
+      "score": 11.424100466978425,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C03_D06.jpg",
+      "score": 17.084072973929004,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C03_D07.jpg",
+      "score": 38.82461443879348,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C03_D08.jpg",
+      "score": 23.740645727789605,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C03_D09.jpg",
+      "score": 27.055301943701206,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C03_D10.jpg",
+      "score": 30.532807748159808,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C03_D11.jpg",
+      "score": 28.8326201158443,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C03_D12.jpg",
+      "score": 22.642588196816238,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C03_D13.jpg",
+      "score": 25.097250970195216,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C03_D14.jpg",
+      "score": 2.504877650139893,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C06_D01.jpg",
+      "score": 29.837869196392987,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C06_D02.jpg",
+      "score": 69.34863992680229,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C06_D03.jpg",
+      "score": 46.24860204760765,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C06_D04.jpg",
+      "score": 78.17021747504472,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C06_D05.jpg",
+      "score": 64.80544409554746,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C06_D06.jpg",
+      "score": 78.83421709086643,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C06_D07.jpg",
+      "score": 84.14365234908934,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C06_D08.jpg",
+      "score": 83.10004449673565,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C06_D09.jpg",
+      "score": 63.935304907064804,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C06_D10.jpg",
+      "score": 87.88207123804241,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C06_D11.jpg",
+      "score": 74.8499793964274,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C06_D12.jpg",
+      "score": 79.56028077214833,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C06_D13.jpg",
+      "score": 78.0896654028663,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C06_D14.jpg",
+      "score": 47.79259396928686,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C07_D01.jpg",
+      "score": 1.6737181102376206,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C07_D02.jpg",
+      "score": 26.045717237438037,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C07_D03.jpg",
+      "score": 2.6358961153180007,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C07_D04.jpg",
+      "score": 34.777682635997124,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C07_D05.jpg",
+      "score": 27.380901931922338,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C07_D06.jpg",
+      "score": 34.05700228744363,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C07_D07.jpg",
+      "score": 47.23644922492725,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C07_D08.jpg",
+      "score": 35.13632049694559,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C07_D09.jpg",
+      "score": 27.064306772423727,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C07_D10.jpg",
+      "score": 42.63111447518961,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C07_D11.jpg",
+      "score": 33.28059428580863,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C07_D12.jpg",
+      "score": 38.61902770290236,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C07_D13.jpg",
+      "score": 36.32252313648103,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C07_D14.jpg",
+      "score": 15.98633916985211,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C08_D01.jpg",
+      "score": 12.771773450985437,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C08_D02.jpg",
+      "score": 53.77306607462767,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C08_D03.jpg",
+      "score": 29.601917146106846,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C08_D04.jpg",
+      "score": 58.55026783615414,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C08_D05.jpg",
+      "score": 39.58178989015835,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C08_D06.jpg",
+      "score": 54.17620115727809,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C08_D07.jpg",
+      "score": 66.97423063412403,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C08_D08.jpg",
+      "score": 64.9616882969328,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C08_D09.jpg",
+      "score": 29.93269701298715,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C08_D10.jpg",
+      "score": 66.03559216884352,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C08_D11.jpg",
+      "score": 40.33472936699228,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C08_D12.jpg",
+      "score": 68.16686600031059,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C08_D13.jpg",
+      "score": 50.25414986913692,
+      "domain_id": 450
+    },
+    {
+      "image": "CID2013/IS_VI_C08_D14.jpg",
+      "score": 10.48096952687162,
+      "domain_id": 450
+    }
+  ]
+}

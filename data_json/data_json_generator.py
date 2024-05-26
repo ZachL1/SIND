@@ -34,7 +34,10 @@ def piq23_generator(domain_id_base = 0):
     assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
 
   with open(f'{base_dir}/data_json/for_leave_one_out/piq23_all.json', 'w') as f:
-    json.dump({'files': all_files}, f)
+    json.dump({
+      'files': all_files,
+      'domain_name': {domain_id_base + int(scene.split("_")[-1]): scene for scene in set(scenes)},
+      }, f, indent=2)
   print(f'PIQ23 all: {len(all_files)}')
 
 
@@ -80,7 +83,10 @@ def spaq_generator(domain_id_base = 100):
     assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
 
   with open(f'{base_dir}/data_json/for_leave_one_out/spaq_all.json', 'w') as f:
-    json.dump({'files': all_files}, f)
+    json.dump({
+      'files': all_files,
+      'domain_name': {domain_id_base + scene: scene_dict[scene] for scene in scene_dict.keys()},
+      }, f, indent=2)
 
 
   # split train/test follow by q-align
@@ -91,9 +97,9 @@ def spaq_generator(domain_id_base = 100):
   test_files = [item for item in all_files if item['image'].replace('SPAQ/TestImage', 'spaq') in test_img]
   assert len(train_files) + len(test_files) == len(train_img) + len(test_img)
   with open(f'{base_dir}/data_json/for_cross_set/train/spaq_train.json', 'w') as f:
-    json.dump({'files': train_files}, f)
+    json.dump({'files': train_files}, f, indent=2)
   with open(f'{base_dir}/data_json/for_cross_set/test/spaq_test.json', 'w') as f:
-    json.dump({'files': test_files}, f)
+    json.dump({'files': test_files}, f, indent=2)
   print(f'SPAQ all: {len(all_files)}, train: {len(train_files)}, test: {len(test_files)}')
 
 
@@ -121,7 +127,7 @@ def livec_generator(domain_id_base = 200):
   test_files = [item for item in all_files if item['image'].replace('LIVEChallenge/Images', 'livec') in test_img]
   assert len(test_files) == len(test_img)
   with open(f'{base_dir}/data_json/for_cross_set/test/livec.json', 'w') as f:
-    json.dump({'files': test_files}, f)
+    json.dump({'files': test_files}, f, indent=2)
   print(f'LIVE Challenge all: {len(all_files)}, test: {len(test_files)}')
 
 
@@ -148,15 +154,61 @@ def koniq_generator(domain_id_base = 300):
   test_files = [item for item in all_files if item['image'].replace('koniq10k/1024x768', 'koniq') in test_img]
   assert len(train_files) + len(test_files) == len(train_img) + len(test_img)
   with open(f'{base_dir}/data_json/for_cross_set/train/koniq10k_train.json', 'w') as f:
-    json.dump({'files': train_files}, f)
+    json.dump({'files': train_files}, f, indent=2)
   with open(f'{base_dir}/data_json/for_cross_set/test/koniq10k_test.json', 'w') as f:
-    json.dump({'files': test_files}, f)
+    json.dump({'files': test_files}, f, indent=2)
   print(f'Koniq all: {len(all_files)}, train: {len(train_files)}, test: {len(test_files)}')
 
 
 ############################ BID ############################
 def bid_generator(domain_id_base = 400):
-  pass
+  from openpyxl import load_workbook
+  workbook = load_workbook(os.path.join(data_dir, 'BID/DatabaseGrades.xlsx'))
+  booksheet = workbook.active
+   
+  count = 1
+  all_files = []
+  for row in booksheet.rows:
+    count += 1
+    img_num = (booksheet.cell(row=count, column=1).value)
+    img_name = f"DatabaseImage{img_num:04d}.JPG"
+    mos = (booksheet.cell(row=count, column=2).value)
+
+    all_files.append(dict(
+      image = f'BID/{img_name}',
+      score = mos,
+      domain_id = domain_id_base,
+    ))
+    assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
+    if count == 587:
+      break
+
+  # all for test
+  with open(f'{base_dir}/data_json/for_cross_set/test/bid.json', 'w') as f:
+    json.dump({'files': all_files}, f, indent=2)
+  print(f'BID all: {len(all_files)}')
+
+############################ CID2013 ############################
+def cid2013_generator(domain_id_base = 450):
+  all_df = pd.read_excel(os.path.join(data_dir, 'CID2013/CID2013 data - version 12112014.xlsx'), sheet_name='CID2013 MOS')
+  imgs_name = all_df['Source_ID'].tolist()
+  mos = all_df['Realigned MOS'].tolist()
+
+  all_files = []
+  for img_name, label in zip(imgs_name, mos):
+    all_files.append(dict(
+      image = f'CID2013/{img_name}.jpg',
+      score = label,
+      domain_id = domain_id_base,
+    ))
+    assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
+
+  # all for test
+  with open(f'{base_dir}/data_json/for_cross_set/test/cid2013.json', 'w') as f:
+    json.dump({'files': all_files}, f, indent=2)
+  print(f'CID2013 all: {len(all_files)}')
+
+
 
 
 ############################ AGIQA-3K ############################
@@ -183,7 +235,7 @@ def agiqa3k_generator(domain_id_base = 500):
   test_files = [item for item in all_files if item['image'].replace('AGIQA-3K/images', 'agi-cgi') in test_img]
   assert len(test_files) == len(test_img)
   with open(f'{base_dir}/data_json/for_cross_set/test/agiqa3k.json', 'w') as f:
-    json.dump({'files': test_files}, f)
+    json.dump({'files': test_files}, f, indent=2)
   print(f'AGIQA-3K all: {len(all_files)}, test: {len(test_files)}')
 
 
@@ -192,10 +244,10 @@ def kadid10k_generator(domain_id_base = 600):
   all_df = pd.read_csv(os.path.join(data_dir, 'kadid10k/dmos.csv'))
   imgs_name = all_df['dist_img'].tolist()
   labels = all_df['dmos'].tolist()
-  dist_type = [img.split('_')[1] for img in imgs_name]
+  dist_types = [img.split('_')[1] for img in imgs_name]
 
   all_files = []
-  for img_name, label, dist_type in zip(imgs_name, labels, dist_type):
+  for img_name, label, dist_type in zip(imgs_name, labels, dist_types):
     all_files.append(dict(
       image = f'kadid10k/images/{img_name}',
       score = label,
@@ -204,17 +256,23 @@ def kadid10k_generator(domain_id_base = 600):
     ))
     assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
   
+  with open(f'{base_dir}/data_json/for_leave_one_out/kadid10k_all.json', 'w') as f:
+    json.dump({
+      'files': all_files,
+      'domain_name': {domain_id_base + int(dist_type): dist_type for dist_type in set(dist_types)},
+      }, f, indent=2)
+
   # split train/test follow by q-align
   train_img = get_imgnames_from_json(f'{data_dir}/Q-Align/playground/data/training_sft/train_kadid.json')
   test_img = get_imgnames_from_json(f'{data_dir}/Q-Align/playground/data/test_jsons/test_kadid.json')
-  # assert len(train_img & test_img) == 0 # TODO: overlap
+  # assert len(train_img & test_img) == 0
   train_files = [item for item in all_files if item['image'].replace('kadid10k/images', 'kadid10k') in train_img]
   test_files = [item for item in all_files if item['image'].replace('kadid10k/images', 'kadid10k') in test_img]
   assert len(train_files) + len(test_files) == len(train_img) + len(test_img)
   with open(f'{base_dir}/data_json/for_cross_set/train/kadid10k_train.json', 'w') as f:
-    json.dump({'files': train_files}, f)
+    json.dump({'files': train_files}, f, indent=2)
   with open(f'{base_dir}/data_json/for_cross_set/test/kadid10k_test.json', 'w') as f:
-    json.dump({'files': test_files}, f)
+    json.dump({'files': test_files}, f, indent=2)
   print(f'KADID-10k all: {len(all_files)}, train: {len(train_files)}, test: {len(test_files)}')
   
 ############################ LIVE ############################
@@ -276,7 +334,7 @@ def live_generator(domain_id_base = 700):
   all_files = []
   for i, rname in enumerate(refname):
     train_sel = (rname == refnames_all)
-    train_sel = train_sel * ~orgs.astype(np.bool_)
+    # train_sel = train_sel * ~orgs.astype(np.bool_)
     train_sel = np.where(train_sel == True)
     train_sel = train_sel[1].tolist()
     for j, item in enumerate(train_sel):
@@ -292,9 +350,9 @@ def live_generator(domain_id_base = 700):
   # split test follow by q-align
   test_img = get_imgnames_from_json(f'{data_dir}/Q-Align/playground/data/test_jsons/live.json')
   test_files = [item for item in all_files if item['image'].replace('LIVE', 'live') in test_img]
-  # assert len(test_files) == len(test_img) # TODO: not equal
+  assert len(test_files) == len(test_img) # TODO: not equal
   with open(f'{base_dir}/data_json/for_cross_set/test/live.json', 'w') as f:
-    json.dump({'files': test_files}, f)
+    json.dump({'files': test_files}, f, indent=2)
   print(f'LIVE all: {len(all_files)}, test: {len(test_files)}')
   
 
@@ -347,8 +405,33 @@ def csiq_generator(domain_id_base = 800):
   test_files = [item for item in all_files if item['image'].replace('CSIQ', 'csiq') in test_img]
   # assert len(test_files) == len(test_img) # TODO: miss gt in csiq_label.txt
   with open(f'{base_dir}/data_json/for_cross_set/test/csiq.json', 'w') as f:
-    json.dump({'files': test_files}, f)
+    json.dump({'files': test_files}, f, indent=2)
   print(f'CSIQ all: {len(all_files)}, test: {len(test_files)}')
+
+
+############################ TID2013 ############################
+def tid2013_generator(domain_id_base = 900):
+  mos_with_names = pd.read_csv(f'{data_dir}/TID2013/mos_with_names.txt', sep=' ', header=None, index_col=1)
+
+  all_files = []
+  for img_name, score in mos_with_names[0].items():
+    dist_dype = int(img_name.split('_')[1])
+    all_files.append(dict(
+      image = f'TID2013/distorted_images/{img_name}',
+      score = score,
+      dist_dype = dist_dype,
+      domain_id = domain_id_base + dist_dype,
+    ))
+    assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
+  
+  with open(f'{base_dir}/data_json/for_leave_one_out/tid2013_all.json', 'w') as f:
+    json.dump({
+      'files': all_files,
+      'domain_name': {domain_id_base + dist_dype: dist_dype for dist_dype in set([item['dist_dype'] for item in all_files])},
+      }, f, indent=2)
+
+  print(f'TID2013 all: {len(all_files)}')
+
 
 
 
@@ -389,19 +472,92 @@ def eva_generator(domain_id_base = 1100):
     assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
 
   with open(f'{base_dir}/data_json/for_leave_one_out/eva_all.json', 'w') as f:
-    json.dump({'files': all_files}, f)
+    json.dump({
+      'files': all_files,
+      'domain_name': {int(cat) + domain_id_base: cat_dict[cat] for cat in cat_dict.keys()},
+      }, f, indent=2)
   print(f'EVA all: {len(all_files)}')
 
+def para_generator(domain_id_base = 1200):
+  '''
+  # old version
+  def __init__(self, root, index=None, transform=None, scene_base=1000, iaa=True):
+      data_dir = root
+      all_set = os.path.join(data_dir, 'annotation/PARA-GiaaAll.csv')
+      all_df = pd.read_csv(all_set)
+      imgs_name = all_df['imageName'].tolist()
+      sessions = all_df['sessionId'].tolist()
+      imgpath = [os.path.join(data_dir, f'imgs/{session}/{img_name}') for session, img_name in zip(sessions, imgs_name)]
+      labels = all_df['aestheticScore_mean'].tolist() if iaa else all_df['qualityScore_mean'].tolist()
+      
+      # domain label to unique int
+      all_scene = sorted(all_df['semantic'].unique())
+      scene_dict = {scene: i for i, scene in enumerate(all_scene)}
+      scene = [scene_dict[s] + scene_base for s in all_df['semantic'].tolist()]
+
+      if index is None:
+          index = list(range(len(imgs_name)))
+
+      # check domain category
+      print('domain category:', set(scene[i] for i in index))
+      
+      self.samples = []
+      for i, item in enumerate(index):
+          self.samples.append(dict(
+              path = imgpath[item],
+              target = labels[item],
+              scene = scene[item],
+              img_name = imgs_name[item],
+          ))
+      self.transform = transform
+  '''
+  annos_data = pd.read_csv(f'{data_dir}/PARA/annotation/PARA-GiaaAll.csv')
+  all_scene = sorted(annos_data['semantic'].unique())
+  scene_dict = {scene: i for i, scene in enumerate(all_scene)}
+
+  all_files = []
+  for _, row in annos_data.iterrows():
+    all_files.append({
+      'image': f'PARA/imgs/{row["sessionId"]}/{row["imageName"]}',
+      'score': row['aestheticScore_mean'],
+      'scene': row['semantic'],
+      'domain_id': domain_id_base + scene_dict[row['semantic']],
+    })
+    assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
+  
+  with open(f'{base_dir}/data_json/for_leave_one_out/para_all.json', 'w') as f:
+    json.dump({
+      'files': all_files,
+      'domain_name': {domain_id_base + scene_dict[scene]: scene for scene in all_scene},
+      }, f, indent=2)
+  print(f'PARA all: {len(all_files)}')
 
 
+
+def check_koniq_spaq_kadia():
+  koniq = get_imgnames_from_json(f'{data_dir}/Q-Align/playground/data/training_sft/train_koniq.json')
+  spaq = get_imgnames_from_json(f'{data_dir}/Q-Align/playground/data/training_sft/train_spaq.json')
+  kadid = get_imgnames_from_json(f'{data_dir}/Q-Align/playground/data/training_sft/train_kadid.json')
+
+  koniq_spaq_kadid = get_imgnames_from_json(f'{data_dir}/Q-Align/playground/data/training_sft/train_koniq_spaq_kadid.json')
+
+  print(len(koniq), len(spaq), len(kadid), len(koniq_spaq_kadid))
+  print(len(koniq & koniq_spaq_kadid), len(spaq & koniq_spaq_kadid), len(kadid & koniq_spaq_kadid))
+  
 
 if __name__ == '__main__':
   piq23_generator()
   spaq_generator()
   livec_generator()
   koniq_generator()
+  bid_generator()
+  cid2013_generator()
   agiqa3k_generator()
   kadid10k_generator()
   live_generator()
   csiq_generator()
+  tid2013_generator()
   eva_generator()
+  para_generator()
+
+  check_koniq_spaq_kadia()
