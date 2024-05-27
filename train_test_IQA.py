@@ -143,6 +143,62 @@ def main(config):
     print('Testing median SRCC %4.4f,\tmedian PLCC %4.4f' % (srcc_med, plcc_med))
 
 
+def leave_one_out_exp(config):
+    all_json = {
+        'piq23': 'for_leave_one_out/piq23_all.json',
+        'spaq': 'for_leave_one_out/spaq_all.json',
+        # 'koniq10k': 'for_leave_one_out/koniq10k_all.json',
+        
+        'kadid10k': 'for_leave_one_out/kadid10k_all.json',
+        'tid2013': 'for_leave_one_out/tid2013_all.json',
+
+        'eva': 'for_leave_one_out/eva_all.json',
+        'para': 'for_leave_one_out/para_all.json',
+    }
+
+    assert len(config.train_dataset) == 1, 'Only support one dataset for leave-one-out experiment'
+
+    dataname = config.train_dataset[0]
+    with open(os.path.join(config.json_dir, all_json[dataname]), 'r') as f:
+        data = json.load(f)
+        datajson = data['files']
+        domain_name = data['domain_name']
+    if dataname == 'spaq':
+        pass # TODO: add scene sampling
+
+    assert len(domain_name) == len(set(item['domain_id'] for item in datajson)), 'Domain number not match'
+
+    srcc_all = []
+    plcc_all = []
+
+    proj_dir = config.project_dir
+    for test_domain, d_name in domain_name.items():
+        test_domain = int(test_domain)
+        print('Training and testing on %s dataset for domain %d .ie %s ...' % (dataname, test_domain, d_name))
+        config.project_dir = os.path.join(proj_dir, f'test_domain_{test_domain}')
+
+        train_datajson = {dataname : [item for item in datajson if item['domain_id'] != test_domain]}
+        test_datajson = {dataname : [item for item in datajson if item['domain_id'] == test_domain]}
+
+        solver = IQASolver(config, config.data_root, train_datajson, test_datajson)
+        srcc, plcc = solver.train()
+        srcc_all.append(srcc)
+        plcc_all.append(plcc)
+
+        torch.distributed.barrier()
+        del solver
+        torch.cuda.empty_cache()
+    
+    print(srcc_all)
+    print(plcc_all)
+    srcc_mean, plcc_mean = np.mean(srcc_all), np.mean(plcc_all)
+    srcc_med, plcc_med = np.median(srcc_all), np.median(plcc_all)
+
+    print('Testing mean SRCC %4.4f,\tmean PLCC %4.4f' % (srcc_mean, plcc_mean))
+    print('Testing median SRCC %4.4f,\tmedian PLCC %4.4f' % (srcc_med, plcc_med))
+    
+
+
 
 def load_datajson_for_cross_set(datasets:list, json_dir:str, istrain:bool):
     '''
@@ -159,6 +215,8 @@ def load_datajson_for_cross_set(datasets:list, json_dir:str, istrain:bool):
         'spaq': 'for_cross_set/test/spaq_test.json',
         'livec': 'for_cross_set/test/livec.json',
         'koniq10k': 'for_cross_set/test/koniq10k_test.json',
+        'bid': 'for_cross_set/test/bid.json',
+        'cid2013': 'for_cross_set/test/cid2013.json',
 
         'agiqa3k': 'for_cross_set/test/agiqa3k.json',
 
@@ -174,13 +232,11 @@ def load_datajson_for_cross_set(datasets:list, json_dir:str, istrain:bool):
     return datajson
 
 def cross_dataset_exp(config):
-    data_root = '/home/dzc/workspace/G-IQA/data'
-    json_dir = '/home/dzc/workspace/G-IQA/data/data_json'
 
-    train_datajson = load_datajson_for_cross_set(config.train_dataset, json_dir, istrain=True)
-    test_datajson = load_datajson_for_cross_set(config.test_dataset, json_dir, istrain=False)
+    train_datajson = load_datajson_for_cross_set(config.train_dataset, config.json_dir, istrain=True)
+    test_datajson = load_datajson_for_cross_set(config.test_dataset, config.json_dir, istrain=False)
 
-    solver = IQASolver(config, data_root, train_datajson, test_datajson)
+    solver = IQASolver(config, config.data_root, train_datajson, test_datajson)
     solver.train()
 
 if __name__ == '__main__':
@@ -198,8 +254,8 @@ if __name__ == '__main__':
     parser.add_argument('--train_dataset', dest='train_dataset', nargs='+', type=str, default='piq23', help='datasets for training, piq23|spaq|koniq10k|livew|bid')
     parser.add_argument('--test_dataset', dest='test_dataset', nargs='+', type=str, default='piq23', help='datasets for testing')
     parser.add_argument('--input_size', dest='input_size', type=int, default=672, help='Crop size for training & testing image')
-    # parser.add_argument('--train_data', nargs='+', type=int, default=[0,1,2,3,4], help="train data, 0:PIQ23, 1:SPAQ, 2:Koniq10K, 3:Livew, 4:BID")
-    # parser.add_argument('--val_data', nargs='+', type=int, default=[0], help="val data, 0:PIQ23, 1:SPAQ, 2:Koniq10K, 3:Livew, 4:BID")
+    parser.add_argument('--data_root', type=str, default='./data', help='data root')
+    parser.add_argument('--json_dir', type=str, default='./data_json', help='data json')
 
     ################## Training Config ##################
     # parser.add_argument('--train_test_num', dest='train_test_num', type=int, default=1, help='Train-test times')
@@ -227,6 +283,8 @@ if __name__ == '__main__':
 
     if config.exp_type == 'cross-set':
         cross_dataset_exp(config)
+    elif config.exp_type == 'leave-one-out':
+        leave_one_out_exp(config)
     else:
         raise NotImplementedError
 

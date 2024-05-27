@@ -17,7 +17,7 @@ class SPAQFolder(PIQ23Folder):
             self.samples.append(dict(
                 path = os.path.join(root, item['image']),
                 target = item['score'],
-                # scene = item['domain_id'],
+                scene = item['domain_id'],
                 img_name = item['image'],
             ))
 
@@ -25,7 +25,9 @@ class SPAQFolder(PIQ23Folder):
             # In each epoch, one is randomly selected from the corresponding candidates as its scene label.
             # The scene label is only used to distinguish different scenes (i.e. scene sampling) during training and has no meaning for testing.
             self.scene_candidate[item['image']] = item['domain_id']
-        self.update_scene()
+        
+        if isinstance(data_json[0]['domain_id'], list):
+            self.update_scene()
 
     '''
     # old version - Not verified

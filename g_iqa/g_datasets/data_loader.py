@@ -73,9 +73,9 @@ class DataGenerator(object):
             data_json = data_json[dataset]
             
         if isinstance(dataset, list) and len(dataset) > 1:
-            # self.data = folder.MultiDatasetFolder(
-            #     root=path, data_json=data_json, transform=transforms)
-            raise NotImplementedError("MultiDatasetFolder is not implemented yet")
+            self.data = folder.MultiDatasetFolder(
+                root=path, data_jsons=data_json, transforms=transforms, dataset_names=dataset)
+            # raise NotImplementedError("MultiDatasetFolder is not implemented yet")
         elif dataset == 'live':
             self.data = folder.LIVEFolder(
                 root=path, data_json=data_json, transform=transforms)
@@ -94,12 +94,15 @@ class DataGenerator(object):
         elif dataset == 'koniq10k':
             self.data = folder.Koniq_10kFolder(
                 root=path, data_json=data_json, transform=transforms)
-        # elif dataset == 'bid':
-        #     self.data = folder.BIDFolder(
-        #         root=path, data_json=data_json, transform=transforms)
-        # elif dataset == 'tid2013':
-        #     self.data = folder.TID2013Folder(
-        #         root=path, data_json=data_json, transform=transforms)
+        elif dataset == 'bid':
+            self.data = folder.BIDFolder(
+                root=path, data_json=data_json, transform=transforms)
+        elif dataset == 'cid2013':
+            self.data = folder.CID2013Folder(
+                root=path, data_json=data_json, transform=transforms)
+        elif dataset == 'tid2013':
+            self.data = folder.TID2013Folder(
+                root=path, data_json=data_json, transform=transforms)
         elif dataset == 'piq23':
             self.data = folder.PIQ23Folder(
                 root=path, data_json=data_json, transform=transforms)

@@ -1,44 +1,69 @@
 from torch.utils.data import Dataset, ConcatDataset
 
 from g_iqa.g_datasets.folder.PIQ23_base import PIQ23Folder
+
 from g_iqa.g_datasets.folder.SPAQ import SPAQFolder
 from g_iqa.g_datasets.folder.LIVEChallenge import LIVEChallengeFolder
 from g_iqa.g_datasets.folder.Koniq_10k import Koniq_10kFolder
 from g_iqa.g_datasets.folder.BID import BIDFolder
 
+from g_iqa.g_datasets.folder.Kadid_10k import Kadid_10kFolder
+from g_iqa.g_datasets.folder.LIVE import LIVEFolder
+from g_iqa.g_datasets.folder.CSIQ import CSIQFolder
+
+from g_iqa.g_datasets.folder.PARA import PARAFolder
+from g_iqa.g_datasets.folder.EVA import EVAFolder
 
 class MultiDatasetFolder(Dataset):
-    def __init__(self, root, index, transform):
-        self.dataset = []
-        for r in root:
-            if r.endswith('PIQ23/'):
-                self.dataset.append(PIQ23Folder(r, index, transform))
-                # self.dataset.extend([PIQ23Folder(r, index, transform) for _ in range(len(r))])
-            elif r.endswith('SPAQ/'):
-                self.dataset.append(SPAQFolder(r, None, transform))
-            elif r.endswith('LIVEW/'):
-                self.dataset.append(LIVEChallengeFolder(r, None, transform))
-            elif r.endswith('koniq10k/'):
-                self.dataset.append(Koniq_10kFolder(r, None, transform))
-            elif r.endswith('BID/'):
-                self.dataset.append(BIDFolder(r, None, transform))
+    def __init__(self, root, data_jsons, transforms, dataset_names):
+        self.datasets = []
+        for name in dataset_names:
+            data_json = data_jsons[name]
+            if name == 'live':
+                dataset = LIVEFolder(
+                    root=root, data_json=data_json, transform=transforms)
+            elif name == 'livec':
+                dataset = LIVEChallengeFolder(
+                    root=root, data_json=data_json, transform=transforms)
+            elif name == 'csiq':
+                dataset = CSIQFolder(
+                    root=root, data_json=data_json, transform=transforms)
+            elif name == 'kadid10k':
+                dataset = Kadid_10kFolder(
+                    root=root, data_json=data_json, transform=transforms)
+            elif name == 'koniq10k':
+                dataset = Koniq_10kFolder(
+                    root=root, data_json=data_json, transform=transforms)
+            elif name == 'piq23':
+                dataset = PIQ23Folder(
+                    root=root, data_json=data_json, transform=transforms)
+            elif name == 'spaq':
+                dataset = SPAQFolder(
+                    root=root, data_json=data_json, transform=transforms)
+            elif name == 'para':
+                dataset = PARAFolder(
+                    root=root, data_json=data_json, transform=transforms)
+            elif name == 'eva':
+                dataset = EVAFolder(
+                    root=root, data_json=data_json, transform=transforms)
             else:
-                raise ValueError(f"Unknown dataset: {r}")
+                raise NotImplementedError(f"Not support dataset: {name}")
+            self.datasets.append(dataset)
             
-        self.dataset = ConcatDataset(self.dataset)
+        self.datasets = ConcatDataset(self.datasets)
         self.scene = []
-        for d in self.dataset.datasets:
+        for d in self.datasets.datasets:
             self.scene += d.get_scene_list()
     
     def __getitem__(self, index):
         # try:
-        return self.dataset.__getitem__(index)
+        return self.datasets.__getitem__(index)
         # except Exception as e:
         #     print(f'Error: {e}')
         #     return self.dataset.__getitem__(0)
     
     def __len__(self):
-        return len(self.dataset)
+        return len(self.datasets)
     
     def get_scene_list(self):
         return self.scene

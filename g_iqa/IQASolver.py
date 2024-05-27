@@ -94,9 +94,9 @@ class IQASolver(object):
             gt_scores = []
 
             torch.cuda.empty_cache()
-            if hasattr(self.train_data, 'update_scene'): # only for SPAQ, see: g_iqa/g_datasets/folder/SPAQ.py
-                self.train_data.update_scene()
-                self.train_data.sampler.update()
+            # if hasattr(self.train_data, 'update_scene'): # only for SPAQ, see: g_iqa/g_datasets/folder/SPAQ.py
+            #     self.train_data.update_scene()
+            #     self.train_data.sampler.update()
 
             for sample in tqdm(self.train_data, desc=f'Epoch {t+1}/{self.epochs}'):
                 img = sample['img']
@@ -133,8 +133,9 @@ class IQASolver(object):
                     gt_scores = gt_scores + label.cpu().tolist()
                     epoch_loss.append(loss.item())
 
-            if t % 2 == 0:
-                # self.accelerator.wait_for_everyone()
+            if t % 1 == 0:
+                self.accelerator.wait_for_everyone()
+                torch.distributed.barrier()
                 if self.is_main_process():
                     train_srcc, _ = stats.spearmanr(pred_scores, gt_scores)
                     train_plcc, _ = stats.pearsonr(pred_scores, gt_scores)
@@ -154,16 +155,16 @@ class IQASolver(object):
                                 best_epoch[data_name] = t
                                 # torch.save(self.ema_model.state_dict(), f'{self.project_dir}/best_ema_model.pth')
                         
-                        pred_scores, gt_scores, scene_list = self.val(test_data)
-                        srcc, plcc = self.log_metrics(pred_scores, gt_scores, scene_list, t, f"{data_name}/")
-                        if srcc > best_srcc[data_name]:
-                            best_srcc[data_name] = srcc
-                            best_plcc[data_name] = plcc
-                            best_epoch[data_name] = t
-                            # self.accelerator.save_state(f'{self.project_dir}/best_model')
+                        # pred_scores, gt_scores, scene_list = self.val(test_data)
+                        # srcc, plcc = self.log_metrics(pred_scores, gt_scores, scene_list, t, f"{data_name}/")
+                        # if srcc > best_srcc[data_name]:
+                        #     best_srcc[data_name] = srcc
+                        #     best_plcc[data_name] = plcc
+                        #     best_epoch[data_name] = t
+                        #     # self.accelerator.save_state(f'{self.project_dir}/best_model')
                         print(f'Best SRCC: {best_srcc[data_name]:.4f}, Best PLCC: {best_plcc[data_name]:.4f}, Best epoch: {best_epoch[data_name]} \n')
 
-        return best_srcc[data_name], best_plcc[data_name] # just for leave-one-out exp, only one dataset for evaluation
+        return next(iter(best_srcc.values())), next(iter(best_plcc.values())) # just for leave-one-out exp, only one dataset for evaluation
 
     def val(self, test_data):
         """Testing"""
@@ -231,10 +232,10 @@ class IQASolver(object):
         mean_plcc, med_plcc = np.mean(plcc_by_scene), np.median(plcc_by_scene)
 
         # print(f'mean srcc: {mean_srcc}, median srcc: {med_srcc}')
-        self.accelerator.log({f"{prefix}eval/mean_srcc": mean_srcc, f"{prefix}eval/median_srcc": med_srcc}, step=epoch)
-        self.accelerator.log({f"{prefix}eval/mean_plcc": mean_plcc, f"{prefix}eval/median_plcc": med_plcc}, step=epoch)
+        self.accelerator.log({f"{prefix}eval/mean_srcc": mean_srcc}, step=epoch)
+        self.accelerator.log({f"{prefix}eval/mean_plcc": mean_plcc}, step=epoch)
 
         print(f'{prefix} srcc: {srcc:.4f}, plcc: {plcc:.4f}')
         print(f'{prefix} mean srcc: {mean_srcc:.4f}, median srcc: {med_srcc:.4f}')
         print(f'{prefix} mean plcc: {mean_plcc:.4f}, median plcc: {med_plcc:.4f}')
-        return srcc, plcc
+        return abs(srcc), abs(plcc)

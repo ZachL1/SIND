@@ -110,56 +110,6 @@ class PIQ23Folder(data.Dataset):
 
     
 
-
-class TID2013Folder(data.Dataset):
-
-    def __init__(self, root, index, transform, patch_num):
-        refpath = os.path.join(root, 'reference_images')
-        refname = getTIDFileName(refpath,'.bmp.BMP')
-        txtpath = os.path.join(root, 'mos_with_names.txt')
-        fh = open(txtpath, 'r')
-        imgnames = []
-        target = []
-        refnames_all = []
-        for line in fh:
-            line = line.split('\n')
-            words = line[0].split()
-            imgnames.append((words[1]))
-            target.append(words[0])
-            ref_temp = words[1].split("_")
-            refnames_all.append(ref_temp[0][1:])
-        labels = np.array(target).astype(np.float32)
-        refnames_all = np.array(refnames_all)
-
-        sample = []
-        for i, item in enumerate(index):
-            train_sel = (refname[index[i]] == refnames_all)
-            train_sel = np.where(train_sel == True)
-            train_sel = train_sel[0].tolist()
-            for j, item in enumerate(train_sel):
-                for aug in range(patch_num):
-                    sample.append((os.path.join(root, 'distorted_images', imgnames[item]), labels[item]))
-        self.samples = sample
-        self.transform = transform
-
-    def __getitem__(self, index):
-        """
-        Args:
-            index (int): Index
-
-        Returns:
-            tuple: (sample, target) where target is class_index of the target class.
-        """
-        path, target = self.samples[index]
-        sample = pil_loader(path)
-        sample = self.transform(sample)
-        return sample, target
-
-    def __len__(self):
-        length = len(self.samples)
-        return length
-
-
 def getTIDFileName(path, suffix):
     filename = []
     f_list = os.listdir(path)

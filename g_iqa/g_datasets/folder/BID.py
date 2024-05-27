@@ -5,7 +5,11 @@ from g_iqa.g_datasets.folder.PIQ23_base import PIQ23Folder
 
 
 class BIDFolder(PIQ23Folder):
-
+    
+    def __init__(self, root, data_json, transform):
+        super().__init__(root, data_json, transform)
+    '''
+    # old version - Not verified
     def __init__(self, root, index, transform, scene_base=400):
         data_dir = root
         imgname = []
@@ -43,3 +47,4 @@ class BIDFolder(PIQ23Folder):
 
         self.samples = sample
         self.transform = transform
+    '''
