@@ -3,6 +3,7 @@ import json
 import pandas as pd
 import numpy as np
 import scipy
+import random
 
 
 base_dir = '/home/dzc/workspace/G-IQA'
@@ -36,7 +37,7 @@ def piq23_generator(domain_id_base = 0):
   with open(f'{base_dir}/data_json/for_leave_one_out/piq23_all.json', 'w') as f:
     json.dump({
       'files': all_files,
-      'domain_name': {domain_id_base + int(scene.split("_")[-1]): scene for scene in set(scenes)},
+      'domain_name': {domain_id_base + int(scene.split("_")[-1]): scene for scene in sorted(set(scenes))},
       }, f, indent=2)
   print(f'PIQ23 all: {len(all_files)}')
 
@@ -77,7 +78,7 @@ def spaq_generator(domain_id_base = 100):
       image = f'SPAQ/TestImage/{img_name}',
       score = label,
       scene = [scene_dict[scene] for scene in scene_list],
-      domain_id = [domain_id_base + scene for scene in scene_list],
+      domain_id = random.choices([domain_id_base + scene for scene in scene_list])[0], # random select one scene as domain_id
     ))
 
     assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
@@ -259,7 +260,7 @@ def kadid10k_generator(domain_id_base = 600):
   with open(f'{base_dir}/data_json/for_leave_one_out/kadid10k_all.json', 'w') as f:
     json.dump({
       'files': all_files,
-      'domain_name': {domain_id_base + int(dist_type): dist_type for dist_type in set(dist_types)},
+      'domain_name': {domain_id_base + int(dist_type): dist_type for dist_type in sorted(set(dist_types))},
       }, f, indent=2)
 
   # split train/test follow by q-align
@@ -547,7 +548,7 @@ def check_koniq_spaq_kadia():
 
 if __name__ == '__main__':
   piq23_generator()
-  spaq_generator()
+  # spaq_generator()
   livec_generator()
   koniq_generator()
   bid_generator()
