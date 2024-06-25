@@ -1,0 +1,9832 @@
+{
+  "files": [
+    {
+      "image": "SPAQ/TestImage/00003.jpg",
+      "score": 77.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00025.jpg",
+      "score": 56.0,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00030.jpg",
+      "score": 41.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00034.jpg",
+      "score": 91.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00053.jpg",
+      "score": 71.0,
+      "scene": [
+        "Cityscape",
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00065.jpg",
+      "score": 32.78,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00075.jpg",
+      "score": 39.88,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00117.jpg",
+      "score": 75.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00120.jpg",
+      "score": 51.29,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00124.jpg",
+      "score": 67.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00126.jpg",
+      "score": 82.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00133.jpg",
+      "score": 71.89,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00140.jpg",
+      "score": 22.0,
+      "scene": [
+        "Landscape",
+        "Others"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00214.jpg",
+      "score": 18.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00227.jpg",
+      "score": 82.31,
+      "scene": [
+        "Cityscape",
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00231.jpg",
+      "score": 62.43,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00251.jpg",
+      "score": 72.79,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00252.jpg",
+      "score": 44.54,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00281.jpg",
+      "score": 81.18,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00288.jpg",
+      "score": 74.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00304.jpg",
+      "score": 60.9,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00342.jpg",
+      "score": 79.91,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00360.jpg",
+      "score": 67.41,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00370.jpg",
+      "score": 75.75,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00387.jpg",
+      "score": 65.72,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00391.jpg",
+      "score": 77.24,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00398.jpg",
+      "score": 74.56,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00416.jpg",
+      "score": 65.68,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00428.jpg",
+      "score": 45.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00429.jpg",
+      "score": 70.33,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00430.jpg",
+      "score": 86.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00455.jpg",
+      "score": 44.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00472.jpg",
+      "score": 80.0,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00522.jpg",
+      "score": 74.27,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00533.jpg",
+      "score": 76.27,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00570.jpg",
+      "score": 60.95,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00579.jpg",
+      "score": 61.58,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00612.jpg",
+      "score": 65.24,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00622.jpg",
+      "score": 63.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00624.jpg",
+      "score": 26.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00655.jpg",
+      "score": 73.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00656.jpg",
+      "score": 53.0,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00658.jpg",
+      "score": 69.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00670.jpg",
+      "score": 77.86,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00674.jpg",
+      "score": 33.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00675.jpg",
+      "score": 60.25,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00692.jpg",
+      "score": 63.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00715.jpg",
+      "score": 55.8,
+      "scene": [
+        "Cityscape",
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00722.jpg",
+      "score": 33.94,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00753.jpg",
+      "score": 63.31,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00803.jpg",
+      "score": 71.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00825.jpg",
+      "score": 30.13,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00827.jpg",
+      "score": 29.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00830.jpg",
+      "score": 26.0,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00849.jpg",
+      "score": 71.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00914.jpg",
+      "score": 87.21,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00968.jpg",
+      "score": 63.3,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00977.jpg",
+      "score": 34.55,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/00997.jpg",
+      "score": 78.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01017.jpg",
+      "score": 75.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01037.jpg",
+      "score": 76.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01073.jpg",
+      "score": 64.08,
+      "scene": [
+        "Cityscape",
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01079.jpg",
+      "score": 48.58,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01089.jpg",
+      "score": 53.46,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01090.jpg",
+      "score": 67.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01103.jpg",
+      "score": 73.33,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01106.jpg",
+      "score": 47.36,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01195.jpg",
+      "score": 69.88,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01248.jpg",
+      "score": 42.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01260.jpg",
+      "score": 79.13,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01265.jpg",
+      "score": 62.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01266.jpg",
+      "score": 75.15,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01269.jpg",
+      "score": 80.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01287.jpg",
+      "score": 59.62,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01308.jpg",
+      "score": 76.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01309.jpg",
+      "score": 73.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01318.jpg",
+      "score": 47.79,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01328.jpg",
+      "score": 70.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01336.jpg",
+      "score": 23.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01354.jpg",
+      "score": 68.08,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01365.jpg",
+      "score": 87.82,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01370.jpg",
+      "score": 57.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01373.jpg",
+      "score": 78.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01384.jpg",
+      "score": 48.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01418.jpg",
+      "score": 57.08,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01422.jpg",
+      "score": 79.1,
+      "scene": [
+        "Cityscape",
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01443.jpg",
+      "score": 62.44,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01450.jpg",
+      "score": 32.1,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01463.jpg",
+      "score": 70.18,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01468.jpg",
+      "score": 43.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01471.jpg",
+      "score": 83.0,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01486.jpg",
+      "score": 82.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01500.jpg",
+      "score": 79.55,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01517.jpg",
+      "score": 82.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01527.jpg",
+      "score": 33.89,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01536.jpg",
+      "score": 57.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01548.jpg",
+      "score": 68.36,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01550.jpg",
+      "score": 79.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01556.jpg",
+      "score": 65.07,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01562.jpg",
+      "score": 31.29,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01574.jpg",
+      "score": 61.93,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01576.jpg",
+      "score": 75.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01595.jpg",
+      "score": 60.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01597.jpg",
+      "score": 71.0,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01610.jpg",
+      "score": 73.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01614.jpg",
+      "score": 64.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01616.jpg",
+      "score": 52.2,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01621.jpg",
+      "score": 64.4,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01625.jpg",
+      "score": 26.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01638.jpg",
+      "score": 82.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01641.jpg",
+      "score": 78.11,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01643.jpg",
+      "score": 30.18,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01668.jpg",
+      "score": 31.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01677.jpg",
+      "score": 29.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01698.jpg",
+      "score": 67.88,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01699.jpg",
+      "score": 47.11,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01700.jpg",
+      "score": 77.25,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01701.jpg",
+      "score": 39.5,
+      "scene": [
+        "Landscape",
+        "Others"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01716.jpg",
+      "score": 61.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01717.jpg",
+      "score": 69.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01758.jpg",
+      "score": 57.33,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01760.jpg",
+      "score": 64.62,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01771.jpg",
+      "score": 26.07,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01774.jpg",
+      "score": 62.21,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01827.jpg",
+      "score": 25.5,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01829.jpg",
+      "score": 66.5,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01832.jpg",
+      "score": 78.09,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01835.jpg",
+      "score": 38.23,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01842.jpg",
+      "score": 70.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01843.jpg",
+      "score": 81.55,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01854.jpg",
+      "score": 84.45,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01864.jpg",
+      "score": 87.13,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01890.jpg",
+      "score": 63.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01918.jpg",
+      "score": 29.63,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01939.jpg",
+      "score": 61.11,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01962.jpg",
+      "score": 30.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01973.jpg",
+      "score": 28.56,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/01989.jpg",
+      "score": 45.7,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02017.jpg",
+      "score": 59.7,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02022.jpg",
+      "score": 32.9,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02035.jpg",
+      "score": 36.71,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02041.jpg",
+      "score": 56.63,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02042.jpg",
+      "score": 41.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02050.jpg",
+      "score": 26.25,
+      "scene": [
+        "Animal",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02070.jpg",
+      "score": 62.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02127.jpg",
+      "score": 65.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02135.jpg",
+      "score": 52.07,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02154.jpg",
+      "score": 81.47,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02174.jpg",
+      "score": 53.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02206.jpg",
+      "score": 69.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02236.jpg",
+      "score": 48.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02245.jpg",
+      "score": 26.9,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02252.jpg",
+      "score": 40.27,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02254.jpg",
+      "score": 51.78,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02262.jpg",
+      "score": 27.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02295.jpg",
+      "score": 23.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02297.jpg",
+      "score": 72.5,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02300.jpg",
+      "score": 24.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02304.jpg",
+      "score": 48.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02323.jpg",
+      "score": 77.18,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02329.jpg",
+      "score": 81.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02333.jpg",
+      "score": 61.55,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02339.jpg",
+      "score": 66.82,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02349.jpg",
+      "score": 47.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02382.jpg",
+      "score": 45.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02383.jpg",
+      "score": 75.67,
+      "scene": [
+        "Animal",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02387.jpg",
+      "score": 31.64,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02388.jpg",
+      "score": 84.17,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02425.jpg",
+      "score": 21.7,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02443.jpg",
+      "score": 80.56,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02448.jpg",
+      "score": 40.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02459.jpg",
+      "score": 83.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02474.jpg",
+      "score": 67.82,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02476.jpg",
+      "score": 40.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02487.jpg",
+      "score": 69.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02528.jpg",
+      "score": 75.5,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02548.jpg",
+      "score": 33.36,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02555.jpg",
+      "score": 60.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02566.jpg",
+      "score": 36.11,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02567.jpg",
+      "score": 63.92,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02571.jpg",
+      "score": 53.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02577.jpg",
+      "score": 55.7,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02584.jpg",
+      "score": 61.73,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02607.jpg",
+      "score": 42.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02616.jpg",
+      "score": 65.91,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02621.jpg",
+      "score": 72.56,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02622.jpg",
+      "score": 62.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02626.jpg",
+      "score": 68.23,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02655.jpg",
+      "score": 60.82,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02661.jpg",
+      "score": 76.92,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02668.jpg",
+      "score": 28.43,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02670.jpg",
+      "score": 75.14,
+      "scene": [
+        "Cityscape",
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02687.jpg",
+      "score": 42.64,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02705.jpg",
+      "score": 34.54,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02710.jpg",
+      "score": 23.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02718.jpg",
+      "score": 59.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02725.jpg",
+      "score": 62.43,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02751.jpg",
+      "score": 70.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02769.jpg",
+      "score": 48.36,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02777.jpg",
+      "score": 76.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02782.jpg",
+      "score": 40.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02791.jpg",
+      "score": 70.36,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02805.jpg",
+      "score": 53.47,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02811.jpg",
+      "score": 81.95,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02813.jpg",
+      "score": 74.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02829.jpg",
+      "score": 69.74,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02833.jpg",
+      "score": 70.26,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02841.jpg",
+      "score": 79.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02842.jpg",
+      "score": 77.93,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02867.jpg",
+      "score": 65.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02895.jpg",
+      "score": 75.26,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02896.jpg",
+      "score": 31.88,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02932.jpg",
+      "score": 85.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02958.jpg",
+      "score": 22.88,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02966.jpg",
+      "score": 70.11,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02973.jpg",
+      "score": 68.44,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02981.jpg",
+      "score": 55.33,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/02983.jpg",
+      "score": 37.88,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03001.jpg",
+      "score": 78.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03068.jpg",
+      "score": 28.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03077.jpg",
+      "score": 31.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03081.jpg",
+      "score": 14.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03108.jpg",
+      "score": 79.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03112.jpg",
+      "score": 49.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03115.jpg",
+      "score": 87.56,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03122.jpg",
+      "score": 56.75,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03130.jpg",
+      "score": 88.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03131.jpg",
+      "score": 66.25,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03149.jpg",
+      "score": 29.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03174.jpg",
+      "score": 84.25,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03178.jpg",
+      "score": 79.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03190.jpg",
+      "score": 29.71,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03227.jpg",
+      "score": 46.61,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03230.jpg",
+      "score": 21.56,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03239.jpg",
+      "score": 38.21,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03256.jpg",
+      "score": 53.41,
+      "scene": [
+        "Landscape",
+        "Others"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03257.jpg",
+      "score": 81.72,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03260.jpg",
+      "score": 74.82,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03266.jpg",
+      "score": 78.58,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03268.jpg",
+      "score": 25.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03290.jpg",
+      "score": 40.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03291.jpg",
+      "score": 53.88,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03296.jpg",
+      "score": 63.29,
+      "scene": [
+        "Cityscape",
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03299.jpg",
+      "score": 64.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03315.jpg",
+      "score": 43.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03323.jpg",
+      "score": 88.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03337.jpg",
+      "score": 84.63,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03344.jpg",
+      "score": 82.88,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03360.jpg",
+      "score": 31.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03379.jpg",
+      "score": 67.56,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03396.jpg",
+      "score": 53.1,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03413.jpg",
+      "score": 91.33,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03454.jpg",
+      "score": 62.82,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03455.jpg",
+      "score": 67.08,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03458.jpg",
+      "score": 66.42,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03460.jpg",
+      "score": 58.54,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03466.jpg",
+      "score": 67.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03469.jpg",
+      "score": 70.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03471.jpg",
+      "score": 38.91,
+      "scene": [
+        "Animal",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03490.jpg",
+      "score": 23.73,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03511.jpg",
+      "score": 63.46,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03513.jpg",
+      "score": 28.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03514.jpg",
+      "score": 40.09,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03519.jpg",
+      "score": 68.82,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03524.jpg",
+      "score": 20.64,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03531.jpg",
+      "score": 60.64,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03548.jpg",
+      "score": 61.92,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03552.jpg",
+      "score": 57.27,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03578.jpg",
+      "score": 51.91,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03634.jpg",
+      "score": 76.14,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03636.jpg",
+      "score": 22.27,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03653.jpg",
+      "score": 51.93,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03657.jpg",
+      "score": 24.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03683.jpg",
+      "score": 80.31,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03702.jpg",
+      "score": 47.3,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03716.jpg",
+      "score": 76.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03736.jpg",
+      "score": 77.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03738.jpg",
+      "score": 61.69,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03774.jpg",
+      "score": 52.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03775.jpg",
+      "score": 53.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03790.jpg",
+      "score": 52.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03833.jpg",
+      "score": 67.17,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03844.jpg",
+      "score": 52.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03847.jpg",
+      "score": 59.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03860.jpg",
+      "score": 18.69,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03861.jpg",
+      "score": 78.21,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03920.jpg",
+      "score": 49.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03926.jpg",
+      "score": 83.18,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03944.jpg",
+      "score": 44.08,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03976.jpg",
+      "score": 35.56,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/03999.jpg",
+      "score": 24.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04000.jpg",
+      "score": 82.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04016.jpg",
+      "score": 79.93,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04028.jpg",
+      "score": 66.21,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04075.jpg",
+      "score": 41.91,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04109.jpg",
+      "score": 65.64,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04113.jpg",
+      "score": 65.91,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04119.jpg",
+      "score": 72.3,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04120.jpg",
+      "score": 76.45,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04122.jpg",
+      "score": 26.9,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04146.jpg",
+      "score": 47.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04163.jpg",
+      "score": 59.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04164.jpg",
+      "score": 29.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04169.jpg",
+      "score": 53.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04177.jpg",
+      "score": 84.5,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04190.jpg",
+      "score": 84.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04207.jpg",
+      "score": 50.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04227.jpg",
+      "score": 81.36,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04263.jpg",
+      "score": 65.73,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04275.jpg",
+      "score": 81.45,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04290.jpg",
+      "score": 69.64,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04320.jpg",
+      "score": 39.73,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04327.jpg",
+      "score": 53.09,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04362.jpg",
+      "score": 19.47,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04377.jpg",
+      "score": 77.92,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04386.jpg",
+      "score": 75.47,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04394.jpg",
+      "score": 43.8,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04405.jpg",
+      "score": 22.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04409.jpg",
+      "score": 26.36,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04419.jpg",
+      "score": 72.25,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04422.jpg",
+      "score": 42.88,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04430.jpg",
+      "score": 70.89,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04459.jpg",
+      "score": 85.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04476.jpg",
+      "score": 31.11,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04500.jpg",
+      "score": 58.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04506.jpg",
+      "score": 33.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04510.jpg",
+      "score": 36.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04558.jpg",
+      "score": 41.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04561.jpg",
+      "score": 86.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04592.jpg",
+      "score": 47.58,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04601.jpg",
+      "score": 87.23,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04602.jpg",
+      "score": 45.58,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04604.jpg",
+      "score": 54.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04611.jpg",
+      "score": 60.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04616.jpg",
+      "score": 65.58,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04618.jpg",
+      "score": 52.33,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04631.jpg",
+      "score": 48.5,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04633.jpg",
+      "score": 87.17,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04634.jpg",
+      "score": 87.88,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04637.jpg",
+      "score": 61.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04640.jpg",
+      "score": 82.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04642.jpg",
+      "score": 63.33,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04646.jpg",
+      "score": 78.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04649.jpg",
+      "score": 15.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04654.jpg",
+      "score": 69.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04655.jpg",
+      "score": 67.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04667.jpg",
+      "score": 87.67,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04669.jpg",
+      "score": 68.33,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04700.jpg",
+      "score": 59.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04710.jpg",
+      "score": 64.78,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04714.jpg",
+      "score": 13.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04722.jpg",
+      "score": 13.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04753.jpg",
+      "score": 52.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04758.jpg",
+      "score": 73.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04771.jpg",
+      "score": 80.56,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04773.jpg",
+      "score": 82.56,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04781.jpg",
+      "score": 64.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04782.jpg",
+      "score": 62.3,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04795.jpg",
+      "score": 70.09,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04826.jpg",
+      "score": 80.1,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04841.jpg",
+      "score": 63.3,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04871.jpg",
+      "score": 41.42,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04874.jpg",
+      "score": 65.64,
+      "scene": [
+        "Cityscape",
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04879.jpg",
+      "score": 32.2,
+      "scene": [
+        "Cityscape",
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04882.jpg",
+      "score": 74.8,
+      "scene": [
+        "Animal",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04885.jpg",
+      "score": 74.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04899.jpg",
+      "score": 30.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04932.jpg",
+      "score": 68.71,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04947.jpg",
+      "score": 71.71,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04948.jpg",
+      "score": 39.5,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04961.jpg",
+      "score": 68.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04976.jpg",
+      "score": 83.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04986.jpg",
+      "score": 29.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04990.jpg",
+      "score": 67.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/04996.jpg",
+      "score": 69.22,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05043.jpg",
+      "score": 47.73,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05054.jpg",
+      "score": 77.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05061.jpg",
+      "score": 45.42,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05068.jpg",
+      "score": 68.45,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05071.jpg",
+      "score": 61.55,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05077.jpg",
+      "score": 79.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05100.jpg",
+      "score": 70.64,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05117.jpg",
+      "score": 40.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05130.jpg",
+      "score": 65.92,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05149.jpg",
+      "score": 82.55,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05155.jpg",
+      "score": 44.7,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05156.jpg",
+      "score": 69.64,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05191.jpg",
+      "score": 58.0,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05193.jpg",
+      "score": 80.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05194.jpg",
+      "score": 43.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05210.jpg",
+      "score": 66.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05211.jpg",
+      "score": 68.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05221.jpg",
+      "score": 50.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05222.jpg",
+      "score": 76.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05229.jpg",
+      "score": 72.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05244.jpg",
+      "score": 88.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05253.jpg",
+      "score": 66.29,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05260.jpg",
+      "score": 75.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05270.jpg",
+      "score": 61.7,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05298.jpg",
+      "score": 62.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05301.jpg",
+      "score": 84.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05306.jpg",
+      "score": 23.43,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05330.jpg",
+      "score": 40.13,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05339.jpg",
+      "score": 86.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05360.jpg",
+      "score": 83.88,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05386.jpg",
+      "score": 71.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05392.jpg",
+      "score": 76.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05393.jpg",
+      "score": 71.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05408.jpg",
+      "score": 75.25,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05411.jpg",
+      "score": 87.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05432.jpg",
+      "score": 74.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05465.jpg",
+      "score": 56.25,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05474.jpg",
+      "score": 45.56,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05501.jpg",
+      "score": 78.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05516.jpg",
+      "score": 38.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05533.jpg",
+      "score": 86.0,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05556.jpg",
+      "score": 18.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05566.jpg",
+      "score": 18.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05579.jpg",
+      "score": 52.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05612.jpg",
+      "score": 33.78,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05636.jpg",
+      "score": 12.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05637.jpg",
+      "score": 66.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05652.jpg",
+      "score": 84.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05654.jpg",
+      "score": 25.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05673.jpg",
+      "score": 48.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05674.jpg",
+      "score": 25.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05683.jpg",
+      "score": 79.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05684.jpg",
+      "score": 34.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05724.jpg",
+      "score": 62.56,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05754.jpg",
+      "score": 64.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05755.jpg",
+      "score": 36.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05786.jpg",
+      "score": 47.88,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05804.jpg",
+      "score": 50.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05817.jpg",
+      "score": 49.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05819.jpg",
+      "score": 67.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05821.jpg",
+      "score": 54.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05852.jpg",
+      "score": 49.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05860.jpg",
+      "score": 31.33,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05876.jpg",
+      "score": 77.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05891.jpg",
+      "score": 69.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05901.jpg",
+      "score": 68.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05939.jpg",
+      "score": 71.3,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05947.jpg",
+      "score": 71.7,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05991.jpg",
+      "score": 71.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/05994.jpg",
+      "score": 73.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06004.jpg",
+      "score": 61.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06024.jpg",
+      "score": 71.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06025.jpg",
+      "score": 64.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06035.jpg",
+      "score": 57.11,
+      "scene": [
+        "Cityscape",
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06062.jpg",
+      "score": 33.89,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06080.jpg",
+      "score": 25.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06081.jpg",
+      "score": 61.44,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06093.jpg",
+      "score": 65.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06099.jpg",
+      "score": 72.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06113.jpg",
+      "score": 35.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06122.jpg",
+      "score": 59.5,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06132.jpg",
+      "score": 82.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06133.jpg",
+      "score": 72.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06144.jpg",
+      "score": 29.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06146.jpg",
+      "score": 48.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06153.jpg",
+      "score": 80.13,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06160.jpg",
+      "score": 65.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06169.jpg",
+      "score": 59.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06172.jpg",
+      "score": 66.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06179.jpg",
+      "score": 24.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06184.jpg",
+      "score": 83.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06186.jpg",
+      "score": 79.43,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06192.jpg",
+      "score": 24.27,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06195.jpg",
+      "score": 74.78,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06202.jpg",
+      "score": 75.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06203.jpg",
+      "score": 67.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06205.jpg",
+      "score": 40.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06209.jpg",
+      "score": 68.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06213.jpg",
+      "score": 68.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06215.jpg",
+      "score": 73.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06226.jpg",
+      "score": 29.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06232.jpg",
+      "score": 55.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06243.jpg",
+      "score": 79.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06250.jpg",
+      "score": 65.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06258.jpg",
+      "score": 56.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06266.jpg",
+      "score": 81.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06269.jpg",
+      "score": 69.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06277.jpg",
+      "score": 27.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06278.jpg",
+      "score": 84.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06282.jpg",
+      "score": 63.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06291.jpg",
+      "score": 32.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06295.jpg",
+      "score": 40.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06317.jpg",
+      "score": 60.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06328.jpg",
+      "score": 71.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06334.jpg",
+      "score": 83.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06342.jpg",
+      "score": 72.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06347.jpg",
+      "score": 31.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06351.jpg",
+      "score": 60.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06362.jpg",
+      "score": 38.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06369.jpg",
+      "score": 71.33,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06373.jpg",
+      "score": 39.13,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06381.jpg",
+      "score": 64.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06389.jpg",
+      "score": 61.89,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06403.jpg",
+      "score": 34.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06404.jpg",
+      "score": 56.56,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06411.jpg",
+      "score": 85.56,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06413.jpg",
+      "score": 29.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06421.jpg",
+      "score": 65.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06438.jpg",
+      "score": 32.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06442.jpg",
+      "score": 60.71,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06449.jpg",
+      "score": 61.63,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06451.jpg",
+      "score": 93.33,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06460.jpg",
+      "score": 70.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06461.jpg",
+      "score": 80.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06462.jpg",
+      "score": 40.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06474.jpg",
+      "score": 75.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06479.jpg",
+      "score": 82.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06481.jpg",
+      "score": 38.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06483.jpg",
+      "score": 48.25,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06487.jpg",
+      "score": 73.38,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06502.jpg",
+      "score": 62.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06506.jpg",
+      "score": 79.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06507.jpg",
+      "score": 76.11,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06515.jpg",
+      "score": 48.9,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06516.jpg",
+      "score": 66.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06522.jpg",
+      "score": 32.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06525.jpg",
+      "score": 62.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06536.jpg",
+      "score": 57.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06543.jpg",
+      "score": 81.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06548.jpg",
+      "score": 65.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06549.jpg",
+      "score": 74.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06557.jpg",
+      "score": 73.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06562.jpg",
+      "score": 59.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06569.jpg",
+      "score": 67.44,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06571.jpg",
+      "score": 65.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06572.jpg",
+      "score": 83.86,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06573.jpg",
+      "score": 75.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06579.jpg",
+      "score": 69.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06581.jpg",
+      "score": 33.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06585.jpg",
+      "score": 79.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06592.jpg",
+      "score": 31.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06594.jpg",
+      "score": 57.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06596.jpg",
+      "score": 26.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06602.jpg",
+      "score": 45.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06610.jpg",
+      "score": 67.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06611.jpg",
+      "score": 60.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06617.jpg",
+      "score": 40.6,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06624.jpg",
+      "score": 47.67,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06628.jpg",
+      "score": 43.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06637.jpg",
+      "score": 28.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06643.jpg",
+      "score": 68.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06658.jpg",
+      "score": 50.13,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06674.jpg",
+      "score": 49.17,
+      "scene": [
+        "Human",
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06678.jpg",
+      "score": 55.86,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06685.jpg",
+      "score": 56.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06686.jpg",
+      "score": 40.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06706.jpg",
+      "score": 47.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06709.jpg",
+      "score": 64.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06720.jpg",
+      "score": 20.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06724.jpg",
+      "score": 42.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06733.jpg",
+      "score": 18.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06736.jpg",
+      "score": 55.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06738.jpg",
+      "score": 48.14,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06755.jpg",
+      "score": 23.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06771.jpg",
+      "score": 22.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06779.jpg",
+      "score": 28.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06802.jpg",
+      "score": 74.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06806.jpg",
+      "score": 71.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06825.jpg",
+      "score": 49.0,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06833.jpg",
+      "score": 85.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06835.jpg",
+      "score": 69.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06843.jpg",
+      "score": 24.0,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06845.jpg",
+      "score": 17.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06846.jpg",
+      "score": 89.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06847.jpg",
+      "score": 56.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06858.jpg",
+      "score": 86.0,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06859.jpg",
+      "score": 20.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06865.jpg",
+      "score": 70.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06873.jpg",
+      "score": 35.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06895.jpg",
+      "score": 41.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06899.jpg",
+      "score": 77.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06904.jpg",
+      "score": 38.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06910.jpg",
+      "score": 48.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06919.jpg",
+      "score": 47.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06941.jpg",
+      "score": 29.6,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06965.jpg",
+      "score": 43.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06968.jpg",
+      "score": 62.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06971.jpg",
+      "score": 30.7,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06980.jpg",
+      "score": 51.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06986.jpg",
+      "score": 24.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/06992.jpg",
+      "score": 71.78,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07007.jpg",
+      "score": 47.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07022.jpg",
+      "score": 44.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07023.jpg",
+      "score": 41.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07026.jpg",
+      "score": 65.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07035.jpg",
+      "score": 68.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07045.jpg",
+      "score": 60.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07046.jpg",
+      "score": 77.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07048.jpg",
+      "score": 54.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07074.jpg",
+      "score": 50.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07098.jpg",
+      "score": 56.75,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07110.jpg",
+      "score": 78.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07117.jpg",
+      "score": 85.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07120.jpg",
+      "score": 87.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07124.jpg",
+      "score": 76.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07140.jpg",
+      "score": 36.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07141.jpg",
+      "score": 82.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07161.jpg",
+      "score": 64.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07163.jpg",
+      "score": 50.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07164.jpg",
+      "score": 81.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07175.jpg",
+      "score": 68.6,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07186.jpg",
+      "score": 68.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07198.jpg",
+      "score": 82.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07207.jpg",
+      "score": 41.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07248.jpg",
+      "score": 96.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07249.jpg",
+      "score": 40.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07256.jpg",
+      "score": 68.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07266.jpg",
+      "score": 82.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07270.jpg",
+      "score": 82.5,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07271.jpg",
+      "score": 86.0,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07276.jpg",
+      "score": 44.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07277.jpg",
+      "score": 26.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07283.jpg",
+      "score": 74.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07298.jpg",
+      "score": 91.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07299.jpg",
+      "score": 93.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07301.jpg",
+      "score": 63.33,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07302.jpg",
+      "score": 39.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07312.jpg",
+      "score": 26.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07322.jpg",
+      "score": 19.33,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07341.jpg",
+      "score": 35.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07342.jpg",
+      "score": 90.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07354.jpg",
+      "score": 23.67,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07356.jpg",
+      "score": 16.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07364.jpg",
+      "score": 71.4,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07368.jpg",
+      "score": 74.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07372.jpg",
+      "score": 77.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07373.jpg",
+      "score": 75.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07374.jpg",
+      "score": 65.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07376.jpg",
+      "score": 14.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07385.jpg",
+      "score": 66.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07388.jpg",
+      "score": 18.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07391.jpg",
+      "score": 85.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07400.jpg",
+      "score": 77.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07401.jpg",
+      "score": 31.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07405.jpg",
+      "score": 72.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07414.jpg",
+      "score": 31.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07415.jpg",
+      "score": 23.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07416.jpg",
+      "score": 78.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07422.jpg",
+      "score": 79.11,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07423.jpg",
+      "score": 78.33,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07425.jpg",
+      "score": 81.0,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07429.jpg",
+      "score": 79.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07436.jpg",
+      "score": 31.89,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07438.jpg",
+      "score": 29.88,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07439.jpg",
+      "score": 65.7,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07446.jpg",
+      "score": 62.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07447.jpg",
+      "score": 68.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07460.jpg",
+      "score": 79.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07461.jpg",
+      "score": 82.0,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07463.jpg",
+      "score": 74.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07473.jpg",
+      "score": 83.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07474.jpg",
+      "score": 70.88,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07475.jpg",
+      "score": 77.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07478.jpg",
+      "score": 46.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07492.jpg",
+      "score": 77.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07494.jpg",
+      "score": 75.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07499.jpg",
+      "score": 45.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07502.jpg",
+      "score": 81.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07505.jpg",
+      "score": 42.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07509.jpg",
+      "score": 82.67,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07513.jpg",
+      "score": 74.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07517.jpg",
+      "score": 36.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07519.jpg",
+      "score": 51.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07522.jpg",
+      "score": 28.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07529.jpg",
+      "score": 84.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07541.jpg",
+      "score": 78.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07544.jpg",
+      "score": 84.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07549.jpg",
+      "score": 32.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07564.jpg",
+      "score": 72.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07565.jpg",
+      "score": 63.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07594.jpg",
+      "score": 36.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07600.jpg",
+      "score": 61.0,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07605.jpg",
+      "score": 35.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07620.jpg",
+      "score": 60.75,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07622.jpg",
+      "score": 55.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07625.jpg",
+      "score": 66.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07633.jpg",
+      "score": 77.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07635.jpg",
+      "score": 29.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07637.jpg",
+      "score": 14.0,
+      "scene": [
+        "Landscape",
+        "Others"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07638.jpg",
+      "score": 54.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07639.jpg",
+      "score": 47.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07641.jpg",
+      "score": 61.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07648.jpg",
+      "score": 54.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07654.jpg",
+      "score": 15.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07656.jpg",
+      "score": 62.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07661.jpg",
+      "score": 26.86,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07677.jpg",
+      "score": 80.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07687.jpg",
+      "score": 71.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07692.jpg",
+      "score": 58.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07708.jpg",
+      "score": 27.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07709.jpg",
+      "score": 34.0,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07711.jpg",
+      "score": 5.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07714.jpg",
+      "score": 57.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07727.jpg",
+      "score": 28.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07728.jpg",
+      "score": 84.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07736.jpg",
+      "score": 73.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07737.jpg",
+      "score": 60.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07738.jpg",
+      "score": 81.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07740.jpg",
+      "score": 41.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07746.jpg",
+      "score": 71.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07754.jpg",
+      "score": 40.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07764.jpg",
+      "score": 56.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07769.jpg",
+      "score": 51.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07771.jpg",
+      "score": 80.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07785.jpg",
+      "score": 60.75,
+      "scene": [
+        "Landscape",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07795.jpg",
+      "score": 43.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07827.jpg",
+      "score": 80.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07835.jpg",
+      "score": 70.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07840.jpg",
+      "score": 66.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07859.jpg",
+      "score": 47.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07862.jpg",
+      "score": 39.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07866.jpg",
+      "score": 41.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07876.jpg",
+      "score": 55.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07901.jpg",
+      "score": 40.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07907.jpg",
+      "score": 38.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07911.jpg",
+      "score": 34.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07918.jpg",
+      "score": 76.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07945.jpg",
+      "score": 32.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07947.jpg",
+      "score": 50.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07949.jpg",
+      "score": 52.5,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07960.jpg",
+      "score": 84.17,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07963.jpg",
+      "score": 66.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07971.jpg",
+      "score": 60.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07977.jpg",
+      "score": 74.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07978.jpg",
+      "score": 74.29,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07984.jpg",
+      "score": 49.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/07994.jpg",
+      "score": 85.5,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08009.jpg",
+      "score": 62.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08013.jpg",
+      "score": 79.0,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08019.jpg",
+      "score": 39.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08023.jpg",
+      "score": 69.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08032.jpg",
+      "score": 37.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08038.jpg",
+      "score": 81.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08045.jpg",
+      "score": 45.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08047.jpg",
+      "score": 36.2,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08048.jpg",
+      "score": 37.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08064.jpg",
+      "score": 71.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08072.jpg",
+      "score": 71.13,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08077.jpg",
+      "score": 62.86,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08079.jpg",
+      "score": 39.0,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08090.jpg",
+      "score": 73.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08093.jpg",
+      "score": 70.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08098.jpg",
+      "score": 32.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08116.jpg",
+      "score": 38.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08118.jpg",
+      "score": 70.0,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08164.jpg",
+      "score": 90.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08165.jpg",
+      "score": 38.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08167.jpg",
+      "score": 59.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08175.jpg",
+      "score": 38.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08187.jpg",
+      "score": 65.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08191.jpg",
+      "score": 48.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08193.jpg",
+      "score": 28.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08194.jpg",
+      "score": 15.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08199.jpg",
+      "score": 61.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08205.jpg",
+      "score": 55.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08207.jpg",
+      "score": 75.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08227.jpg",
+      "score": 29.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08238.jpg",
+      "score": 63.33,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08252.jpg",
+      "score": 39.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08257.jpg",
+      "score": 70.67,
+      "scene": [
+        "Cityscape",
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08262.jpg",
+      "score": 19.92,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08264.jpg",
+      "score": 75.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08275.jpg",
+      "score": 73.9,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08294.jpg",
+      "score": 79.0,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08297.jpg",
+      "score": 54.1,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08328.jpg",
+      "score": 66.11,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08329.jpg",
+      "score": 83.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08330.jpg",
+      "score": 34.56,
+      "scene": [
+        "Landscape",
+        "Plant",
+        "Others"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08331.jpg",
+      "score": 74.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08336.jpg",
+      "score": 30.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08345.jpg",
+      "score": 82.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08347.jpg",
+      "score": 85.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08369.jpg",
+      "score": 70.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08380.jpg",
+      "score": 61.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08387.jpg",
+      "score": 75.2,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08407.jpg",
+      "score": 59.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08408.jpg",
+      "score": 83.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08410.jpg",
+      "score": 34.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08413.jpg",
+      "score": 35.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08422.jpg",
+      "score": 81.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08425.jpg",
+      "score": 77.67,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08434.jpg",
+      "score": 65.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08436.jpg",
+      "score": 60.33,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08439.jpg",
+      "score": 35.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08444.jpg",
+      "score": 77.0,
+      "scene": [
+        "Human",
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08445.jpg",
+      "score": 51.33,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08450.jpg",
+      "score": 74.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08454.jpg",
+      "score": 68.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08466.jpg",
+      "score": 76.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08471.jpg",
+      "score": 32.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08477.jpg",
+      "score": 43.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08478.jpg",
+      "score": 50.44,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08480.jpg",
+      "score": 48.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08491.jpg",
+      "score": 66.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08494.jpg",
+      "score": 69.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08496.jpg",
+      "score": 42.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08503.jpg",
+      "score": 76.29,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08507.jpg",
+      "score": 47.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08510.jpg",
+      "score": 46.67,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08513.jpg",
+      "score": 75.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08514.jpg",
+      "score": 81.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08526.jpg",
+      "score": 70.88,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08527.jpg",
+      "score": 59.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08533.jpg",
+      "score": 35.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08535.jpg",
+      "score": 28.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08536.jpg",
+      "score": 43.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08537.jpg",
+      "score": 66.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08540.jpg",
+      "score": 52.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08541.jpg",
+      "score": 72.83,
+      "scene": [
+        "Animal",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08549.jpg",
+      "score": 67.5,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08550.jpg",
+      "score": 80.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08560.jpg",
+      "score": 43.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08562.jpg",
+      "score": 62.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08566.jpg",
+      "score": 80.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08578.jpg",
+      "score": 64.25,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08589.jpg",
+      "score": 72.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08591.jpg",
+      "score": 81.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08594.jpg",
+      "score": 33.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08600.jpg",
+      "score": 62.75,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08608.jpg",
+      "score": 76.0,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08616.jpg",
+      "score": 51.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08618.jpg",
+      "score": 79.67,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08633.jpg",
+      "score": 42.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08636.jpg",
+      "score": 76.0,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08637.jpg",
+      "score": 68.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08638.jpg",
+      "score": 52.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08662.jpg",
+      "score": 85.25,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08664.jpg",
+      "score": 25.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08668.jpg",
+      "score": 91.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08669.jpg",
+      "score": 26.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08674.jpg",
+      "score": 67.0,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08680.jpg",
+      "score": 43.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08685.jpg",
+      "score": 60.13,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08688.jpg",
+      "score": 66.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08689.jpg",
+      "score": 71.88,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08693.jpg",
+      "score": 69.22,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08694.jpg",
+      "score": 46.13,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08696.jpg",
+      "score": 73.78,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08699.jpg",
+      "score": 62.88,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08708.jpg",
+      "score": 34.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08715.jpg",
+      "score": 42.78,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08716.jpg",
+      "score": 72.56,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08718.jpg",
+      "score": 39.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08732.jpg",
+      "score": 33.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08734.jpg",
+      "score": 34.78,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08738.jpg",
+      "score": 76.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08739.jpg",
+      "score": 73.88,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08743.jpg",
+      "score": 46.44,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08744.jpg",
+      "score": 41.11,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08755.jpg",
+      "score": 66.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08758.jpg",
+      "score": 82.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08765.jpg",
+      "score": 75.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08766.jpg",
+      "score": 62.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08768.jpg",
+      "score": 69.2,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08770.jpg",
+      "score": 21.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08776.jpg",
+      "score": 76.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08778.jpg",
+      "score": 77.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08780.jpg",
+      "score": 68.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08781.jpg",
+      "score": 66.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08785.jpg",
+      "score": 27.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08790.jpg",
+      "score": 83.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08791.jpg",
+      "score": 35.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08792.jpg",
+      "score": 49.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08797.jpg",
+      "score": 17.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08800.jpg",
+      "score": 76.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08813.jpg",
+      "score": 74.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08819.jpg",
+      "score": 66.0,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08822.jpg",
+      "score": 84.89,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08829.jpg",
+      "score": 60.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08839.jpg",
+      "score": 69.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08841.jpg",
+      "score": 68.88,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08850.jpg",
+      "score": 82.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08853.jpg",
+      "score": 41.13,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08859.jpg",
+      "score": 59.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08860.jpg",
+      "score": 71.13,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08862.jpg",
+      "score": 35.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08867.jpg",
+      "score": 72.0,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08876.jpg",
+      "score": 61.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08880.jpg",
+      "score": 86.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08886.jpg",
+      "score": 43.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08887.jpg",
+      "score": 35.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08889.jpg",
+      "score": 51.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08892.jpg",
+      "score": 50.75,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08905.jpg",
+      "score": 55.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08927.jpg",
+      "score": 78.29,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08928.jpg",
+      "score": 48.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08929.jpg",
+      "score": 78.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08940.jpg",
+      "score": 14.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08945.jpg",
+      "score": 52.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08951.jpg",
+      "score": 68.83,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08953.jpg",
+      "score": 63.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08954.jpg",
+      "score": 53.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08960.jpg",
+      "score": 36.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08961.jpg",
+      "score": 67.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08963.jpg",
+      "score": 81.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08970.jpg",
+      "score": 79.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08985.jpg",
+      "score": 63.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08986.jpg",
+      "score": 85.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08990.jpg",
+      "score": 80.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/08992.jpg",
+      "score": 71.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09013.jpg",
+      "score": 83.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09023.jpg",
+      "score": 68.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09029.jpg",
+      "score": 72.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09049.jpg",
+      "score": 78.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09056.jpg",
+      "score": 48.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09061.jpg",
+      "score": 60.83,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09063.jpg",
+      "score": 69.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09068.jpg",
+      "score": 68.13,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09074.jpg",
+      "score": 57.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09075.jpg",
+      "score": 67.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09078.jpg",
+      "score": 45.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09081.jpg",
+      "score": 45.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09084.jpg",
+      "score": 57.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09088.jpg",
+      "score": 66.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09100.jpg",
+      "score": 14.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09114.jpg",
+      "score": 44.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09118.jpg",
+      "score": 79.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09123.jpg",
+      "score": 35.8,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09137.jpg",
+      "score": 48.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09138.jpg",
+      "score": 53.4,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09141.jpg",
+      "score": 39.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09145.jpg",
+      "score": 75.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09149.jpg",
+      "score": 74.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09177.jpg",
+      "score": 62.36,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09184.jpg",
+      "score": 56.44,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09190.jpg",
+      "score": 69.78,
+      "scene": [
+        "Animal",
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09196.jpg",
+      "score": 31.2,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09205.jpg",
+      "score": 62.56,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09209.jpg",
+      "score": 48.18,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09222.jpg",
+      "score": 72.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09225.jpg",
+      "score": 25.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09226.jpg",
+      "score": 83.9,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09228.jpg",
+      "score": 85.1,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09234.jpg",
+      "score": 75.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09251.jpg",
+      "score": 64.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09253.jpg",
+      "score": 68.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09262.jpg",
+      "score": 77.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09263.jpg",
+      "score": 65.83,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09276.jpg",
+      "score": 52.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09277.jpg",
+      "score": 77.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09295.jpg",
+      "score": 40.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09304.jpg",
+      "score": 61.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09314.jpg",
+      "score": 76.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09317.jpg",
+      "score": 49.7,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09328.jpg",
+      "score": 45.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09331.jpg",
+      "score": 63.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09332.jpg",
+      "score": 33.78,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09333.jpg",
+      "score": 28.9,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09335.jpg",
+      "score": 34.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09336.jpg",
+      "score": 68.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09384.jpg",
+      "score": 32.83,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09386.jpg",
+      "score": 65.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09389.jpg",
+      "score": 33.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09390.jpg",
+      "score": 51.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09396.jpg",
+      "score": 65.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09399.jpg",
+      "score": 14.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09408.jpg",
+      "score": 83.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09410.jpg",
+      "score": 40.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09412.jpg",
+      "score": 11.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09421.jpg",
+      "score": 79.0,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09430.jpg",
+      "score": 18.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09437.jpg",
+      "score": 23.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09451.jpg",
+      "score": 76.22,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09454.jpg",
+      "score": 40.78,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09455.jpg",
+      "score": 75.22,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09457.jpg",
+      "score": 71.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09460.jpg",
+      "score": 71.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09466.jpg",
+      "score": 48.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09470.jpg",
+      "score": 83.1,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09471.jpg",
+      "score": 79.22,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09476.jpg",
+      "score": 69.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09480.jpg",
+      "score": 57.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09489.jpg",
+      "score": 81.44,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09503.jpg",
+      "score": 85.73,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09506.jpg",
+      "score": 73.45,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09508.jpg",
+      "score": 74.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09524.jpg",
+      "score": 52.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09525.jpg",
+      "score": 23.17,
+      "scene": [
+        "Cityscape",
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09528.jpg",
+      "score": 75.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09551.jpg",
+      "score": 50.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09553.jpg",
+      "score": 69.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09560.jpg",
+      "score": 76.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09600.jpg",
+      "score": 72.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09605.jpg",
+      "score": 66.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09614.jpg",
+      "score": 64.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09620.jpg",
+      "score": 78.11,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09633.jpg",
+      "score": 57.71,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09638.jpg",
+      "score": 23.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09639.jpg",
+      "score": 82.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09643.jpg",
+      "score": 29.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09653.jpg",
+      "score": 66.0,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09655.jpg",
+      "score": 82.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09659.jpg",
+      "score": 77.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09663.jpg",
+      "score": 88.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09664.jpg",
+      "score": 63.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09665.jpg",
+      "score": 63.25,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09668.jpg",
+      "score": 82.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09669.jpg",
+      "score": 45.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09670.jpg",
+      "score": 77.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09675.jpg",
+      "score": 60.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09676.jpg",
+      "score": 82.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09684.jpg",
+      "score": 61.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09705.jpg",
+      "score": 90.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09707.jpg",
+      "score": 81.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09708.jpg",
+      "score": 73.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09721.jpg",
+      "score": 82.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09723.jpg",
+      "score": 48.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09726.jpg",
+      "score": 71.6,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09732.jpg",
+      "score": 30.55,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09741.jpg",
+      "score": 47.36,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09754.jpg",
+      "score": 27.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09766.jpg",
+      "score": 40.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09771.jpg",
+      "score": 64.7,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09777.jpg",
+      "score": 86.88,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09779.jpg",
+      "score": 57.44,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09785.jpg",
+      "score": 73.44,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09798.jpg",
+      "score": 31.45,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09799.jpg",
+      "score": 24.7,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09801.jpg",
+      "score": 49.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09804.jpg",
+      "score": 79.13,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09805.jpg",
+      "score": 43.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09807.jpg",
+      "score": 51.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09809.jpg",
+      "score": 65.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09814.jpg",
+      "score": 46.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09824.jpg",
+      "score": 19.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09827.jpg",
+      "score": 27.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09835.jpg",
+      "score": 55.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09841.jpg",
+      "score": 69.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09845.jpg",
+      "score": 27.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09847.jpg",
+      "score": 48.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09886.jpg",
+      "score": 84.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09887.jpg",
+      "score": 50.0,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09892.jpg",
+      "score": 71.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09893.jpg",
+      "score": 71.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09898.jpg",
+      "score": 71.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09910.jpg",
+      "score": 52.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09918.jpg",
+      "score": 61.0,
+      "scene": [
+        "Cityscape",
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09919.jpg",
+      "score": 78.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09922.jpg",
+      "score": 38.8,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09929.jpg",
+      "score": 31.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09930.jpg",
+      "score": 59.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09939.jpg",
+      "score": 34.4,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09940.jpg",
+      "score": 52.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09947.jpg",
+      "score": 51.71,
+      "scene": [
+        "Animal",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09953.jpg",
+      "score": 36.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09963.jpg",
+      "score": 28.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09972.jpg",
+      "score": 49.33,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/09983.jpg",
+      "score": 57.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10002.jpg",
+      "score": 61.21,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10006.jpg",
+      "score": 51.77,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10012.jpg",
+      "score": 68.62,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10014.jpg",
+      "score": 83.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10016.jpg",
+      "score": 69.08,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10022.jpg",
+      "score": 69.15,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10029.jpg",
+      "score": 79.31,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10064.jpg",
+      "score": 85.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10066.jpg",
+      "score": 62.92,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10068.jpg",
+      "score": 76.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10072.jpg",
+      "score": 57.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10077.jpg",
+      "score": 51.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10079.jpg",
+      "score": 53.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10081.jpg",
+      "score": 82.75,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10082.jpg",
+      "score": 43.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10084.jpg",
+      "score": 35.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10087.jpg",
+      "score": 40.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10096.jpg",
+      "score": 81.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10100.jpg",
+      "score": 59.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10107.jpg",
+      "score": 39.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10112.jpg",
+      "score": 40.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10119.jpg",
+      "score": 79.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10122.jpg",
+      "score": 50.5,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10126.jpg",
+      "score": 37.25,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10136.jpg",
+      "score": 54.13,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10150.jpg",
+      "score": 76.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10157.jpg",
+      "score": 76.14,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10166.jpg",
+      "score": 15.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10173.jpg",
+      "score": 16.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10183.jpg",
+      "score": 36.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10185.jpg",
+      "score": 15.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10192.jpg",
+      "score": 74.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10202.jpg",
+      "score": 53.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10204.jpg",
+      "score": 20.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10209.jpg",
+      "score": 61.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10213.jpg",
+      "score": 37.0,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10221.jpg",
+      "score": 66.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10225.jpg",
+      "score": 76.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10227.jpg",
+      "score": 80.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10232.jpg",
+      "score": 64.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10235.jpg",
+      "score": 45.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10236.jpg",
+      "score": 37.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10251.jpg",
+      "score": 23.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10252.jpg",
+      "score": 36.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10254.jpg",
+      "score": 37.38,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10263.jpg",
+      "score": 50.63,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10276.jpg",
+      "score": 64.88,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10304.jpg",
+      "score": 47.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10308.jpg",
+      "score": 66.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10314.jpg",
+      "score": 15.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10316.jpg",
+      "score": 73.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10322.jpg",
+      "score": 24.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10330.jpg",
+      "score": 80.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10343.jpg",
+      "score": 68.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10346.jpg",
+      "score": 52.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10361.jpg",
+      "score": 75.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10363.jpg",
+      "score": 72.33,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10364.jpg",
+      "score": 20.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10368.jpg",
+      "score": 50.5,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10383.jpg",
+      "score": 66.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10411.jpg",
+      "score": 22.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10415.jpg",
+      "score": 56.0,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10419.jpg",
+      "score": 41.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10438.jpg",
+      "score": 43.17,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10444.jpg",
+      "score": 70.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10446.jpg",
+      "score": 40.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10450.jpg",
+      "score": 69.33,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10455.jpg",
+      "score": 16.17,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10458.jpg",
+      "score": 24.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10462.jpg",
+      "score": 46.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10463.jpg",
+      "score": 80.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10470.jpg",
+      "score": 70.0,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10478.jpg",
+      "score": 83.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10494.jpg",
+      "score": 50.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10497.jpg",
+      "score": 33.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10499.jpg",
+      "score": 49.5,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10500.jpg",
+      "score": 47.67,
+      "scene": [
+        "Animal",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10506.jpg",
+      "score": 72.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10521.jpg",
+      "score": 67.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10539.jpg",
+      "score": 89.67,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10542.jpg",
+      "score": 68.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10543.jpg",
+      "score": 59.33,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10549.jpg",
+      "score": 82.33,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10598.jpg",
+      "score": 20.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10606.jpg",
+      "score": 64.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10618.jpg",
+      "score": 41.0,
+      "scene": [
+        "Cityscape",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10638.jpg",
+      "score": 16.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10643.jpg",
+      "score": 70.29,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10646.jpg",
+      "score": 62.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10655.jpg",
+      "score": 60.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10657.jpg",
+      "score": 26.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10667.jpg",
+      "score": 33.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10670.jpg",
+      "score": 76.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10673.jpg",
+      "score": 26.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10675.jpg",
+      "score": 71.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10690.jpg",
+      "score": 64.29,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10691.jpg",
+      "score": 29.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10693.jpg",
+      "score": 75.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10698.jpg",
+      "score": 48.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10699.jpg",
+      "score": 57.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10702.jpg",
+      "score": 65.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10708.jpg",
+      "score": 78.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10724.jpg",
+      "score": 90.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10726.jpg",
+      "score": 47.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10734.jpg",
+      "score": 32.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10739.jpg",
+      "score": 32.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10740.jpg",
+      "score": 48.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10742.jpg",
+      "score": 69.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10744.jpg",
+      "score": 44.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10748.jpg",
+      "score": 53.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10762.jpg",
+      "score": 61.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10763.jpg",
+      "score": 53.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10764.jpg",
+      "score": 52.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10765.jpg",
+      "score": 38.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10771.jpg",
+      "score": 55.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10783.jpg",
+      "score": 16.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10791.jpg",
+      "score": 29.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10794.jpg",
+      "score": 49.71,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10801.jpg",
+      "score": 77.13,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10839.jpg",
+      "score": 55.67,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10857.jpg",
+      "score": 66.0,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10885.jpg",
+      "score": 86.5,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10892.jpg",
+      "score": 87.83,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10914.jpg",
+      "score": 78.57,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10937.jpg",
+      "score": 55.5,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10940.jpg",
+      "score": 78.43,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10950.jpg",
+      "score": 90.17,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10961.jpg",
+      "score": 27.44,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10962.jpg",
+      "score": 80.86,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10973.jpg",
+      "score": 73.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10983.jpg",
+      "score": 72.0,
+      "scene": [
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/10996.jpg",
+      "score": 30.14,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/11002.jpg",
+      "score": 55.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/11013.jpg",
+      "score": 59.86,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/11019.jpg",
+      "score": 47.71,
+      "scene": [
+        "Human",
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/11032.jpg",
+      "score": 70.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/11067.jpg",
+      "score": 46.0,
+      "scene": [
+        "Landscape",
+        "Others"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/11074.jpg",
+      "score": 86.0,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/11075.jpg",
+      "score": 60.33,
+      "scene": [
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/11077.jpg",
+      "score": 60.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/11082.jpg",
+      "score": 26.67,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/11083.jpg",
+      "score": 19.33,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    },
+    {
+      "image": "SPAQ/TestImage/11089.jpg",
+      "score": 67.83,
+      "scene": [
+        "Landscape"
+      ],
+      "domain_id": 104
+    }
+  ],
+  "domain_name": {
+    "100": "Animal",
+    "101": "Cityscape",
+    "102": "Human",
+    "103": "Indoor scene",
+    "104": "Landscape",
+    "105": "Night scene",
+    "106": "Plant",
+    "107": "Still-life",
+    "108": "Others"
+  }
+}

@@ -1,0 +1,6705 @@
+{
+  "files": [
+    {
+      "image": "SPAQ/TestImage/00001.jpg",
+      "score": 48.86,
+      "scene": [
+        "Cityscape",
+        "Night scene",
+        "Still-life"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00002.jpg",
+      "score": 62.5,
+      "scene": [
+        "Cityscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00013.jpg",
+      "score": 25.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00020.jpg",
+      "score": 59.88,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00036.jpg",
+      "score": 27.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00041.jpg",
+      "score": 22.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00046.jpg",
+      "score": 16.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00049.jpg",
+      "score": 36.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00058.jpg",
+      "score": 45.7,
+      "scene": [
+        "Cityscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00063.jpg",
+      "score": 37.6,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00068.jpg",
+      "score": 18.63,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00082.jpg",
+      "score": 73.38,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00086.jpg",
+      "score": 32.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00096.jpg",
+      "score": 34.9,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00099.jpg",
+      "score": 41.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00100.jpg",
+      "score": 50.63,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00102.jpg",
+      "score": 35.29,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00111.jpg",
+      "score": 43.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00129.jpg",
+      "score": 44.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00131.jpg",
+      "score": 42.44,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00156.jpg",
+      "score": 34.0,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00158.jpg",
+      "score": 49.7,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00162.jpg",
+      "score": 31.18,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00166.jpg",
+      "score": 25.82,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00172.jpg",
+      "score": 62.6,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00173.jpg",
+      "score": 35.11,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00184.jpg",
+      "score": 54.4,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00187.jpg",
+      "score": 26.6,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00193.jpg",
+      "score": 37.11,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00199.jpg",
+      "score": 51.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00209.jpg",
+      "score": 34.29,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00225.jpg",
+      "score": 27.17,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00230.jpg",
+      "score": 48.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00257.jpg",
+      "score": 22.08,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00289.jpg",
+      "score": 45.3,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00291.jpg",
+      "score": 21.2,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00303.jpg",
+      "score": 7.4,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00335.jpg",
+      "score": 31.45,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00340.jpg",
+      "score": 24.4,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00364.jpg",
+      "score": 36.65,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00374.jpg",
+      "score": 62.82,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00410.jpg",
+      "score": 32.47,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00427.jpg",
+      "score": 15.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00436.jpg",
+      "score": 21.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00447.jpg",
+      "score": 17.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00459.jpg",
+      "score": 32.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00497.jpg",
+      "score": 67.38,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00523.jpg",
+      "score": 23.18,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00524.jpg",
+      "score": 74.44,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00532.jpg",
+      "score": 36.1,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00550.jpg",
+      "score": 41.64,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00551.jpg",
+      "score": 36.92,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00580.jpg",
+      "score": 75.95,
+      "scene": [
+        "Night scene",
+        "Still-life"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00615.jpg",
+      "score": 20.28,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00619.jpg",
+      "score": 32.61,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00620.jpg",
+      "score": 19.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00625.jpg",
+      "score": 53.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00643.jpg",
+      "score": 26.71,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00644.jpg",
+      "score": 34.13,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00671.jpg",
+      "score": 33.14,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00682.jpg",
+      "score": 62.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00729.jpg",
+      "score": 61.31,
+      "scene": [
+        "Cityscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00750.jpg",
+      "score": 36.07,
+      "scene": [
+        "Night scene",
+        "Still-life"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00756.jpg",
+      "score": 26.13,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00851.jpg",
+      "score": 39.93,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00886.jpg",
+      "score": 42.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00902.jpg",
+      "score": 34.79,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00925.jpg",
+      "score": 10.58,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00975.jpg",
+      "score": 62.5,
+      "scene": [
+        "Night scene",
+        "Still-life"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/00987.jpg",
+      "score": 15.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01003.jpg",
+      "score": 49.1,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01033.jpg",
+      "score": 34.22,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01060.jpg",
+      "score": 44.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01067.jpg",
+      "score": 42.36,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01074.jpg",
+      "score": 23.54,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01093.jpg",
+      "score": 65.5,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01102.jpg",
+      "score": 72.77,
+      "scene": [
+        "Cityscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01119.jpg",
+      "score": 19.0,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01123.jpg",
+      "score": 35.63,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01147.jpg",
+      "score": 24.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01223.jpg",
+      "score": 21.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01239.jpg",
+      "score": 26.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01247.jpg",
+      "score": 45.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01253.jpg",
+      "score": 44.29,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01254.jpg",
+      "score": 29.22,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01276.jpg",
+      "score": 68.58,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01277.jpg",
+      "score": 66.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01290.jpg",
+      "score": 18.91,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01297.jpg",
+      "score": 15.08,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01316.jpg",
+      "score": 24.69,
+      "scene": [
+        "Cityscape",
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01319.jpg",
+      "score": 54.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01345.jpg",
+      "score": 62.85,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01351.jpg",
+      "score": 43.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01361.jpg",
+      "score": 27.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01372.jpg",
+      "score": 48.58,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01388.jpg",
+      "score": 35.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01391.jpg",
+      "score": 68.4,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01392.jpg",
+      "score": 16.92,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01398.jpg",
+      "score": 15.7,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01436.jpg",
+      "score": 42.8,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01483.jpg",
+      "score": 40.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01542.jpg",
+      "score": 24.69,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01543.jpg",
+      "score": 55.67,
+      "scene": [
+        "Cityscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01561.jpg",
+      "score": 64.5,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01579.jpg",
+      "score": 32.8,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01599.jpg",
+      "score": 37.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01622.jpg",
+      "score": 32.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01642.jpg",
+      "score": 38.44,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01644.jpg",
+      "score": 15.2,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01649.jpg",
+      "score": 29.91,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01660.jpg",
+      "score": 46.57,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01667.jpg",
+      "score": 53.88,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01676.jpg",
+      "score": 46.91,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01690.jpg",
+      "score": 20.38,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01722.jpg",
+      "score": 33.7,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01725.jpg",
+      "score": 39.88,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01726.jpg",
+      "score": 20.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01730.jpg",
+      "score": 35.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01732.jpg",
+      "score": 60.89,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01734.jpg",
+      "score": 33.56,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01748.jpg",
+      "score": 30.78,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01759.jpg",
+      "score": 68.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01781.jpg",
+      "score": 66.29,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01783.jpg",
+      "score": 30.07,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01836.jpg",
+      "score": 40.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01861.jpg",
+      "score": 14.63,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01870.jpg",
+      "score": 40.82,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01911.jpg",
+      "score": 28.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01912.jpg",
+      "score": 8.13,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01949.jpg",
+      "score": 55.56,
+      "scene": [
+        "Cityscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01957.jpg",
+      "score": 66.67,
+      "scene": [
+        "Cityscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01961.jpg",
+      "score": 60.1,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/01992.jpg",
+      "score": 30.91,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02003.jpg",
+      "score": 18.0,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02031.jpg",
+      "score": 41.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02051.jpg",
+      "score": 20.63,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02052.jpg",
+      "score": 24.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02067.jpg",
+      "score": 38.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02093.jpg",
+      "score": 23.71,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02097.jpg",
+      "score": 24.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02099.jpg",
+      "score": 40.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02102.jpg",
+      "score": 27.71,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02137.jpg",
+      "score": 48.79,
+      "scene": [
+        "Night scene",
+        "Still-life"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02152.jpg",
+      "score": 44.46,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02192.jpg",
+      "score": 44.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02201.jpg",
+      "score": 26.83,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02202.jpg",
+      "score": 38.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02219.jpg",
+      "score": 48.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02231.jpg",
+      "score": 25.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02235.jpg",
+      "score": 52.75,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02240.jpg",
+      "score": 59.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02248.jpg",
+      "score": 16.56,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02302.jpg",
+      "score": 43.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02408.jpg",
+      "score": 60.11,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02435.jpg",
+      "score": 18.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02471.jpg",
+      "score": 30.6,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02472.jpg",
+      "score": 13.67,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02477.jpg",
+      "score": 66.91,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02497.jpg",
+      "score": 26.5,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02527.jpg",
+      "score": 35.6,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02582.jpg",
+      "score": 41.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02586.jpg",
+      "score": 34.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02592.jpg",
+      "score": 37.55,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02609.jpg",
+      "score": 30.1,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02611.jpg",
+      "score": 50.2,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02615.jpg",
+      "score": 59.3,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02620.jpg",
+      "score": 34.56,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02628.jpg",
+      "score": 48.7,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02631.jpg",
+      "score": 51.3,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02659.jpg",
+      "score": 27.27,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02665.jpg",
+      "score": 60.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02671.jpg",
+      "score": 48.29,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02691.jpg",
+      "score": 38.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02693.jpg",
+      "score": 64.93,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02700.jpg",
+      "score": 65.69,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02708.jpg",
+      "score": 23.08,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02738.jpg",
+      "score": 46.31,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02743.jpg",
+      "score": 14.07,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02754.jpg",
+      "score": 43.1,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02761.jpg",
+      "score": 24.56,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02766.jpg",
+      "score": 34.56,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02772.jpg",
+      "score": 23.88,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02778.jpg",
+      "score": 50.63,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02780.jpg",
+      "score": 46.8,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02793.jpg",
+      "score": 78.23,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02807.jpg",
+      "score": 26.58,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02810.jpg",
+      "score": 27.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02827.jpg",
+      "score": 24.31,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02847.jpg",
+      "score": 62.95,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02857.jpg",
+      "score": 24.71,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02864.jpg",
+      "score": 58.06,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02900.jpg",
+      "score": 28.53,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02920.jpg",
+      "score": 37.75,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02925.jpg",
+      "score": 67.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02937.jpg",
+      "score": 43.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02942.jpg",
+      "score": 17.9,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02959.jpg",
+      "score": 12.44,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02960.jpg",
+      "score": 20.3,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02964.jpg",
+      "score": 26.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02971.jpg",
+      "score": 74.88,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02992.jpg",
+      "score": 27.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02995.jpg",
+      "score": 24.11,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/02996.jpg",
+      "score": 44.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03003.jpg",
+      "score": 27.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03015.jpg",
+      "score": 74.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03016.jpg",
+      "score": 57.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03030.jpg",
+      "score": 42.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03063.jpg",
+      "score": 34.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03093.jpg",
+      "score": 61.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03098.jpg",
+      "score": 75.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03104.jpg",
+      "score": 18.0,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03109.jpg",
+      "score": 22.75,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03134.jpg",
+      "score": 62.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03137.jpg",
+      "score": 57.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03146.jpg",
+      "score": 24.88,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03154.jpg",
+      "score": 33.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03157.jpg",
+      "score": 69.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03163.jpg",
+      "score": 27.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03171.jpg",
+      "score": 34.5,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03209.jpg",
+      "score": 46.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03222.jpg",
+      "score": 56.44,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03251.jpg",
+      "score": 44.76,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03253.jpg",
+      "score": 48.18,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03261.jpg",
+      "score": 37.11,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03272.jpg",
+      "score": 49.78,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03283.jpg",
+      "score": 34.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03284.jpg",
+      "score": 28.12,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03295.jpg",
+      "score": 43.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03297.jpg",
+      "score": 61.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03306.jpg",
+      "score": 59.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03312.jpg",
+      "score": 26.71,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03314.jpg",
+      "score": 23.1,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03328.jpg",
+      "score": 38.33,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03329.jpg",
+      "score": 20.5,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03352.jpg",
+      "score": 63.88,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03357.jpg",
+      "score": 56.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03380.jpg",
+      "score": 51.78,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03393.jpg",
+      "score": 41.44,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03411.jpg",
+      "score": 61.44,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03414.jpg",
+      "score": 25.44,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03428.jpg",
+      "score": 42.0,
+      "scene": [
+        "Night scene",
+        "Still-life"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03450.jpg",
+      "score": 55.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03452.jpg",
+      "score": 47.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03470.jpg",
+      "score": 26.64,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03518.jpg",
+      "score": 43.09,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03521.jpg",
+      "score": 24.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03533.jpg",
+      "score": 15.82,
+      "scene": [
+        "Indoor scene",
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03537.jpg",
+      "score": 43.92,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03561.jpg",
+      "score": 44.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03568.jpg",
+      "score": 27.27,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03585.jpg",
+      "score": 33.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03594.jpg",
+      "score": 45.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03597.jpg",
+      "score": 48.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03613.jpg",
+      "score": 52.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03621.jpg",
+      "score": 29.58,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03628.jpg",
+      "score": 55.4,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03641.jpg",
+      "score": 21.55,
+      "scene": [
+        "Cityscape",
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03644.jpg",
+      "score": 24.17,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03663.jpg",
+      "score": 37.08,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03670.jpg",
+      "score": 41.92,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03678.jpg",
+      "score": 19.31,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03686.jpg",
+      "score": 28.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03691.jpg",
+      "score": 47.31,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03698.jpg",
+      "score": 40.4,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03703.jpg",
+      "score": 64.69,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03707.jpg",
+      "score": 59.22,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03711.jpg",
+      "score": 25.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03734.jpg",
+      "score": 68.08,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03746.jpg",
+      "score": 22.69,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03756.jpg",
+      "score": 67.15,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03758.jpg",
+      "score": 52.69,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03766.jpg",
+      "score": 56.85,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03783.jpg",
+      "score": 29.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03801.jpg",
+      "score": 45.13,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03810.jpg",
+      "score": 36.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03835.jpg",
+      "score": 39.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03837.jpg",
+      "score": 35.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03859.jpg",
+      "score": 60.23,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03863.jpg",
+      "score": 28.23,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03867.jpg",
+      "score": 21.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03903.jpg",
+      "score": 26.71,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03918.jpg",
+      "score": 30.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03940.jpg",
+      "score": 39.1,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03974.jpg",
+      "score": 60.89,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03981.jpg",
+      "score": 77.11,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03983.jpg",
+      "score": 34.78,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03995.jpg",
+      "score": 24.07,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/03998.jpg",
+      "score": 28.07,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04010.jpg",
+      "score": 50.13,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04031.jpg",
+      "score": 27.92,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04046.jpg",
+      "score": 54.62,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04079.jpg",
+      "score": 31.4,
+      "scene": [
+        "Landscape",
+        "Night scene",
+        "Still-life"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04082.jpg",
+      "score": 19.36,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04095.jpg",
+      "score": 29.9,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04098.jpg",
+      "score": 28.4,
+      "scene": [
+        "Animal",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04124.jpg",
+      "score": 53.09,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04144.jpg",
+      "score": 16.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04151.jpg",
+      "score": 46.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04186.jpg",
+      "score": 54.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04202.jpg",
+      "score": 42.67,
+      "scene": [
+        "Human",
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04219.jpg",
+      "score": 29.0,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04242.jpg",
+      "score": 57.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04304.jpg",
+      "score": 37.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04306.jpg",
+      "score": 24.91,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04308.jpg",
+      "score": 40.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04313.jpg",
+      "score": 26.82,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04344.jpg",
+      "score": 39.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04351.jpg",
+      "score": 34.93,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04366.jpg",
+      "score": 21.72,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04378.jpg",
+      "score": 55.33,
+      "scene": [
+        "Landscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04400.jpg",
+      "score": 42.13,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04420.jpg",
+      "score": 65.63,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04421.jpg",
+      "score": 34.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04424.jpg",
+      "score": 44.44,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04425.jpg",
+      "score": 41.78,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04428.jpg",
+      "score": 28.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04431.jpg",
+      "score": 53.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04442.jpg",
+      "score": 37.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04455.jpg",
+      "score": 32.73,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04472.jpg",
+      "score": 27.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04475.jpg",
+      "score": 38.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04481.jpg",
+      "score": 53.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04513.jpg",
+      "score": 57.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04526.jpg",
+      "score": 51.29,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04535.jpg",
+      "score": 59.13,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04562.jpg",
+      "score": 58.83,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04573.jpg",
+      "score": 30.42,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04581.jpg",
+      "score": 70.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04585.jpg",
+      "score": 61.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04595.jpg",
+      "score": 37.42,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04606.jpg",
+      "score": 16.75,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04607.jpg",
+      "score": 54.73,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04623.jpg",
+      "score": 9.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04628.jpg",
+      "score": 19.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04663.jpg",
+      "score": 49.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04674.jpg",
+      "score": 39.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04689.jpg",
+      "score": 21.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04708.jpg",
+      "score": 21.29,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04733.jpg",
+      "score": 56.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04737.jpg",
+      "score": 22.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04763.jpg",
+      "score": 43.1,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04770.jpg",
+      "score": 51.89,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04776.jpg",
+      "score": 34.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04796.jpg",
+      "score": 29.8,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04800.jpg",
+      "score": 61.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04820.jpg",
+      "score": 26.1,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04821.jpg",
+      "score": 34.9,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04828.jpg",
+      "score": 61.78,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04839.jpg",
+      "score": 34.54,
+      "scene": [
+        "Human",
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04847.jpg",
+      "score": 74.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04850.jpg",
+      "score": 9.9,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04859.jpg",
+      "score": 34.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04862.jpg",
+      "score": 33.17,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04864.jpg",
+      "score": 67.42,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04866.jpg",
+      "score": 45.15,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04867.jpg",
+      "score": 34.58,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04884.jpg",
+      "score": 32.25,
+      "scene": [
+        "Cityscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04892.jpg",
+      "score": 55.45,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04900.jpg",
+      "score": 44.45,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04903.jpg",
+      "score": 29.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04907.jpg",
+      "score": 60.75,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04914.jpg",
+      "score": 24.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04923.jpg",
+      "score": 49.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04924.jpg",
+      "score": 26.43,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04926.jpg",
+      "score": 31.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04970.jpg",
+      "score": 25.17,
+      "scene": [
+        "Landscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04993.jpg",
+      "score": 29.75,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/04995.jpg",
+      "score": 32.13,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05037.jpg",
+      "score": 73.71,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05069.jpg",
+      "score": 51.55,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05074.jpg",
+      "score": 20.64,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05096.jpg",
+      "score": 43.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05097.jpg",
+      "score": 48.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05104.jpg",
+      "score": 36.64,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05107.jpg",
+      "score": 46.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05128.jpg",
+      "score": 13.2,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05129.jpg",
+      "score": 16.6,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05148.jpg",
+      "score": 35.77,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05171.jpg",
+      "score": 64.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05199.jpg",
+      "score": 42.6,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05204.jpg",
+      "score": 41.2,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05217.jpg",
+      "score": 42.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05218.jpg",
+      "score": 31.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05238.jpg",
+      "score": 40.8,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05265.jpg",
+      "score": 36.63,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05269.jpg",
+      "score": 26.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05276.jpg",
+      "score": 28.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05277.jpg",
+      "score": 33.88,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05296.jpg",
+      "score": 29.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05351.jpg",
+      "score": 26.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05353.jpg",
+      "score": 27.13,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05394.jpg",
+      "score": 56.86,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05428.jpg",
+      "score": 49.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05458.jpg",
+      "score": 26.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05485.jpg",
+      "score": 47.22,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05502.jpg",
+      "score": 43.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05503.jpg",
+      "score": 38.75,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05518.jpg",
+      "score": 27.71,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05536.jpg",
+      "score": 20.17,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05546.jpg",
+      "score": 12.6,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05554.jpg",
+      "score": 28.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05558.jpg",
+      "score": 5.2,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05585.jpg",
+      "score": 48.29,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05626.jpg",
+      "score": 60.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05629.jpg",
+      "score": 65.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05651.jpg",
+      "score": 28.13,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05653.jpg",
+      "score": 25.75,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05655.jpg",
+      "score": 40.88,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05664.jpg",
+      "score": 66.78,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05709.jpg",
+      "score": 28.71,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05714.jpg",
+      "score": 51.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05720.jpg",
+      "score": 27.63,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05736.jpg",
+      "score": 30.11,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05747.jpg",
+      "score": 24.89,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05750.jpg",
+      "score": 49.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05752.jpg",
+      "score": 34.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05773.jpg",
+      "score": 22.13,
+      "scene": [
+        "Indoor scene",
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05781.jpg",
+      "score": 20.75,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05790.jpg",
+      "score": 35.0,
+      "scene": [
+        "Indoor scene",
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05794.jpg",
+      "score": 73.88,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05837.jpg",
+      "score": 44.2,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05851.jpg",
+      "score": 41.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05858.jpg",
+      "score": 42.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05866.jpg",
+      "score": 57.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05877.jpg",
+      "score": 40.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05888.jpg",
+      "score": 27.3,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05899.jpg",
+      "score": 24.11,
+      "scene": [
+        "Indoor scene",
+        "Night scene",
+        "Still-life"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05900.jpg",
+      "score": 51.82,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05908.jpg",
+      "score": 57.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05926.jpg",
+      "score": 28.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05932.jpg",
+      "score": 20.1,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05935.jpg",
+      "score": 39.91,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05936.jpg",
+      "score": 48.4,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05978.jpg",
+      "score": 43.33,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05980.jpg",
+      "score": 71.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05985.jpg",
+      "score": 69.25,
+      "scene": [
+        "Cityscape",
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/05986.jpg",
+      "score": 35.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06011.jpg",
+      "score": 35.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06017.jpg",
+      "score": 24.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06020.jpg",
+      "score": 67.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06023.jpg",
+      "score": 40.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06065.jpg",
+      "score": 45.56,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06074.jpg",
+      "score": 33.11,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06102.jpg",
+      "score": 23.71,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06107.jpg",
+      "score": 18.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06119.jpg",
+      "score": 54.29,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06128.jpg",
+      "score": 44.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06135.jpg",
+      "score": 27.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06141.jpg",
+      "score": 54.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06173.jpg",
+      "score": 19.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06178.jpg",
+      "score": 32.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06211.jpg",
+      "score": 27.56,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06257.jpg",
+      "score": 32.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06276.jpg",
+      "score": 33.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06289.jpg",
+      "score": 58.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06290.jpg",
+      "score": 20.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06294.jpg",
+      "score": 16.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06325.jpg",
+      "score": 70.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06327.jpg",
+      "score": 58.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06330.jpg",
+      "score": 45.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06339.jpg",
+      "score": 14.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06359.jpg",
+      "score": 12.67,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06419.jpg",
+      "score": 27.63,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06420.jpg",
+      "score": 47.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06429.jpg",
+      "score": 23.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06437.jpg",
+      "score": 24.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06445.jpg",
+      "score": 32.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06448.jpg",
+      "score": 33.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06456.jpg",
+      "score": 55.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06488.jpg",
+      "score": 35.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06491.jpg",
+      "score": 27.13,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06493.jpg",
+      "score": 37.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06495.jpg",
+      "score": 17.63,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06512.jpg",
+      "score": 30.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06527.jpg",
+      "score": 24.29,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06538.jpg",
+      "score": 28.29,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06551.jpg",
+      "score": 29.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06553.jpg",
+      "score": 26.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06577.jpg",
+      "score": 26.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06583.jpg",
+      "score": 34.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06605.jpg",
+      "score": 18.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06608.jpg",
+      "score": 26.6,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06612.jpg",
+      "score": 29.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06613.jpg",
+      "score": 38.17,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06620.jpg",
+      "score": 26.8,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06621.jpg",
+      "score": 39.6,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06627.jpg",
+      "score": 38.6,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06642.jpg",
+      "score": 23.4,
+      "scene": [
+        "Indoor scene",
+        "Night scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06645.jpg",
+      "score": 57.25,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06668.jpg",
+      "score": 38.33,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06701.jpg",
+      "score": 34.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06708.jpg",
+      "score": 14.71,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06717.jpg",
+      "score": 31.86,
+      "scene": [
+        "Cityscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06725.jpg",
+      "score": 42.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06758.jpg",
+      "score": 8.4,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06770.jpg",
+      "score": 22.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06775.jpg",
+      "score": 41.29,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06817.jpg",
+      "score": 65.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06823.jpg",
+      "score": 28.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06857.jpg",
+      "score": 26.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06878.jpg",
+      "score": 45.75,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06883.jpg",
+      "score": 30.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06884.jpg",
+      "score": 21.6,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06892.jpg",
+      "score": 23.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06894.jpg",
+      "score": 30.8,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06913.jpg",
+      "score": 29.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06918.jpg",
+      "score": 55.2,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06920.jpg",
+      "score": 18.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06935.jpg",
+      "score": 32.91,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06939.jpg",
+      "score": 13.7,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06943.jpg",
+      "score": 6.11,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06947.jpg",
+      "score": 40.1,
+      "scene": [
+        "Night scene",
+        "Still-life"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06950.jpg",
+      "score": 16.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06961.jpg",
+      "score": 16.4,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/06963.jpg",
+      "score": 18.3,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07008.jpg",
+      "score": 37.44,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07012.jpg",
+      "score": 23.71,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07015.jpg",
+      "score": 22.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07019.jpg",
+      "score": 36.44,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07027.jpg",
+      "score": 53.75,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07030.jpg",
+      "score": 40.22,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07037.jpg",
+      "score": 43.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07043.jpg",
+      "score": 25.38,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07049.jpg",
+      "score": 68.17,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07058.jpg",
+      "score": 61.13,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07082.jpg",
+      "score": 38.0,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07108.jpg",
+      "score": 38.75,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07128.jpg",
+      "score": 21.0,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07131.jpg",
+      "score": 23.25,
+      "scene": [
+        "Night scene",
+        "Still-life"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07162.jpg",
+      "score": 61.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07169.jpg",
+      "score": 23.2,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07171.jpg",
+      "score": 54.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07196.jpg",
+      "score": 56.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07223.jpg",
+      "score": 27.5,
+      "scene": [
+        "Indoor scene",
+        "Night scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07232.jpg",
+      "score": 28.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07233.jpg",
+      "score": 26.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07243.jpg",
+      "score": 38.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07273.jpg",
+      "score": 70.5,
+      "scene": [
+        "Night scene",
+        "Still-life"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07293.jpg",
+      "score": 34.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07345.jpg",
+      "score": 57.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07350.jpg",
+      "score": 54.0,
+      "scene": [
+        "Cityscape",
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07351.jpg",
+      "score": 17.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07358.jpg",
+      "score": 19.6,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07365.jpg",
+      "score": 25.6,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07378.jpg",
+      "score": 14.4,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07387.jpg",
+      "score": 15.2,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07409.jpg",
+      "score": 52.6,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07411.jpg",
+      "score": 24.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07412.jpg",
+      "score": 8.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07433.jpg",
+      "score": 42.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07441.jpg",
+      "score": 26.56,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07442.jpg",
+      "score": 53.88,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07444.jpg",
+      "score": 21.88,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07468.jpg",
+      "score": 40.63,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07486.jpg",
+      "score": 32.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07491.jpg",
+      "score": 31.11,
+      "scene": [
+        "Cityscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07498.jpg",
+      "score": 51.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07500.jpg",
+      "score": 72.43,
+      "scene": [
+        "Night scene",
+        "Still-life"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07504.jpg",
+      "score": 65.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07511.jpg",
+      "score": 23.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07531.jpg",
+      "score": 46.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07556.jpg",
+      "score": 33.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07570.jpg",
+      "score": 31.8,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07579.jpg",
+      "score": 41.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07582.jpg",
+      "score": 36.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07586.jpg",
+      "score": 7.6,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07626.jpg",
+      "score": 74.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07644.jpg",
+      "score": 36.88,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07684.jpg",
+      "score": 51.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07686.jpg",
+      "score": 43.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07699.jpg",
+      "score": 41.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07707.jpg",
+      "score": 28.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07713.jpg",
+      "score": 23.8,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07715.jpg",
+      "score": 37.2,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07718.jpg",
+      "score": 33.4,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07721.jpg",
+      "score": 24.2,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07724.jpg",
+      "score": 33.4,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07761.jpg",
+      "score": 27.2,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07774.jpg",
+      "score": 17.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07783.jpg",
+      "score": 23.0,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07787.jpg",
+      "score": 35.67,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07793.jpg",
+      "score": 28.29,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07794.jpg",
+      "score": 23.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07802.jpg",
+      "score": 27.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07803.jpg",
+      "score": 27.29,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07807.jpg",
+      "score": 21.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07822.jpg",
+      "score": 41.71,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07830.jpg",
+      "score": 63.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07832.jpg",
+      "score": 40.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07867.jpg",
+      "score": 22.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07896.jpg",
+      "score": 37.83,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07899.jpg",
+      "score": 36.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07910.jpg",
+      "score": 33.4,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07917.jpg",
+      "score": 38.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07928.jpg",
+      "score": 18.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07930.jpg",
+      "score": 37.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07937.jpg",
+      "score": 35.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07953.jpg",
+      "score": 37.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07986.jpg",
+      "score": 48.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/07989.jpg",
+      "score": 43.4,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08002.jpg",
+      "score": 48.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08005.jpg",
+      "score": 35.33,
+      "scene": [
+        "Cityscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08014.jpg",
+      "score": 34.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08016.jpg",
+      "score": 22.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08017.jpg",
+      "score": 34.4,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08035.jpg",
+      "score": 54.14,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08050.jpg",
+      "score": 29.33,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08056.jpg",
+      "score": 43.71,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08058.jpg",
+      "score": 32.71,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08060.jpg",
+      "score": 51.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08088.jpg",
+      "score": 11.0,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08097.jpg",
+      "score": 40.71,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08103.jpg",
+      "score": 26.78,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08105.jpg",
+      "score": 29.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08108.jpg",
+      "score": 42.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08127.jpg",
+      "score": 16.67,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08145.jpg",
+      "score": 34.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08149.jpg",
+      "score": 29.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08213.jpg",
+      "score": 42.75,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08263.jpg",
+      "score": 15.44,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08269.jpg",
+      "score": 18.56,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08278.jpg",
+      "score": 14.44,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08305.jpg",
+      "score": 36.89,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08319.jpg",
+      "score": 23.22,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08358.jpg",
+      "score": 12.6,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08367.jpg",
+      "score": 45.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08372.jpg",
+      "score": 80.2,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08376.jpg",
+      "score": 44.4,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08388.jpg",
+      "score": 64.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08411.jpg",
+      "score": 38.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08435.jpg",
+      "score": 29.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08443.jpg",
+      "score": 45.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08447.jpg",
+      "score": 22.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08484.jpg",
+      "score": 19.44,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08498.jpg",
+      "score": 21.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08521.jpg",
+      "score": 35.63,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08538.jpg",
+      "score": 19.29,
+      "scene": [
+        "Indoor scene",
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08645.jpg",
+      "score": 38.6,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08666.jpg",
+      "score": 24.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08677.jpg",
+      "score": 16.75,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08698.jpg",
+      "score": 18.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08711.jpg",
+      "score": 18.78,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08728.jpg",
+      "score": 47.13,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08740.jpg",
+      "score": 41.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08764.jpg",
+      "score": 22.0,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08787.jpg",
+      "score": 56.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08803.jpg",
+      "score": 42.4,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08807.jpg",
+      "score": 47.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08815.jpg",
+      "score": 22.75,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08834.jpg",
+      "score": 21.75,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08838.jpg",
+      "score": 60.44,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08848.jpg",
+      "score": 22.71,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08865.jpg",
+      "score": 28.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08891.jpg",
+      "score": 11.75,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08896.jpg",
+      "score": 24.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08899.jpg",
+      "score": 24.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08913.jpg",
+      "score": 28.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08923.jpg",
+      "score": 61.71,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08925.jpg",
+      "score": 20.88,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08926.jpg",
+      "score": 24.0,
+      "scene": [
+        "Night scene",
+        "Still-life"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08939.jpg",
+      "score": 22.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08941.jpg",
+      "score": 49.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08942.jpg",
+      "score": 21.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08972.jpg",
+      "score": 70.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08979.jpg",
+      "score": 37.1,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08981.jpg",
+      "score": 23.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/08984.jpg",
+      "score": 68.44,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09003.jpg",
+      "score": 64.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09006.jpg",
+      "score": 44.13,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09007.jpg",
+      "score": 43.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09015.jpg",
+      "score": 55.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09018.jpg",
+      "score": 29.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09032.jpg",
+      "score": 6.17,
+      "scene": [
+        "Night scene",
+        "Still-life"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09045.jpg",
+      "score": 10.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09046.jpg",
+      "score": 12.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09077.jpg",
+      "score": 45.6,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09093.jpg",
+      "score": 69.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09099.jpg",
+      "score": 46.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09102.jpg",
+      "score": 31.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09103.jpg",
+      "score": 39.4,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09122.jpg",
+      "score": 36.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09129.jpg",
+      "score": 64.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09139.jpg",
+      "score": 28.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09142.jpg",
+      "score": 24.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09151.jpg",
+      "score": 59.8,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09152.jpg",
+      "score": 63.6,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09159.jpg",
+      "score": 25.6,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09163.jpg",
+      "score": 56.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09199.jpg",
+      "score": 40.89,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09202.jpg",
+      "score": 25.89,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09212.jpg",
+      "score": 35.45,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09219.jpg",
+      "score": 53.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09242.jpg",
+      "score": 10.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09274.jpg",
+      "score": 26.83,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09301.jpg",
+      "score": 33.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09322.jpg",
+      "score": 49.75,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09337.jpg",
+      "score": 24.78,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09377.jpg",
+      "score": 53.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09379.jpg",
+      "score": 27.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09382.jpg",
+      "score": 20.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09409.jpg",
+      "score": 18.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09416.jpg",
+      "score": 10.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09507.jpg",
+      "score": 48.33,
+      "scene": [
+        "Night scene",
+        "Still-life"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09533.jpg",
+      "score": 27.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09541.jpg",
+      "score": 31.29,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09554.jpg",
+      "score": 47.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09566.jpg",
+      "score": 32.63,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09624.jpg",
+      "score": 54.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09634.jpg",
+      "score": 24.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09640.jpg",
+      "score": 29.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09652.jpg",
+      "score": 42.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09699.jpg",
+      "score": 51.0,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09700.jpg",
+      "score": 39.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09702.jpg",
+      "score": 34.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09728.jpg",
+      "score": 56.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09734.jpg",
+      "score": 33.44,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09745.jpg",
+      "score": 17.89,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09752.jpg",
+      "score": 57.56,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09756.jpg",
+      "score": 49.11,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09787.jpg",
+      "score": 40.3,
+      "scene": [
+        "Cityscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09793.jpg",
+      "score": 36.11,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09820.jpg",
+      "score": 41.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09834.jpg",
+      "score": 37.0,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09843.jpg",
+      "score": 18.29,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09853.jpg",
+      "score": 26.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09883.jpg",
+      "score": 26.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09884.jpg",
+      "score": 26.0,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09912.jpg",
+      "score": 31.5,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09937.jpg",
+      "score": 30.8,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09977.jpg",
+      "score": 41.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09990.jpg",
+      "score": 36.71,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09993.jpg",
+      "score": 28.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/09999.jpg",
+      "score": 32.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10001.jpg",
+      "score": 61.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10008.jpg",
+      "score": 61.71,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10043.jpg",
+      "score": 24.46,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10045.jpg",
+      "score": 44.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10046.jpg",
+      "score": 26.92,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10049.jpg",
+      "score": 20.54,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10093.jpg",
+      "score": 19.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10097.jpg",
+      "score": 40.88,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10099.jpg",
+      "score": 66.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10103.jpg",
+      "score": 20.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10111.jpg",
+      "score": 25.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10117.jpg",
+      "score": 82.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10138.jpg",
+      "score": 51.88,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10151.jpg",
+      "score": 36.75,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10153.jpg",
+      "score": 47.88,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10158.jpg",
+      "score": 30.75,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10159.jpg",
+      "score": 24.63,
+      "scene": [
+        "Cityscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10214.jpg",
+      "score": 32.86,
+      "scene": [
+        "Animal",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10233.jpg",
+      "score": 19.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10241.jpg",
+      "score": 36.11,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10242.jpg",
+      "score": 46.13,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10256.jpg",
+      "score": 48.25,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10261.jpg",
+      "score": 21.38,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10265.jpg",
+      "score": 28.88,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10272.jpg",
+      "score": 27.13,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10278.jpg",
+      "score": 24.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10284.jpg",
+      "score": 44.38,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10293.jpg",
+      "score": 47.13,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10305.jpg",
+      "score": 24.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10328.jpg",
+      "score": 47.29,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10349.jpg",
+      "score": 69.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10367.jpg",
+      "score": 28.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10414.jpg",
+      "score": 63.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10421.jpg",
+      "score": 21.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10430.jpg",
+      "score": 40.5,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10431.jpg",
+      "score": 44.5,
+      "scene": [
+        "Cityscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10454.jpg",
+      "score": 33.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10459.jpg",
+      "score": 55.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10490.jpg",
+      "score": 36.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10503.jpg",
+      "score": 35.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10509.jpg",
+      "score": 39.5,
+      "scene": [
+        "Cityscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10550.jpg",
+      "score": 35.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10556.jpg",
+      "score": 24.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10589.jpg",
+      "score": 41.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10601.jpg",
+      "score": 26.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10613.jpg",
+      "score": 18.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10615.jpg",
+      "score": 33.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10642.jpg",
+      "score": 73.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10644.jpg",
+      "score": 56.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10652.jpg",
+      "score": 36.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10737.jpg",
+      "score": 44.57,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10766.jpg",
+      "score": 24.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10781.jpg",
+      "score": 42.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10795.jpg",
+      "score": 43.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10797.jpg",
+      "score": 34.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10800.jpg",
+      "score": 36.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10813.jpg",
+      "score": 54.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10826.jpg",
+      "score": 29.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10836.jpg",
+      "score": 16.86,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10845.jpg",
+      "score": 17.17,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10846.jpg",
+      "score": 10.67,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10849.jpg",
+      "score": 30.5,
+      "scene": [
+        "Cityscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10879.jpg",
+      "score": 18.2,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10882.jpg",
+      "score": 48.14,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10916.jpg",
+      "score": 60.29,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10920.jpg",
+      "score": 58.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10927.jpg",
+      "score": 48.43,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10953.jpg",
+      "score": 48.29,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10968.jpg",
+      "score": 29.86,
+      "scene": [
+        "Human",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/10979.jpg",
+      "score": 29.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/11001.jpg",
+      "score": 20.71,
+      "scene": [
+        "Cityscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/11006.jpg",
+      "score": 54.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/11023.jpg",
+      "score": 27.29,
+      "scene": [
+        "Cityscape",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/11035.jpg",
+      "score": 64.86,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/11037.jpg",
+      "score": 56.0,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/11038.jpg",
+      "score": 67.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/11058.jpg",
+      "score": 52.33,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/11059.jpg",
+      "score": 20.0,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/11086.jpg",
+      "score": 47.5,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/11087.jpg",
+      "score": 53.4,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/11102.jpg",
+      "score": 44.83,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    },
+    {
+      "image": "SPAQ/TestImage/11119.jpg",
+      "score": 55.4,
+      "scene": [
+        "Night scene"
+      ],
+      "domain_id": 105
+    }
+  ],
+  "domain_name": {
+    "100": "Animal",
+    "101": "Cityscape",
+    "102": "Human",
+    "103": "Indoor scene",
+    "104": "Landscape",
+    "105": "Night scene",
+    "106": "Plant",
+    "107": "Still-life",
+    "108": "Others"
+  }
+}

@@ -6,7 +6,7 @@ import scipy
 import random
 
 
-base_dir = '/home/dzc/workspace/G-IQA'
+base_dir = '/home/ippl7/zach/G-IQA'
 data_dir = f'{base_dir}/data'
 
 
@@ -34,7 +34,7 @@ def piq23_generator(domain_id_base = 0):
     ))
     assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
 
-  with open(f'{base_dir}/data_json/for_leave_one_out/piq23_all.json', 'w') as f:
+  with open(f'{base_dir}/data_json/all/piq23_all.json', 'w') as f:
     json.dump({
       'files': all_files,
       'domain_name': {domain_id_base + int(scene.split("_")[-1]): scene for scene in sorted(set(scenes))},
@@ -83,7 +83,7 @@ def spaq_generator(domain_id_base = 100):
 
     assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
 
-  with open(f'{base_dir}/data_json/for_leave_one_out/spaq_all.json', 'w') as f:
+  with open(f'{base_dir}/data_json/all/spaq_all.json', 'w') as f:
     json.dump({
       'files': all_files,
       'domain_name': {domain_id_base + scene: scene_dict[scene] for scene in scene_dict.keys()},
@@ -122,6 +122,9 @@ def livec_generator(domain_id_base = 200):
     ))
     assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
   
+  with open(f'{base_dir}/data_json/all/livec_all.json', 'w') as f:
+    json.dump({'files': all_files}, f, indent=2)
+  
   # split train/test follow by q-align
   # all for test
   test_img = get_imgnames_from_json(f'{data_dir}/Q-Align/playground/data/test_jsons/livec.json')
@@ -146,6 +149,9 @@ def koniq_generator(domain_id_base = 300):
       domain_id = domain_id_base,
     ))
     assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
+
+  with open(f'{base_dir}/data_json/all/koniq10k_all.json', 'w') as f:
+    json.dump({'files': all_files}, f, indent=2)
 
   # split train/test follow by q-align
   train_img = get_imgnames_from_json(f'{data_dir}/Q-Align/playground/data/training_sft/train_koniq.json')
@@ -183,6 +189,9 @@ def bid_generator(domain_id_base = 400):
     assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
     if count == 587:
       break
+
+  with open(f'{base_dir}/data_json/all/bid_all.json', 'w') as f:
+    json.dump({'files': all_files}, f, indent=2)
 
   # all for test
   with open(f'{base_dir}/data_json/for_cross_set/test/bid.json', 'w') as f:
@@ -257,7 +266,7 @@ def kadid10k_generator(domain_id_base = 600):
     ))
     assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
   
-  with open(f'{base_dir}/data_json/for_leave_one_out/kadid10k_all.json', 'w') as f:
+  with open(f'{base_dir}/data_json/all/kadid10k_all.json', 'w') as f:
     json.dump({
       'files': all_files,
       'domain_name': {domain_id_base + int(dist_type): dist_type for dist_type in sorted(set(dist_types))},
@@ -348,6 +357,12 @@ def live_generator(domain_id_base = 700):
       ))
       assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
 
+  with open(f'{base_dir}/data_json/all/live_all.json', 'w') as f:
+    json.dump({
+      'files': all_files,
+      'domain_name': {domain_id_base + dist_type_dict[dist_type]: dist_type for dist_type in dist_type_dict.keys()},
+      }, f, indent=2)
+
   # split test follow by q-align
   test_img = get_imgnames_from_json(f'{data_dir}/Q-Align/playground/data/test_jsons/live.json')
   test_files = [item for item in all_files if item['image'].replace('LIVE', 'live') in test_img]
@@ -401,6 +416,12 @@ def csiq_generator(domain_id_base = 800):
         domain_id = domain_id_base + dist_type_dict[dist_type],
       ))
 
+  with open(f'{base_dir}/data_json/all/csiq_all.json', 'w') as f:
+    json.dump({
+      'files': all_files,
+      'domain_name': {domain_id_base + dist_type_dict[dist_type]: dist_type for dist_type in dist_type_dict.keys()},
+      }, f, indent=2)
+
   # split test follow by q-align
   test_img = get_imgnames_from_json(f'{data_dir}/Q-Align/playground/data/test_jsons/csiq.json')
   test_files = [item for item in all_files if item['image'].replace('CSIQ', 'csiq') in test_img]
@@ -425,7 +446,7 @@ def tid2013_generator(domain_id_base = 900):
     ))
     assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
   
-  with open(f'{base_dir}/data_json/for_leave_one_out/tid2013_all.json', 'w') as f:
+  with open(f'{base_dir}/data_json/all/tid2013_all.json', 'w') as f:
     json.dump({
       'files': all_files,
       'domain_name': {domain_id_base + dist_dype: dist_dype for dist_dype in set([item['dist_dype'] for item in all_files])},
@@ -472,7 +493,7 @@ def eva_generator(domain_id_base = 1100):
     })
     assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
 
-  with open(f'{base_dir}/data_json/for_leave_one_out/eva_all.json', 'w') as f:
+  with open(f'{base_dir}/data_json/all/eva_all.json', 'w') as f:
     json.dump({
       'files': all_files,
       'domain_name': {int(cat) + domain_id_base: cat_dict[cat] for cat in cat_dict.keys()},
@@ -526,7 +547,7 @@ def para_generator(domain_id_base = 1200):
     })
     assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
   
-  with open(f'{base_dir}/data_json/for_leave_one_out/para_all.json', 'w') as f:
+  with open(f'{base_dir}/data_json/all/para_all.json', 'w') as f:
     json.dump({
       'files': all_files,
       'domain_name': {domain_id_base + scene_dict[scene]: scene for scene in all_scene},

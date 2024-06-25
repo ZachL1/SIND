@@ -1,0 +1,2934 @@
+{
+  "files": [
+    {
+      "image": "BID/DatabaseImage0001.JPG",
+      "score": 4.516640224615385,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0003.JPG",
+      "score": 1.30018912,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0004.JPG",
+      "score": 2.3598927134535486,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0005.JPG",
+      "score": 4.200861720000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0006.JPG",
+      "score": 2.8726049817139008,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0007.JPG",
+      "score": 3.7219419819999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0008.JPG",
+      "score": 3.073059130909091,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0009.JPG",
+      "score": 3.705768111,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0010.JPG",
+      "score": 3.2929881965581016,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0011.JPG",
+      "score": 4.227648850909091,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0012.JPG",
+      "score": 4.2557417740000005,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0013.JPG",
+      "score": 3.5081918540000006,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0014.JPG",
+      "score": 4.3935572681818185,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0015.JPG",
+      "score": 1.498045392,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0016.JPG",
+      "score": 3.806228496,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0017.JPG",
+      "score": 4.064900073636364,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0018.JPG",
+      "score": 4.2033470091666665,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0019.JPG",
+      "score": 3.969828615,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0020.JPG",
+      "score": 4.307061787,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0021.JPG",
+      "score": 1.7100148457142859,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0022.JPG",
+      "score": 4.233081097,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0023.JPG",
+      "score": 3.9755406559999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0024.JPG",
+      "score": 3.5491192654545456,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0025.JPG",
+      "score": 4.1851198,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0026.JPG",
+      "score": 0.20556432,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0027.JPG",
+      "score": 3.9684251180000003,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0028.JPG",
+      "score": 4.583858783,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0029.JPG",
+      "score": 4.001392669557154,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0030.JPG",
+      "score": 2.966771744,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0031.JPG",
+      "score": 3.961538461,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0032.JPG",
+      "score": 3.064032509090909,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0033.JPG",
+      "score": 2.789346161848955,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0034.JPG",
+      "score": 4.23348044,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0035.JPG",
+      "score": 3.561439949090909,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0036.JPG",
+      "score": 2.5203485236363634,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0037.JPG",
+      "score": 1.812105888,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0038.JPG",
+      "score": 3.9183767054545457,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0039.JPG",
+      "score": 3.5390710820056825,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0040.JPG",
+      "score": 3.5299902781818187,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0041.JPG",
+      "score": 1.3481599999999998,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0042.JPG",
+      "score": 3.9384817819999993,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0043.JPG",
+      "score": 1.504191648,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0044.JPG",
+      "score": 3.4305858036363635,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0045.JPG",
+      "score": 2.9936948680000004,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0046.JPG",
+      "score": 3.1664565199999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0047.JPG",
+      "score": 3.580622827,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0048.JPG",
+      "score": 2.8557741279999993,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0049.JPG",
+      "score": 3.48995917,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0050.JPG",
+      "score": 3.0409835919999995,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0051.JPG",
+      "score": 3.391793036,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0052.JPG",
+      "score": 3.524767724615385,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0053.JPG",
+      "score": 1.9533418240000002,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0054.JPG",
+      "score": 3.3317474836363634,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0055.JPG",
+      "score": 3.0636477963636364,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0056.JPG",
+      "score": 1.6762490618181816,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0057.JPG",
+      "score": 2.5000597040000003,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0058.JPG",
+      "score": 3.5069440999999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0059.JPG",
+      "score": 2.7221268800000007,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0060.JPG",
+      "score": 3.511557592,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0061.JPG",
+      "score": 3.5916542181818185,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0062.JPG",
+      "score": 3.3492434040000005,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0063.JPG",
+      "score": 4.823466270999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0064.JPG",
+      "score": 4.2617538625,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0065.JPG",
+      "score": 3.298759244,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0066.JPG",
+      "score": 3.400160364,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0067.JPG",
+      "score": 4.003239721000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0068.JPG",
+      "score": 3.5182849960000007,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0069.JPG",
+      "score": 3.8039091839999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0070.JPG",
+      "score": 2.63665784,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0071.JPG",
+      "score": 1.8092958836363637,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0072.JPG",
+      "score": 4.1804076750000005,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0073.JPG",
+      "score": 3.804047692,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0074.JPG",
+      "score": 3.9615826080000005,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0075.JPG",
+      "score": 3.5635771240000005,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0076.JPG",
+      "score": 2.2706231636363636,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0077.JPG",
+      "score": 3.9007991267932205,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0078.JPG",
+      "score": 4.358753384285714,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0079.JPG",
+      "score": 4.299708385,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0080.JPG",
+      "score": 2.27176336,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0081.JPG",
+      "score": 3.169173208,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0082.JPG",
+      "score": 4.506242105,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0083.JPG",
+      "score": 4.456426766363637,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0084.JPG",
+      "score": 4.733859894,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0085.JPG",
+      "score": 4.318906716363636,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0086.JPG",
+      "score": 1.5095506472727274,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0087.JPG",
+      "score": 2.926076976,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0088.JPG",
+      "score": 3.302223419090909,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0089.JPG",
+      "score": 4.32745332,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0090.JPG",
+      "score": 3.5149623839999995,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0091.JPG",
+      "score": 0.6343394773333333,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0092.JPG",
+      "score": 2.320848945454545,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0093.JPG",
+      "score": 3.400483328,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0094.JPG",
+      "score": 3.1901924720000006,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0095.JPG",
+      "score": 3.518641402,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0096.JPG",
+      "score": 2.801033688,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0097.JPG",
+      "score": 3.618990341167202,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0098.JPG",
+      "score": 1.8736806690909091,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0099.JPG",
+      "score": 3.3385876359999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0100.JPG",
+      "score": 3.6569381848651106,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0101.JPG",
+      "score": 3.9571988460000007,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0102.JPG",
+      "score": 1.8583859040000004,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0103.JPG",
+      "score": 2.4452946469575254,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0104.JPG",
+      "score": 3.1463009600000005,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0105.JPG",
+      "score": 3.6423463640000002,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0106.JPG",
+      "score": 1.441226944,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0107.JPG",
+      "score": 2.331799872,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0108.JPG",
+      "score": 2.7838142218181816,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0109.JPG",
+      "score": 3.052371439999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0110.JPG",
+      "score": 4.000799229999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0111.JPG",
+      "score": 1.6047542666666665,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0112.JPG",
+      "score": 3.24724674,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0113.JPG",
+      "score": 3.837315692,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0114.JPG",
+      "score": 2.3413495039999996,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0115.JPG",
+      "score": 2.898085521818182,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0116.JPG",
+      "score": 1.7250945440000003,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0117.JPG",
+      "score": 3.980370839090909,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0118.JPG",
+      "score": 3.943226451,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0119.JPG",
+      "score": 2.409789032727273,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0120.JPG",
+      "score": 2.52066559,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0121.JPG",
+      "score": 2.441247276363636,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0122.JPG",
+      "score": 3.1625715226466524,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0123.JPG",
+      "score": 2.170870192,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0124.JPG",
+      "score": 4.787501305,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0125.JPG",
+      "score": 3.7428715119999993,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0126.JPG",
+      "score": 3.7325977480000008,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0127.JPG",
+      "score": 2.0472811199999996,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0128.JPG",
+      "score": 2.331044826,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0129.JPG",
+      "score": 3.3455019399999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0130.JPG",
+      "score": 3.1921294128059703,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0131.JPG",
+      "score": 3.7652618872727275,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0132.JPG",
+      "score": 2.5894987633333337,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0133.JPG",
+      "score": 4.104665856,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0134.JPG",
+      "score": 3.4374050560000002,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0135.JPG",
+      "score": 2.27646464,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0136.JPG",
+      "score": 1.8444896793958183,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0137.JPG",
+      "score": 1.8813509319770707,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0138.JPG",
+      "score": 2.939248172307692,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0139.JPG",
+      "score": 3.8871164359999995,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0140.JPG",
+      "score": 2.2565869039999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0141.JPG",
+      "score": 3.6325316645033148,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0142.JPG",
+      "score": 3.385925352,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0143.JPG",
+      "score": 1.2458426057142857,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0144.JPG",
+      "score": 1.1179066560000002,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0145.JPG",
+      "score": 0.6460908159999998,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0146.JPG",
+      "score": 3.709646923333333,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0147.JPG",
+      "score": 4.128051794,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0148.JPG",
+      "score": 1.364252912,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0149.JPG",
+      "score": 4.119962609,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0150.JPG",
+      "score": 1.5410899840000003,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0151.JPG",
+      "score": 4.610340476,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0152.JPG",
+      "score": 2.987665608,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0153.JPG",
+      "score": 2.882712072,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0154.JPG",
+      "score": 1.6963219999999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0155.JPG",
+      "score": 4.048549796363637,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0156.JPG",
+      "score": 2.2957093599999996,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0157.JPG",
+      "score": 2.2308112479999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0158.JPG",
+      "score": 1.2938209119999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0159.JPG",
+      "score": 3.667068629090909,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0160.JPG",
+      "score": 2.348921844,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0161.JPG",
+      "score": 4.479192922,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0162.JPG",
+      "score": 4.0504413679999995,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0163.JPG",
+      "score": 4.143778877,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0164.JPG",
+      "score": 4.154019728,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0165.JPG",
+      "score": 4.193916323636365,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0166.JPG",
+      "score": 3.9406130919999995,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0167.JPG",
+      "score": 4.0996847380000006,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0168.JPG",
+      "score": 3.343517374,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0169.JPG",
+      "score": 2.0003699679999998,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0170.JPG",
+      "score": 4.177175292,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0171.JPG",
+      "score": 3.8368469933333333,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0172.JPG",
+      "score": 4.124172056000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0173.JPG",
+      "score": 4.444828204,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0174.JPG",
+      "score": 4.07295495,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0175.JPG",
+      "score": 3.846107119,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0176.JPG",
+      "score": 4.222572519,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0177.JPG",
+      "score": 1.5812078211764704,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0178.JPG",
+      "score": 3.0788776749999998,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0179.JPG",
+      "score": 2.881361823539737,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0180.JPG",
+      "score": 3.8748137218181813,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0181.JPG",
+      "score": 1.365599941818182,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0182.JPG",
+      "score": 0.7342409,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0183.JPG",
+      "score": 1.1418495463342917,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0184.JPG",
+      "score": 3.796178368602485,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0185.JPG",
+      "score": 0.8279736799999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0186.JPG",
+      "score": 2.5044136079999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0187.JPG",
+      "score": 1.3283985828571432,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0188.JPG",
+      "score": 3.542622896,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0189.JPG",
+      "score": 3.9180327759999996,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0190.JPG",
+      "score": 2.6506426720000005,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0191.JPG",
+      "score": 0.9142695563636365,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0192.JPG",
+      "score": 2.6504348720000004,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0193.JPG",
+      "score": 4.002374948,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0194.JPG",
+      "score": 1.2649753333333333,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0195.JPG",
+      "score": 1.049810768,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0196.JPG",
+      "score": 0.7962541120000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0197.JPG",
+      "score": 2.706832976,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0198.JPG",
+      "score": 3.4476670999999994,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0199.JPG",
+      "score": 3.9369482959999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0200.JPG",
+      "score": 3.4105073890909092,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0201.JPG",
+      "score": 3.9377312200000003,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0202.JPG",
+      "score": 2.6374269999999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0203.JPG",
+      "score": 0.5272711952937666,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0204.JPG",
+      "score": 4.593947031000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0205.JPG",
+      "score": 4.530087292,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0206.JPG",
+      "score": 2.364062864,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0207.JPG",
+      "score": 1.055855829333333,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0208.JPG",
+      "score": 0.9664304457142856,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0209.JPG",
+      "score": 2.22445856,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0210.JPG",
+      "score": 0.2738245028571429,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0211.JPG",
+      "score": 0.904919552,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0212.JPG",
+      "score": 0.1638057263157895,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0213.JPG",
+      "score": 3.4692038238215614,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0214.JPG",
+      "score": 1.9484821236363636,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0215.JPG",
+      "score": 1.105233296,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0216.JPG",
+      "score": 0.30769539199999996,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0217.JPG",
+      "score": 0.3095570327272727,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0218.JPG",
+      "score": 0.8489316480000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0219.JPG",
+      "score": 0.3728816492307692,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0220.JPG",
+      "score": 1.758073408,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0221.JPG",
+      "score": 1.1171252654545454,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0222.JPG",
+      "score": 1.828856656,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0223.JPG",
+      "score": 2.3426486092307686,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0224.JPG",
+      "score": 1.271815856,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0225.JPG",
+      "score": 3.241628766363637,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0226.JPG",
+      "score": 1.8271192800000002,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0227.JPG",
+      "score": 1.7041596509090908,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0228.JPG",
+      "score": 2.67458792,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0229.JPG",
+      "score": 2.961074592,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0230.JPG",
+      "score": 2.366709752226723,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0231.JPG",
+      "score": 3.91976624,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0232.JPG",
+      "score": 2.737782378181818,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0233.JPG",
+      "score": 0.7546108533333333,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0234.JPG",
+      "score": 4.615169791538461,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0235.JPG",
+      "score": 2.0654093760000003,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0236.JPG",
+      "score": 1.5775535520000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0237.JPG",
+      "score": 4.078373268999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0238.JPG",
+      "score": 2.3678041920000004,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0239.JPG",
+      "score": 0.562625890909091,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0240.JPG",
+      "score": 1.8727719333333328,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0241.JPG",
+      "score": 1.710239936,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0242.JPG",
+      "score": 1.7396005672727275,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0243.JPG",
+      "score": 1.6934684218181817,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0244.JPG",
+      "score": 2.1639188854545455,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0245.JPG",
+      "score": 3.002061576,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0246.JPG",
+      "score": 0.29153011200000006,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0247.JPG",
+      "score": 2.6233648240000003,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0248.JPG",
+      "score": 2.5736814545454543,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0249.JPG",
+      "score": 3.5563907563636366,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0250.JPG",
+      "score": 0.7665531569230767,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0251.JPG",
+      "score": 1.9217864000000002,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0252.JPG",
+      "score": 0.44157349333333334,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0253.JPG",
+      "score": 0.93303504,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0254.JPG",
+      "score": 0.350941152,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0255.JPG",
+      "score": 0.2762626618181818,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0256.JPG",
+      "score": 0.8607684266666668,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0257.JPG",
+      "score": 0.6757995636363636,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0258.JPG",
+      "score": 0.83835456,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0259.JPG",
+      "score": 1.038912976,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0260.JPG",
+      "score": 4.763019868333334,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0261.JPG",
+      "score": 4.919752378181818,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0262.JPG",
+      "score": 0.49566073599999994,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0263.JPG",
+      "score": 2.2168978719999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0264.JPG",
+      "score": 2.08689712,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0265.JPG",
+      "score": 1.203905888,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0266.JPG",
+      "score": 3.810167972727273,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0267.JPG",
+      "score": 3.228849021818182,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0268.JPG",
+      "score": 3.9230476133333334,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0269.JPG",
+      "score": 2.662673422,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0270.JPG",
+      "score": 4.653788831818182,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0271.JPG",
+      "score": 2.868441281818182,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0272.JPG",
+      "score": 4.271424691666667,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0273.JPG",
+      "score": 1.5301348320000003,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0274.JPG",
+      "score": 1.423949828571429,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0275.JPG",
+      "score": 4.660151323999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0276.JPG",
+      "score": 4.802130392666667,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0277.JPG",
+      "score": 3.417402246363636,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0278.JPG",
+      "score": 3.7641025470000002,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0279.JPG",
+      "score": 0.802996272,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0280.JPG",
+      "score": 2.401786472,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0281.JPG",
+      "score": 4.449546673,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0282.JPG",
+      "score": 4.482133789000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0283.JPG",
+      "score": 3.88967802,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0284.JPG",
+      "score": 4.604715653000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0285.JPG",
+      "score": 3.7415452260000004,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0286.JPG",
+      "score": 1.6965719272727275,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0287.JPG",
+      "score": 1.5575999839999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0288.JPG",
+      "score": 1.119449312,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0289.JPG",
+      "score": 2.164790338461539,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0290.JPG",
+      "score": 2.0269651040000003,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0291.JPG",
+      "score": 2.3267214640000002,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0292.JPG",
+      "score": 1.0985669527272728,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0293.JPG",
+      "score": 4.270259805454545,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0294.JPG",
+      "score": 4.508031728333334,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0295.JPG",
+      "score": 4.445067632999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0296.JPG",
+      "score": 2.570937648,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0297.JPG",
+      "score": 3.3228247450000006,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0298.JPG",
+      "score": 1.986625936,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0299.JPG",
+      "score": 1.7735471563636365,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0300.JPG",
+      "score": 1.410224816584317,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0301.JPG",
+      "score": 4.051139425454545,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0302.JPG",
+      "score": 3.231045021538461,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0303.JPG",
+      "score": 4.4131673,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0304.JPG",
+      "score": 0.9798234560000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0305.JPG",
+      "score": 0.18252152,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0306.JPG",
+      "score": 3.8188276809999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0307.JPG",
+      "score": 3.459128992,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0308.JPG",
+      "score": 2.78791996,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0309.JPG",
+      "score": 2.637732109090909,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0310.JPG",
+      "score": 4.846153844,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0311.JPG",
+      "score": 4.253656476821195,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0312.JPG",
+      "score": 3.445819198914519,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0313.JPG",
+      "score": 3.2918351919999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0314.JPG",
+      "score": 3.9016393420000006,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0315.JPG",
+      "score": 4.486982234999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0316.JPG",
+      "score": 4.479621773,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0317.JPG",
+      "score": 4.185582208333334,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0318.JPG",
+      "score": 0.44369364571428566,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0319.JPG",
+      "score": 3.803909187000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0320.JPG",
+      "score": 3.9025654400000005,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0321.JPG",
+      "score": 4.117436438,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0322.JPG",
+      "score": 3.5512610120000003,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0323.JPG",
+      "score": 4.093158585454545,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0324.JPG",
+      "score": 3.360907976,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0325.JPG",
+      "score": 4.5322358622918,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0326.JPG",
+      "score": 4.520120248181819,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0327.JPG",
+      "score": 4.492040090000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0328.JPG",
+      "score": 2.9378940559999998,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0329.JPG",
+      "score": 1.072328192,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0330.JPG",
+      "score": 4.020596899999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0331.JPG",
+      "score": 4.772103381,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0332.JPG",
+      "score": 4.5687263499999995,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0333.JPG",
+      "score": 4.44817719,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0334.JPG",
+      "score": 4.680012604,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0335.JPG",
+      "score": 2.8801414872727276,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0336.JPG",
+      "score": 3.2581336800000003,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0337.JPG",
+      "score": 4.214605054545455,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0338.JPG",
+      "score": 4.533417386999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0339.JPG",
+      "score": 4.448255955,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0340.JPG",
+      "score": 3.622320328,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0341.JPG",
+      "score": 4.04906569,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0342.JPG",
+      "score": 4.134874342000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0343.JPG",
+      "score": 1.9032984362968421,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0344.JPG",
+      "score": 3.643166782,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0345.JPG",
+      "score": 3.5790623439999996,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0347.JPG",
+      "score": 2.922870836363636,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0348.JPG",
+      "score": 4.051989010909091,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0349.JPG",
+      "score": 4.609266170625,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0350.JPG",
+      "score": 4.036569998,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0351.JPG",
+      "score": 4.4766708710000005,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0352.JPG",
+      "score": 4.51210592,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0353.JPG",
+      "score": 4.005041373852743,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0354.JPG",
+      "score": 4.200147115,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0355.JPG",
+      "score": 4.557377056,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0356.JPG",
+      "score": 4.41745028186971,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0357.JPG",
+      "score": 4.173149353000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0358.JPG",
+      "score": 0.6828421324647683,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0359.JPG",
+      "score": 4.738839838,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0360.JPG",
+      "score": 4.772857274545455,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0361.JPG",
+      "score": 4.506620427,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0362.JPG",
+      "score": 4.246195520000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0363.JPG",
+      "score": 3.9543073917647065,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0364.JPG",
+      "score": 3.718266830833333,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0365.JPG",
+      "score": 3.2219420240000005,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0366.JPG",
+      "score": 4.644388392,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0367.JPG",
+      "score": 4.461538468,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0368.JPG",
+      "score": 4.021404825454546,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0369.JPG",
+      "score": 2.8468684559999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0370.JPG",
+      "score": 3.8593674497667747,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0371.JPG",
+      "score": 4.110191836,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0372.JPG",
+      "score": 4.492550132,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0373.JPG",
+      "score": 4.421265627692308,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0374.JPG",
+      "score": 4.436383967272728,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0375.JPG",
+      "score": 3.8871374599999995,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0376.JPG",
+      "score": 3.000471185,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0377.JPG",
+      "score": 2.909220616,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0378.JPG",
+      "score": 4.663934430909091,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0379.JPG",
+      "score": 4.607818419,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0380.JPG",
+      "score": 2.1658259920000003,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0381.JPG",
+      "score": 4.240226972,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0382.JPG",
+      "score": 4.0264175416666665,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0383.JPG",
+      "score": 3.3980609418181817,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0384.JPG",
+      "score": 4.063747725,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0385.JPG",
+      "score": 3.231299892,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0386.JPG",
+      "score": 3.9971315966666663,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0387.JPG",
+      "score": 3.9035309240000005,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0388.JPG",
+      "score": 3.3178750981818186,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0389.JPG",
+      "score": 1.65776848,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0390.JPG",
+      "score": 3.112561444,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0391.JPG",
+      "score": 3.4626255054545454,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0392.JPG",
+      "score": 0.7552261672727273,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0393.JPG",
+      "score": 0.8810431200000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0394.JPG",
+      "score": 2.934853671,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0395.JPG",
+      "score": 4.752136693461902,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0396.JPG",
+      "score": 3.6396881509090915,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0397.JPG",
+      "score": 4.681302303636364,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0398.JPG",
+      "score": 3.142875148,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0399.JPG",
+      "score": 0.3053995490909091,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0400.JPG",
+      "score": 1.433165184,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0401.JPG",
+      "score": 1.496658928,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0402.JPG",
+      "score": 1.850643968,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0403.JPG",
+      "score": 2.839114616,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0404.JPG",
+      "score": 4.717528376000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0405.JPG",
+      "score": 3.2635640359999996,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0406.JPG",
+      "score": 2.65592052,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0407.JPG",
+      "score": 2.9666666719999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0408.JPG",
+      "score": 3.6349306400000003,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0409.JPG",
+      "score": 3.773750602,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0410.JPG",
+      "score": 3.2103650440000004,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0411.JPG",
+      "score": 4.3509037489999995,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0412.JPG",
+      "score": 3.075199272,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0414.JPG",
+      "score": 2.7403982617431697,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0415.JPG",
+      "score": 2.1611715880235427,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0416.JPG",
+      "score": 1.43064312,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0417.JPG",
+      "score": 1.6868296436363641,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0418.JPG",
+      "score": 0.8404320727272726,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0419.JPG",
+      "score": 0.5192754666666667,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0420.JPG",
+      "score": 1.4208918285714287,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0421.JPG",
+      "score": 0.5408902933333333,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0422.JPG",
+      "score": 3.6809921520000004,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0423.JPG",
+      "score": 4.696778639090909,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0424.JPG",
+      "score": 2.6511481040000002,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0425.JPG",
+      "score": 3.9447689390000003,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0426.JPG",
+      "score": 4.3233921760000005,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0427.JPG",
+      "score": 1.2268390239999998,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0428.JPG",
+      "score": 0.5358113689771539,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0429.JPG",
+      "score": 1.8772067659999998,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0430.JPG",
+      "score": 1.089957952,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0431.JPG",
+      "score": 4.14278832,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0432.JPG",
+      "score": 3.698182181,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0433.JPG",
+      "score": 1.3351586181818182,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0434.JPG",
+      "score": 3.1754030949999996,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0435.JPG",
+      "score": 3.18921814,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0436.JPG",
+      "score": 0.870365696,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0437.JPG",
+      "score": 1.906476756363636,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0438.JPG",
+      "score": 0.79518216,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0440.JPG",
+      "score": 2.9464901159999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0441.JPG",
+      "score": 4.883478198,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0442.JPG",
+      "score": 4.1165310072727275,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0443.JPG",
+      "score": 4.898983289999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0444.JPG",
+      "score": 2.1891551839999996,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0445.JPG",
+      "score": 1.6215259927272725,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0446.JPG",
+      "score": 1.1835224000000002,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0447.JPG",
+      "score": 4.292686007999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0448.JPG",
+      "score": 1.4131988,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0449.JPG",
+      "score": 4.020036176,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0450.JPG",
+      "score": 3.8535466639999996,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0451.JPG",
+      "score": 2.5861706633333337,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0452.JPG",
+      "score": 1.5334173759999998,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0453.JPG",
+      "score": 0.7748885333333333,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0454.JPG",
+      "score": 3.5496488399999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0455.JPG",
+      "score": 2.3521151381818184,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0456.JPG",
+      "score": 3.1805181809999996,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0457.JPG",
+      "score": 0.8072261714285714,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0458.JPG",
+      "score": 3.382145132,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0459.JPG",
+      "score": 1.146279888,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0460.JPG",
+      "score": 1.217528352,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0461.JPG",
+      "score": 3.479192942,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0462.JPG",
+      "score": 4.101614572,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0463.JPG",
+      "score": 4.234518553,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0464.JPG",
+      "score": 1.286885232,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0465.JPG",
+      "score": 1.185371993333333,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0466.JPG",
+      "score": 4.865527914545454,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0467.JPG",
+      "score": 1.9047919359999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0468.JPG",
+      "score": 1.7207574109090906,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0469.JPG",
+      "score": 3.7438513030000005,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0470.JPG",
+      "score": 1.664564976,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0471.JPG",
+      "score": 3.2518374999999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0472.JPG",
+      "score": 3.2099204990000003,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0473.JPG",
+      "score": 4.64591691909091,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0474.JPG",
+      "score": 1.557377056,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0475.JPG",
+      "score": 4.591355282014644,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0476.JPG",
+      "score": 3.138830346666667,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0477.JPG",
+      "score": 3.5485518879999995,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0478.JPG",
+      "score": 3.979402731999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0479.JPG",
+      "score": 4.05747974,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0480.JPG",
+      "score": 1.7062002079999998,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0481.JPG",
+      "score": 3.389659537,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0482.JPG",
+      "score": 2.717402248,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0483.JPG",
+      "score": 0.950012736,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0484.JPG",
+      "score": 0.44766707200000005,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0485.JPG",
+      "score": 1.18231512,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0486.JPG",
+      "score": 4.524819433636364,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0487.JPG",
+      "score": 2.4616570799999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0488.JPG",
+      "score": 3.7261600560000003,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0489.JPG",
+      "score": 3.300559996363636,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0490.JPG",
+      "score": 3.635888458,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0491.JPG",
+      "score": 0.9595804640000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0492.JPG",
+      "score": 1.6245412959999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0493.JPG",
+      "score": 2.812899312,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0494.JPG",
+      "score": 4.361565473,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0495.JPG",
+      "score": 3.4907944399999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0496.JPG",
+      "score": 3.301990656,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0497.JPG",
+      "score": 3.9835807520000004,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0498.JPG",
+      "score": 1.906809584,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0499.JPG",
+      "score": 2.8060968639999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0500.JPG",
+      "score": 3.927968156363636,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0501.JPG",
+      "score": 1.5863644290909087,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0502.JPG",
+      "score": 4.132408567000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0503.JPG",
+      "score": 2.619609890909091,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0504.JPG",
+      "score": 3.373355871999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0505.JPG",
+      "score": 4.013355518181818,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0506.JPG",
+      "score": 3.5238459040000003,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0507.JPG",
+      "score": 3.37511478,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0508.JPG",
+      "score": 0.8965963519999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0509.JPG",
+      "score": 0.333543488,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0510.JPG",
+      "score": 1.541194624,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0511.JPG",
+      "score": 1.6230071040000003,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0512.JPG",
+      "score": 2.3504682297245107,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0513.JPG",
+      "score": 4.012172362,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0514.JPG",
+      "score": 1.0128587781818181,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0515.JPG",
+      "score": 1.8335900000000005,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0516.JPG",
+      "score": 0.4235553694117647,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0517.JPG",
+      "score": 2.047264376,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0518.JPG",
+      "score": 2.0088231854545455,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0519.JPG",
+      "score": 2.10030968,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0520.JPG",
+      "score": 2.221552363636363,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0521.JPG",
+      "score": 2.435540168,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0522.JPG",
+      "score": 3.337957128,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0523.JPG",
+      "score": 4.02678008,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0524.JPG",
+      "score": 3.4712512061756557,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0525.JPG",
+      "score": 3.973391666,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0526.JPG",
+      "score": 4.108448911,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0527.JPG",
+      "score": 3.057377016,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0528.JPG",
+      "score": 2.723764113333333,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0529.JPG",
+      "score": 3.9513478427272726,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0530.JPG",
+      "score": 3.858764192,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0531.JPG",
+      "score": 2.882609207272727,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0532.JPG",
+      "score": 1.718789424,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0533.JPG",
+      "score": 0.8273911272727272,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0534.JPG",
+      "score": 1.433065504,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0535.JPG",
+      "score": 4.025168132,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0536.JPG",
+      "score": 2.410447712,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0537.JPG",
+      "score": 2.86506932,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0538.JPG",
+      "score": 2.880738094545454,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0539.JPG",
+      "score": 0.32770075200000004,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0540.JPG",
+      "score": 1.2969195040000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0541.JPG",
+      "score": 0.781210624,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0542.JPG",
+      "score": 2.477301352,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0543.JPG",
+      "score": 0.88941176,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0544.JPG",
+      "score": 1.5854637527272728,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0545.JPG",
+      "score": 3.174068996,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0546.JPG",
+      "score": 1.6755778719999999,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0547.JPG",
+      "score": 4.245365978056681,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0548.JPG",
+      "score": 3.3675615260000002,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0549.JPG",
+      "score": 4.412089173487724,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0550.JPG",
+      "score": 2.635155496,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0551.JPG",
+      "score": 1.932529856,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0552.JPG",
+      "score": 3.276166448,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0553.JPG",
+      "score": 2.9748543781818184,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0554.JPG",
+      "score": 3.273013888,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0555.JPG",
+      "score": 2.709751309090909,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0556.JPG",
+      "score": 3.9779673081818188,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0557.JPG",
+      "score": 2.8201945672727273,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0558.JPG",
+      "score": 3.2431077390909095,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0559.JPG",
+      "score": 3.6055034920000004,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0560.JPG",
+      "score": 3.7922291887712554,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0561.JPG",
+      "score": 1.1311745279999998,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0562.JPG",
+      "score": 4.051586071000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0563.JPG",
+      "score": 3.5351547000000005,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0564.JPG",
+      "score": 3.0807219359999998,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0565.JPG",
+      "score": 4.163982242,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0566.JPG",
+      "score": 3.32433796,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0567.JPG",
+      "score": 0.27072751383595023,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0568.JPG",
+      "score": 1.015584672,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0569.JPG",
+      "score": 2.455170224,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0570.JPG",
+      "score": 3.3769020679999997,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0571.JPG",
+      "score": 4.225255054556207,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0572.JPG",
+      "score": 3.1153846120000006,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0573.JPG",
+      "score": 4.095838604,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0574.JPG",
+      "score": 2.6587221599999995,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0575.JPG",
+      "score": 4.305800754000001,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0576.JPG",
+      "score": 3.749684749,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0577.JPG",
+      "score": 4.398234527,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0578.JPG",
+      "score": 4.232030257,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0579.JPG",
+      "score": 3.477042408,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0580.JPG",
+      "score": 3.801052104,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0581.JPG",
+      "score": 4.530453977,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0582.JPG",
+      "score": 3.992282534,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0583.JPG",
+      "score": 4.336810727272727,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0584.JPG",
+      "score": 4.708355742,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0585.JPG",
+      "score": 3.995586404,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0586.JPG",
+      "score": 4.168064186666666,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0587.JPG",
+      "score": 4.759746117028341,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0588.JPG",
+      "score": 4.2021169999999985,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0589.JPG",
+      "score": 0.592055552,
+      "domain_id": 400
+    },
+    {
+      "image": "BID/DatabaseImage0590.JPG",
+      "score": 2.15618492,
+      "domain_id": 400
+    }
+  ]
+}

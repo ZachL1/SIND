@@ -1,0 +1,999 @@
+{
+  "files": [
+    {
+      "image": "SPAQ/TestImage/00067.jpg",
+      "score": 67.86,
+      "scene": [
+        "Animal",
+        "Plant"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/00092.jpg",
+      "score": 49.86,
+      "scene": [
+        "Animal",
+        "Landscape",
+        "Still-life"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/00259.jpg",
+      "score": 52.33,
+      "scene": [
+        "Animal",
+        "Cityscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/00463.jpg",
+      "score": 68.0,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/00513.jpg",
+      "score": 49.73,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/00537.jpg",
+      "score": 50.08,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/00602.jpg",
+      "score": 71.14,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/00778.jpg",
+      "score": 43.5,
+      "scene": [
+        "Animal",
+        "Cityscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/00809.jpg",
+      "score": 63.25,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/00866.jpg",
+      "score": 75.85,
+      "scene": [
+        "Animal",
+        "Landscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/01042.jpg",
+      "score": 65.25,
+      "scene": [
+        "Animal",
+        "Cityscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/01382.jpg",
+      "score": 63.36,
+      "scene": [
+        "Animal",
+        "Cityscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/01395.jpg",
+      "score": 42.09,
+      "scene": [
+        "Animal",
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/01421.jpg",
+      "score": 70.73,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/01447.jpg",
+      "score": 58.55,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/01787.jpg",
+      "score": 65.79,
+      "scene": [
+        "Animal",
+        "Landscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/01884.jpg",
+      "score": 55.13,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/01931.jpg",
+      "score": 77.0,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/02535.jpg",
+      "score": 59.73,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/02642.jpg",
+      "score": 66.36,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/02674.jpg",
+      "score": 56.36,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/02724.jpg",
+      "score": 53.58,
+      "scene": [
+        "Animal",
+        "Cityscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/02831.jpg",
+      "score": 71.22,
+      "scene": [
+        "Animal",
+        "Human"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/02848.jpg",
+      "score": 49.94,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/02888.jpg",
+      "score": 59.72,
+      "scene": [
+        "Animal",
+        "Landscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/02905.jpg",
+      "score": 73.78,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/02912.jpg",
+      "score": 23.06,
+      "scene": [
+        "Animal",
+        "Night scene"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/03042.jpg",
+      "score": 60.17,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/03238.jpg",
+      "score": 65.71,
+      "scene": [
+        "Animal",
+        "Landscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/03298.jpg",
+      "score": 68.0,
+      "scene": [
+        "Animal",
+        "Human"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/03362.jpg",
+      "score": 59.33,
+      "scene": [
+        "Animal",
+        "Landscape",
+        "Plant"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/03448.jpg",
+      "score": 66.08,
+      "scene": [
+        "Animal",
+        "Cityscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/03487.jpg",
+      "score": 70.17,
+      "scene": [
+        "Animal",
+        "Plant"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/03493.jpg",
+      "score": 49.75,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/03637.jpg",
+      "score": 61.3,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/03654.jpg",
+      "score": 20.64,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/03696.jpg",
+      "score": 79.91,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/03757.jpg",
+      "score": 57.46,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/03807.jpg",
+      "score": 79.0,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/03825.jpg",
+      "score": 75.33,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/03895.jpg",
+      "score": 79.71,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/04001.jpg",
+      "score": 65.87,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/04012.jpg",
+      "score": 77.12,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/04053.jpg",
+      "score": 33.42,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/04059.jpg",
+      "score": 55.08,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/04129.jpg",
+      "score": 56.8,
+      "scene": [
+        "Animal",
+        "Human"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/04156.jpg",
+      "score": 72.43,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/04272.jpg",
+      "score": 39.0,
+      "scene": [
+        "Animal",
+        "Cityscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/04315.jpg",
+      "score": 68.25,
+      "scene": [
+        "Animal",
+        "Cityscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/04406.jpg",
+      "score": 73.06,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/04567.jpg",
+      "score": 63.85,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/04593.jpg",
+      "score": 59.15,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/04718.jpg",
+      "score": 80.5,
+      "scene": [
+        "Animal",
+        "Cityscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/04810.jpg",
+      "score": 77.44,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/04939.jpg",
+      "score": 66.29,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/04953.jpg",
+      "score": 38.63,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/05388.jpg",
+      "score": 72.75,
+      "scene": [
+        "Animal",
+        "Cityscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/05455.jpg",
+      "score": 81.17,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/05658.jpg",
+      "score": 55.75,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/05688.jpg",
+      "score": 67.86,
+      "scene": [
+        "Animal",
+        "Cityscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/05719.jpg",
+      "score": 55.43,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/05756.jpg",
+      "score": 50.0,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/06077.jpg",
+      "score": 76.78,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/06131.jpg",
+      "score": 61.43,
+      "scene": [
+        "Animal",
+        "Landscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/06150.jpg",
+      "score": 37.14,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/06208.jpg",
+      "score": 76.4,
+      "scene": [
+        "Animal",
+        "Cityscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/06270.jpg",
+      "score": 69.33,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/06322.jpg",
+      "score": 70.33,
+      "scene": [
+        "Animal",
+        "Cityscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/06365.jpg",
+      "score": 68.17,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/06414.jpg",
+      "score": 52.13,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/06416.jpg",
+      "score": 69.22,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/06446.jpg",
+      "score": 65.0,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/06746.jpg",
+      "score": 58.5,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/06762.jpg",
+      "score": 65.2,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/07127.jpg",
+      "score": 70.25,
+      "scene": [
+        "Animal",
+        "Cityscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/07179.jpg",
+      "score": 29.8,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/07182.jpg",
+      "score": 70.83,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/07245.jpg",
+      "score": 51.0,
+      "scene": [
+        "Animal",
+        "Landscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/07584.jpg",
+      "score": 38.0,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/07588.jpg",
+      "score": 48.2,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/07630.jpg",
+      "score": 38.17,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/07647.jpg",
+      "score": 77.33,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/07759.jpg",
+      "score": 54.6,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/07770.jpg",
+      "score": 67.8,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/07820.jpg",
+      "score": 43.5,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/07853.jpg",
+      "score": 66.88,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/07973.jpg",
+      "score": 30.43,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08083.jpg",
+      "score": 75.71,
+      "scene": [
+        "Animal",
+        "Landscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08259.jpg",
+      "score": 60.33,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08280.jpg",
+      "score": 77.38,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08346.jpg",
+      "score": 80.2,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08378.jpg",
+      "score": 32.8,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08437.jpg",
+      "score": 61.67,
+      "scene": [
+        "Animal",
+        "Landscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08455.jpg",
+      "score": 55.0,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08469.jpg",
+      "score": 82.5,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08583.jpg",
+      "score": 73.25,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08598.jpg",
+      "score": 66.25,
+      "scene": [
+        "Animal",
+        "Landscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08615.jpg",
+      "score": 37.83,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08621.jpg",
+      "score": 86.4,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08625.jpg",
+      "score": 87.6,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08683.jpg",
+      "score": 52.25,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08703.jpg",
+      "score": 77.5,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08722.jpg",
+      "score": 67.89,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08730.jpg",
+      "score": 60.0,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08858.jpg",
+      "score": 73.67,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/08950.jpg",
+      "score": 46.17,
+      "scene": [
+        "Animal",
+        "Human"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/09048.jpg",
+      "score": 58.0,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/09217.jpg",
+      "score": 74.89,
+      "scene": [
+        "Animal",
+        "Landscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/09463.jpg",
+      "score": 75.11,
+      "scene": [
+        "Animal",
+        "Cityscape"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/09546.jpg",
+      "score": 42.33,
+      "scene": [
+        "Animal",
+        "Night scene"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/09657.jpg",
+      "score": 79.0,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/09859.jpg",
+      "score": 42.29,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/10402.jpg",
+      "score": 50.33,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/10418.jpg",
+      "score": 37.0,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/10429.jpg",
+      "score": 72.17,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/10806.jpg",
+      "score": 23.29,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/10824.jpg",
+      "score": 38.14,
+      "scene": [
+        "Animal"
+      ],
+      "domain_id": 100
+    },
+    {
+      "image": "SPAQ/TestImage/10972.jpg",
+      "score": 83.57,
+      "scene": [
+        "Animal",
+        "Cityscape"
+      ],
+      "domain_id": 100
+    }
+  ],
+  "domain_name": {
+    "100": "Animal",
+    "101": "Cityscape",
+    "102": "Human",
+    "103": "Indoor scene",
+    "104": "Landscape",
+    "105": "Night scene",
+    "106": "Plant",
+    "107": "Still-life",
+    "108": "Others"
+  }
+}

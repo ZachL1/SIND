@@ -1,0 +1,4187 @@
+{
+  "files": [
+    {
+      "image": "SPAQ/TestImage/00008.jpg",
+      "score": 20.14,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00009.jpg",
+      "score": 12.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00014.jpg",
+      "score": 5.83,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00028.jpg",
+      "score": 8.86,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00038.jpg",
+      "score": 8.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00045.jpg",
+      "score": 8.71,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00051.jpg",
+      "score": 11.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00055.jpg",
+      "score": 14.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00114.jpg",
+      "score": 14.57,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00138.jpg",
+      "score": 20.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00142.jpg",
+      "score": 15.6,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00145.jpg",
+      "score": 40.67,
+      "scene": [
+        "Landscape",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00196.jpg",
+      "score": 10.88,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00206.jpg",
+      "score": 12.75,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00215.jpg",
+      "score": 13.83,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00229.jpg",
+      "score": 11.54,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00235.jpg",
+      "score": 18.53,
+      "scene": [
+        "Still-life",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00237.jpg",
+      "score": 20.92,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00250.jpg",
+      "score": 9.15,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00272.jpg",
+      "score": 17.09,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00290.jpg",
+      "score": 20.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00307.jpg",
+      "score": 22.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00312.jpg",
+      "score": 16.83,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00317.jpg",
+      "score": 37.83,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00323.jpg",
+      "score": 17.45,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00351.jpg",
+      "score": 19.18,
+      "scene": [
+        "Human",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00359.jpg",
+      "score": 24.31,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00369.jpg",
+      "score": 5.63,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00379.jpg",
+      "score": 22.21,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00411.jpg",
+      "score": 15.06,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00419.jpg",
+      "score": 5.69,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00477.jpg",
+      "score": 30.83,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00596.jpg",
+      "score": 11.65,
+      "scene": [
+        "Plant",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00633.jpg",
+      "score": 24.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00642.jpg",
+      "score": 41.0,
+      "scene": [
+        "Landscape",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00667.jpg",
+      "score": 42.78,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00668.jpg",
+      "score": 17.14,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00688.jpg",
+      "score": 33.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00712.jpg",
+      "score": 8.82,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00737.jpg",
+      "score": 26.31,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00751.jpg",
+      "score": 27.06,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00755.jpg",
+      "score": 22.88,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00773.jpg",
+      "score": 10.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00797.jpg",
+      "score": 17.86,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00813.jpg",
+      "score": 24.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00835.jpg",
+      "score": 12.71,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00837.jpg",
+      "score": 15.14,
+      "scene": [
+        "Human",
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00883.jpg",
+      "score": 15.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00906.jpg",
+      "score": 23.92,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00911.jpg",
+      "score": 30.15,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/00991.jpg",
+      "score": 28.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01014.jpg",
+      "score": 13.43,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01039.jpg",
+      "score": 21.0,
+      "scene": [
+        "Still-life",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01049.jpg",
+      "score": 9.63,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01140.jpg",
+      "score": 16.22,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01199.jpg",
+      "score": 27.78,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01201.jpg",
+      "score": 5.88,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01203.jpg",
+      "score": 21.43,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01226.jpg",
+      "score": 9.5,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01227.jpg",
+      "score": 12.13,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01231.jpg",
+      "score": 16.75,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01241.jpg",
+      "score": 12.75,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01273.jpg",
+      "score": 9.73,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01311.jpg",
+      "score": 13.27,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01333.jpg",
+      "score": 11.25,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01343.jpg",
+      "score": 6.91,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01368.jpg",
+      "score": 36.64,
+      "scene": [
+        "Cityscape",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01411.jpg",
+      "score": 18.86,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01442.jpg",
+      "score": 40.6,
+      "scene": [
+        "Cityscape",
+        "Still-life",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01444.jpg",
+      "score": 21.2,
+      "scene": [
+        "Still-life",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01457.jpg",
+      "score": 16.09,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01458.jpg",
+      "score": 24.83,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01494.jpg",
+      "score": 11.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01572.jpg",
+      "score": 21.17,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01582.jpg",
+      "score": 15.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01607.jpg",
+      "score": 10.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01634.jpg",
+      "score": 6.1,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01662.jpg",
+      "score": 32.0,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01664.jpg",
+      "score": 10.7,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01666.jpg",
+      "score": 33.25,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01702.jpg",
+      "score": 21.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01710.jpg",
+      "score": 14.75,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01749.jpg",
+      "score": 7.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01751.jpg",
+      "score": 20.23,
+      "scene": [
+        "Still-life",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01768.jpg",
+      "score": 39.14,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01796.jpg",
+      "score": 32.38,
+      "scene": [
+        "Still-life",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01806.jpg",
+      "score": 19.62,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01807.jpg",
+      "score": 15.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01810.jpg",
+      "score": 27.92,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01812.jpg",
+      "score": 46.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01840.jpg",
+      "score": 33.8,
+      "scene": [
+        "Still-life",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01860.jpg",
+      "score": 16.5,
+      "scene": [
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01878.jpg",
+      "score": 23.89,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01928.jpg",
+      "score": 26.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01945.jpg",
+      "score": 17.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/01958.jpg",
+      "score": 12.11,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02066.jpg",
+      "score": 20.43,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02095.jpg",
+      "score": 24.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02103.jpg",
+      "score": 15.21,
+      "scene": [
+        "Human",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02123.jpg",
+      "score": 15.17,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02131.jpg",
+      "score": 16.59,
+      "scene": [
+        "Human",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02141.jpg",
+      "score": 17.71,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02149.jpg",
+      "score": 28.08,
+      "scene": [
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02184.jpg",
+      "score": 20.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02243.jpg",
+      "score": 14.1,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02249.jpg",
+      "score": 22.1,
+      "scene": [
+        "Landscape",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02270.jpg",
+      "score": 11.22,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02280.jpg",
+      "score": 14.89,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02285.jpg",
+      "score": 13.7,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02287.jpg",
+      "score": 23.89,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02288.jpg",
+      "score": 14.89,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02298.jpg",
+      "score": 12.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02360.jpg",
+      "score": 16.2,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02381.jpg",
+      "score": 20.2,
+      "scene": [
+        "Landscape",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02396.jpg",
+      "score": 23.22,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02397.jpg",
+      "score": 15.44,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02413.jpg",
+      "score": 10.8,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02419.jpg",
+      "score": 15.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02430.jpg",
+      "score": 16.1,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02438.jpg",
+      "score": 20.56,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02488.jpg",
+      "score": 11.6,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02499.jpg",
+      "score": 17.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02519.jpg",
+      "score": 19.73,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02543.jpg",
+      "score": 14.89,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02544.jpg",
+      "score": 16.09,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02573.jpg",
+      "score": 8.75,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02589.jpg",
+      "score": 8.73,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02594.jpg",
+      "score": 27.2,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02603.jpg",
+      "score": 10.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02637.jpg",
+      "score": 21.6,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02639.jpg",
+      "score": 35.08,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02650.jpg",
+      "score": 25.0,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02704.jpg",
+      "score": 28.6,
+      "scene": [
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02726.jpg",
+      "score": 52.53,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02779.jpg",
+      "score": 37.53,
+      "scene": [
+        "Landscape",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02812.jpg",
+      "score": 7.11,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02880.jpg",
+      "score": 28.06,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/02949.jpg",
+      "score": 27.2,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03011.jpg",
+      "score": 19.86,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03021.jpg",
+      "score": 13.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03095.jpg",
+      "score": 17.78,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03100.jpg",
+      "score": 11.43,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03103.jpg",
+      "score": 13.38,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03110.jpg",
+      "score": 14.25,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03123.jpg",
+      "score": 11.56,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03125.jpg",
+      "score": 15.43,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03133.jpg",
+      "score": 20.75,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03135.jpg",
+      "score": 18.38,
+      "scene": [
+        "Human",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03136.jpg",
+      "score": 18.71,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03153.jpg",
+      "score": 14.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03155.jpg",
+      "score": 28.29,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03159.jpg",
+      "score": 24.71,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03176.jpg",
+      "score": 20.17,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03207.jpg",
+      "score": 19.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03240.jpg",
+      "score": 13.37,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03307.jpg",
+      "score": 19.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03319.jpg",
+      "score": 22.71,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03339.jpg",
+      "score": 22.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03350.jpg",
+      "score": 21.14,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03385.jpg",
+      "score": 10.75,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03405.jpg",
+      "score": 18.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03440.jpg",
+      "score": 15.18,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03464.jpg",
+      "score": 4.17,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03576.jpg",
+      "score": 17.09,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03620.jpg",
+      "score": 16.58,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03640.jpg",
+      "score": 15.11,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03642.jpg",
+      "score": 9.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03660.jpg",
+      "score": 22.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03662.jpg",
+      "score": 14.08,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03745.jpg",
+      "score": 8.08,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03762.jpg",
+      "score": 10.92,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03805.jpg",
+      "score": 24.83,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03806.jpg",
+      "score": 7.4,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03857.jpg",
+      "score": 9.46,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03906.jpg",
+      "score": 13.14,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03928.jpg",
+      "score": 20.55,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03953.jpg",
+      "score": 12.3,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/03996.jpg",
+      "score": 14.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04024.jpg",
+      "score": 13.57,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04037.jpg",
+      "score": 12.27,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04058.jpg",
+      "score": 11.58,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04062.jpg",
+      "score": 34.2,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04067.jpg",
+      "score": 17.7,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04175.jpg",
+      "score": 14.71,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04215.jpg",
+      "score": 7.42,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04222.jpg",
+      "score": 11.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04262.jpg",
+      "score": 17.25,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04269.jpg",
+      "score": 7.38,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04301.jpg",
+      "score": 21.36,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04359.jpg",
+      "score": 8.69,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04363.jpg",
+      "score": 11.86,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04387.jpg",
+      "score": 20.06,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04390.jpg",
+      "score": 17.82,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04408.jpg",
+      "score": 18.6,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04449.jpg",
+      "score": 23.4,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04507.jpg",
+      "score": 20.71,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04517.jpg",
+      "score": 8.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04539.jpg",
+      "score": 26.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04559.jpg",
+      "score": 18.55,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04560.jpg",
+      "score": 8.91,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04587.jpg",
+      "score": 11.29,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04645.jpg",
+      "score": 19.71,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04760.jpg",
+      "score": 16.2,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04761.jpg",
+      "score": 19.18,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04799.jpg",
+      "score": 31.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04891.jpg",
+      "score": 19.45,
+      "scene": [
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04894.jpg",
+      "score": 37.93,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04895.jpg",
+      "score": 23.46,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04916.jpg",
+      "score": 15.14,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04938.jpg",
+      "score": 13.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04952.jpg",
+      "score": 18.86,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04957.jpg",
+      "score": 10.14,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/04969.jpg",
+      "score": 8.14,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05018.jpg",
+      "score": 15.29,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05035.jpg",
+      "score": 28.88,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05038.jpg",
+      "score": 17.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05052.jpg",
+      "score": 20.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05090.jpg",
+      "score": 7.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05095.jpg",
+      "score": 7.09,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05121.jpg",
+      "score": 8.6,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05132.jpg",
+      "score": 10.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05164.jpg",
+      "score": 14.91,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05174.jpg",
+      "score": 10.4,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05188.jpg",
+      "score": 19.8,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05203.jpg",
+      "score": 46.2,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05237.jpg",
+      "score": 23.0,
+      "scene": [
+        "Indoor scene",
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05239.jpg",
+      "score": 11.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05240.jpg",
+      "score": 4.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05266.jpg",
+      "score": 7.29,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05283.jpg",
+      "score": 16.86,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05370.jpg",
+      "score": 14.89,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05387.jpg",
+      "score": 39.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05420.jpg",
+      "score": 20.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05472.jpg",
+      "score": 3.9,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05488.jpg",
+      "score": 3.38,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05528.jpg",
+      "score": 15.38,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05551.jpg",
+      "score": 22.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05628.jpg",
+      "score": 12.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05640.jpg",
+      "score": 19.78,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05642.jpg",
+      "score": 24.2,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05646.jpg",
+      "score": 29.63,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05691.jpg",
+      "score": 18.71,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05731.jpg",
+      "score": 23.43,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05738.jpg",
+      "score": 18.38,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05746.jpg",
+      "score": 27.3,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05760.jpg",
+      "score": 22.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05780.jpg",
+      "score": 32.78,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05784.jpg",
+      "score": 11.88,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05789.jpg",
+      "score": 24.8,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05816.jpg",
+      "score": 13.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05849.jpg",
+      "score": 6.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05854.jpg",
+      "score": 24.14,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05863.jpg",
+      "score": 16.4,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05898.jpg",
+      "score": 16.4,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05902.jpg",
+      "score": 21.0,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05933.jpg",
+      "score": 12.27,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/05989.jpg",
+      "score": 15.5,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06019.jpg",
+      "score": 76.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06046.jpg",
+      "score": 17.78,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06053.jpg",
+      "score": 27.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06067.jpg",
+      "score": 9.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06078.jpg",
+      "score": 8.6,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06087.jpg",
+      "score": 41.78,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06098.jpg",
+      "score": 14.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06116.jpg",
+      "score": 70.29,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06129.jpg",
+      "score": 35.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06134.jpg",
+      "score": 16.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06138.jpg",
+      "score": 23.14,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06139.jpg",
+      "score": 20.71,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06143.jpg",
+      "score": 63.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06159.jpg",
+      "score": 11.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06175.jpg",
+      "score": 24.43,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06187.jpg",
+      "score": 25.29,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06220.jpg",
+      "score": 13.88,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06222.jpg",
+      "score": 20.43,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06252.jpg",
+      "score": 45.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06263.jpg",
+      "score": 22.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06292.jpg",
+      "score": 36.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06296.jpg",
+      "score": 34.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06304.jpg",
+      "score": 15.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06305.jpg",
+      "score": 82.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06318.jpg",
+      "score": 64.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06343.jpg",
+      "score": 17.43,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06370.jpg",
+      "score": 15.2,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06396.jpg",
+      "score": 22.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06409.jpg",
+      "score": 22.38,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06427.jpg",
+      "score": 21.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06440.jpg",
+      "score": 46.22,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06450.jpg",
+      "score": 13.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06452.jpg",
+      "score": 12.13,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06459.jpg",
+      "score": 14.88,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06465.jpg",
+      "score": 24.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06530.jpg",
+      "score": 65.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06534.jpg",
+      "score": 22.25,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06603.jpg",
+      "score": 29.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06614.jpg",
+      "score": 21.6,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06641.jpg",
+      "score": 22.5,
+      "scene": [
+        "Landscape",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06660.jpg",
+      "score": 11.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06715.jpg",
+      "score": 15.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06734.jpg",
+      "score": 9.6,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06737.jpg",
+      "score": 17.17,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06739.jpg",
+      "score": 3.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06743.jpg",
+      "score": 36.6,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06749.jpg",
+      "score": 20.2,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06808.jpg",
+      "score": 22.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06812.jpg",
+      "score": 18.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06816.jpg",
+      "score": 35.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06822.jpg",
+      "score": 29.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06840.jpg",
+      "score": 15.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06853.jpg",
+      "score": 18.5,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06860.jpg",
+      "score": 29.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06868.jpg",
+      "score": 20.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06916.jpg",
+      "score": 22.75,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06931.jpg",
+      "score": 21.3,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/06987.jpg",
+      "score": 11.11,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07062.jpg",
+      "score": 7.29,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07089.jpg",
+      "score": 8.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07142.jpg",
+      "score": 32.8,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07168.jpg",
+      "score": 27.8,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07173.jpg",
+      "score": 48.4,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07197.jpg",
+      "score": 74.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07234.jpg",
+      "score": 14.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07236.jpg",
+      "score": 20.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07258.jpg",
+      "score": 41.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07264.jpg",
+      "score": 30.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07268.jpg",
+      "score": 22.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07338.jpg",
+      "score": 2.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07343.jpg",
+      "score": 34.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07352.jpg",
+      "score": 14.8,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07379.jpg",
+      "score": 4.2,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07396.jpg",
+      "score": 7.8,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07413.jpg",
+      "score": 39.4,
+      "scene": [
+        "Indoor scene",
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07427.jpg",
+      "score": 11.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07456.jpg",
+      "score": 14.25,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07466.jpg",
+      "score": 25.25,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07479.jpg",
+      "score": 22.91,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07493.jpg",
+      "score": 28.17,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07528.jpg",
+      "score": 30.17,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07533.jpg",
+      "score": 16.0,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07562.jpg",
+      "score": 21.6,
+      "scene": [
+        "Human",
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07571.jpg",
+      "score": 10.14,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07591.jpg",
+      "score": 19.2,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07616.jpg",
+      "score": 30.83,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07649.jpg",
+      "score": 59.17,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07653.jpg",
+      "score": 41.14,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07664.jpg",
+      "score": 19.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07670.jpg",
+      "score": 14.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07690.jpg",
+      "score": 44.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07758.jpg",
+      "score": 8.6,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07765.jpg",
+      "score": 12.4,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07790.jpg",
+      "score": 14.33,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07842.jpg",
+      "score": 16.86,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07877.jpg",
+      "score": 25.0,
+      "scene": [
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07884.jpg",
+      "score": 24.57,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07886.jpg",
+      "score": 12.17,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07902.jpg",
+      "score": 15.2,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07913.jpg",
+      "score": 10.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07920.jpg",
+      "score": 31.57,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07940.jpg",
+      "score": 20.43,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07954.jpg",
+      "score": 22.83,
+      "scene": [
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07959.jpg",
+      "score": 26.71,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07969.jpg",
+      "score": 5.14,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07982.jpg",
+      "score": 32.29,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/07996.jpg",
+      "score": 17.6,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08011.jpg",
+      "score": 39.4,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08024.jpg",
+      "score": 21.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08028.jpg",
+      "score": 31.4,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08037.jpg",
+      "score": 22.2,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08121.jpg",
+      "score": 14.14,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08124.jpg",
+      "score": 18.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08125.jpg",
+      "score": 31.86,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08133.jpg",
+      "score": 22.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08135.jpg",
+      "score": 11.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08195.jpg",
+      "score": 33.75,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08198.jpg",
+      "score": 8.2,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08209.jpg",
+      "score": 11.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08219.jpg",
+      "score": 13.75,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08224.jpg",
+      "score": 51.75,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08277.jpg",
+      "score": 18.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08283.jpg",
+      "score": 12.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08340.jpg",
+      "score": 28.2,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08364.jpg",
+      "score": 24.83,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08399.jpg",
+      "score": 26.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08400.jpg",
+      "score": 23.25,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08402.jpg",
+      "score": 11.25,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08416.jpg",
+      "score": 22.25,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08456.jpg",
+      "score": 4.75,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08458.jpg",
+      "score": 9.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08462.jpg",
+      "score": 36.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08551.jpg",
+      "score": 7.4,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08552.jpg",
+      "score": 7.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08553.jpg",
+      "score": 20.25,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08555.jpg",
+      "score": 31.4,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08603.jpg",
+      "score": 13.75,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08609.jpg",
+      "score": 23.25,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08620.jpg",
+      "score": 21.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08646.jpg",
+      "score": 20.6,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08648.jpg",
+      "score": 4.8,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08671.jpg",
+      "score": 9.8,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08692.jpg",
+      "score": 32.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08697.jpg",
+      "score": 27.11,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08726.jpg",
+      "score": 21.89,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08731.jpg",
+      "score": 25.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08745.jpg",
+      "score": 17.63,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08828.jpg",
+      "score": 17.5,
+      "scene": [
+        "Landscape",
+        "Plant",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08873.jpg",
+      "score": 60.75,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08919.jpg",
+      "score": 17.43,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08932.jpg",
+      "score": 2.83,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08989.jpg",
+      "score": 21.25,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08994.jpg",
+      "score": 26.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08995.jpg",
+      "score": 16.29,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/08998.jpg",
+      "score": 47.6,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09033.jpg",
+      "score": 5.8,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09043.jpg",
+      "score": 10.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09060.jpg",
+      "score": 14.2,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09065.jpg",
+      "score": 16.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09080.jpg",
+      "score": 20.8,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09095.jpg",
+      "score": 24.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09109.jpg",
+      "score": 20.2,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09148.jpg",
+      "score": 60.2,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09167.jpg",
+      "score": 39.67,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09171.jpg",
+      "score": 14.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09175.jpg",
+      "score": 19.3,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09178.jpg",
+      "score": 35.6,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09187.jpg",
+      "score": 29.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09191.jpg",
+      "score": 13.13,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09238.jpg",
+      "score": 29.89,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09240.jpg",
+      "score": 12.88,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09250.jpg",
+      "score": 15.17,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09254.jpg",
+      "score": 3.83,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09280.jpg",
+      "score": 14.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09281.jpg",
+      "score": 10.83,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09294.jpg",
+      "score": 54.14,
+      "scene": [
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09310.jpg",
+      "score": 13.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09324.jpg",
+      "score": 23.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09357.jpg",
+      "score": 35.43,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09360.jpg",
+      "score": 25.14,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09365.jpg",
+      "score": 25.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09417.jpg",
+      "score": 8.75,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09439.jpg",
+      "score": 7.17,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09447.jpg",
+      "score": 17.17,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09452.jpg",
+      "score": 12.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09461.jpg",
+      "score": 17.2,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09467.jpg",
+      "score": 11.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09488.jpg",
+      "score": 7.56,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09536.jpg",
+      "score": 17.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09544.jpg",
+      "score": 20.33,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09548.jpg",
+      "score": 17.29,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09571.jpg",
+      "score": 23.17,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09598.jpg",
+      "score": 8.17,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09627.jpg",
+      "score": 17.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09637.jpg",
+      "score": 62.83,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09648.jpg",
+      "score": 9.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09660.jpg",
+      "score": 19.4,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09681.jpg",
+      "score": 17.25,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09719.jpg",
+      "score": 47.4,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09722.jpg",
+      "score": 29.25,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09727.jpg",
+      "score": 47.25,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09735.jpg",
+      "score": 12.56,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09744.jpg",
+      "score": 10.56,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09784.jpg",
+      "score": 12.11,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09838.jpg",
+      "score": 11.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09917.jpg",
+      "score": 15.25,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09923.jpg",
+      "score": 12.4,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09938.jpg",
+      "score": 45.75,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09945.jpg",
+      "score": 4.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09970.jpg",
+      "score": 5.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/09988.jpg",
+      "score": 6.33,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10027.jpg",
+      "score": 20.83,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10032.jpg",
+      "score": 4.75,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10074.jpg",
+      "score": 24.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10075.jpg",
+      "score": 14.14,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10083.jpg",
+      "score": 16.13,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10127.jpg",
+      "score": 21.25,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10129.jpg",
+      "score": 26.63,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10134.jpg",
+      "score": 6.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10195.jpg",
+      "score": 10.86,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10208.jpg",
+      "score": 15.29,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10224.jpg",
+      "score": 11.14,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10240.jpg",
+      "score": 29.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10274.jpg",
+      "score": 25.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10337.jpg",
+      "score": 12.71,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10358.jpg",
+      "score": 18.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10400.jpg",
+      "score": 16.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10407.jpg",
+      "score": 8.6,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10434.jpg",
+      "score": 25.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10440.jpg",
+      "score": 10.6,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10456.jpg",
+      "score": 9.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10460.jpg",
+      "score": 19.83,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10486.jpg",
+      "score": 29.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10530.jpg",
+      "score": 21.83,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10547.jpg",
+      "score": 26.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10565.jpg",
+      "score": 13.86,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10578.jpg",
+      "score": 13.71,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10585.jpg",
+      "score": 14.43,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10597.jpg",
+      "score": 13.71,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10620.jpg",
+      "score": 16.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10624.jpg",
+      "score": 12.0,
+      "scene": [
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10634.jpg",
+      "score": 10.86,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10637.jpg",
+      "score": 12.83,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10728.jpg",
+      "score": 8.17,
+      "scene": [
+        "Human",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10759.jpg",
+      "score": 12.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10808.jpg",
+      "score": 22.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10833.jpg",
+      "score": 16.29,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10848.jpg",
+      "score": 23.5,
+      "scene": [
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10901.jpg",
+      "score": 21.71,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/10988.jpg",
+      "score": 17.0,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/11008.jpg",
+      "score": 23.57,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/11018.jpg",
+      "score": 12.29,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/11029.jpg",
+      "score": 7.67,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/11070.jpg",
+      "score": 45.4,
+      "scene": [
+        "Cityscape",
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 108
+    },
+    {
+      "image": "SPAQ/TestImage/11107.jpg",
+      "score": 10.5,
+      "scene": [
+        "Others"
+      ],
+      "domain_id": 108
+    }
+  ],
+  "domain_name": {
+    "100": "Animal",
+    "101": "Cityscape",
+    "102": "Human",
+    "103": "Indoor scene",
+    "104": "Landscape",
+    "105": "Night scene",
+    "106": "Plant",
+    "107": "Still-life",
+    "108": "Others"
+  }
+}

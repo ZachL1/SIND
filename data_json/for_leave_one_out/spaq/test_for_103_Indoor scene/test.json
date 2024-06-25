@@ -1,0 +1,6739 @@
+{
+  "files": [
+    {
+      "image": "SPAQ/TestImage/00005.jpg",
+      "score": 22.71,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00010.jpg",
+      "score": 56.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00018.jpg",
+      "score": 31.57,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00057.jpg",
+      "score": 65.56,
+      "scene": [
+        "Human",
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00060.jpg",
+      "score": 16.13,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00077.jpg",
+      "score": 49.88,
+      "scene": [
+        "Indoor scene",
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00088.jpg",
+      "score": 75.86,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00105.jpg",
+      "score": 47.88,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00118.jpg",
+      "score": 39.86,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00119.jpg",
+      "score": 53.63,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00130.jpg",
+      "score": 12.83,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00135.jpg",
+      "score": 77.56,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00136.jpg",
+      "score": 21.75,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00141.jpg",
+      "score": 30.8,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00147.jpg",
+      "score": 37.8,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00149.jpg",
+      "score": 68.89,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00189.jpg",
+      "score": 44.2,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00190.jpg",
+      "score": 57.44,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00191.jpg",
+      "score": 33.38,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00207.jpg",
+      "score": 57.56,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00219.jpg",
+      "score": 61.42,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00238.jpg",
+      "score": 17.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00240.jpg",
+      "score": 48.0,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00241.jpg",
+      "score": 43.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00255.jpg",
+      "score": 57.92,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00262.jpg",
+      "score": 67.85,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00266.jpg",
+      "score": 63.83,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00274.jpg",
+      "score": 59.62,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00292.jpg",
+      "score": 27.78,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00309.jpg",
+      "score": 42.82,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00315.jpg",
+      "score": 19.09,
+      "scene": [
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00319.jpg",
+      "score": 28.18,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00346.jpg",
+      "score": 78.45,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00384.jpg",
+      "score": 82.38,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00435.jpg",
+      "score": 29.67,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00437.jpg",
+      "score": 19.57,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00438.jpg",
+      "score": 74.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00456.jpg",
+      "score": 51.43,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00465.jpg",
+      "score": 73.29,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00480.jpg",
+      "score": 72.38,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00488.jpg",
+      "score": 33.33,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00499.jpg",
+      "score": 34.53,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00509.jpg",
+      "score": 27.3,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00530.jpg",
+      "score": 64.5,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00538.jpg",
+      "score": 24.15,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00547.jpg",
+      "score": 77.17,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00575.jpg",
+      "score": 29.42,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00609.jpg",
+      "score": 39.39,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00616.jpg",
+      "score": 30.59,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00626.jpg",
+      "score": 38.32,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00629.jpg",
+      "score": 74.53,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00630.jpg",
+      "score": 38.41,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00641.jpg",
+      "score": 65.14,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00645.jpg",
+      "score": 53.38,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00652.jpg",
+      "score": 69.13,
+      "scene": [
+        "Human",
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00659.jpg",
+      "score": 66.13,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00665.jpg",
+      "score": 52.29,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00686.jpg",
+      "score": 54.71,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00700.jpg",
+      "score": 52.86,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00730.jpg",
+      "score": 50.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00732.jpg",
+      "score": 50.71,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00738.jpg",
+      "score": 65.27,
+      "scene": [
+        "Cityscape",
+        "Human",
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00766.jpg",
+      "score": 67.73,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00767.jpg",
+      "score": 23.2,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00772.jpg",
+      "score": 35.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00779.jpg",
+      "score": 52.83,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00784.jpg",
+      "score": 59.67,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00785.jpg",
+      "score": 60.83,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00792.jpg",
+      "score": 70.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00800.jpg",
+      "score": 44.5,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00807.jpg",
+      "score": 35.29,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00843.jpg",
+      "score": 29.29,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00875.jpg",
+      "score": 26.54,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00895.jpg",
+      "score": 71.79,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00896.jpg",
+      "score": 28.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00900.jpg",
+      "score": 30.5,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00904.jpg",
+      "score": 67.85,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00920.jpg",
+      "score": 42.58,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/00998.jpg",
+      "score": 26.45,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01019.jpg",
+      "score": 17.14,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01024.jpg",
+      "score": 32.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01058.jpg",
+      "score": 79.77,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01063.jpg",
+      "score": 51.64,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01069.jpg",
+      "score": 24.75,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01107.jpg",
+      "score": 70.57,
+      "scene": [
+        "Cityscape",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01117.jpg",
+      "score": 28.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01148.jpg",
+      "score": 30.44,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01153.jpg",
+      "score": 59.36,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01162.jpg",
+      "score": 59.0,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01207.jpg",
+      "score": 73.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01220.jpg",
+      "score": 43.86,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01221.jpg",
+      "score": 69.43,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01228.jpg",
+      "score": 67.14,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01236.jpg",
+      "score": 42.86,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01242.jpg",
+      "score": 32.63,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01261.jpg",
+      "score": 30.79,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01267.jpg",
+      "score": 71.82,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01280.jpg",
+      "score": 49.42,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01310.jpg",
+      "score": 26.92,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01322.jpg",
+      "score": 49.73,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01326.jpg",
+      "score": 77.09,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01347.jpg",
+      "score": 59.75,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01357.jpg",
+      "score": 81.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01359.jpg",
+      "score": 56.0,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01364.jpg",
+      "score": 34.55,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01405.jpg",
+      "score": 30.91,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01408.jpg",
+      "score": 70.08,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01428.jpg",
+      "score": 25.9,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01430.jpg",
+      "score": 27.2,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01454.jpg",
+      "score": 18.33,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Others"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01466.jpg",
+      "score": 74.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01476.jpg",
+      "score": 16.3,
+      "scene": [
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01489.jpg",
+      "score": 30.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01519.jpg",
+      "score": 72.9,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01523.jpg",
+      "score": 68.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01530.jpg",
+      "score": 81.57,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01532.jpg",
+      "score": 22.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01554.jpg",
+      "score": 37.69,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01560.jpg",
+      "score": 27.64,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01565.jpg",
+      "score": 70.36,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01609.jpg",
+      "score": 28.23,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01628.jpg",
+      "score": 64.1,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01651.jpg",
+      "score": 25.78,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01659.jpg",
+      "score": 31.19,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01665.jpg",
+      "score": 65.44,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01670.jpg",
+      "score": 77.11,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01673.jpg",
+      "score": 42.22,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01687.jpg",
+      "score": 27.78,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01715.jpg",
+      "score": 45.0,
+      "scene": [
+        "Indoor scene",
+        "Night scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01741.jpg",
+      "score": 51.13,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01745.jpg",
+      "score": 38.75,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01757.jpg",
+      "score": 71.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01784.jpg",
+      "score": 25.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01795.jpg",
+      "score": 64.73,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01804.jpg",
+      "score": 71.62,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01809.jpg",
+      "score": 30.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01831.jpg",
+      "score": 38.11,
+      "scene": [
+        "Human",
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01845.jpg",
+      "score": 73.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01859.jpg",
+      "score": 33.78,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01876.jpg",
+      "score": 23.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01882.jpg",
+      "score": 79.08,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01889.jpg",
+      "score": 21.75,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01894.jpg",
+      "score": 68.44,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01895.jpg",
+      "score": 61.44,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01896.jpg",
+      "score": 29.91,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01897.jpg",
+      "score": 13.89,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01904.jpg",
+      "score": 28.33,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01910.jpg",
+      "score": 29.67,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01915.jpg",
+      "score": 23.89,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01933.jpg",
+      "score": 73.9,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01948.jpg",
+      "score": 23.78,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01955.jpg",
+      "score": 42.5,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01960.jpg",
+      "score": 72.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01981.jpg",
+      "score": 67.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/01988.jpg",
+      "score": 71.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02002.jpg",
+      "score": 32.1,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02006.jpg",
+      "score": 31.27,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02019.jpg",
+      "score": 28.78,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02029.jpg",
+      "score": 59.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02039.jpg",
+      "score": 55.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02043.jpg",
+      "score": 35.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02057.jpg",
+      "score": 51.57,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02068.jpg",
+      "score": 35.71,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02072.jpg",
+      "score": 66.29,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02074.jpg",
+      "score": 61.86,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02082.jpg",
+      "score": 62.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02182.jpg",
+      "score": 17.17,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02196.jpg",
+      "score": 69.17,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02234.jpg",
+      "score": 64.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02246.jpg",
+      "score": 36.6,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02259.jpg",
+      "score": 64.22,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02266.jpg",
+      "score": 19.8,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02275.jpg",
+      "score": 42.11,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02293.jpg",
+      "score": 64.6,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02296.jpg",
+      "score": 23.7,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02303.jpg",
+      "score": 69.75,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02306.jpg",
+      "score": 65.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02308.jpg",
+      "score": 43.56,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02327.jpg",
+      "score": 38.3,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02337.jpg",
+      "score": 31.9,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02357.jpg",
+      "score": 37.3,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02374.jpg",
+      "score": 35.7,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02384.jpg",
+      "score": 26.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02389.jpg",
+      "score": 53.9,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02391.jpg",
+      "score": 33.46,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02400.jpg",
+      "score": 59.5,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02410.jpg",
+      "score": 52.38,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02432.jpg",
+      "score": 57.75,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02437.jpg",
+      "score": 74.14,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02465.jpg",
+      "score": 12.73,
+      "scene": [
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02468.jpg",
+      "score": 23.4,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02486.jpg",
+      "score": 49.9,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02500.jpg",
+      "score": 80.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02516.jpg",
+      "score": 32.4,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02520.jpg",
+      "score": 31.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02542.jpg",
+      "score": 21.11,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02550.jpg",
+      "score": 39.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02552.jpg",
+      "score": 46.6,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02556.jpg",
+      "score": 57.4,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02560.jpg",
+      "score": 61.78,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02583.jpg",
+      "score": 32.11,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02614.jpg",
+      "score": 62.92,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02619.jpg",
+      "score": 37.3,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02623.jpg",
+      "score": 50.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02634.jpg",
+      "score": 45.91,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02663.jpg",
+      "score": 46.15,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02692.jpg",
+      "score": 31.07,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02702.jpg",
+      "score": 67.23,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02712.jpg",
+      "score": 70.73,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02732.jpg",
+      "score": 57.43,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02759.jpg",
+      "score": 29.6,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02771.jpg",
+      "score": 36.95,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02800.jpg",
+      "score": 65.43,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02808.jpg",
+      "score": 71.84,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02815.jpg",
+      "score": 40.5,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02824.jpg",
+      "score": 16.33,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02855.jpg",
+      "score": 51.94,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02874.jpg",
+      "score": 29.28,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02878.jpg",
+      "score": 71.31,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02914.jpg",
+      "score": 26.05,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02917.jpg",
+      "score": 38.06,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02930.jpg",
+      "score": 30.82,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02931.jpg",
+      "score": 63.29,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02956.jpg",
+      "score": 32.44,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02957.jpg",
+      "score": 23.18,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02976.jpg",
+      "score": 21.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02986.jpg",
+      "score": 34.25,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02989.jpg",
+      "score": 51.13,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02993.jpg",
+      "score": 31.38,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/02999.jpg",
+      "score": 59.63,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03013.jpg",
+      "score": 20.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03018.jpg",
+      "score": 25.71,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03022.jpg",
+      "score": 51.29,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03025.jpg",
+      "score": 30.0,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03027.jpg",
+      "score": 30.83,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03033.jpg",
+      "score": 30.5,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03039.jpg",
+      "score": 31.67,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03062.jpg",
+      "score": 23.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03070.jpg",
+      "score": 61.17,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03072.jpg",
+      "score": 54.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03084.jpg",
+      "score": 76.75,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03088.jpg",
+      "score": 19.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03106.jpg",
+      "score": 78.14,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03107.jpg",
+      "score": 66.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03114.jpg",
+      "score": 28.86,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03215.jpg",
+      "score": 53.43,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03216.jpg",
+      "score": 78.57,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03228.jpg",
+      "score": 41.63,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03235.jpg",
+      "score": 62.28,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03247.jpg",
+      "score": 68.65,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03248.jpg",
+      "score": 30.29,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03263.jpg",
+      "score": 38.2,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03267.jpg",
+      "score": 52.72,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03271.jpg",
+      "score": 52.22,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03278.jpg",
+      "score": 48.12,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03301.jpg",
+      "score": 77.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03302.jpg",
+      "score": 76.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03308.jpg",
+      "score": 71.88,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03311.jpg",
+      "score": 57.11,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03326.jpg",
+      "score": 49.38,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03330.jpg",
+      "score": 83.88,
+      "scene": [
+        "Human",
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03341.jpg",
+      "score": 45.86,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03353.jpg",
+      "score": 71.13,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03354.jpg",
+      "score": 38.67,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03375.jpg",
+      "score": 33.6,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03377.jpg",
+      "score": 24.22,
+      "scene": [
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03378.jpg",
+      "score": 22.78,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03435.jpg",
+      "score": 66.69,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03467.jpg",
+      "score": 60.92,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03477.jpg",
+      "score": 47.73,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03480.jpg",
+      "score": 55.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03486.jpg",
+      "score": 12.92,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03499.jpg",
+      "score": 65.82,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03528.jpg",
+      "score": 54.73,
+      "scene": [
+        "Human",
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03543.jpg",
+      "score": 16.36,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03577.jpg",
+      "score": 79.33,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03590.jpg",
+      "score": 65.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03616.jpg",
+      "score": 41.18,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03618.jpg",
+      "score": 37.27,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03623.jpg",
+      "score": 16.08,
+      "scene": [
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03632.jpg",
+      "score": 19.91,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Others"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03649.jpg",
+      "score": 65.36,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03677.jpg",
+      "score": 31.18,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03694.jpg",
+      "score": 36.91,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03712.jpg",
+      "score": 61.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03721.jpg",
+      "score": 69.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03732.jpg",
+      "score": 42.92,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03768.jpg",
+      "score": 60.67,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03818.jpg",
+      "score": 31.67,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03830.jpg",
+      "score": 74.75,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03855.jpg",
+      "score": 58.5,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03869.jpg",
+      "score": 32.69,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03877.jpg",
+      "score": 75.43,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03911.jpg",
+      "score": 68.15,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03932.jpg",
+      "score": 75.73,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03933.jpg",
+      "score": 40.15,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03937.jpg",
+      "score": 70.8,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03947.jpg",
+      "score": 34.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03964.jpg",
+      "score": 38.73,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03979.jpg",
+      "score": 65.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03980.jpg",
+      "score": 74.56,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03986.jpg",
+      "score": 25.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/03993.jpg",
+      "score": 61.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04002.jpg",
+      "score": 30.57,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04021.jpg",
+      "score": 43.5,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04034.jpg",
+      "score": 75.59,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04061.jpg",
+      "score": 56.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04070.jpg",
+      "score": 44.55,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04112.jpg",
+      "score": 53.09,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04126.jpg",
+      "score": 68.25,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04131.jpg",
+      "score": 73.57,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04132.jpg",
+      "score": 85.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04138.jpg",
+      "score": 37.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04153.jpg",
+      "score": 61.17,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04159.jpg",
+      "score": 25.17,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04171.jpg",
+      "score": 14.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04176.jpg",
+      "score": 40.86,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04184.jpg",
+      "score": 77.75,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04200.jpg",
+      "score": 81.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04209.jpg",
+      "score": 71.77,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04210.jpg",
+      "score": 80.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04226.jpg",
+      "score": 30.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04291.jpg",
+      "score": 62.58,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04292.jpg",
+      "score": 63.18,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04293.jpg",
+      "score": 49.18,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04305.jpg",
+      "score": 65.08,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04336.jpg",
+      "score": 58.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04341.jpg",
+      "score": 46.43,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04372.jpg",
+      "score": 38.64,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04381.jpg",
+      "score": 65.2,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04427.jpg",
+      "score": 33.6,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04451.jpg",
+      "score": 37.56,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04454.jpg",
+      "score": 47.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04458.jpg",
+      "score": 52.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04461.jpg",
+      "score": 71.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04464.jpg",
+      "score": 33.63,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04470.jpg",
+      "score": 25.13,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04485.jpg",
+      "score": 33.71,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04495.jpg",
+      "score": 35.43,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04497.jpg",
+      "score": 39.43,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04514.jpg",
+      "score": 68.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04550.jpg",
+      "score": 44.8,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04565.jpg",
+      "score": 37.09,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04574.jpg",
+      "score": 37.36,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04576.jpg",
+      "score": 28.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04594.jpg",
+      "score": 73.42,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04608.jpg",
+      "score": 56.8,
+      "scene": [
+        "Human",
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04609.jpg",
+      "score": 31.23,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04621.jpg",
+      "score": 8.17,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04622.jpg",
+      "score": 13.0,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04630.jpg",
+      "score": 35.33,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04658.jpg",
+      "score": 26.17,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04672.jpg",
+      "score": 58.44,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04675.jpg",
+      "score": 48.14,
+      "scene": [
+        "Indoor scene",
+        "Night scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04715.jpg",
+      "score": 18.17,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04727.jpg",
+      "score": 24.17,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04735.jpg",
+      "score": 26.86,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04744.jpg",
+      "score": 62.75,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04745.jpg",
+      "score": 79.17,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04754.jpg",
+      "score": 34.14,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04767.jpg",
+      "score": 26.22,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04772.jpg",
+      "score": 67.73,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04789.jpg",
+      "score": 33.11,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04792.jpg",
+      "score": 65.56,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04815.jpg",
+      "score": 27.56,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04818.jpg",
+      "score": 78.3,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04858.jpg",
+      "score": 31.75,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04873.jpg",
+      "score": 28.36,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04913.jpg",
+      "score": 33.86,
+      "scene": [
+        "Human",
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04933.jpg",
+      "score": 18.29,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04950.jpg",
+      "score": 31.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04963.jpg",
+      "score": 32.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/04968.jpg",
+      "score": 22.29,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05006.jpg",
+      "score": 36.13,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05010.jpg",
+      "score": 66.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05021.jpg",
+      "score": 64.78,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05024.jpg",
+      "score": 64.7,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05040.jpg",
+      "score": 25.38,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05067.jpg",
+      "score": 32.46,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05083.jpg",
+      "score": 74.31,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05094.jpg",
+      "score": 35.36,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05105.jpg",
+      "score": 65.08,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05106.jpg",
+      "score": 45.45,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05137.jpg",
+      "score": 26.5,
+      "scene": [
+        "Indoor scene",
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05139.jpg",
+      "score": 30.55,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05145.jpg",
+      "score": 42.1,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05173.jpg",
+      "score": 53.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05176.jpg",
+      "score": 34.56,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05185.jpg",
+      "score": 85.2,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05189.jpg",
+      "score": 81.6,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05195.jpg",
+      "score": 39.2,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05197.jpg",
+      "score": 77.6,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05223.jpg",
+      "score": 37.2,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05225.jpg",
+      "score": 20.6,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05234.jpg",
+      "score": 76.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05252.jpg",
+      "score": 85.0,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05293.jpg",
+      "score": 9.14,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05305.jpg",
+      "score": 68.14,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05328.jpg",
+      "score": 26.88,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05343.jpg",
+      "score": 43.5,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05384.jpg",
+      "score": 17.75,
+      "scene": [
+        "Indoor scene",
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05385.jpg",
+      "score": 73.63,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05407.jpg",
+      "score": 15.86,
+      "scene": [
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05413.jpg",
+      "score": 39.83,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05439.jpg",
+      "score": 78.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05470.jpg",
+      "score": 65.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05471.jpg",
+      "score": 75.38,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05491.jpg",
+      "score": 48.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05505.jpg",
+      "score": 42.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05525.jpg",
+      "score": 77.43,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05550.jpg",
+      "score": 37.2,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05564.jpg",
+      "score": 65.6,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05565.jpg",
+      "score": 23.83,
+      "scene": [
+        "Cityscape",
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05572.jpg",
+      "score": 64.29,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05580.jpg",
+      "score": 62.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05588.jpg",
+      "score": 73.0,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05590.jpg",
+      "score": 31.57,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05595.jpg",
+      "score": 61.0,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05606.jpg",
+      "score": 59.2,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05645.jpg",
+      "score": 63.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05650.jpg",
+      "score": 40.75,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05659.jpg",
+      "score": 55.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05660.jpg",
+      "score": 67.89,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05676.jpg",
+      "score": 33.29,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05697.jpg",
+      "score": 71.71,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05700.jpg",
+      "score": 25.78,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05702.jpg",
+      "score": 19.75,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05717.jpg",
+      "score": 63.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05729.jpg",
+      "score": 28.86,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05748.jpg",
+      "score": 26.75,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05761.jpg",
+      "score": 31.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05767.jpg",
+      "score": 27.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05814.jpg",
+      "score": 18.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05822.jpg",
+      "score": 66.2,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05823.jpg",
+      "score": 34.4,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05841.jpg",
+      "score": 54.4,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05855.jpg",
+      "score": 46.8,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05864.jpg",
+      "score": 31.8,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05913.jpg",
+      "score": 20.8,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05915.jpg",
+      "score": 44.7,
+      "scene": [
+        "Cityscape",
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05923.jpg",
+      "score": 72.22,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05927.jpg",
+      "score": 60.36,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05929.jpg",
+      "score": 61.1,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05931.jpg",
+      "score": 36.91,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05953.jpg",
+      "score": 75.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/05970.jpg",
+      "score": 19.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06026.jpg",
+      "score": 75.11,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06044.jpg",
+      "score": 43.2,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06057.jpg",
+      "score": 57.88,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06084.jpg",
+      "score": 72.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06118.jpg",
+      "score": 73.86,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06120.jpg",
+      "score": 70.57,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06154.jpg",
+      "score": 58.17,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06164.jpg",
+      "score": 72.86,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06165.jpg",
+      "score": 35.6,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06183.jpg",
+      "score": 39.57,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06194.jpg",
+      "score": 77.8,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06204.jpg",
+      "score": 45.63,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06212.jpg",
+      "score": 33.38,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06235.jpg",
+      "score": 37.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06265.jpg",
+      "score": 60.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06284.jpg",
+      "score": 70.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06285.jpg",
+      "score": 65.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06288.jpg",
+      "score": 36.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06293.jpg",
+      "score": 50.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06311.jpg",
+      "score": 14.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06319.jpg",
+      "score": 15.67,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06340.jpg",
+      "score": 33.5,
+      "scene": [
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06360.jpg",
+      "score": 60.14,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06377.jpg",
+      "score": 30.88,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06394.jpg",
+      "score": 67.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06398.jpg",
+      "score": 68.56,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06432.jpg",
+      "score": 45.11,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06441.jpg",
+      "score": 26.38,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06453.jpg",
+      "score": 35.86,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06485.jpg",
+      "score": 59.0,
+      "scene": [
+        "Human",
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06532.jpg",
+      "score": 70.71,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06537.jpg",
+      "score": 35.29,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06555.jpg",
+      "score": 84.56,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06568.jpg",
+      "score": 43.57,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06580.jpg",
+      "score": 74.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06598.jpg",
+      "score": 22.8,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06604.jpg",
+      "score": 25.4,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06606.jpg",
+      "score": 43.4,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06609.jpg",
+      "score": 34.2,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06631.jpg",
+      "score": 33.4,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06635.jpg",
+      "score": 45.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06651.jpg",
+      "score": 28.83,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06653.jpg",
+      "score": 40.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06659.jpg",
+      "score": 45.86,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06676.jpg",
+      "score": 62.0,
+      "scene": [
+        "Human",
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06683.jpg",
+      "score": 34.29,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06694.jpg",
+      "score": 70.57,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06727.jpg",
+      "score": 72.2,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06773.jpg",
+      "score": 37.8,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06774.jpg",
+      "score": 30.14,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06777.jpg",
+      "score": 67.6,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06785.jpg",
+      "score": 19.8,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06800.jpg",
+      "score": 7.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06819.jpg",
+      "score": 15.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06820.jpg",
+      "score": 21.67,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06824.jpg",
+      "score": 27.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06837.jpg",
+      "score": 16.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06838.jpg",
+      "score": 72.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06874.jpg",
+      "score": 40.5,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06896.jpg",
+      "score": 38.25,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06908.jpg",
+      "score": 61.6,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06914.jpg",
+      "score": 29.8,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06957.jpg",
+      "score": 63.4,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06964.jpg",
+      "score": 12.8,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06982.jpg",
+      "score": 28.0,
+      "scene": [
+        "Cityscape",
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/06984.jpg",
+      "score": 12.8,
+      "scene": [
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07001.jpg",
+      "score": 60.71,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07005.jpg",
+      "score": 40.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07034.jpg",
+      "score": 47.14,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07040.jpg",
+      "score": 73.0,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07053.jpg",
+      "score": 28.86,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07060.jpg",
+      "score": 44.14,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07068.jpg",
+      "score": 44.5,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07087.jpg",
+      "score": 10.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07113.jpg",
+      "score": 60.4,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07123.jpg",
+      "score": 53.4,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07135.jpg",
+      "score": 27.75,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07138.jpg",
+      "score": 32.4,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07146.jpg",
+      "score": 57.17,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07204.jpg",
+      "score": 76.2,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07216.jpg",
+      "score": 55.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07240.jpg",
+      "score": 31.0,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07242.jpg",
+      "score": 71.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07262.jpg",
+      "score": 77.0,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07279.jpg",
+      "score": 85.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07287.jpg",
+      "score": 43.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07329.jpg",
+      "score": 42.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07370.jpg",
+      "score": 19.8,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07377.jpg",
+      "score": 36.6,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07382.jpg",
+      "score": 22.2,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07389.jpg",
+      "score": 58.8,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07394.jpg",
+      "score": 24.2,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07398.jpg",
+      "score": 35.8,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07418.jpg",
+      "score": 23.8,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07435.jpg",
+      "score": 33.56,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07443.jpg",
+      "score": 28.13,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07465.jpg",
+      "score": 32.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07472.jpg",
+      "score": 36.38,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07484.jpg",
+      "score": 45.11,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07487.jpg",
+      "score": 83.43,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07490.jpg",
+      "score": 26.22,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07515.jpg",
+      "score": 28.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07520.jpg",
+      "score": 50.83,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07527.jpg",
+      "score": 39.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07532.jpg",
+      "score": 22.83,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07536.jpg",
+      "score": 85.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07559.jpg",
+      "score": 49.2,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07573.jpg",
+      "score": 46.43,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07578.jpg",
+      "score": 11.6,
+      "scene": [
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07580.jpg",
+      "score": 67.6,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07606.jpg",
+      "score": 28.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07671.jpg",
+      "score": 30.17,
+      "scene": [
+        "Cityscape",
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07680.jpg",
+      "score": 48.67,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07689.jpg",
+      "score": 33.43,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07702.jpg",
+      "score": 14.8,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07722.jpg",
+      "score": 71.8,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07742.jpg",
+      "score": 63.8,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07744.jpg",
+      "score": 33.4,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07762.jpg",
+      "score": 29.2,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07792.jpg",
+      "score": 41.0,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07815.jpg",
+      "score": 28.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07848.jpg",
+      "score": 81.0,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07849.jpg",
+      "score": 33.17,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07881.jpg",
+      "score": 34.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07888.jpg",
+      "score": 74.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07890.jpg",
+      "score": 36.83,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07915.jpg",
+      "score": 24.5,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07924.jpg",
+      "score": 32.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07933.jpg",
+      "score": 77.63,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07934.jpg",
+      "score": 77.17,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07939.jpg",
+      "score": 82.67,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07943.jpg",
+      "score": 50.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07946.jpg",
+      "score": 65.17,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07950.jpg",
+      "score": 34.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07955.jpg",
+      "score": 75.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/07990.jpg",
+      "score": 58.2,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08000.jpg",
+      "score": 47.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08020.jpg",
+      "score": 72.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08031.jpg",
+      "score": 28.6,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08043.jpg",
+      "score": 53.6,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08055.jpg",
+      "score": 58.43,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08059.jpg",
+      "score": 52.57,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08066.jpg",
+      "score": 73.14,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08084.jpg",
+      "score": 52.29,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08092.jpg",
+      "score": 46.7,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08100.jpg",
+      "score": 36.44,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08104.jpg",
+      "score": 31.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08114.jpg",
+      "score": 80.5,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08123.jpg",
+      "score": 67.5,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08142.jpg",
+      "score": 40.71,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08152.jpg",
+      "score": 69.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08156.jpg",
+      "score": 82.33,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08160.jpg",
+      "score": 47.71,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08214.jpg",
+      "score": 40.75,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08220.jpg",
+      "score": 31.4,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08236.jpg",
+      "score": 56.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08241.jpg",
+      "score": 75.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08261.jpg",
+      "score": 22.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08267.jpg",
+      "score": 75.11,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08282.jpg",
+      "score": 60.89,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08307.jpg",
+      "score": 26.56,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08310.jpg",
+      "score": 27.44,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08316.jpg",
+      "score": 33.11,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08327.jpg",
+      "score": 47.91,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08342.jpg",
+      "score": 47.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08356.jpg",
+      "score": 44.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08366.jpg",
+      "score": 81.8,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08391.jpg",
+      "score": 23.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08392.jpg",
+      "score": 36.29,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08393.jpg",
+      "score": 80.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08424.jpg",
+      "score": 82.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08441.jpg",
+      "score": 22.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08452.jpg",
+      "score": 85.33,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08457.jpg",
+      "score": 82.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08461.jpg",
+      "score": 74.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08464.jpg",
+      "score": 78.75,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08481.jpg",
+      "score": 37.6,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08489.jpg",
+      "score": 67.63,
+      "scene": [
+        "Indoor scene",
+        "Night scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08502.jpg",
+      "score": 30.38,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08528.jpg",
+      "score": 71.11,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08545.jpg",
+      "score": 27.8,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08564.jpg",
+      "score": 48.8,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08576.jpg",
+      "score": 79.4,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08580.jpg",
+      "score": 66.2,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08585.jpg",
+      "score": 79.6,
+      "scene": [
+        "Human",
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08588.jpg",
+      "score": 43.0,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08590.jpg",
+      "score": 26.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08611.jpg",
+      "score": 32.6,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08632.jpg",
+      "score": 53.6,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08635.jpg",
+      "score": 56.4,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08690.jpg",
+      "score": 52.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08704.jpg",
+      "score": 36.89,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08736.jpg",
+      "score": 20.29,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08737.jpg",
+      "score": 29.9,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08761.jpg",
+      "score": 59.33,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08762.jpg",
+      "score": 43.5,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08767.jpg",
+      "score": 48.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08788.jpg",
+      "score": 12.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08799.jpg",
+      "score": 63.8,
+      "scene": [
+        "Human",
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08825.jpg",
+      "score": 40.0,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08847.jpg",
+      "score": 45.38,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08856.jpg",
+      "score": 66.86,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08864.jpg",
+      "score": 46.11,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08906.jpg",
+      "score": 47.63,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08918.jpg",
+      "score": 51.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08935.jpg",
+      "score": 28.29,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08943.jpg",
+      "score": 70.71,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08944.jpg",
+      "score": 35.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08946.jpg",
+      "score": 68.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08957.jpg",
+      "score": 67.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08964.jpg",
+      "score": 35.57,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08968.jpg",
+      "score": 75.38,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08969.jpg",
+      "score": 44.38,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08974.jpg",
+      "score": 72.29,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08978.jpg",
+      "score": 46.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08987.jpg",
+      "score": 60.88,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/08991.jpg",
+      "score": 67.88,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09001.jpg",
+      "score": 54.29,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09010.jpg",
+      "score": 32.17,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09044.jpg",
+      "score": 22.8,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09079.jpg",
+      "score": 14.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09082.jpg",
+      "score": 17.86,
+      "scene": [
+        "Indoor scene",
+        "Others"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09087.jpg",
+      "score": 18.2,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09092.jpg",
+      "score": 67.6,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09112.jpg",
+      "score": 64.5,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09127.jpg",
+      "score": 77.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09147.jpg",
+      "score": 20.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09154.jpg",
+      "score": 47.8,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09156.jpg",
+      "score": 42.4,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09170.jpg",
+      "score": 76.6,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09173.jpg",
+      "score": 32.91,
+      "scene": [
+        "Cityscape",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09179.jpg",
+      "score": 36.7,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09207.jpg",
+      "score": 40.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09208.jpg",
+      "score": 38.83,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09213.jpg",
+      "score": 33.4,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09231.jpg",
+      "score": 74.89,
+      "scene": [
+        "Cityscape",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09283.jpg",
+      "score": 33.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09292.jpg",
+      "score": 41.29,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09306.jpg",
+      "score": 65.29,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09318.jpg",
+      "score": 67.13,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09356.jpg",
+      "score": 42.75,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09370.jpg",
+      "score": 42.75,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09378.jpg",
+      "score": 30.14,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09403.jpg",
+      "score": 70.14,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09406.jpg",
+      "score": 7.17,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09420.jpg",
+      "score": 8.33,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09423.jpg",
+      "score": 7.83,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09428.jpg",
+      "score": 26.71,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09435.jpg",
+      "score": 22.17,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09441.jpg",
+      "score": 11.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09444.jpg",
+      "score": 76.88,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09459.jpg",
+      "score": 27.11,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09474.jpg",
+      "score": 48.3,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09492.jpg",
+      "score": 32.2,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09558.jpg",
+      "score": 21.17,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09559.jpg",
+      "score": 22.5,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09609.jpg",
+      "score": 40.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09630.jpg",
+      "score": 76.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09631.jpg",
+      "score": 46.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09654.jpg",
+      "score": 73.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09658.jpg",
+      "score": 52.2,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09662.jpg",
+      "score": 79.25,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09682.jpg",
+      "score": 44.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09706.jpg",
+      "score": 46.75,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09712.jpg",
+      "score": 44.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09713.jpg",
+      "score": 51.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09748.jpg",
+      "score": 41.2,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09749.jpg",
+      "score": 59.91,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09750.jpg",
+      "score": 59.11,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09757.jpg",
+      "score": 46.22,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09769.jpg",
+      "score": 60.36,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09775.jpg",
+      "score": 20.78,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09788.jpg",
+      "score": 32.11,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09791.jpg",
+      "score": 62.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09828.jpg",
+      "score": 11.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09831.jpg",
+      "score": 55.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09848.jpg",
+      "score": 21.57,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09854.jpg",
+      "score": 17.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09856.jpg",
+      "score": 65.75,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09857.jpg",
+      "score": 51.71,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09862.jpg",
+      "score": 19.44,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09868.jpg",
+      "score": 25.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09877.jpg",
+      "score": 32.0,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09878.jpg",
+      "score": 26.0,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09907.jpg",
+      "score": 49.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09915.jpg",
+      "score": 48.4,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09921.jpg",
+      "score": 63.75,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09931.jpg",
+      "score": 52.75,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09934.jpg",
+      "score": 36.6,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09951.jpg",
+      "score": 18.83,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09960.jpg",
+      "score": 49.83,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09987.jpg",
+      "score": 18.5,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/09995.jpg",
+      "score": 67.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10047.jpg",
+      "score": 55.23,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10144.jpg",
+      "score": 49.75,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10149.jpg",
+      "score": 57.38,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10156.jpg",
+      "score": 66.38,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10162.jpg",
+      "score": 24.29,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10165.jpg",
+      "score": 80.57,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10167.jpg",
+      "score": 26.86,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10175.jpg",
+      "score": 79.14,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10179.jpg",
+      "score": 39.43,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10191.jpg",
+      "score": 24.29,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10211.jpg",
+      "score": 58.43,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10229.jpg",
+      "score": 71.71,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10286.jpg",
+      "score": 64.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10287.jpg",
+      "score": 46.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10291.jpg",
+      "score": 76.38,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10294.jpg",
+      "score": 35.5,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10310.jpg",
+      "score": 72.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10333.jpg",
+      "score": 38.43,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10334.jpg",
+      "score": 72.29,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10338.jpg",
+      "score": 49.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10372.jpg",
+      "score": 54.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10397.jpg",
+      "score": 39.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10408.jpg",
+      "score": 24.33,
+      "scene": [
+        "Cityscape",
+        "Human",
+        "Indoor scene",
+        "Night scene",
+        "Others"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10422.jpg",
+      "score": 74.2,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10449.jpg",
+      "score": 31.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10471.jpg",
+      "score": 74.17,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10515.jpg",
+      "score": 52.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10527.jpg",
+      "score": 78.17,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10557.jpg",
+      "score": 31.33,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10590.jpg",
+      "score": 36.43,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10591.jpg",
+      "score": 16.67,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10600.jpg",
+      "score": 24.14,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10653.jpg",
+      "score": 60.14,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10676.jpg",
+      "score": 30.0,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10681.jpg",
+      "score": 34.71,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10682.jpg",
+      "score": 42.86,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10711.jpg",
+      "score": 52.25,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10746.jpg",
+      "score": 56.43,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10760.jpg",
+      "score": 53.29,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10788.jpg",
+      "score": 24.0,
+      "scene": [
+        "Indoor scene",
+        "Plant",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10855.jpg",
+      "score": 36.0,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10868.jpg",
+      "score": 63.5,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10931.jpg",
+      "score": 80.86,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10990.jpg",
+      "score": 76.29,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10998.jpg",
+      "score": 63.71,
+      "scene": [
+        "Indoor scene",
+        "Still-life"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/10999.jpg",
+      "score": 73.57,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/11004.jpg",
+      "score": 33.43,
+      "scene": [
+        "Indoor scene",
+        "Night scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/11041.jpg",
+      "score": 17.63,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/11066.jpg",
+      "score": 78.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/11068.jpg",
+      "score": 56.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/11081.jpg",
+      "score": 72.0,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/11084.jpg",
+      "score": 29.5,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/11090.jpg",
+      "score": 60.67,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/11096.jpg",
+      "score": 43.33,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/11099.jpg",
+      "score": 29.67,
+      "scene": [
+        "Indoor scene",
+        "Plant"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/11113.jpg",
+      "score": 42.17,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/11114.jpg",
+      "score": 41.17,
+      "scene": [
+        "Human",
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    },
+    {
+      "image": "SPAQ/TestImage/11118.jpg",
+      "score": 22.8,
+      "scene": [
+        "Indoor scene"
+      ],
+      "domain_id": 103
+    }
+  ],
+  "domain_name": {
+    "100": "Animal",
+    "101": "Cityscape",
+    "102": "Human",
+    "103": "Indoor scene",
+    "104": "Landscape",
+    "105": "Night scene",
+    "106": "Plant",
+    "107": "Still-life",
+    "108": "Others"
+  }
+}
