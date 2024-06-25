@@ -1,0 +1,2270 @@
+{
+  "files": [
+    {
+      "image": "koniq10k/1024x768/10007903636.jpg",
+      "score": 78.6285714285714,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/100117038.jpg",
+      "score": 75.1125,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10022844623.jpg",
+      "score": 60.925,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/101601008.jpg",
+      "score": 61.0875,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10196228605.jpg",
+      "score": 63.8040540540541,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10209014225.jpg",
+      "score": 64.8411214953271,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10316734944.jpg",
+      "score": 67.3055555555556,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/1036840624.jpg",
+      "score": 28.3382352941176,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10409059825.jpg",
+      "score": 73.1513157894737,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10430002553.jpg",
+      "score": 77.5206422018349,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10459022813.jpg",
+      "score": 79.9642857142857,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10463583515.jpg",
+      "score": 76.6973684210526,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10468540574.jpg",
+      "score": 67.075,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10512432565.jpg",
+      "score": 68.1785714285714,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10513907744.jpg",
+      "score": 59.4311926605505,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10568567754.jpg",
+      "score": 75.1782608695652,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10603218265.jpg",
+      "score": 71.8616071428571,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10683218616.jpg",
+      "score": 69.4391304347826,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10689722684.jpg",
+      "score": 76.14375,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10721124556.jpg",
+      "score": 58.4579646017699,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10745415703.jpg",
+      "score": 69.1388888888889,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10819132874.jpg",
+      "score": 75.7798165137615,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10856434794.jpg",
+      "score": 44.0375,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/10905114716.jpg",
+      "score": 50.0695652173913,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/11018079835.jpg",
+      "score": 76.6602564102564,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/11035760784.jpg",
+      "score": 66.1160714285714,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/11270256213.jpg",
+      "score": 66.3370535714286,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/11452299875.jpg",
+      "score": 74.4608695652174,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/1316239068.jpg",
+      "score": 61.6165254237288,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/132921013.jpg",
+      "score": 72.5909090909091,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/1348788122.jpg",
+      "score": 49.6,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/1408827056.jpg",
+      "score": 30.6852678571429,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/1427484100.jpg",
+      "score": 71.65,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/1487386722.jpg",
+      "score": 28.9459459459459,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/1573719804.jpg",
+      "score": 72.5,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/159838722.jpg",
+      "score": 74.9033613445378,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/16057476.jpg",
+      "score": 41.6363636363636,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/186520031.jpg",
+      "score": 60.8298319327731,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/196734006.jpg",
+      "score": 72.4768907563025,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/203950866.jpg",
+      "score": 72.7542016806723,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/2044507520.jpg",
+      "score": 80.26875,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/2239201463.jpg",
+      "score": 68.2866972477064,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/2266672191.jpg",
+      "score": 57.30625,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/2311738871.jpg",
+      "score": 44.739224137931,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/2344211137.jpg",
+      "score": 68.6351351351351,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/2489209226.jpg",
+      "score": 54.8805309734513,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/2519479147.jpg",
+      "score": 66.5657894736842,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/2578696926.jpg",
+      "score": 75.6150442477876,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/2588726621.jpg",
+      "score": 71.3899082568807,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/2620467173.jpg",
+      "score": 53.6025641025641,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/2631646011.jpg",
+      "score": 68.85625,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/2680180441.jpg",
+      "score": 34.2864583333333,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/2748370097.jpg",
+      "score": 56.0252293577982,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/281609508.jpg",
+      "score": 60.7361111111111,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/2910495331.jpg",
+      "score": 66.4159292035398,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/2937190977.jpg",
+      "score": 73.1875,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/2971372651.jpg",
+      "score": 71.742125984252,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3012507882.jpg",
+      "score": 47.6995412844037,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3014908112.jpg",
+      "score": 67.7112068965517,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3021480593.jpg",
+      "score": 77.468487394958,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3099787122.jpg",
+      "score": 62.3274336283186,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3132085493.jpg",
+      "score": 68.4807692307692,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3161274755.jpg",
+      "score": 67.1542056074766,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3188292993.jpg",
+      "score": 77.9256756756757,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3194756721.jpg",
+      "score": 46.5847457627119,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3347823880.jpg",
+      "score": 67.0,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3355209894.jpg",
+      "score": 59.8260869565217,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3361988100.jpg",
+      "score": 69.578125,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3362731032.jpg",
+      "score": 76.69375,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3371032149.jpg",
+      "score": 64.6544117647059,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3385195104.jpg",
+      "score": 70.0063559322034,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3446366493.jpg",
+      "score": 67.231308411215,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3491336743.jpg",
+      "score": 37.2688679245283,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3494126077.jpg",
+      "score": 75.5394736842105,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/35311267.jpg",
+      "score": 26.9978991596639,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3537658496.jpg",
+      "score": 78.3158783783784,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3552766173.jpg",
+      "score": 72.3086956521739,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3601117533.jpg",
+      "score": 65.625,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3675002443.jpg",
+      "score": 46.2710084033613,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3676465885.jpg",
+      "score": 60.4423076923077,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3677460940.jpg",
+      "score": 51.325,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3715780832.jpg",
+      "score": 61.8347826086957,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3731180333.jpg",
+      "score": 68.4513888888889,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3733759776.jpg",
+      "score": 68.9888392857143,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3739339628.jpg",
+      "score": 55.2763157894737,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3783245891.jpg",
+      "score": 52.5974576271186,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3788909806.jpg",
+      "score": 63.8967889908257,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3812865597.jpg",
+      "score": 67.8102678571429,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3812926720.jpg",
+      "score": 70.3302752293578,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3825250471.jpg",
+      "score": 77.6592920353982,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3846844854.jpg",
+      "score": 66.4602803738318,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3922421993.jpg",
+      "score": 72.0416666666667,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3949472497.jpg",
+      "score": 66.4978260869565,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/3962058482.jpg",
+      "score": 25.4527027027027,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4034290606.jpg",
+      "score": 61.8819444444444,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4050875089.jpg",
+      "score": 68.3630434782609,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4100631766.jpg",
+      "score": 42.098623853211,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4138608778.jpg",
+      "score": 65.7415254237288,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4169643886.jpg",
+      "score": 48.9111111111111,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/418145002.jpg",
+      "score": 58.6714285714286,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4193122125.jpg",
+      "score": 59.725,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4213244648.jpg",
+      "score": 66.9282608695652,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4213592284.jpg",
+      "score": 49.2364864864865,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4260146768.jpg",
+      "score": 69.6490825688073,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/426081951.jpg",
+      "score": 76.4391891891892,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4288180189.jpg",
+      "score": 50.5717391304348,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4313162470.jpg",
+      "score": 67.2079831932773,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4336460350.jpg",
+      "score": 75.3236607142857,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4407707944.jpg",
+      "score": 72.7972972972973,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4411449023.jpg",
+      "score": 66.6108490566038,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4436002363.jpg",
+      "score": 51.2208737864078,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4438338527.jpg",
+      "score": 59.3392857142857,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4469938423.jpg",
+      "score": 55.5540540540541,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4493244545.jpg",
+      "score": 72.2689075630252,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4535544675.jpg",
+      "score": 78.9625,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4549109010.jpg",
+      "score": 71.125,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4549687373.jpg",
+      "score": 60.7948717948718,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4599648667.jpg",
+      "score": 26.7721238938053,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4605015781.jpg",
+      "score": 58.3455882352941,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4605755313.jpg",
+      "score": 49.2889908256881,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/463525569.jpg",
+      "score": 69.0435779816514,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4670475171.jpg",
+      "score": 78.1617647058823,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4691973869.jpg",
+      "score": 34.0,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4735563555.jpg",
+      "score": 68.3623853211009,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4777807371.jpg",
+      "score": 58.3783783783784,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4801184295.jpg",
+      "score": 72.7972972972973,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/482147713.jpg",
+      "score": 73.8082524271845,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4828896285.jpg",
+      "score": 75.8,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4830054430.jpg",
+      "score": 73.5377358490566,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4868558209.jpg",
+      "score": 41.15,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/493128717.jpg",
+      "score": 66.8513513513514,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4954209731.jpg",
+      "score": 42.3230088495575,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4980829250.jpg",
+      "score": 26.728813559322,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/4985059388.jpg",
+      "score": 75.25,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5073500906.jpg",
+      "score": 58.825,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5128756378.jpg",
+      "score": 80.1029411764706,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/51433626.jpg",
+      "score": 40.8181818181818,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5153880006.jpg",
+      "score": 74.9357142857143,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5175429795.jpg",
+      "score": 74.795871559633,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5227449110.jpg",
+      "score": 74.9726890756303,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5238246589.jpg",
+      "score": 73.375,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5243954323.jpg",
+      "score": 49.4423076923077,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5255413716.jpg",
+      "score": 58.5957943925234,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5257312652.jpg",
+      "score": 78.9428571428571,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/526020496.jpg",
+      "score": 54.925,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5265556048.jpg",
+      "score": 70.4663865546218,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5267121563.jpg",
+      "score": 68.109243697479,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5306806108.jpg",
+      "score": 69.7731092436975,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5327737580.jpg",
+      "score": 52.3982300884956,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5385663967.jpg",
+      "score": 68.4009433962264,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5422446412.jpg",
+      "score": 78.5647321428571,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5453819984.jpg",
+      "score": 64.8326271186441,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5462654627.jpg",
+      "score": 77.0434782608696,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5482033930.jpg",
+      "score": 68.6205357142857,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5513320745.jpg",
+      "score": 67.7139423076923,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5514669907.jpg",
+      "score": 75.45625,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5534680063.jpg",
+      "score": 71.8389423076923,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5561556380.jpg",
+      "score": 59.9911504424779,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5564289750.jpg",
+      "score": 81.3097345132743,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5564925519.jpg",
+      "score": 36.2211538461538,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5586890749.jpg",
+      "score": 69.475,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5594349841.jpg",
+      "score": 73.0707547169811,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5594665184.jpg",
+      "score": 65.6004464285714,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5625825104.jpg",
+      "score": 67.146017699115,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5629171325.jpg",
+      "score": 62.325,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5635139040.jpg",
+      "score": 69.1875,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5657214180.jpg",
+      "score": 75.9645669291339,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5669648365.jpg",
+      "score": 59.052752293578,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5678053727.jpg",
+      "score": 63.0483193277311,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5684082265.jpg",
+      "score": 69.2632743362832,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5684960466.jpg",
+      "score": 26.1355140186916,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5700592133.jpg",
+      "score": 75.9129464285714,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5700803236.jpg",
+      "score": 63.9724770642202,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5825939601.jpg",
+      "score": 78.7120535714286,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5836498446.jpg",
+      "score": 67.6292372881356,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5838329706.jpg",
+      "score": 57.6903669724771,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5871593028.jpg",
+      "score": 64.5169902912621,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5884343005.jpg",
+      "score": 73.614224137931,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/590233260.jpg",
+      "score": 63.4198113207547,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5902359095.jpg",
+      "score": 67.146017699115,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5904148188.jpg",
+      "score": 52.8315217391304,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5906203942.jpg",
+      "score": 53.858407079646,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5906517609.jpg",
+      "score": 69.0986842105263,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/5974719661.jpg",
+      "score": 27.0084745762712,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6006544496.jpg",
+      "score": 49.1973684210526,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6039986831.jpg",
+      "score": 63.8996815286624,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6065678020.jpg",
+      "score": 69.6756756756757,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6095610288.jpg",
+      "score": 37.7964601769912,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6113677746.jpg",
+      "score": 75.5767326732673,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6115396985.jpg",
+      "score": 70.7087155963303,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6125004754.jpg",
+      "score": 67.2869565217391,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6131302144.jpg",
+      "score": 73.875,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6141827403.jpg",
+      "score": 73.9327731092437,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6144702078.jpg",
+      "score": 54.0357142857143,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6149089572.jpg",
+      "score": 73.3517699115044,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6149327841.jpg",
+      "score": 50.3589743589744,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6153674206.jpg",
+      "score": 74.5387931034483,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6157377531.jpg",
+      "score": 70.2853982300885,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6167276187.jpg",
+      "score": 16.2307692307692,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6191653562.jpg",
+      "score": 74.8943965517241,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6194409059.jpg",
+      "score": 77.9256756756757,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6194607609.jpg",
+      "score": 76.14375,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6237907286.jpg",
+      "score": 67.1473214285714,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6265723593.jpg",
+      "score": 72.6216814159292,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6279173860.jpg",
+      "score": 57.3628318584071,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6303626544.jpg",
+      "score": 71.0550847457627,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6304784314.jpg",
+      "score": 28.3513513513514,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6321219958.jpg",
+      "score": 64.8591772151899,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6323869799.jpg",
+      "score": 69.13125,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6379014005.jpg",
+      "score": 44.7544642857143,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6407770545.jpg",
+      "score": 61.3844537815126,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6410507631.jpg",
+      "score": 67.75,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6440356973.jpg",
+      "score": 52.4678899082569,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6476406225.jpg",
+      "score": 79.864406779661,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6493285057.jpg",
+      "score": 71.3075221238938,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6517732881.jpg",
+      "score": 72.175,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6576363795.jpg",
+      "score": 31.7640186915888,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6650873585.jpg",
+      "score": 69.7743362831858,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6654258389.jpg",
+      "score": 66.4978260869565,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6665024915.jpg",
+      "score": 54.2631578947368,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6681716765.jpg",
+      "score": 69.9870689655172,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6793575356.jpg",
+      "score": 57.7094594594595,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6800703361.jpg",
+      "score": 70.5357142857143,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6825162524.jpg",
+      "score": 28.0378151260504,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6830281130.jpg",
+      "score": 76.1108695652174,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6842750557.jpg",
+      "score": 29.4166666666667,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6843523713.jpg",
+      "score": 56.2894736842105,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6845848072.jpg",
+      "score": 77.3125,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6883445766.jpg",
+      "score": 55.8772321428571,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6897314758.jpg",
+      "score": 73.5091743119266,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6904675638.jpg",
+      "score": 43.0210280373832,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6906058795.jpg",
+      "score": 59.4013157894737,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6909860315.jpg",
+      "score": 64.4891304347826,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6912813329.jpg",
+      "score": 72.70625,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6924377004.jpg",
+      "score": 66.9269911504425,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6929188980.jpg",
+      "score": 70.8648648648649,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6935047173.jpg",
+      "score": 74.271186440678,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6945246052.jpg",
+      "score": 77.535472972973,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6962529393.jpg",
+      "score": 59.9285714285714,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6977554463.jpg",
+      "score": 44.8368644067797,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6980277214.jpg",
+      "score": 61.3990825688073,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6993179262.jpg",
+      "score": 35.2635135135135,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/6993355605.jpg",
+      "score": 65.5064655172414,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7006133071.jpg",
+      "score": 70.5940594059406,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7021084115.jpg",
+      "score": 76.0614754098361,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7054584681.jpg",
+      "score": 65.6621621621622,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7072533905.jpg",
+      "score": 73.2453271028037,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7084961757.jpg",
+      "score": 64.2021739130435,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7087645993.jpg",
+      "score": 65.1281512605042,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7113653815.jpg",
+      "score": 72.1652173913044,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7131772191.jpg",
+      "score": 79.5642201834862,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7168526408.jpg",
+      "score": 64.704347826087,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7238368946.jpg",
+      "score": 36.8875,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7253127574.jpg",
+      "score": 70.1890756302521,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7259602320.jpg",
+      "score": 59.9911504424779,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7262954956.jpg",
+      "score": 74.8913043478261,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7286003056.jpg",
+      "score": 70.9285714285714,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7288524676.jpg",
+      "score": 64.25,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7291000146.jpg",
+      "score": 66.2373949579832,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7295291032.jpg",
+      "score": 69.2834821428571,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7296337218.jpg",
+      "score": 65.5,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7303973886.jpg",
+      "score": 67.1633663366337,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7319912164.jpg",
+      "score": 70.8194444444444,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7331539774.jpg",
+      "score": 74.4539473684211,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/73558937.jpg",
+      "score": 56.1375,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7411918198.jpg",
+      "score": 49.3114406779661,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7448603724.jpg",
+      "score": 71.4,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7461279878.jpg",
+      "score": 63.1399082568807,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7470463166.jpg",
+      "score": 73.1485849056604,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7517892652.jpg",
+      "score": 54.8421052631579,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7614530994.jpg",
+      "score": 79.4486607142857,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7627158600.jpg",
+      "score": 61.4485981308411,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7668828488.jpg",
+      "score": 70.675,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7732609964.jpg",
+      "score": 78.4342105263158,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7734376776.jpg",
+      "score": 72.7542016806723,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7736601364.jpg",
+      "score": 83.7209821428571,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7841962592.jpg",
+      "score": 69.0442477876106,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7870688128.jpg",
+      "score": 64.6353503184713,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7871346190.jpg",
+      "score": 71.4305555555556,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7897296676.jpg",
+      "score": 64.421875,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7903635044.jpg",
+      "score": 56.1946902654867,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/7911339166.jpg",
+      "score": 72.2629310344828,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8002007313.jpg",
+      "score": 75.1714285714286,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8017805417.jpg",
+      "score": 75.8970588235294,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8021456503.jpg",
+      "score": 72.7542016806723,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8021464988.jpg",
+      "score": 74.125,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8027425918.jpg",
+      "score": 75.1,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8035433785.jpg",
+      "score": 74.35,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8041987489.jpg",
+      "score": 43.4181415929204,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8050953362.jpg",
+      "score": 72.9879032258064,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8055471009.jpg",
+      "score": 61.7433628318584,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8082249517.jpg",
+      "score": 73.578431372549,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8087906672.jpg",
+      "score": 73.1138392857143,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8088105369.jpg",
+      "score": 68.3995535714286,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8110370052.jpg",
+      "score": 67.0,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8113244210.jpg",
+      "score": 77.0833333333333,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8113245382.jpg",
+      "score": 79.03125,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8113498731.jpg",
+      "score": 72.1,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8115151138.jpg",
+      "score": 64.59375,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8142530403.jpg",
+      "score": 67.1434782608696,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8154345084.jpg",
+      "score": 74.7740384615385,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8164370728.jpg",
+      "score": 58.2647058823529,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8165044722.jpg",
+      "score": 49.4048672566372,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8181726766.jpg",
+      "score": 40.6163366336634,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8199731208.jpg",
+      "score": 70.1730769230769,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8230450365.jpg",
+      "score": 59.2948113207547,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8232440995.jpg",
+      "score": 69.9518348623853,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8240021404.jpg",
+      "score": 58.9690265486726,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8244017611.jpg",
+      "score": 62.2196261682243,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8256076417.jpg",
+      "score": 57.8411016949153,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8257636356.jpg",
+      "score": 71.9345794392523,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8311563943.jpg",
+      "score": 70.7905405405405,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8341991106.jpg",
+      "score": 75.6659663865546,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8354855845.jpg",
+      "score": 67.454128440367,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8362126677.jpg",
+      "score": 64.9932432432432,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8392513010.jpg",
+      "score": 19.1061946902655,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8410633059.jpg",
+      "score": 65.2321428571429,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8442848364.jpg",
+      "score": 68.4558823529412,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8460289501.jpg",
+      "score": 65.0287610619469,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8488084256.jpg",
+      "score": 68.44375,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8492768208.jpg",
+      "score": 71.3108108108108,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8498296013.jpg",
+      "score": 43.625,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8499771607.jpg",
+      "score": 66.0480769230769,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8501698385.jpg",
+      "score": 69.0810810810811,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8502191647.jpg",
+      "score": 70.8551401869159,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8506941154.jpg",
+      "score": 58.3881578947368,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8511620322.jpg",
+      "score": 56.2594339622642,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8527988312.jpg",
+      "score": 76.9717391304348,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8549600155.jpg",
+      "score": 70.7162162162162,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8583578292.jpg",
+      "score": 74.8816964285714,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8596349698.jpg",
+      "score": 78.25,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8601119886.jpg",
+      "score": 66.8577586206897,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8613516565.jpg",
+      "score": 75.6118421052632,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8623218161.jpg",
+      "score": 77.9760869565217,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8627956046.jpg",
+      "score": 74.804054054054,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8644125724.jpg",
+      "score": 61.7775229357798,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8647880189.jpg",
+      "score": 69.0986842105263,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8710250301.jpg",
+      "score": 70.1003184713376,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8721056397.jpg",
+      "score": 18.609243697479,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8735700380.jpg",
+      "score": 73.716814159292,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8737972385.jpg",
+      "score": 68.5277777777778,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8748661037.jpg",
+      "score": 55.8296460176991,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8755673278.jpg",
+      "score": 64.8445945945946,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8771756230.jpg",
+      "score": 22.1725663716814,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8862366940.jpg",
+      "score": 61.5491071428571,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8921955477.jpg",
+      "score": 70.4663865546218,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8986464809.jpg",
+      "score": 81.4375,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8988143845.jpg",
+      "score": 63.9336283185841,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/8998348605.jpg",
+      "score": 67.9082568807339,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9002438378.jpg",
+      "score": 71.884,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9019428727.jpg",
+      "score": 66.925,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9139430214.jpg",
+      "score": 52.2408256880734,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9146239672.jpg",
+      "score": 65.00625,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9154784652.jpg",
+      "score": 73.5377358490566,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9157119271.jpg",
+      "score": 66.697247706422,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9202257544.jpg",
+      "score": 63.2569444444444,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9237488355.jpg",
+      "score": 77.6168032786885,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9298572085.jpg",
+      "score": 73.275641025641,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9299238943.jpg",
+      "score": 49.7373949579832,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9339437714.jpg",
+      "score": 64.9375,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9341605084.jpg",
+      "score": 77.4598214285714,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/93917546.jpg",
+      "score": 51.3319327731092,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9427704319.jpg",
+      "score": 75.0972222222222,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9428417271.jpg",
+      "score": 69.325,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9439720567.jpg",
+      "score": 66.3429203539823,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9475748691.jpg",
+      "score": 51.5855263157895,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9480350471.jpg",
+      "score": 59.9399038461538,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9518037590.jpg",
+      "score": 76.3168103448276,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9527980922.jpg",
+      "score": 70.7430555555556,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9604185976.jpg",
+      "score": 75.25,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9633489441.jpg",
+      "score": 32.2591743119266,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9642249347.jpg",
+      "score": 53.25,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9646156379.jpg",
+      "score": 71.8440366972477,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9654367147.jpg",
+      "score": 70.8823529411765,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9669015372.jpg",
+      "score": 64.822,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    },
+    {
+      "image": "koniq10k/1024x768/9753718946.jpg",
+      "score": 70.4059633027523,
+      "domain_id": 301,
+      "scene": "Cityscape"
+    }
+  ],
+  "domain_name": {
+    "300": "Animal",
+    "301": "Cityscape",
+    "302": "Human",
+    "303": "Indoor scene",
+    "304": "Landscape",
+    "305": "Night scene",
+    "306": "Plant",
+    "307": "Still-life"
+  }
+}

@@ -13,22 +13,10 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/10007903636.jpg",
-      "score": 78.6285714285714,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/10009096245.jpg",
       "score": 77.24375,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/100117038.jpg",
-      "score": 75.1125,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/10012398043.jpg",
@@ -71,12 +59,6 @@
       "score": 71.0154867256637,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/10022844623.jpg",
-      "score": 60.925,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/10027545463.jpg",
@@ -379,12 +361,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/101601008.jpg",
-      "score": 61.0875,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/10164654253.jpg",
       "score": 52.9220183486239,
       "domain_id": 300,
@@ -481,12 +457,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/10196228605.jpg",
-      "score": 63.8040540540541,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/10203647273.jpg",
       "score": 73.5021186440678,
       "domain_id": 300,
@@ -509,12 +479,6 @@
       "score": 62.5344036697248,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/10209014225.jpg",
-      "score": 64.8411214953271,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/10209917915.jpg",
@@ -739,12 +703,6 @@
       "scene": "Night scene"
     },
     {
-      "image": "koniq10k/1024x768/10316734944.jpg",
-      "score": 67.3055555555556,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/10319186405.jpg",
       "score": 55.5540540540541,
       "domain_id": 300,
@@ -877,12 +835,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/1036840624.jpg",
-      "score": 28.3382352941176,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/10371125786.jpg",
       "score": 38.245145631068,
       "domain_id": 303,
@@ -985,12 +937,6 @@
       "scene": "Plant"
     },
     {
-      "image": "koniq10k/1024x768/10409059825.jpg",
-      "score": 73.1513157894737,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/10410038143.jpg",
       "score": 78.1659482758621,
       "domain_id": 300,
@@ -1051,12 +997,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/10430002553.jpg",
-      "score": 77.5206422018349,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/10430335945.jpg",
       "score": 39.9741379310345,
       "domain_id": 300,
@@ -1111,22 +1051,10 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/10459022813.jpg",
-      "score": 79.9642857142857,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/10463545414.jpg",
       "score": 55.0444915254237,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/10463583515.jpg",
-      "score": 76.6973684210526,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/10464940425.jpg",
@@ -1163,12 +1091,6 @@
       "score": 61.4754464285714,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/10468540574.jpg",
-      "score": 67.075,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/10469774844.jpg",
@@ -1247,18 +1169,6 @@
       "score": 41.9444444444444,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/10512432565.jpg",
-      "score": 68.1785714285714,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/10513907744.jpg",
-      "score": 59.4311926605505,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/10516786036.jpg",
@@ -1399,12 +1309,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/10568567754.jpg",
-      "score": 75.1782608695652,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/10569725133.jpg",
       "score": 74.3008849557522,
       "domain_id": 302,
@@ -1487,12 +1391,6 @@
       "score": 27.7605042016807,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/10603218265.jpg",
-      "score": 71.8616071428571,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/10604417276.jpg",
@@ -1717,12 +1615,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/10683218616.jpg",
-      "score": 69.4391304347826,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/10686332213.jpg",
       "score": 57.4216101694915,
       "domain_id": 303,
@@ -1739,12 +1631,6 @@
       "score": 73.66875,
       "domain_id": 304,
       "scene": "Landscape"
-    },
-    {
-      "image": "koniq10k/1024x768/10689722684.jpg",
-      "score": 76.14375,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/10690294454.jpg",
@@ -1819,12 +1705,6 @@
       "scene": "Night scene"
     },
     {
-      "image": "koniq10k/1024x768/10721124556.jpg",
-      "score": 58.4579646017699,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/10723077086.jpg",
       "score": 71.8529411764706,
       "domain_id": 302,
@@ -1889,12 +1769,6 @@
       "score": 72.9125,
       "domain_id": 304,
       "scene": "Landscape"
-    },
-    {
-      "image": "koniq10k/1024x768/10745415703.jpg",
-      "score": 69.1388888888889,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/10745932825.jpg",
@@ -2077,12 +1951,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/10819132874.jpg",
-      "score": 75.7798165137615,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/10819329365.jpg",
       "score": 59.9911504424779,
       "domain_id": 302,
@@ -2153,12 +2021,6 @@
       "score": 24.0558035714286,
       "domain_id": 305,
       "scene": "Night scene"
-    },
-    {
-      "image": "koniq10k/1024x768/10856434794.jpg",
-      "score": 44.0375,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/10856757.jpg",
@@ -2297,12 +2159,6 @@
       "score": 63.7139830508475,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/10905114716.jpg",
-      "score": 50.0695652173913,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/10906887886.jpg",
@@ -2539,12 +2395,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/11018079835.jpg",
-      "score": 76.6602564102564,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/1101948952.jpg",
       "score": 75.1743119266055,
       "domain_id": 304,
@@ -2585,12 +2435,6 @@
       "score": 35.925,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/11035760784.jpg",
-      "score": 66.1160714285714,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/1103755154.jpg",
@@ -3103,12 +2947,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/11270256213.jpg",
-      "score": 66.3370535714286,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/11270280904.jpg",
       "score": 31.7702702702703,
       "domain_id": 306,
@@ -3569,12 +3407,6 @@
       "score": 77.468487394958,
       "domain_id": 305,
       "scene": "Night scene"
-    },
-    {
-      "image": "koniq10k/1024x768/11452299875.jpg",
-      "score": 74.4608695652174,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/11453100924.jpg",
@@ -4099,22 +3931,10 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/1316239068.jpg",
-      "score": 61.6165254237288,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/1317678723.jpg",
       "score": 38.9197247706422,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/132921013.jpg",
-      "score": 72.5909090909091,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/1329449674.jpg",
@@ -4163,12 +3983,6 @@
       "score": 72.3834745762712,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/1348788122.jpg",
-      "score": 49.6,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/1351464251.jpg",
@@ -4333,12 +4147,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/1408827056.jpg",
-      "score": 30.6852678571429,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/14092652.jpg",
       "score": 69.0275423728814,
       "domain_id": 300,
@@ -4385,12 +4193,6 @@
       "score": 55.8625,
       "domain_id": 305,
       "scene": "Night scene"
-    },
-    {
-      "image": "koniq10k/1024x768/1427484100.jpg",
-      "score": 71.65,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/1428835063.jpg",
@@ -4541,12 +4343,6 @@
       "score": 34.2079831932773,
       "domain_id": 305,
       "scene": "Night scene"
-    },
-    {
-      "image": "koniq10k/1024x768/1487386722.jpg",
-      "score": 28.9459459459459,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/14898266.jpg",
@@ -4795,12 +4591,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/1573719804.jpg",
-      "score": 72.5,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/1576235224.jpg",
       "score": 28.9065217391304,
       "domain_id": 302,
@@ -4825,22 +4615,10 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/159838722.jpg",
-      "score": 74.9033613445378,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/160123908.jpg",
       "score": 63.3949579831933,
       "domain_id": 305,
       "scene": "Night scene"
-    },
-    {
-      "image": "koniq10k/1024x768/16057476.jpg",
-      "score": 41.6363636363636,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/16079437.jpg",
@@ -5161,12 +4939,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/186520031.jpg",
-      "score": 60.8298319327731,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/187485230.jpg",
       "score": 45.7163865546218,
       "domain_id": 300,
@@ -5243,12 +5015,6 @@
       "score": 68.7094594594595,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/196734006.jpg",
-      "score": 72.4768907563025,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/1970440733.jpg",
@@ -5371,22 +5137,10 @@
       "scene": "Night scene"
     },
     {
-      "image": "koniq10k/1024x768/203950866.jpg",
-      "score": 72.7542016806723,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/2041755502.jpg",
       "score": 74.1064356435644,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/2044507520.jpg",
-      "score": 80.26875,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/2047083409.jpg",
@@ -6229,12 +5983,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/2239201463.jpg",
-      "score": 68.2866972477064,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/2239403255.jpg",
       "score": 77.4711538461538,
       "domain_id": 306,
@@ -6347,12 +6095,6 @@
       "score": 39.1737288135593,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/2266672191.jpg",
-      "score": 57.30625,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/2268779821.jpg",
@@ -6589,12 +6331,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/2311738871.jpg",
-      "score": 44.739224137931,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/2313971368.jpg",
       "score": 69.8910256410256,
       "domain_id": 304,
@@ -6773,12 +6509,6 @@
       "score": 72.0825892857143,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/2344211137.jpg",
-      "score": 68.6351351351351,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/2345921877.jpg",
@@ -7345,12 +7075,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/2489209226.jpg",
-      "score": 54.8805309734513,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/2490462635.jpg",
       "score": 58.3608490566038,
       "domain_id": 302,
@@ -7493,12 +7217,6 @@
       "score": 31.525,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/2519479147.jpg",
-      "score": 66.5657894736842,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/25239707.jpg",
@@ -7759,12 +7477,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/2578696926.jpg",
-      "score": 75.6150442477876,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/2578890441.jpg",
       "score": 71.7142857142857,
       "domain_id": 307,
@@ -7805,12 +7517,6 @@
       "score": 48.2760869565217,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/2588726621.jpg",
-      "score": 71.3899082568807,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/2588767665.jpg",
@@ -7927,12 +7633,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/2620467173.jpg",
-      "score": 53.6025641025641,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/2620618611.jpg",
       "score": 68.9576271186441,
       "domain_id": 307,
@@ -7985,12 +7685,6 @@
       "score": 79.925,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/2631646011.jpg",
-      "score": 68.85625,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/2633540206.jpg",
@@ -8207,12 +7901,6 @@
       "score": 17.01875,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/2680180441.jpg",
-      "score": 34.2864583333333,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/268066639.jpg",
@@ -8581,12 +8269,6 @@
       "scene": "Night scene"
     },
     {
-      "image": "koniq10k/1024x768/2748370097.jpg",
-      "score": 56.0252293577982,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/2749377637.jpg",
       "score": 57.3621495327103,
       "domain_id": 306,
@@ -8873,12 +8555,6 @@
       "score": 40.1327433628319,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/281609508.jpg",
-      "score": 60.7361111111111,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/28173586.jpg",
@@ -9391,12 +9067,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/2910495331.jpg",
-      "score": 66.4159292035398,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/2910515798.jpg",
       "score": 65.7133027522936,
       "domain_id": 306,
@@ -9491,12 +9161,6 @@
       "score": 48.7931034482759,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/2937190977.jpg",
-      "score": 73.1875,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/2937238676.jpg",
@@ -9689,12 +9353,6 @@
       "score": 49.8060747663551,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/2971372651.jpg",
-      "score": 71.742125984252,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/2973164436.jpg",
@@ -9907,12 +9565,6 @@
       "scene": "Plant"
     },
     {
-      "image": "koniq10k/1024x768/3012507882.jpg",
-      "score": 47.6995412844037,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/3013640771.jpg",
       "score": 70.9776785714286,
       "domain_id": 306,
@@ -9923,12 +9575,6 @@
       "score": 73.525,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/3014908112.jpg",
-      "score": 67.7112068965517,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/3015139450.jpg",
@@ -9971,12 +9617,6 @@
       "score": 48.4564220183486,
       "domain_id": 305,
       "scene": "Night scene"
-    },
-    {
-      "image": "koniq10k/1024x768/3021480593.jpg",
-      "score": 77.468487394958,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/3021647597.jpg",
@@ -10375,12 +10015,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/3099787122.jpg",
-      "score": 62.3274336283186,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/3100238639.jpg",
       "score": 55.537610619469,
       "domain_id": 307,
@@ -10633,12 +10267,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/3132085493.jpg",
-      "score": 68.4807692307692,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/3132104449.jpg",
       "score": 74.8571428571429,
       "domain_id": 302,
@@ -10837,12 +10465,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/3161274755.jpg",
-      "score": 67.1542056074766,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/3162134277.jpg",
       "score": 27.4485294117647,
       "domain_id": 303,
@@ -10999,12 +10621,6 @@
       "scene": "Plant"
     },
     {
-      "image": "koniq10k/1024x768/3188292993.jpg",
-      "score": 77.9256756756757,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/3188930402.jpg",
       "score": 64.75,
       "domain_id": 300,
@@ -11045,12 +10661,6 @@
       "score": 59.1959459459459,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/3194756721.jpg",
-      "score": 46.5847457627119,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/3195516092.jpg",
@@ -11983,12 +11593,6 @@
       "scene": "Landscape"
     },
     {
-      "image": "koniq10k/1024x768/3347823880.jpg",
-      "score": 67.0,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/3350005307.jpg",
       "score": 14.8655462184874,
       "domain_id": 305,
@@ -12017,12 +11621,6 @@
       "score": 75.3645833333333,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/3355209894.jpg",
-      "score": 59.8260869565217,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/3355464174.jpg",
@@ -12089,18 +11687,6 @@
       "score": 42.6216216216216,
       "domain_id": 305,
       "scene": "Night scene"
-    },
-    {
-      "image": "koniq10k/1024x768/3361988100.jpg",
-      "score": 69.578125,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/3362731032.jpg",
-      "score": 76.69375,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/3364202369.jpg",
@@ -12187,12 +11773,6 @@
       "scene": "Night scene"
     },
     {
-      "image": "koniq10k/1024x768/3371032149.jpg",
-      "score": 64.6544117647059,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/3371856854.jpg",
       "score": 64.2733050847458,
       "domain_id": 307,
@@ -12275,12 +11855,6 @@
       "score": 65.6621621621622,
       "domain_id": 304,
       "scene": "Landscape"
-    },
-    {
-      "image": "koniq10k/1024x768/3385195104.jpg",
-      "score": 70.0063559322034,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/3385580051.jpg",
@@ -12613,12 +12187,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/3446366493.jpg",
-      "score": 67.231308411215,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/3448332578.jpg",
       "score": 54.5154867256637,
       "domain_id": 300,
@@ -12907,12 +12475,6 @@
       "scene": "Night scene"
     },
     {
-      "image": "koniq10k/1024x768/3491336743.jpg",
-      "score": 37.2688679245283,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/3491534419.jpg",
       "score": 63.4,
       "domain_id": 302,
@@ -12923,12 +12485,6 @@
       "score": 33.5540540540541,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/3494126077.jpg",
-      "score": 75.5394736842105,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/3494272101.jpg",
@@ -13111,12 +12667,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/35311267.jpg",
-      "score": 26.9978991596639,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/3532282772.jpg",
       "score": 60.385775862069,
       "domain_id": 307,
@@ -13169,12 +12719,6 @@
       "score": 59.0,
       "domain_id": 304,
       "scene": "Landscape"
-    },
-    {
-      "image": "koniq10k/1024x768/3537658496.jpg",
-      "score": 78.3158783783784,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/3538380259.jpg",
@@ -13259,12 +12803,6 @@
       "score": 56.5202702702703,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/3552766173.jpg",
-      "score": 72.3086956521739,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/3552877026.jpg",
@@ -13589,12 +13127,6 @@
       "score": 42.6183035714286,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/3601117533.jpg",
-      "score": 65.625,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/3601352242.jpg",
@@ -14065,24 +13597,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/3675002443.jpg",
-      "score": 46.2710084033613,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/3676465885.jpg",
-      "score": 60.4423076923077,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/3677460940.jpg",
-      "score": 51.325,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/3678866923.jpg",
       "score": 68.4102564102564,
       "domain_id": 300,
@@ -14299,12 +13813,6 @@
       "scene": "Landscape"
     },
     {
-      "image": "koniq10k/1024x768/3715780832.jpg",
-      "score": 61.8347826086957,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/3716186057.jpg",
       "score": 18.7110091743119,
       "domain_id": 307,
@@ -14395,22 +13903,10 @@
       "scene": "Night scene"
     },
     {
-      "image": "koniq10k/1024x768/3731180333.jpg",
-      "score": 68.4513888888889,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/3733701155.jpg",
       "score": 79.0405405405405,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/3733759776.jpg",
-      "score": 68.9888392857143,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/3734378087.jpg",
@@ -14471,12 +13967,6 @@
       "score": 68.0951327433628,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/3739339628.jpg",
-      "score": 55.2763157894737,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/3740923361.jpg",
@@ -14743,12 +14233,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/3783245891.jpg",
-      "score": 52.5974576271186,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/3783312451.jpg",
       "score": 31.2021739130435,
       "domain_id": 302,
@@ -14789,12 +14273,6 @@
       "score": 74.8849557522124,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/3788909806.jpg",
-      "score": 63.8967889908257,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/3789837472.jpg",
@@ -14941,18 +14419,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/3812865597.jpg",
-      "score": 67.8102678571429,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/3812926720.jpg",
-      "score": 70.3302752293578,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/3814668128.jpg",
       "score": 59.7678571428571,
       "domain_id": 302,
@@ -15041,12 +14507,6 @@
       "score": 48.1625,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/3825250471.jpg",
-      "score": 77.6592920353982,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/3825304964.jpg",
@@ -15197,12 +14657,6 @@
       "score": 66.3503937007874,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/3846844854.jpg",
-      "score": 66.4602803738318,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/3847022878.jpg",
@@ -15721,12 +15175,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/3922421993.jpg",
-      "score": 72.0416666666667,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/3923233289.jpg",
       "score": 28.8004201680672,
       "domain_id": 302,
@@ -15931,12 +15379,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/3949472497.jpg",
-      "score": 66.4978260869565,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/395036065.jpg",
       "score": 27.4325657894737,
       "domain_id": 302,
@@ -16025,12 +15467,6 @@
       "score": 74.1394230769231,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/3962058482.jpg",
-      "score": 25.4527027027027,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/396221760.jpg",
@@ -16489,12 +15925,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/4034290606.jpg",
-      "score": 61.8819444444444,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/4034550282.jpg",
       "score": 35.5381355932203,
       "domain_id": 302,
@@ -16637,12 +16067,6 @@
       "score": 20.1567796610169,
       "domain_id": 305,
       "scene": "Night scene"
-    },
-    {
-      "image": "koniq10k/1024x768/4050875089.jpg",
-      "score": 68.3630434782609,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/4054072823.jpg",
@@ -16927,12 +16351,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/4100631766.jpg",
-      "score": 42.098623853211,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/4103115026.jpg",
       "score": 13.7875,
       "domain_id": 305,
@@ -17129,12 +16547,6 @@
       "score": 46.1924778761062,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/4138608778.jpg",
-      "score": 65.7415254237288,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/4139461254.jpg",
@@ -17371,12 +16783,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/4169643886.jpg",
-      "score": 48.9111111111111,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/4170535749.jpg",
       "score": 53.4071428571429,
       "domain_id": 307,
@@ -17473,12 +16879,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/418145002.jpg",
-      "score": 58.6714285714286,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/4182412787.jpg",
       "score": 22.2542372881356,
       "domain_id": 303,
@@ -17549,12 +16949,6 @@
       "score": 45.025,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/4193122125.jpg",
-      "score": 59.725,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/4193696727.jpg",
@@ -17677,22 +17071,10 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/4213244648.jpg",
-      "score": 66.9282608695652,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/4213334951.jpg",
       "score": 32.8214285714286,
       "domain_id": 305,
       "scene": "Night scene"
-    },
-    {
-      "image": "koniq10k/1024x768/4213592284.jpg",
-      "score": 49.2364864864865,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/4214550696.jpg",
@@ -18055,18 +17437,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/4260146768.jpg",
-      "score": 69.6490825688073,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/426081951.jpg",
-      "score": 76.4391891891892,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/4261186099.jpg",
       "score": 45.4,
       "domain_id": 303,
@@ -18227,12 +17597,6 @@
       "score": 51.53125,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/4288180189.jpg",
-      "score": 50.5717391304348,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/4289036535.jpg",
@@ -18421,12 +17785,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/4313162470.jpg",
-      "score": 67.2079831932773,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/4313852687.jpg",
       "score": 70.327731092437,
       "domain_id": 303,
@@ -18581,12 +17939,6 @@
       "score": 68.5894495412844,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/4336460350.jpg",
-      "score": 75.3236607142857,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/4336745838.jpg",
@@ -19087,12 +18439,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/4407707944.jpg",
-      "score": 72.7972972972973,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/4407839974.jpg",
       "score": 61.5,
       "domain_id": 306,
@@ -19133,12 +18479,6 @@
       "score": 62.6282051282051,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/4411449023.jpg",
-      "score": 66.6108490566038,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/441241455.jpg",
@@ -19321,12 +18661,6 @@
       "scene": "Landscape"
     },
     {
-      "image": "koniq10k/1024x768/4436002363.jpg",
-      "score": 51.2208737864078,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/4436568659.jpg",
       "score": 67.0705128205128,
       "domain_id": 304,
@@ -19343,12 +18677,6 @@
       "score": 59.7721238938053,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/4438338527.jpg",
-      "score": 59.3392857142857,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/4439151807.jpg",
@@ -19519,12 +18847,6 @@
       "scene": "Plant"
     },
     {
-      "image": "koniq10k/1024x768/4469938423.jpg",
-      "score": 55.5540540540541,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/4471526544.jpg",
       "score": 61.8262711864407,
       "domain_id": 302,
@@ -19667,12 +18989,6 @@
       "score": 67.3466386554622,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/4493244545.jpg",
-      "score": 72.2689075630252,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/449395753.jpg",
@@ -20011,12 +19327,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/4535544675.jpg",
-      "score": 78.9625,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/4535634069.jpg",
       "score": 64.8141025641026,
       "domain_id": 307,
@@ -20111,18 +19421,6 @@
       "score": 57.070796460177,
       "domain_id": 305,
       "scene": "Night scene"
-    },
-    {
-      "image": "koniq10k/1024x768/4549109010.jpg",
-      "score": 71.125,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/4549687373.jpg",
-      "score": 60.7948717948718,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/4550104555.jpg",
@@ -20491,12 +19789,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/4599648667.jpg",
-      "score": 26.7721238938053,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/4600229706.jpg",
       "score": 54.0588235294118,
       "domain_id": 307,
@@ -20557,12 +19849,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/4605015781.jpg",
-      "score": 58.3455882352941,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/4605356871.jpg",
       "score": 65.7588495575221,
       "domain_id": 302,
@@ -20573,12 +19859,6 @@
       "score": 62.563025210084,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/4605755313.jpg",
-      "score": 49.2889908256881,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/4605842170.jpg",
@@ -20783,12 +20063,6 @@
       "score": 62.2652173913043,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/463525569.jpg",
-      "score": 69.0435779816514,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/4635702029.jpg",
@@ -20999,12 +20273,6 @@
       "score": 73.6717391304348,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/4670475171.jpg",
-      "score": 78.1617647058823,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/4670590256.jpg",
@@ -21221,12 +20489,6 @@
       "score": 59.4129464285714,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/4691973869.jpg",
-      "score": 34.0,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/4692095992.jpg",
@@ -21583,12 +20845,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/4735563555.jpg",
-      "score": 68.3623853211009,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/473566328.jpg",
       "score": 71.0114678899083,
       "domain_id": 307,
@@ -21853,12 +21109,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/4777807371.jpg",
-      "score": 58.3783783783784,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/4778402744.jpg",
       "score": 67.675,
       "domain_id": 300,
@@ -22021,12 +21271,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/4801184295.jpg",
-      "score": 72.7972972972973,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/4801726337.jpg",
       "score": 55.1824324324324,
       "domain_id": 300,
@@ -22147,12 +21391,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/482147713.jpg",
-      "score": 73.8082524271845,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/4822559131.jpg",
       "score": 51.9347826086956,
       "domain_id": 300,
@@ -22187,18 +21425,6 @@
       "score": 36.6125,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/4828896285.jpg",
-      "score": 75.8,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/4830054430.jpg",
-      "score": 73.5377358490566,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/4830420359.jpg",
@@ -22487,12 +21713,6 @@
       "score": 72.593220338983,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/4868558209.jpg",
-      "score": 41.15,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/4868895324.jpg",
@@ -23047,12 +22267,6 @@
       "scene": "Plant"
     },
     {
-      "image": "koniq10k/1024x768/493128717.jpg",
-      "score": 66.8513513513514,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/4931966065.jpg",
       "score": 49.0441176470588,
       "domain_id": 307,
@@ -23249,12 +22463,6 @@
       "score": 62.8143382352941,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/4954209731.jpg",
-      "score": 42.3230088495575,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/4955052105.jpg",
@@ -23491,12 +22699,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/4980829250.jpg",
-      "score": 26.728813559322,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/4981035833.jpg",
       "score": 69.925,
       "domain_id": 300,
@@ -23537,12 +22739,6 @@
       "score": 24.9567307692308,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/4985059388.jpg",
-      "score": 75.25,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/4985166775.jpg",
@@ -24313,12 +23509,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/5073500906.jpg",
-      "score": 58.825,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5073566975.jpg",
       "score": 60.0301724137931,
       "domain_id": 300,
@@ -24715,12 +23905,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/5128756378.jpg",
-      "score": 80.1029411764706,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5129080312.jpg",
       "score": 27.8304347826087,
       "domain_id": 307,
@@ -24895,12 +24079,6 @@
       "scene": "Landscape"
     },
     {
-      "image": "koniq10k/1024x768/51433626.jpg",
-      "score": 40.8181818181818,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5143740294.jpg",
       "score": 58.6782608695652,
       "domain_id": 307,
@@ -24965,12 +24143,6 @@
       "score": 41.5567226890756,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/5153880006.jpg",
-      "score": 74.9357142857143,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/5153889058.jpg",
@@ -25157,12 +24329,6 @@
       "score": 56.171875,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/5175429795.jpg",
-      "score": 74.795871559633,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/5176288733.jpg",
@@ -25681,12 +24847,6 @@
       "scene": "Night scene"
     },
     {
-      "image": "koniq10k/1024x768/5227449110.jpg",
-      "score": 74.9726890756303,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5227846365.jpg",
       "score": 38.5919811320755,
       "domain_id": 307,
@@ -25801,12 +24961,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/5238246589.jpg",
-      "score": 73.375,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5239610533.jpg",
       "score": 38.5069444444444,
       "domain_id": 302,
@@ -25835,12 +24989,6 @@
       "score": 43.8580508474576,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/5243954323.jpg",
-      "score": 49.4423076923077,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/524406040.jpg",
@@ -25945,12 +25093,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/5255413716.jpg",
-      "score": 58.5957943925234,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/52568944.jpg",
       "score": 29.0215517241379,
       "domain_id": 302,
@@ -25969,12 +25111,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/5257312652.jpg",
-      "score": 78.9428571428571,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5258392332.jpg",
       "score": 67.675,
       "domain_id": 304,
@@ -25991,12 +25127,6 @@
       "score": 45.1703539823009,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/526020496.jpg",
-      "score": 54.925,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/5260460290.jpg",
@@ -26029,12 +25159,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/5265556048.jpg",
-      "score": 70.4663865546218,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/526555735.jpg",
       "score": 50.197247706422,
       "domain_id": 302,
@@ -26051,12 +25175,6 @@
       "score": 64.5022935779816,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/5267121563.jpg",
-      "score": 68.109243697479,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/526762082.jpg",
@@ -26389,12 +25507,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/5306806108.jpg",
-      "score": 69.7731092436975,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5306814937.jpg",
       "score": 74.5199115044248,
       "domain_id": 307,
@@ -26591,12 +25703,6 @@
       "score": 64.5970873786408,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/5327737580.jpg",
-      "score": 52.3982300884956,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/5328075993.jpg",
@@ -27049,12 +26155,6 @@
       "scene": "Landscape"
     },
     {
-      "image": "koniq10k/1024x768/5385663967.jpg",
-      "score": 68.4009433962264,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5385761239.jpg",
       "score": 48.9862385321101,
       "domain_id": 303,
@@ -27385,12 +26485,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/5422446412.jpg",
-      "score": 78.5647321428571,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5422890420.jpg",
       "score": 51.3030973451327,
       "domain_id": 303,
@@ -27667,12 +26761,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/5453819984.jpg",
-      "score": 64.8326271186441,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5453875819.jpg",
       "score": 64.6698473282443,
       "domain_id": 307,
@@ -27767,12 +26855,6 @@
       "score": 72.3772321428571,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/5462654627.jpg",
-      "score": 77.0434782608696,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/5463672195.jpg",
@@ -27971,12 +27053,6 @@
       "score": 36.2878151260504,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/5482033930.jpg",
-      "score": 68.6205357142857,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/5482786130.jpg",
@@ -28309,12 +27385,6 @@
       "scene": "Landscape"
     },
     {
-      "image": "koniq10k/1024x768/5513320745.jpg",
-      "score": 67.7139423076923,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5513852883.jpg",
       "score": 62.7276785714286,
       "domain_id": 303,
@@ -28325,12 +27395,6 @@
       "score": 67.0,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/5514669907.jpg",
-      "score": 75.45625,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/5514988242.jpg",
@@ -28511,12 +27575,6 @@
       "score": 50.3526785714286,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/5534680063.jpg",
-      "score": 71.8389423076923,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/5535054309.jpg",
@@ -28765,12 +27823,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/5561556380.jpg",
-      "score": 59.9911504424779,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5561903765.jpg",
       "score": 56.1410256410256,
       "domain_id": 304,
@@ -28795,12 +27847,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/5564289750.jpg",
-      "score": 81.3097345132743,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5564570846.jpg",
       "score": 72.7522935779816,
       "domain_id": 302,
@@ -28811,12 +27857,6 @@
       "score": 77.7323008849557,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/5564925519.jpg",
-      "score": 36.2211538461538,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/5565514955.jpg",
@@ -29005,12 +28045,6 @@
       "scene": "Plant"
     },
     {
-      "image": "koniq10k/1024x768/5586890749.jpg",
-      "score": 69.475,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/558820165.jpg",
       "score": 63.9679487179487,
       "domain_id": 300,
@@ -29113,22 +28147,10 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/5594349841.jpg",
-      "score": 73.0707547169811,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5594639206.jpg",
       "score": 60.475,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/5594665184.jpg",
-      "score": 65.6004464285714,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/5596136215.jpg",
@@ -29383,12 +28405,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/5625825104.jpg",
-      "score": 67.146017699115,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5626243539.jpg",
       "score": 44.6592920353982,
       "domain_id": 305,
@@ -29441,12 +28457,6 @@
       "score": 69.4092920353982,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/5629171325.jpg",
-      "score": 62.325,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/562942809.jpg",
@@ -29519,12 +28529,6 @@
       "score": 25.68125,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/5635139040.jpg",
-      "score": 69.1875,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/5636641388.jpg",
@@ -29737,12 +28741,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/5657214180.jpg",
-      "score": 75.9645669291339,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5657622409.jpg",
       "score": 68.2452830188679,
       "domain_id": 303,
@@ -29863,12 +28861,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/5669648365.jpg",
-      "score": 59.052752293578,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5670774641.jpg",
       "score": 66.9243119266055,
       "domain_id": 303,
@@ -29945,12 +28937,6 @@
       "score": 74.4180672268908,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/5678053727.jpg",
-      "score": 63.0483193277311,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/5678174838.jpg",
@@ -30055,12 +29041,6 @@
       "scene": "Night scene"
     },
     {
-      "image": "koniq10k/1024x768/5684082265.jpg",
-      "score": 69.2632743362832,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5684508410.jpg",
       "score": 80.0042372881356,
       "domain_id": 303,
@@ -30071,12 +29051,6 @@
       "score": 60.325,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/5684960466.jpg",
-      "score": 26.1355140186916,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/5685134916.jpg",
@@ -30203,18 +29177,6 @@
       "score": 50.8716216216216,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/5700592133.jpg",
-      "score": 75.9129464285714,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/5700803236.jpg",
-      "score": 63.9724770642202,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/5701016184.jpg",
@@ -31099,12 +30061,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/5825939601.jpg",
-      "score": 78.7120535714286,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5827032065.jpg",
       "score": 46.375,
       "domain_id": 300,
@@ -31189,22 +30145,10 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/5836498446.jpg",
-      "score": 67.6292372881356,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5837969940.jpg",
       "score": 70.4137931034483,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/5838329706.jpg",
-      "score": 57.6903669724771,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/5838518725.jpg",
@@ -31465,12 +30409,6 @@
       "scene": "Plant"
     },
     {
-      "image": "koniq10k/1024x768/5871593028.jpg",
-      "score": 64.5169902912621,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5871779223.jpg",
       "score": 48.0884615384615,
       "domain_id": 303,
@@ -31565,12 +30503,6 @@
       "score": 56.7279411764706,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/5884343005.jpg",
-      "score": 73.614224137931,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/5884382109.jpg",
@@ -31795,18 +30727,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/590233260.jpg",
-      "score": 63.4198113207547,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/5902359095.jpg",
-      "score": 67.146017699115,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5903525428.jpg",
       "score": 70.6490384615385,
       "domain_id": 300,
@@ -31831,12 +30751,6 @@
       "scene": "Landscape"
     },
     {
-      "image": "koniq10k/1024x768/5904148188.jpg",
-      "score": 52.8315217391304,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5904230612.jpg",
       "score": 70.9040178571429,
       "domain_id": 305,
@@ -31855,22 +30769,10 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/5906203942.jpg",
-      "score": 53.858407079646,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5906327236.jpg",
       "score": 66.6474358974359,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/5906517609.jpg",
-      "score": 69.0986842105263,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/5906582267.jpg",
@@ -32647,12 +31549,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/5974719661.jpg",
-      "score": 27.0084745762712,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/5974844404.jpg",
       "score": 67.5202702702703,
       "domain_id": 307,
@@ -32999,12 +31895,6 @@
       "score": 56.0266990291262,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/6006544496.jpg",
-      "score": 49.1973684210526,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6007032209.jpg",
@@ -33373,12 +32263,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/6039986831.jpg",
-      "score": 63.8996815286624,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6040260022.jpg",
       "score": 38.3252427184466,
       "domain_id": 307,
@@ -33581,12 +32465,6 @@
       "score": 71.9338235294118,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/6065678020.jpg",
-      "score": 69.6756756756757,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6065704403.jpg",
@@ -33871,12 +32749,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/6095610288.jpg",
-      "score": 37.7964601769912,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6095633645.jpg",
       "score": 38.125,
       "domain_id": 307,
@@ -34063,12 +32935,6 @@
       "scene": "Landscape"
     },
     {
-      "image": "koniq10k/1024x768/6113677746.jpg",
-      "score": 75.5767326732673,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6113689999.jpg",
       "score": 74.0921052631579,
       "domain_id": 302,
@@ -34097,12 +32963,6 @@
       "score": 72.5233050847458,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/6115396985.jpg",
-      "score": 70.7087155963303,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6115480209.jpg",
@@ -34225,12 +33085,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/6125004754.jpg",
-      "score": 67.2869565217391,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6125799438.jpg",
       "score": 77.2935779816514,
       "domain_id": 304,
@@ -34289,12 +33143,6 @@
       "score": 20.5200892857143,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/6131302144.jpg",
-      "score": 73.875,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6131345309.jpg",
@@ -34375,12 +33223,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/6141827403.jpg",
-      "score": 73.9327731092437,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6142185721.jpg",
       "score": 39.6009174311927,
       "domain_id": 303,
@@ -34453,12 +33295,6 @@
       "scene": "Plant"
     },
     {
-      "image": "koniq10k/1024x768/6144702078.jpg",
-      "score": 54.0357142857143,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6146146023.jpg",
       "score": 80.7739130434783,
       "domain_id": 307,
@@ -34495,18 +33331,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/6149089572.jpg",
-      "score": 73.3517699115044,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/6149327841.jpg",
-      "score": 50.3589743589744,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6149786725.jpg",
       "score": 69.8986486486486,
       "domain_id": 300,
@@ -34529,12 +33353,6 @@
       "score": 72.2027027027027,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/6153674206.jpg",
-      "score": 74.5387931034483,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6153807982.jpg",
@@ -34589,12 +33407,6 @@
       "score": 54.8383620689655,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/6157377531.jpg",
-      "score": 70.2853982300885,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6158806771.jpg",
@@ -34709,12 +33521,6 @@
       "score": 38.0093457943925,
       "domain_id": 305,
       "scene": "Night scene"
-    },
-    {
-      "image": "koniq10k/1024x768/6167276187.jpg",
-      "score": 16.2307692307692,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6167489115.jpg",
@@ -34969,12 +33775,6 @@
       "scene": "Landscape"
     },
     {
-      "image": "koniq10k/1024x768/6191653562.jpg",
-      "score": 74.8943965517241,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6192180077.jpg",
       "score": 70.3970588235294,
       "domain_id": 300,
@@ -34991,18 +33791,6 @@
       "score": 69.4127358490566,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/6194409059.jpg",
-      "score": 77.9256756756757,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/6194607609.jpg",
-      "score": 76.14375,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6194753185.jpg",
@@ -35419,12 +34207,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/6237907286.jpg",
-      "score": 67.1473214285714,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6238087656.jpg",
       "score": 66.4551886792453,
       "domain_id": 300,
@@ -35761,12 +34543,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/6265723593.jpg",
-      "score": 72.6216814159292,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6266190688.jpg",
       "score": 54.0961538461538,
       "domain_id": 307,
@@ -35879,12 +34655,6 @@
       "score": 62.5521739130435,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/6279173860.jpg",
-      "score": 57.3628318584071,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6279975735.jpg",
@@ -36097,22 +34867,10 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/6303626544.jpg",
-      "score": 71.0550847457627,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6303893419.jpg",
       "score": 56.5707547169811,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/6304784314.jpg",
-      "score": 28.3513513513514,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6305224063.jpg",
@@ -36271,12 +35029,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/6321219958.jpg",
-      "score": 64.8591772151899,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6321269427.jpg",
       "score": 41.6207627118644,
       "domain_id": 302,
@@ -36299,12 +35051,6 @@
       "score": 66.510593220339,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/6323869799.jpg",
-      "score": 69.13125,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6324713970.jpg",
@@ -36667,12 +35413,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/6379014005.jpg",
-      "score": 44.7544642857143,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6379443681.jpg",
       "score": 47.921875,
       "domain_id": 302,
@@ -36775,12 +35515,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/6407770545.jpg",
-      "score": 61.3844537815126,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6407934435.jpg",
       "score": 72.8716216216216,
       "domain_id": 307,
@@ -36803,12 +35537,6 @@
       "score": 48.7591743119266,
       "domain_id": 305,
       "scene": "Night scene"
-    },
-    {
-      "image": "koniq10k/1024x768/6410507631.jpg",
-      "score": 67.75,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6411216741.jpg",
@@ -36941,12 +35669,6 @@
       "score": 67.525,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/6440356973.jpg",
-      "score": 52.4678899082569,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6440541263.jpg",
@@ -37171,12 +35893,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/6476406225.jpg",
-      "score": 79.864406779661,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6476717611.jpg",
       "score": 48.953125,
       "domain_id": 300,
@@ -37253,12 +35969,6 @@
       "score": 79.1857798165138,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/6493285057.jpg",
-      "score": 71.3075221238938,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6493347009.jpg",
@@ -37373,12 +36083,6 @@
       "score": 61.9504310344828,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/6517732881.jpg",
-      "score": 72.175,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6520839597.jpg",
@@ -37625,12 +36329,6 @@
       "score": 73.1689189189189,
       "domain_id": 304,
       "scene": "Landscape"
-    },
-    {
-      "image": "koniq10k/1024x768/6576363795.jpg",
-      "score": 31.7640186915888,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6576807711.jpg",
@@ -38089,12 +36787,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/6650873585.jpg",
-      "score": 69.7743362831858,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/665094052.jpg",
       "score": 29.8026315789474,
       "domain_id": 302,
@@ -38117,12 +36809,6 @@
       "score": 58.2873831775701,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/6654258389.jpg",
-      "score": 66.4978260869565,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6654380789.jpg",
@@ -38203,12 +36889,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/6665024915.jpg",
-      "score": 54.2631578947368,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6666568019.jpg",
       "score": 66.4551886792453,
       "domain_id": 300,
@@ -38267,12 +36947,6 @@
       "score": 69.6517857142857,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/6681716765.jpg",
-      "score": 69.9870689655172,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6681891719.jpg",
@@ -38947,12 +37621,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/6793575356.jpg",
-      "score": 57.7094594594595,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6793966090.jpg",
       "score": 63.15,
       "domain_id": 302,
@@ -39029,12 +37697,6 @@
       "score": 76.4487179487179,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/6800703361.jpg",
-      "score": 70.5357142857143,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6801180487.jpg",
@@ -39259,12 +37921,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/6825162524.jpg",
-      "score": 28.0378151260504,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6825556474.jpg",
       "score": 59.2126168224299,
       "domain_id": 303,
@@ -39317,12 +37973,6 @@
       "score": 55.5769230769231,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/6830281130.jpg",
-      "score": 76.1108695652174,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6831480328.jpg",
@@ -39469,18 +38119,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/6842750557.jpg",
-      "score": 29.4166666666667,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/6843523713.jpg",
-      "score": 56.2894736842105,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6843525285.jpg",
       "score": 71.5343511450382,
       "domain_id": 307,
@@ -39521,12 +38159,6 @@
       "score": 42.676724137931,
       "domain_id": 305,
       "scene": "Night scene"
-    },
-    {
-      "image": "koniq10k/1024x768/6845848072.jpg",
-      "score": 77.3125,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6846284796.jpg",
@@ -39829,12 +38461,6 @@
       "scene": "Plant"
     },
     {
-      "image": "koniq10k/1024x768/6883445766.jpg",
-      "score": 55.8772321428571,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6884968602.jpg",
       "score": 36.2372881355932,
       "domain_id": 307,
@@ -39973,12 +38599,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/6897314758.jpg",
-      "score": 73.5091743119266,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6897446719.jpg",
       "score": 37.09375,
       "domain_id": 303,
@@ -40081,12 +38701,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/6904675638.jpg",
-      "score": 43.0210280373832,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6905163828.jpg",
       "score": 72.5982142857143,
       "domain_id": 302,
@@ -40109,12 +38723,6 @@
       "score": 65.3194444444444,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/6906058795.jpg",
-      "score": 59.4013157894737,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6906948754.jpg",
@@ -40165,12 +38773,6 @@
       "scene": "Night scene"
     },
     {
-      "image": "koniq10k/1024x768/6909860315.jpg",
-      "score": 64.4891304347826,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6910469420.jpg",
       "score": 71.5701438848921,
       "domain_id": 300,
@@ -40187,12 +38789,6 @@
       "score": 29.8013392857143,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/6912813329.jpg",
-      "score": 72.70625,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6913622130.jpg",
@@ -40285,12 +38881,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/6924377004.jpg",
-      "score": 66.9269911504425,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6926235386.jpg",
       "score": 62.05,
       "domain_id": 303,
@@ -40319,12 +38909,6 @@
       "score": 52.2094594594595,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/6929188980.jpg",
-      "score": 70.8648648648649,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6929191226.jpg",
@@ -40373,12 +38957,6 @@
       "score": 52.9957983193277,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/6935047173.jpg",
-      "score": 74.271186440678,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6935129773.jpg",
@@ -40523,12 +39101,6 @@
       "score": 70.5902777777778,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/6945246052.jpg",
-      "score": 77.535472972973,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6945819872.jpg",
@@ -40705,12 +39277,6 @@
       "scene": "Plant"
     },
     {
-      "image": "koniq10k/1024x768/6962529393.jpg",
-      "score": 59.9285714285714,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6963387147.jpg",
       "score": 56.171875,
       "domain_id": 306,
@@ -40873,12 +39439,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/6977554463.jpg",
-      "score": 44.8368644067797,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/6978488118.jpg",
       "score": 74.3333333333333,
       "domain_id": 304,
@@ -40925,12 +39485,6 @@
       "score": 59.859243697479,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/6980277214.jpg",
-      "score": 61.3990825688073,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6981062336.jpg",
@@ -41015,18 +39569,6 @@
       "score": 67.675,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/6993179262.jpg",
-      "score": 35.2635135135135,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/6993355605.jpg",
-      "score": 65.5064655172414,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/6993500769.jpg",
@@ -41251,12 +39793,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/7006133071.jpg",
-      "score": 70.5940594059406,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7006191446.jpg",
       "score": 53.5762711864407,
       "domain_id": 302,
@@ -41339,12 +39875,6 @@
       "score": 76.2205882352941,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/7021084115.jpg",
-      "score": 76.0614754098361,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/7021793877.jpg",
@@ -41533,12 +40063,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/7054584681.jpg",
-      "score": 65.6621621621622,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7054855385.jpg",
       "score": 38.640625,
       "domain_id": 302,
@@ -41635,12 +40159,6 @@
       "scene": "Night scene"
     },
     {
-      "image": "koniq10k/1024x768/7072533905.jpg",
-      "score": 73.2453271028037,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7075654171.jpg",
       "score": 70.6050420168067,
       "domain_id": 300,
@@ -41677,12 +40195,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/7084961757.jpg",
-      "score": 64.2021739130435,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7085413157.jpg",
       "score": 64.9932432432432,
       "domain_id": 302,
@@ -41699,12 +40211,6 @@
       "score": 60.0135135135135,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/7087645993.jpg",
-      "score": 65.1281512605042,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/7089392359.jpg",
@@ -41857,12 +40363,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/7113653815.jpg",
-      "score": 72.1652173913044,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7116112855.jpg",
       "score": 55.7828947368421,
       "domain_id": 302,
@@ -41927,12 +40427,6 @@
       "score": 59.1544117647059,
       "domain_id": 304,
       "scene": "Landscape"
-    },
-    {
-      "image": "koniq10k/1024x768/7131772191.jpg",
-      "score": 79.5642201834862,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/7131884003.jpg",
@@ -42179,12 +40673,6 @@
       "score": 63.8802521008403,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/7168526408.jpg",
-      "score": 64.704347826087,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/7168884193.jpg",
@@ -42613,12 +41101,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/7238368946.jpg",
-      "score": 36.8875,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7238571992.jpg",
       "score": 72.9271844660194,
       "domain_id": 302,
@@ -42685,12 +41167,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/7253127574.jpg",
-      "score": 70.1890756302521,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7253262358.jpg",
       "score": 45.34375,
       "domain_id": 302,
@@ -42727,12 +41203,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/7259602320.jpg",
-      "score": 59.9911504424779,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7259699596.jpg",
       "score": 55.2347826086957,
       "domain_id": 303,
@@ -42761,12 +41231,6 @@
       "score": 71.675,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/7262954956.jpg",
-      "score": 74.8913043478261,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/7263783306.jpg",
@@ -42949,12 +41413,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/7286003056.jpg",
-      "score": 70.9285714285714,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7287141628.jpg",
       "score": 67.0717391304348,
       "domain_id": 303,
@@ -42973,22 +41431,10 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/7288524676.jpg",
-      "score": 64.25,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7289957138.jpg",
       "score": 56.6875,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/7291000146.jpg",
-      "score": 66.2373949579832,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/7292757116.jpg",
@@ -43003,22 +41449,10 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/7295291032.jpg",
-      "score": 69.2834821428571,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7295363820.jpg",
       "score": 60.0441176470588,
       "domain_id": 304,
       "scene": "Landscape"
-    },
-    {
-      "image": "koniq10k/1024x768/7296337218.jpg",
-      "score": 65.5,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/7297259404.jpg",
@@ -43055,12 +41489,6 @@
       "score": 78.6383928571429,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/7303973886.jpg",
-      "score": 67.1633663366337,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/7304709380.jpg",
@@ -43135,12 +41563,6 @@
       "scene": "Plant"
     },
     {
-      "image": "koniq10k/1024x768/7319912164.jpg",
-      "score": 70.8194444444444,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7319984198.jpg",
       "score": 73.0873786407767,
       "domain_id": 300,
@@ -43187,12 +41609,6 @@
       "score": 78.0225409836066,
       "domain_id": 304,
       "scene": "Landscape"
-    },
-    {
-      "image": "koniq10k/1024x768/7331539774.jpg",
-      "score": 74.4539473684211,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/7331542456.jpg",
@@ -43325,12 +41741,6 @@
       "score": 67.2920353982301,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/73558937.jpg",
-      "score": 56.1375,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/7355960902.jpg",
@@ -43567,12 +41977,6 @@
       "scene": "Night scene"
     },
     {
-      "image": "koniq10k/1024x768/7411918198.jpg",
-      "score": 49.3114406779661,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7413044200.jpg",
       "score": 80.2995689655172,
       "domain_id": 303,
@@ -43723,12 +42127,6 @@
       "scene": "Night scene"
     },
     {
-      "image": "koniq10k/1024x768/7448603724.jpg",
-      "score": 71.4,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7448606010.jpg",
       "score": 50.5,
       "domain_id": 307,
@@ -43789,12 +42187,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/7461279878.jpg",
-      "score": 63.1399082568807,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7461618822.jpg",
       "score": 60.3717948717949,
       "domain_id": 302,
@@ -43841,12 +42233,6 @@
       "score": 57.8738938053097,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/7470463166.jpg",
-      "score": 73.1485849056604,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/7470692282.jpg",
@@ -44045,12 +42431,6 @@
       "score": 28.9935897435897,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/7517892652.jpg",
-      "score": 54.8421052631579,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/7519024248.jpg",
@@ -44437,12 +42817,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/7614530994.jpg",
-      "score": 79.4486607142857,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7616384942.jpg",
       "score": 75.3973214285714,
       "domain_id": 307,
@@ -44489,12 +42863,6 @@
       "score": 57.2375,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/7627158600.jpg",
-      "score": 61.4485981308411,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/7627340946.jpg",
@@ -44681,12 +43049,6 @@
       "score": 77.3125,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/7668828488.jpg",
-      "score": 70.675,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/7670929454.jpg",
@@ -44953,18 +43315,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/7732609964.jpg",
-      "score": 78.4342105263158,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/7734376776.jpg",
-      "score": 72.7542016806723,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7734540620.jpg",
       "score": 73.5048076923077,
       "domain_id": 304,
@@ -44975,12 +43325,6 @@
       "score": 58.3495145631068,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/7736601364.jpg",
-      "score": 83.7209821428571,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/7736819994.jpg",
@@ -45505,12 +43849,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/7841962592.jpg",
-      "score": 69.0442477876106,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7842127896.jpg",
       "score": 69.6756756756757,
       "domain_id": 302,
@@ -45637,22 +43975,10 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/7870688128.jpg",
-      "score": 64.6353503184713,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7871237210.jpg",
       "score": 73.8152173913043,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/7871346190.jpg",
-      "score": 71.4305555555556,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/7875370780.jpg",
@@ -45739,12 +44065,6 @@
       "scene": "Plant"
     },
     {
-      "image": "koniq10k/1024x768/7897296676.jpg",
-      "score": 64.421875,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/7899104502.jpg",
       "score": 51.0840707964602,
       "domain_id": 303,
@@ -45773,12 +44093,6 @@
       "score": 76.0126050420168,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/7903635044.jpg",
-      "score": 56.1946902654867,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/7903686666.jpg",
@@ -45833,12 +44147,6 @@
       "score": 61.5466101694915,
       "domain_id": 305,
       "scene": "Night scene"
-    },
-    {
-      "image": "koniq10k/1024x768/7911339166.jpg",
-      "score": 72.2629310344828,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/7911502338.jpg",
@@ -46471,12 +44779,6 @@
       "scene": "Plant"
     },
     {
-      "image": "koniq10k/1024x768/8002007313.jpg",
-      "score": 75.1714285714286,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8003027258.jpg",
       "score": 52.0420560747664,
       "domain_id": 306,
@@ -46603,12 +44905,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/8017805417.jpg",
-      "score": 75.8970588235294,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/80184044.jpg",
       "score": 3.91176470588235,
       "domain_id": 303,
@@ -46651,18 +44947,6 @@
       "scene": "Landscape"
     },
     {
-      "image": "koniq10k/1024x768/8021456503.jpg",
-      "score": 72.7542016806723,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/8021464988.jpg",
-      "score": 74.125,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8022493551.jpg",
       "score": 57.7794117647059,
       "domain_id": 300,
@@ -46693,12 +44977,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/8027425918.jpg",
-      "score": 75.1,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8030242803.jpg",
       "score": 58.9086538461538,
       "domain_id": 305,
@@ -46727,12 +45005,6 @@
       "score": 79.2614678899083,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/8035433785.jpg",
-      "score": 74.35,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8035478082.jpg",
@@ -46805,12 +45077,6 @@
       "score": 71.95,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/8041987489.jpg",
-      "score": 43.4181415929204,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8042065108.jpg",
@@ -46921,12 +45187,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/8050953362.jpg",
-      "score": 72.9879032258064,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8051569032.jpg",
       "score": 77.2935779816514,
       "domain_id": 302,
@@ -46943,12 +45203,6 @@
       "score": 37.3846153846154,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/8055471009.jpg",
-      "score": 61.7433628318584,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8055570957.jpg",
@@ -47161,12 +45415,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/8082249517.jpg",
-      "score": 73.578431372549,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8083120146.jpg",
       "score": 77.3486842105263,
       "domain_id": 302,
@@ -47213,18 +45461,6 @@
       "score": 60.8529411764706,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/8087906672.jpg",
-      "score": 73.1138392857143,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/8088105369.jpg",
-      "score": 68.3995535714286,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8088110789.jpg",
@@ -47449,12 +45685,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/8110370052.jpg",
-      "score": 67.0,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8113113251.jpg",
       "score": 67.0,
       "domain_id": 306,
@@ -47467,28 +45697,10 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/8113244210.jpg",
-      "score": 77.0833333333333,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/8113245382.jpg",
-      "score": 79.03125,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8113369457.jpg",
       "score": 73.1875,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/8113498731.jpg",
-      "score": 72.1,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8114138182.jpg",
@@ -47501,12 +45713,6 @@
       "score": 79.4906542056075,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/8115151138.jpg",
-      "score": 64.59375,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8115433304.jpg",
@@ -47755,12 +45961,6 @@
       "scene": "Landscape"
     },
     {
-      "image": "koniq10k/1024x768/8142530403.jpg",
-      "score": 67.1434782608696,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8142555462.jpg",
       "score": 47.6736111111111,
       "domain_id": 303,
@@ -47849,12 +46049,6 @@
       "score": 73.3461538461538,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/8154345084.jpg",
-      "score": 74.7740384615385,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8154496951.jpg",
@@ -47965,22 +46159,10 @@
       "scene": "Night scene"
     },
     {
-      "image": "koniq10k/1024x768/8164370728.jpg",
-      "score": 58.2647058823529,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8164688693.jpg",
       "score": 69.5651260504202,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/8165044722.jpg",
-      "score": 49.4048672566372,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8165323576.jpg",
@@ -48137,12 +46319,6 @@
       "score": 73.0347222222222,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/8181726766.jpg",
-      "score": 40.6163366336634,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8182062575.jpg",
@@ -48335,12 +46511,6 @@
       "score": 77.6592920353982,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/8199731208.jpg",
-      "score": 70.1730769230769,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8199832249.jpg",
@@ -48673,12 +46843,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/8230450365.jpg",
-      "score": 59.2948113207547,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8230728519.jpg",
       "score": 69.8263888888889,
       "domain_id": 302,
@@ -48707,12 +46871,6 @@
       "score": 59.754347826087,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/8232440995.jpg",
-      "score": 69.9518348623853,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8232481457.jpg",
@@ -48763,12 +46921,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/8240021404.jpg",
-      "score": 58.9690265486726,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8240214052.jpg",
       "score": 37.4696261682243,
       "domain_id": 303,
@@ -48815,12 +46967,6 @@
       "score": 22.6460396039604,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/8244017611.jpg",
-      "score": 62.2196261682243,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8244040268.jpg",
@@ -48925,12 +47071,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/8256076417.jpg",
-      "score": 57.8411016949153,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8256731117.jpg",
       "score": 48.1118421052632,
       "domain_id": 302,
@@ -48941,12 +47081,6 @@
       "score": 69.2434210526316,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/8257636356.jpg",
-      "score": 71.9345794392523,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8257779790.jpg",
@@ -49501,12 +47635,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/8311563943.jpg",
-      "score": 70.7905405405405,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8314358374.jpg",
       "score": 48.9862385321101,
       "domain_id": 302,
@@ -49789,12 +47917,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/8341991106.jpg",
-      "score": 75.6659663865546,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8342894979.jpg",
       "score": 49.0398230088496,
       "domain_id": 302,
@@ -49981,12 +48103,6 @@
       "scene": "Landscape"
     },
     {
-      "image": "koniq10k/1024x768/8354855845.jpg",
-      "score": 67.454128440367,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8356375190.jpg",
       "score": 78.6311475409836,
       "domain_id": 300,
@@ -50057,12 +48173,6 @@
       "score": 39.1302521008403,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/8362126677.jpg",
-      "score": 64.9932432432432,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8362183655.jpg",
@@ -50299,12 +48409,6 @@
       "scene": "Plant"
     },
     {
-      "image": "koniq10k/1024x768/8392513010.jpg",
-      "score": 19.1061946902655,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8393106944.jpg",
       "score": 22.2257281553398,
       "domain_id": 302,
@@ -50531,12 +48635,6 @@
       "score": 57.1605504587156,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/8410633059.jpg",
-      "score": 65.2321428571429,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8410894233.jpg",
@@ -50893,12 +48991,6 @@
       "scene": "Night scene"
     },
     {
-      "image": "koniq10k/1024x768/8442848364.jpg",
-      "score": 68.4558823529412,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8442858810.jpg",
       "score": 53.078125,
       "domain_id": 303,
@@ -51125,12 +49217,6 @@
       "score": 44.6720183486239,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/8460289501.jpg",
-      "score": 65.0287610619469,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8460376605.jpg",
@@ -51463,12 +49549,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/8488084256.jpg",
-      "score": 68.44375,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8488319324.jpg",
       "score": 80.9396551724138,
       "domain_id": 300,
@@ -51515,12 +49595,6 @@
       "score": 53.8970588235294,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/8492768208.jpg",
-      "score": 71.3108108108108,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8493065081.jpg",
@@ -51583,18 +49657,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/8498296013.jpg",
-      "score": 43.625,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/8499771607.jpg",
-      "score": 66.0480769230769,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8501012764.jpg",
       "score": 51.2173913043478,
       "domain_id": 303,
@@ -51607,22 +49669,10 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/8501698385.jpg",
-      "score": 69.0810810810811,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8501713418.jpg",
       "score": 77.6970338983051,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/8502191647.jpg",
-      "score": 70.8551401869159,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8502941912.jpg",
@@ -51697,12 +49747,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/8506941154.jpg",
-      "score": 58.3881578947368,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8507000235.jpg",
       "score": 16.4403669724771,
       "domain_id": 300,
@@ -51743,12 +49787,6 @@
       "score": 46.7433035714286,
       "domain_id": 307,
       "scene": "Still-life"
-    },
-    {
-      "image": "koniq10k/1024x768/8511620322.jpg",
-      "score": 56.2594339622642,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8511720535.jpg",
@@ -51935,12 +49973,6 @@
       "score": 49.2625,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/8527988312.jpg",
-      "score": 76.9717391304348,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8528201518.jpg",
@@ -52175,12 +50207,6 @@
       "score": 59.9802631578947,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/8549600155.jpg",
-      "score": 70.7162162162162,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8550306054.jpg",
@@ -52489,12 +50515,6 @@
       "scene": "Plant"
     },
     {
-      "image": "koniq10k/1024x768/8583578292.jpg",
-      "score": 74.8816964285714,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8583898549.jpg",
       "score": 67.2334905660377,
       "domain_id": 306,
@@ -52603,12 +50623,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/8596349698.jpg",
-      "score": 78.25,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8596361580.jpg",
       "score": 66.4054054054054,
       "domain_id": 307,
@@ -52697,12 +50711,6 @@
       "score": 37.1842105263158,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/8601119886.jpg",
-      "score": 66.8577586206897,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8601680123.jpg",
@@ -52831,12 +50839,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/8613516565.jpg",
-      "score": 75.6118421052632,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8613815314.jpg",
       "score": 63.0847457627119,
       "domain_id": 304,
@@ -52939,12 +50941,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/8623218161.jpg",
-      "score": 77.9760869565217,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8623527706.jpg",
       "score": 54.0961538461538,
       "domain_id": 307,
@@ -52985,12 +50981,6 @@
       "score": 74.2660550458716,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/8627956046.jpg",
-      "score": 74.804054054054,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8628548669.jpg",
@@ -53203,12 +51193,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/8644125724.jpg",
-      "score": 61.7775229357798,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8644207930.jpg",
       "score": 26.4189189189189,
       "domain_id": 300,
@@ -53291,12 +51275,6 @@
       "score": 68.9913793103448,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/8647880189.jpg",
-      "score": 69.0986842105263,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8648111033.jpg",
@@ -53953,12 +51931,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/8710250301.jpg",
-      "score": 70.1003184713376,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8710431611.jpg",
       "score": 72.925,
       "domain_id": 300,
@@ -54059,12 +52031,6 @@
       "score": 30.8269230769231,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/8721056397.jpg",
-      "score": 18.609243697479,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8722198954.jpg",
@@ -54259,12 +52225,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/8735700380.jpg",
-      "score": 73.716814159292,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8736095629.jpg",
       "score": 68.3141592920354,
       "domain_id": 307,
@@ -54287,12 +52247,6 @@
       "score": 60.6152173913043,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/8737972385.jpg",
-      "score": 68.5277777777778,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8742280365.jpg",
@@ -54353,12 +52307,6 @@
       "score": 47.0042372881356,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/8748661037.jpg",
-      "score": 55.8296460176991,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8749825399.jpg",
@@ -54445,12 +52393,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/8755673278.jpg",
-      "score": 64.8445945945946,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8755824682.jpg",
       "score": 74.3247663551402,
       "domain_id": 300,
@@ -54479,12 +52421,6 @@
       "score": 27.2435344827586,
       "domain_id": 305,
       "scene": "Night scene"
-    },
-    {
-      "image": "koniq10k/1024x768/8771756230.jpg",
-      "score": 22.1725663716814,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8772955624.jpg",
@@ -54713,12 +52649,6 @@
       "score": 42.6730769230769,
       "domain_id": 302,
       "scene": "Human"
-    },
-    {
-      "image": "koniq10k/1024x768/8862366940.jpg",
-      "score": 61.5491071428571,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8863356627.jpg",
@@ -55019,12 +52949,6 @@
       "score": 49.9054054054054,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/8921955477.jpg",
-      "score": 70.4663865546218,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8923165653.jpg",
@@ -55363,12 +53287,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/8986464809.jpg",
-      "score": 81.4375,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8986471316.jpg",
       "score": 45.1195652173913,
       "domain_id": 307,
@@ -55379,12 +53297,6 @@
       "score": 45.859375,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/8988143845.jpg",
-      "score": 63.9336283185841,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/8988227086.jpg",
@@ -55429,12 +53341,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/8998348605.jpg",
-      "score": 67.9082568807339,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/8999325582.jpg",
       "score": 73.1327433628319,
       "domain_id": 300,
@@ -55451,12 +53357,6 @@
       "score": 68.8415178571429,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/9002438378.jpg",
-      "score": 71.884,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/9003236001.jpg",
@@ -55511,12 +53411,6 @@
       "score": 43.4487179487179,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/9019428727.jpg",
-      "score": 66.925,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/9021392547.jpg",
@@ -56167,12 +54061,6 @@
       "scene": "Plant"
     },
     {
-      "image": "koniq10k/1024x768/9139430214.jpg",
-      "score": 52.2408256880734,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/9140727598.jpg",
       "score": 71.8254716981132,
       "domain_id": 300,
@@ -56227,12 +54115,6 @@
       "scene": "Night scene"
     },
     {
-      "image": "koniq10k/1024x768/9146239672.jpg",
-      "score": 65.00625,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/9150255535.jpg",
       "score": 78.4583333333333,
       "domain_id": 300,
@@ -56245,12 +54127,6 @@
       "scene": "Landscape"
     },
     {
-      "image": "koniq10k/1024x768/9154784652.jpg",
-      "score": 73.5377358490566,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/9154855025.jpg",
       "score": 44.545652173913,
       "domain_id": 302,
@@ -56261,12 +54137,6 @@
       "score": 46.3013392857143,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/9157119271.jpg",
-      "score": 66.697247706422,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/9159337218.jpg",
@@ -56459,12 +54329,6 @@
       "score": 76.3260869565217,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/9202257544.jpg",
-      "score": 63.2569444444444,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/9202760715.jpg",
@@ -56729,12 +54593,6 @@
       "score": 59.7617924528302,
       "domain_id": 306,
       "scene": "Plant"
-    },
-    {
-      "image": "koniq10k/1024x768/9237488355.jpg",
-      "score": 77.6168032786885,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/9238616212.jpg",
@@ -57085,18 +54943,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/9298572085.jpg",
-      "score": 73.275641025641,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/9299238943.jpg",
-      "score": 49.7373949579832,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/9301174145.jpg",
       "score": 65.2,
       "domain_id": 300,
@@ -57347,18 +55193,6 @@
       "score": 60.7,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/9339437714.jpg",
-      "score": 64.9375,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/9341605084.jpg",
-      "score": 77.4598214285714,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/9341616816.jpg",
@@ -57619,12 +55453,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/93917546.jpg",
-      "score": 51.3319327731092,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/9393485021.jpg",
       "score": 78.5347222222222,
       "domain_id": 303,
@@ -57775,18 +55603,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/9427704319.jpg",
-      "score": 75.0972222222222,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
-      "image": "koniq10k/1024x768/9428417271.jpg",
-      "score": 69.325,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/9428890222.jpg",
       "score": 44.38125,
       "domain_id": 306,
@@ -57851,12 +55667,6 @@
       "score": 78.9004424778761,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/9439720567.jpg",
-      "score": 66.3429203539823,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/9439902792.jpg",
@@ -58051,12 +55861,6 @@
       "scene": "Still-life"
     },
     {
-      "image": "koniq10k/1024x768/9475748691.jpg",
-      "score": 51.5855263157895,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/9476849940.jpg",
       "score": 73.4705882352941,
       "domain_id": 303,
@@ -58091,12 +55895,6 @@
       "score": 75.8846153846154,
       "domain_id": 304,
       "scene": "Landscape"
-    },
-    {
-      "image": "koniq10k/1024x768/9480350471.jpg",
-      "score": 59.9399038461538,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/9480702491.jpg",
@@ -58387,12 +56185,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/9518037590.jpg",
-      "score": 76.3168103448276,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/9519070785.jpg",
       "score": 69.2878151260504,
       "domain_id": 300,
@@ -58481,12 +56273,6 @@
       "score": 56.3367346938776,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/9527980922.jpg",
-      "score": 70.7430555555556,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/9528230846.jpg",
@@ -58933,12 +56719,6 @@
       "scene": "Human"
     },
     {
-      "image": "koniq10k/1024x768/9604185976.jpg",
-      "score": 75.25,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/9605303857.jpg",
       "score": 67.0,
       "domain_id": 303,
@@ -59077,12 +56857,6 @@
       "scene": "Indoor scene"
     },
     {
-      "image": "koniq10k/1024x768/9633489441.jpg",
-      "score": 32.2591743119266,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/9634215065.jpg",
       "score": 64.2745535714286,
       "domain_id": 303,
@@ -59107,12 +56881,6 @@
       "scene": "Animal"
     },
     {
-      "image": "koniq10k/1024x768/9642249347.jpg",
-      "score": 53.25,
-      "domain_id": 301,
-      "scene": "Cityscape"
-    },
-    {
       "image": "koniq10k/1024x768/9642841042.jpg",
       "score": 74.1705607476636,
       "domain_id": 304,
@@ -59129,12 +56897,6 @@
       "score": 33.1674311926606,
       "domain_id": 300,
       "scene": "Animal"
-    },
-    {
-      "image": "koniq10k/1024x768/9646156379.jpg",
-      "score": 71.8440366972477,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/9646776074.jpg",
@@ -59189,12 +56951,6 @@
       "score": 54.28125,
       "domain_id": 304,
       "scene": "Landscape"
-    },
-    {
-      "image": "koniq10k/1024x768/9654367147.jpg",
-      "score": 70.8823529411765,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/9654393465.jpg",
@@ -59303,12 +57059,6 @@
       "score": 63.4225663716814,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/9669015372.jpg",
-      "score": 64.822,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/9669417942.jpg",
@@ -59759,12 +57509,6 @@
       "score": 29.4004424778761,
       "domain_id": 303,
       "scene": "Indoor scene"
-    },
-    {
-      "image": "koniq10k/1024x768/9753718946.jpg",
-      "score": 70.4059633027523,
-      "domain_id": 301,
-      "scene": "Cityscape"
     },
     {
       "image": "koniq10k/1024x768/9754442293.jpg",
@@ -60440,14 +58184,13 @@
     }
   ],
   "domain_name": {
-    "100": "Animal",
-    "101": "Cityscape",
-    "102": "Human",
-    "103": "Indoor scene",
-    "104": "Landscape",
-    "105": "Night scene",
-    "106": "Plant",
-    "107": "Still-life",
-    "108": "Others"
+    "300": "Animal",
+    "301": "Cityscape",
+    "302": "Human",
+    "303": "Indoor scene",
+    "304": "Landscape",
+    "305": "Night scene",
+    "306": "Plant",
+    "307": "Still-life"
   }
 }
