@@ -49,13 +49,14 @@ def classify_images(image_items, data_dir='./data'):
 
     # 为每张图片分配标签
     for item in tqdm(image_items):
-        if len(item['scene']) == 1 and "Others" in item['scene']:
+        if 'scene' in item and len(item['scene']) == 1 and "Others" in item['scene']:
             item['clip_scene'] = "Others"
             continue
         
         image_path = os.path.join(data_dir, item['image'])
         label = classify_image(image_path, labels, text_features)
-        item['clip_scene'] = label
+        item['scene'] = label
+        item['domain_id'] += labels.index(label)
     return image_items
 
 
@@ -84,13 +85,13 @@ def cluster_images(image_items, data_dir='./data', n_clusters=9, domain_id_base=
 
 
 
-with open("data_json/for_cross_set/train/spaq_train.json", "r") as f:
+with open("data_json/all/koniq10k_all.json", "r") as f:
     data = json.load(f)
 
-# updated_data_json = classify_images(data['files'])
-updated_data_json = cluster_images(data['files'])
+updated_data_json = classify_images(data['files'])
+# updated_data_json = cluster_images(data['files'])
 
-with open("data_json/for_cross_set/train/spaq_train.json", "w") as f:
+with open("data_json/all/koniq10k_all.json", "w") as f:
     json.dump(data, f, indent=2)
 
 
