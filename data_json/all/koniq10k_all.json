@@ -60440,14 +60440,13 @@
     }
   ],
   "domain_name": {
-    "100": "Animal",
-    "101": "Cityscape",
-    "102": "Human",
-    "103": "Indoor scene",
-    "104": "Landscape",
-    "105": "Night scene",
-    "106": "Plant",
-    "107": "Still-life",
-    "108": "Others"
+    "300": "Animal",
+    "301": "Cityscape",
+    "302": "Human",
+    "303": "Indoor scene",
+    "304": "Landscape",
+    "305": "Night scene",
+    "306": "Plant",
+    "307": "Still-life"
   }
 }
