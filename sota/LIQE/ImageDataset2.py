@@ -299,18 +299,20 @@ class ImageDataset_qonly(Dataset):
             img_dir (string): Directory of the images.
             transform (callable, optional): transform to be applied on a sample.
         """
-        if csv_file[-3:] == 'txt':
-            data = pd.read_csv(csv_file, sep='\t', header=None)
-            self.data = data
-        else:
-            data = pd.read_csv(csv_file, header=0)
-            self.data = data[data.split==set]
-        print('%d csv data successfully loaded!' % self.__len__())
+        # if csv_file[-3:] == 'txt':
+        #     data = pd.read_csv(csv_file, sep='\t', header=None)
+        #     self.data = data
+        # else:
+        #     data = pd.read_csv(csv_file, header=0)
+        #     self.data = data[data.split==set]
+        # print('%d csv data successfully loaded!' % self.__len__())
         self.img_dir = img_dir
         self.loader = get_loader()
         self.preprocess = preprocess
         self.num_patch = num_patch
         self.test = test
+
+        self.data = csv_file
 
     def __getitem__(self, index):
         """
@@ -319,7 +321,8 @@ class ImageDataset_qonly(Dataset):
         Returns:
             samples: a Tensor that represents a video segment.
         """
-        image_name = os.path.join(self.img_dir, self.data.iloc[index, 0])
+        data_item = self.data[index]
+        image_name = os.path.join(self.img_dir, data_item['image'])
         I = self.loader(image_name)
         I = self.preprocess(I)
         I = I.unsqueeze(0)
@@ -346,7 +349,7 @@ class ImageDataset_qonly(Dataset):
         else:
             sel = torch.randint(low=0, high=patches.size(0), size=(self.num_patch, ))
         patches = patches[sel, ...]
-        mos = self.data.iloc[index, 1]
+        mos = data_item['score']
 
 
         sample = {'I': patches, 'mos': float(mos)}
@@ -356,5 +359,5 @@ class ImageDataset_qonly(Dataset):
     def __len__(self):
         return len(self.data)
 
-    def __len__(self):
-        return len(self.data.index)
+    # def __len__(self):
+    #     return len(self.data.index)

@@ -14,6 +14,8 @@ from itertools import product
 import os
 import pickle
 from weight_methods import WeightMethods
+import json
+from tqdm import tqdm
 
 ##############################textual template####################################
 qualitys = ['bad', 'poor', 'fair', 'good', 'perfect']
@@ -86,7 +88,7 @@ def do_batch(x, text):
 
     return logits_per_image, logits_per_text
 
-def train(model, best_result, best_epoch, srcc_dict):
+def train(model, best_srcc, best_epoch, best_plcc, epoch, train_loaders, test_loaders):
     start_time = time.time()
     beta = 0.9
     running_loss = 0 if epoch == 0 else train_loss[-1]
@@ -102,7 +104,7 @@ def train(model, best_result, best_epoch, srcc_dict):
     if optimizer.state_dict()['param_groups'][0]['lr'] == 0:
         scheduler.step()
         print(optimizer.state_dict()['param_groups'][0]['lr'])
-    for step in range(num_steps_per_epoch):
+    for step in tqdm(range(num_steps_per_epoch)):
         #total_loss = 0
         all_batch = []
         gmos_batch = []
@@ -160,8 +162,8 @@ def train(model, best_result, best_epoch, srcc_dict):
         examples_per_sec = x.size(0) / duration_corrected
         format_str = ('(E:%d, S:%d / %d) [Loss = %.4f] (%.1f samples/sec; %.3f '
                       'sec/batch)')
-        print(format_str % (epoch, step + 1, num_steps_per_epoch, loss_corrected,
-                            examples_per_sec, duration_corrected))
+        # print(format_str % (epoch, step + 1, num_steps_per_epoch, loss_corrected,
+        #                     examples_per_sec, duration_corrected))
 
         local_counter += 1
         start_time = time.time()
@@ -170,29 +172,41 @@ def train(model, best_result, best_epoch, srcc_dict):
 
     all_result = {'val':{}, 'test':{}}
     if (epoch >= 0):
+        for d_name, loader in test_loaders.items():
+            srcc1, plcc1, q_pred, q_gt = eval(loader, phase='test', dataset=d_name)
+            srcc1 = abs(srcc1)
+            plcc1 = abs(plcc1)
 
-        srcc1 = eval(koniq10k_val_loader, phase='val', dataset='koniq10k')
-        srcc11 = eval(koniq10k_test_loader, phase='test', dataset='koniq10k')
+            if srcc1 > best_srcc[d_name]:
+                best_srcc[d_name] = srcc1
+                best_epoch[d_name] = epoch
+                best_plcc[d_name] = plcc1
+                pred_gt = np.stack([np.array(q_pred), np.array(q_gt)], axis=1)
+                np.savetxt(f'{save_dir}/pred_gt_{d_name}.txt', pred_gt, fmt='%.4f')
+                
 
-        srcc_avg = srcc1
+        # srcc1 = eval(koniq10k_val_loader, phase='val', dataset='koniq10k')
+        # srcc11 = eval(koniq10k_test_loader, phase='test', dataset='koniq10k')
 
-        current_avg = srcc_avg
+        # srcc_avg = srcc1
 
-        if current_avg > best_result['avg']:
-            print('**********New overall best!**********')
-            best_epoch['avg'] = epoch
-            best_result['avg'] = current_avg
-            srcc_dict['koniq10k'] = srcc11
+        # current_avg = srcc_avg
 
-            ckpt_name = os.path.join('checkpoints', str(session+1), 'liqe_qonly.pt')
-            torch.save({
-                'epoch': epoch,
-                'model_state_dict': model.state_dict(),
-                'optimizer_state_dict': optimizer.state_dict(),
-                'all_results':all_result
-            }, ckpt_name)  # just change to your preferred folder/filename
+        # if current_avg > best_result['avg']:
+        #     print('**********New overall best!**********')
+        #     best_epoch['avg'] = epoch
+        #     best_result['avg'] = current_avg
+        #     srcc_dict['koniq10k'] = srcc11
 
-    return best_result, best_epoch, srcc_dict, all_result
+        #     # ckpt_name = os.path.join('checkpoints', str(session+1), 'liqe_qonly.pt')
+        #     # torch.save({
+        #     #     'epoch': epoch,
+        #     #     'model_state_dict': model.state_dict(),
+        #     #     'optimizer_state_dict': optimizer.state_dict(),
+        #     #     'all_results':all_result
+        #     # }, ckpt_name)  # just change to your preferred folder/filename
+
+    return best_srcc, best_epoch, best_plcc, all_result
 
 
 def eval(loader, phase, dataset):
@@ -222,61 +236,144 @@ def eval(loader, phase, dataset):
         q_hat = q_hat + quality_preds.cpu().tolist()
 
     srcc = scipy.stats.mstats.spearmanr(x=q_mos, y=q_hat)[0]
+    plcc = scipy.stats.pearsonr(x=q_mos, y=q_hat)[0]
 
     print_text = dataset + ' ' + phase + ' finished'
     print(print_text)
-    return srcc
+    return srcc, plcc, q_hat, q_mos
+
+def train_for_json(train_json, test_json:dict):
+
+    train_loader = set_dataset_qonly(train_json, 32, 'data', num_workers, preprocess3,
+                                              train_patch, False, set=0)
+    # val_loader = set_dataset_qonly(val_csv, 32, 'data', num_workers, preprocess2,
+    #                                         15, True, set=1)
+    # test_loader = set_dataset_qonly(test_json, 32, 'data', num_workers, preprocess2,
+    #                                          15, True, set=2)
+
+    test_loaders = {d_name: set_dataset_qonly(test_json[d_name], 32, 'data', num_workers, preprocess2, 15, True, set=2) for d_name in test_json.keys()}
+
+    train_loaders = [train_loader]
+
+    #train_loaders = [train_loader]
+
+    best_srcc = {d_name:0.0 for d_name in test_json.keys()}
+    best_plcc = {d_name:0.0 for d_name in test_json.keys()}
+    best_epoch = {d_name:0 for d_name in test_json.keys()}
+    for epoch in range(0, num_epoch):
+        best_srcc, best_epoch, best_plcc, all_result = train(model, best_srcc, best_epoch, best_plcc, epoch, train_loaders, test_loaders)
+        scheduler.step()
+
+        print('...............current average best...............')
+        for d_name in best_srcc.keys():
+            print_text = d_name + ':' + 'srcc:{} plcc:{} best_epoch:{}'.format(best_srcc[d_name], best_plcc[d_name], best_epoch[d_name])
+            print(print_text)
+    
+    return best_srcc, best_plcc
+
 
 num_workers = 8
 for session in range(0,1):
-    model, preprocess = clip.load("ViT-B/32", device=device, jit=False)
-
-    optimizer = torch.optim.AdamW(
-        model.parameters(), lr=initial_lr,
-        weight_decay=0.001)
-
-    scheduler = lr_scheduler.CosineAnnealingLR(optimizer, T_max=5)
 
     train_loss = []
     start_epoch = 0
 
+    base_dir = 'exp_log'
+
+    # # for leave one out exp
+    # all_json = {
+    #     'piq23': 'data_json/all/piq23_all.json',
+    #     'spaq': 'data_json/all/spaq_all.json',
+    #     'koniq10k': 'data_json/all/koniq10k_all.json',
+        
+    #     'kadid10k': 'data_json/all/kadid10k_all.json',
+    #     'tid2013': 'data_json/all/tid2013_all.json',
+
+    #     'eva': 'data_json/all/eva_all.json',
+    #     'para': 'data_json/all/para_all.json',
+    # }
+    # dataname = 'spaq'
+
+    # with open(all_json[dataname], 'r') as f:
+    #     data = json.load(f)
+    #     datajson = data['files']
+    #     domain_name = data['domain_name']
+    
+    # assert len(domain_name) == len(set(item['domain_id'] for item in datajson)), 'Domain number not match'
+
+    # srcc_all = []
+    # plcc_all = []
+
+    # for test_domain, d_name in domain_name.items():
+    #     model, preprocess = clip.load("ViT-B/32", device=device, jit=False)
+    #     optimizer = torch.optim.AdamW(
+    #         model.parameters(), lr=initial_lr,
+    #         weight_decay=0.001)
+    #     scheduler = lr_scheduler.CosineAnnealingLR(optimizer, T_max=5)
+    #     freeze_model(opt)
+
+    #     test_domain = int(test_domain)
+    #     print('Training and testing on %s dataset for domain %d .ie %s ...' % (dataname, test_domain, d_name))
+    #     save_dir = os.path.join(base_dir, f'leave_one_out/{dataname}', f'test_domain_{test_domain}')
+    #     os.makedirs(save_dir, exist_ok=True)
+
+    #     train_datajson = [item for item in datajson if item['domain_id'] != test_domain]
+    #     test_datajson = {dataname : [item for item in datajson if item['domain_id'] == test_domain]}
+
+    #     srcc, plcc = train_for_json(train_datajson, test_datajson)
+    #     srcc_all.append(srcc)
+    #     plcc_all.append(plcc)
+
+    #     torch.cuda.empty_cache()
+    #     del model
+    #     del optimizer
+    #     del scheduler
+    
+    # print(srcc_all)
+    # print(plcc_all)
+
+    # for cross set exp
+    train_json = {
+        'spaq': 'data_json/for_cross_set/train/spaq_train.json',
+        'koniq10k': 'data_json/for_cross_set/train/koniq10k_train.json',
+        'kadid10k': 'data_json/for_cross_set/train/kadid10k_train.json',
+    }
+    test_json = {
+        'spaq': 'data_json/for_cross_set/test/spaq_test.json',
+        'livec': 'data_json/for_cross_set/test/livec.json',
+        'koniq10k': 'data_json/for_cross_set/test/koniq10k_test.json',
+        'bid': 'data_json/for_cross_set/test/bid.json',
+        'cid2013': 'data_json/for_cross_set/test/cid2013.json',
+
+        'agiqa3k': 'data_json/for_cross_set/test/agiqa3k.json',
+
+        'kadid10k': 'data_json/for_cross_set/test/kadid10k_test.json',
+        'live': 'data_json/for_cross_set/test/live.json',
+        'csiq': 'data_json/for_cross_set/test/csiq.json',
+    }
+    train_dataname = ['spaq', 'koniq10k']
+    test_dataname = ['koniq10k', 'spaq', 'livec', 'agiqa3k', 'kadid10k', 'live', 'csiq', 'bid', 'cid2013']
+
+    save_dir = os.path.join(base_dir, 'cross_set', '_'.join(train_dataname))
+    os.makedirs(save_dir, exist_ok=True)
+
+    train_datajson = []
+    test_datajson = {}
+    for train_d in train_dataname:
+        with open(train_json[train_d], 'r') as f:
+            data = json.load(f)
+            train_datajson += data['files']
+    for test_d in test_dataname:
+        with open(test_json[test_d], 'r') as f:
+            data = json.load(f)
+            test_datajson[test_d] = data['files']
+
+    model, preprocess = clip.load("ViT-B/32", device=device, jit=False)
+    optimizer = torch.optim.AdamW(
+        model.parameters(), lr=initial_lr,
+        weight_decay=0.001)
+    scheduler = lr_scheduler.CosineAnnealingLR(optimizer, T_max=5)
     freeze_model(opt)
 
-    best_result = 0
-    best_epoch = 0
-
-    # avg
-    srcc_dict = {'koniq10k':0.0}
-
-    koniq10k_train_csv = os.path.join('../IQA_Database/koniq-10k/meta_info_KonIQ10kDataset.csv')
-    koniq10k_val_csv = os.path.join('../IQA_Database/koniq-10k/meta_info_KonIQ10kDataset.csv')
-    koniq10k_test_csv = os.path.join('../IQA_Database/koniq-10k/meta_info_KonIQ10kDataset.csv')
-
-    koniq10k_train_loader = set_dataset_qonly(koniq10k_train_csv, 32, koniq10k_set, num_workers, preprocess3,
-                                              train_patch, False, set=0)
-    koniq10k_val_loader = set_dataset_qonly(koniq10k_val_csv, 32, koniq10k_set, num_workers, preprocess2,
-                                            15, True, set=1)
-    koniq10k_test_loader = set_dataset_qonly(koniq10k_test_csv, 32, koniq10k_set, num_workers, preprocess2,
-                                             15, True, set=2)
-
-    train_loaders = [koniq10k_train_loader]
-
-    #train_loaders = [koniq10k_train_loader]
-
-    result_pkl = {}
-    for epoch in range(0, num_epoch):
-        best_result, best_epoch, srcc_dict, all_result = train(model, best_result, best_epoch, srcc_dict)
-        scheduler.step()
-
-        result_pkl[str(epoch)] = all_result
-
-        print('...............current average best...............')
-        print('best average epoch:{}'.format(best_epoch['avg']))
-        print('best average result:{}'.format(best_result['avg']))
-        for dataset in srcc_dict.keys():
-            print_text = dataset + ':' + 'srcc:{}'.format(srcc_dict[dataset])
-            print(print_text)
-
-    pkl_name = os.path.join('checkpoints', str(session+1), 'all_results.pkl')
-    with open(pkl_name, 'wb') as f:
-        pickle.dump(result_pkl, f)
+    best_srcc, best_plcc = train_for_json(train_datajson, test_datajson)
+    print(f'best_srcc: {best_srcc}, best_plcc: {best_plcc}')
