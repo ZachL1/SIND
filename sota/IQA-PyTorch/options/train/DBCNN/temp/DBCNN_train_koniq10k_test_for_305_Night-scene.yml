@@ -1,112 +1,92 @@
 # general settings
 # name: debug_DBCNN_LIVEC
-name: debug001_HyperNet_KonIQ10k
-name: 004_HyperNet_KonIQ10k
-model_type: GeneralIQAModel 
-num_gpu: 1  # set num_gpu: 0 for cpu mode
+name: DBCNN_train_koniq10k_test_for_305_Night-scene
+model_type: DBCNNModel
+num_gpu: 1 # set num_gpu: 0 for cpu mode
 manual_seed: 123
-
 # dataset and data loader settings
 datasets:
   train:
     name: koniq10k
-    type: GeneralNRDataset
-    dataroot_target: ./datasets/koniq10k/512x384
-    meta_info_file: ./datasets/meta_info/meta_info_KonIQ10kDataset.csv
-    split_file: ./datasets/meta_info/koniq10k_official.pkl
+    type: GeneralJSONDataset
+    dataroot_target: ./data
+    meta_info_file: data_json/for_leave_one_out/koniq10k/test_for_305_Night-scene//train.json
+    # split_file: ./datasets/meta_info/koniq10k_official.pkl
     mos_range: [0, 100]
-    lower_better: false 
+    lower_better: false
     mos_normalize: true
-
     augment:
       hflip: true
-      random_crop: 224
+      random_crop: 384
     img_range: 1
-
     # data loader
     use_shuffle: true
     num_worker_per_gpu: 4
-    batch_size_per_gpu: 96
+    batch_size_per_gpu: 8
     dataset_enlarge_ratio: 1
-
-    prefetch_mode: cpu
-    num_prefetch_queue: 128
-
+    prefetch_mode: ~
   val:
     name: koniq10k
-    type: GeneralNRDataset
-    dataroot_target: ./datasets/koniq10k/512x384
-    meta_info_file: ./datasets/meta_info/meta_info_KonIQ10kDataset.csv
-    split_file: ./datasets/meta_info/koniq10k_official.pkl
-    mos_range: [0, 100]
-    lower_better: false 
-    mos_normalize: true
-
-    num_worker_per_gpu: 4
-    batch_size_per_gpu: 8
-
+    type: GeneralJSONDataset
+    dataroot_target: ./data
+    meta_info_file: data_json/for_leave_one_out/koniq10k/test_for_305_Night-scene//test.json
+    # split_file: ./datasets/meta_info/koniq10k_official.pkl
 # network structures
 network:
-  type: HyperNet
+  type: DBCNN
   pretrained: false
-
 # path
 path:
   pretrain_network_g: ~
   strict_load_g: true
   resume_state: ~
-
 # training settings
 train:
   optim:
-    type: AdamW
-    lr: !!float 2e-4
+    type: SGD
+    lr: !!float 1e-3
+    momentum: 0.9
     weight_decay: !!float 5e-4
-
+  optim_finetune:
+    type: Adam
+    lr: !!float 1e-5
+    weight_decay: !!float 5e-4
   scheduler:
     type: MultiStepLR
-    milestones: [5, 10]
-    gamma: 0.1
-
-  total_epoch: 15 
-  warmup_iter: -1  # no warm up
-
+    milestones: [1000]
+    gamma: 1
+  scheduler_finetune:
+    type: MultiStepLR
+    milestones: [1000]
+    gamma: 1
+  total_iter: 20000 # 883 iter/epoch, train/finetune for about 30 epochs
+  finetune_start_iter: 10000
+  warmup_iter: -1 # no warm up
   # losses
   mos_loss_opt:
-    type: L1Loss 
+    type: MSELoss
     loss_weight: !!float 1.0
-  
-  metric_loss_opt:
-    type: NiNLoss 
-    loss_weight: !!float 1.0
-
 # validation settings
 val:
-  val_freq: !!float 100
+  val_freq: !!float 800
   save_img: false
   pbar: true
-
   key_metric: srcc # if this metric improve, update all metrics. If not specified, each best metric results will be updated separately
   metrics:
     srcc:
       type: calculate_srcc
-
     plcc:
       type: calculate_plcc
-
     krcc:
       type: calculate_krcc
-
 # logging settings
 logger:
-  print_freq: 20
-  save_checkpoint_freq: !!float 5e9
+  print_freq: 100
   save_latest_freq: !!float 5e2
   use_tb_logger: true
   wandb:
     project: ~
     resume_id: ~
-
 # dist training settings
 dist_params:
   backend: nccl

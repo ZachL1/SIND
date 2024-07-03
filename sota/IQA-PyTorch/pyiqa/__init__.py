@@ -10,4 +10,4 @@ from .utils import *
 from .matlab_utils import *
 from .api_helpers import *
 from .default_model_configs import *
-from .version import __gitsha__, __version__
+# from .version import __gitsha__, __version__

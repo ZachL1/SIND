@@ -1,6 +1,6 @@
 # general settings
 # name: debug001_NIMA
-name: 001_NIMA_inception_spaq
+name: nima_spaq
 model_type: GeneralIQAModel 
 num_gpu: 1  # set num_gpu: 0 for cpu mode
 manual_seed: 123
@@ -9,10 +9,9 @@ manual_seed: 123
 datasets:
   train:
     name: SPAQ
-    type: GeneralNRDataset
-    dataroot_target: './datasets/SPAQ/TestImage'
-    meta_info_file: './datasets/meta_info/meta_info_SPAQDataset.csv'
-    split_file: './datasets/meta_info/spaq_seed123.pkl'
+    type: GeneralJSONDataset
+    dataroot_target: ./data
+    meta_info_file: ./data_json/for_cross_set/train/spaq_train.json
     mos_range: [0, 100]
     lower_better: false
 
@@ -30,17 +29,70 @@ datasets:
     prefetch_mode: cpu
     num_prefetch_queue: 64
 
-  val:
-    name: SPAQ
-    type: GeneralNRDataset
-    dataroot_target: './datasets/SPAQ/TestImage'
-    meta_info_file: './datasets/meta_info/meta_info_SPAQDataset.csv'
-    split_file: './datasets/meta_info/spaq_seed123.pkl'
-    mos_range: [0, 100]
-    lower_better: false
-
+  val_0:
+    name: koniq10k
+    type: GeneralJSONDataset
+    dataroot_target: ./data
+    meta_info_file: ./data_json/for_cross_set/test/koniq10k_test.json
     augment:
       resize: [299, 299]
+  val_1:
+    name: spaq
+    type: GeneralJSONDataset
+    dataroot_target: ./data
+    meta_info_file: ./data_json/for_cross_set/test/spaq_test.json
+    augment:
+      resize: [299, 299]
+  val_2:
+    name: livec
+    type: GeneralJSONDataset
+    dataroot_target: ./data
+    meta_info_file: ./data_json/for_cross_set/test/livec.json
+    augment:
+      resize: [299, 299]
+  val_3:
+    name: agiqa3k
+    type: GeneralJSONDataset
+    dataroot_target: ./data
+    meta_info_file: ./data_json/for_cross_set/test/agiqa3k.json
+    augment:
+      resize: [299, 299]
+  val_4:
+    name: kadid10k
+    type: GeneralJSONDataset
+    dataroot_target: ./data
+    meta_info_file: ./data_json/for_cross_set/test/kadid10k_test.json
+    augment:
+      resize: [299, 299]
+  val_5:
+    name: live
+    type: GeneralJSONDataset
+    dataroot_target: ./data
+    meta_info_file: ./data_json/for_cross_set/test/live.json
+    augment:
+      resize: [299, 299]
+  val_6:
+    name: csiq
+    type: GeneralJSONDataset
+    dataroot_target: ./data
+    meta_info_file: ./data_json/for_cross_set/test/csiq.json
+    augment:
+      resize: [299, 299]
+  val_7:
+    name: bid
+    type: GeneralJSONDataset
+    dataroot_target: ./data
+    meta_info_file: ./data_json/for_cross_set/test/bid.json
+    augment:
+      resize: [299, 299]
+  val_8:
+    name: cid2013
+    type: GeneralJSONDataset
+    dataroot_target: ./data
+    meta_info_file: ./data_json/for_cross_set/test/cid2013.json
+    augment:
+      resize: [299, 299]
+
 
     num_worker_per_gpu: 8
     batch_size_per_gpu: 64
@@ -73,7 +125,7 @@ train:
     milestones: [40000]
     gamma: 0.1
 
-  total_iter: 10000
+  total_iter: 20000
   warmup_iter: -1  # no warm up
 
   # losses

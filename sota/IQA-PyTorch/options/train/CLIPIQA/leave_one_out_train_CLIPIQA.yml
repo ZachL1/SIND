@@ -1,8 +1,6 @@
 # general settings
 # name: debug_DBCNN_LIVEC
-name: 002_CLIPIQA_ViT-L14_KonIQ10k
 name: 003_CLIPIQA_RN50_KonIQ10k
-name: debug_CLIPIQA
 model_type: GeneralIQAModel
 num_gpu: 1  # set num_gpu: 0 for cpu mode
 manual_seed: 123
@@ -11,15 +9,16 @@ manual_seed: 123
 datasets:
   train:
     name: koniq10k
-    type: GeneralNRDataset
-    dataroot_target: ./datasets/koniq10k/512x384
-    meta_info_file: ./datasets/meta_info/meta_info_KonIQ10kDataset.csv
-    split_file: ./datasets/meta_info/koniq10k_official.pkl
+    type: GeneralJSONDataset
+    dataroot_target: ./data
+    meta_info_file: ./data_json/for_leave_one_out/koniq10k/test_for_300_Animal/train.json
+    # split_file: ./datasets/meta_info/koniq10k_official.pkl
     mos_range: [0, 100]
     lower_better: false 
     mos_normalize: true
 
     augment:
+      resize: 768
       hflip: true
       random_crop: 384 
     img_range: 1
@@ -27,25 +26,19 @@ datasets:
     # data loader
     use_shuffle: true
     num_worker_per_gpu: 4
-    batch_size_per_gpu: 8
+    batch_size_per_gpu: 64
     dataset_enlarge_ratio: 1
     prefetch_mode: ~
 
   val:
     name: koniq10k
-    type: GeneralNRDataset
-    dataroot_target: ./datasets/koniq10k/512x384
-    meta_info_file: ./datasets/meta_info/meta_info_KonIQ10kDataset.csv
-    split_file: ./datasets/meta_info/koniq10k_official.pkl
+    type: GeneralJSONDataset
+    dataroot_target: ./data
+    meta_info_file: ./data_json/for_leave_one_out/koniq10k/test_for_300_Animal/test.json
+    # split_file: ./datasets/meta_info/koniq10k_official.pkl
     mos_range: [0, 100]
     lower_better: false 
-    mos_normalize: true
-
-    num_worker_per_gpu: 4
-    batch_size_per_gpu: 8
-
-    # augment:
-    #   center_crop: 384
+    mos_normalize: false
 
 # network structures
 network:
@@ -54,7 +47,7 @@ network:
   # backbone: ViT-L/14
   backbone: RN50
   pretrained: false
-  pos_embedding: true
+  pos_embedding: false
 
 # path
 path:
@@ -73,7 +66,7 @@ train:
     T_max: 50 
     eta_min: 0
 
-  total_iter: 2000000
+  # total_iter: 2000000
   total_epoch: 50 
   warmup_iter: -1  # no warm up
 

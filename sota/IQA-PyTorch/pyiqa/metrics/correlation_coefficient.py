@@ -56,7 +56,7 @@ def calculate_plcc(x, y, fit_scale=None):
 
 @METRIC_REGISTRY.register()
 def calculate_srcc(x, y):
-    return stats.spearmanr(x, y)[0]
+    return abs(stats.spearmanr(x, y)[0])
 
 
 @METRIC_REGISTRY.register()

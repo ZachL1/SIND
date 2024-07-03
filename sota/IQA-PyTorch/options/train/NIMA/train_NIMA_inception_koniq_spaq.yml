@@ -1,91 +1,109 @@
 # general settings
-# name: debug_DBCNN_LIVEC
-name: dbcnn_koniq10k
-model_type: DBCNNModel
+# name: debug001_NIMA
+name: nima_koniq10k_spaq
+model_type: GeneralIQAModel 
 num_gpu: 1  # set num_gpu: 0 for cpu mode
 manual_seed: 123
 
 # dataset and data loader settings
 datasets:
   train:
-    name: koniq10k
+    name: SPAQ
     type: GeneralJSONDataset
     dataroot_target: ./data
-    meta_info_file: ./data_json/for_cross_set/train/koniq10k_train.json
-    # split_file: ./datasets/meta_info/koniq10k_official.pkl
+    meta_info_file: ./data_json/for_cross_set/train/koniq10k_spaq_train.json
     mos_range: [0, 100]
-    lower_better: false 
-    mos_normalize: false
+    lower_better: false
 
     augment:
+      resize: [330, 330]
+      random_crop: 299 
       hflip: true
-      random_crop: 384
     img_range: 1
 
     # data loader
     use_shuffle: true
-    num_worker_per_gpu: 4
-    batch_size_per_gpu: 8
+    num_worker_per_gpu: 12
+    batch_size_per_gpu: 64
     dataset_enlarge_ratio: 1
-    prefetch_mode: ~
+    prefetch_mode: cpu
+    num_prefetch_queue: 64
 
   val_0:
     name: koniq10k
     type: GeneralJSONDataset
     dataroot_target: ./data
     meta_info_file: ./data_json/for_cross_set/test/koniq10k_test.json
+    augment:
+      resize: [299, 299]
   val_1:
     name: spaq
     type: GeneralJSONDataset
     dataroot_target: ./data
     meta_info_file: ./data_json/for_cross_set/test/spaq_test.json
     augment:
-      resize: 768
+      resize: [299, 299]
   val_2:
     name: livec
     type: GeneralJSONDataset
     dataroot_target: ./data
     meta_info_file: ./data_json/for_cross_set/test/livec.json
+    augment:
+      resize: [299, 299]
   val_3:
     name: agiqa3k
     type: GeneralJSONDataset
     dataroot_target: ./data
     meta_info_file: ./data_json/for_cross_set/test/agiqa3k.json
+    augment:
+      resize: [299, 299]
   val_4:
     name: kadid10k
     type: GeneralJSONDataset
     dataroot_target: ./data
     meta_info_file: ./data_json/for_cross_set/test/kadid10k_test.json
+    augment:
+      resize: [299, 299]
   val_5:
     name: live
     type: GeneralJSONDataset
     dataroot_target: ./data
     meta_info_file: ./data_json/for_cross_set/test/live.json
-    lower_better: true 
+    augment:
+      resize: [299, 299]
   val_6:
     name: csiq
     type: GeneralJSONDataset
     dataroot_target: ./data
     meta_info_file: ./data_json/for_cross_set/test/csiq.json
-    lower_better: true 
+    augment:
+      resize: [299, 299]
   val_7:
     name: bid
     type: GeneralJSONDataset
     dataroot_target: ./data
     meta_info_file: ./data_json/for_cross_set/test/bid.json
     augment:
-      resize: 768
+      resize: [299, 299]
   val_8:
     name: cid2013
     type: GeneralJSONDataset
     dataroot_target: ./data
     meta_info_file: ./data_json/for_cross_set/test/cid2013.json
     augment:
-      resize: 768
+      resize: [299, 299]
+
+
+    num_worker_per_gpu: 8
+    batch_size_per_gpu: 64
+    prefetch_mode: cpu
+    num_prefetch_queue: 8
 
 # network structures
 network:
-  type: DBCNN
+  type: NIMA
+  num_classes: 1
+  base_model_name: inception_resnet_v2 
   pretrained: false
 
 # path
@@ -97,38 +115,27 @@ path:
 # training settings
 train:
   optim:
-    type: SGD
-    lr: !!float 1e-3
-    momentum: 0.9
-    weight_decay: !!float 5e-4
-
-  optim_finetune:
     type: Adam
-    lr: !!float 1e-5
-    weight_decay: !!float 5e-4
+    lr_base_model: !!float 5e-5
+    lr_classifier: !!float 5e-4
+    lr: !!float 1e-4
 
   scheduler:
     type: MultiStepLR
-    milestones: [1000]
-    gamma: 1
+    milestones: [40000]
+    gamma: 0.1
 
-  scheduler_finetune:
-    type: MultiStepLR
-    milestones: [1000]
-    gamma: 1
-
-  total_iter: 20000 # 883 iter/epoch, train/finetune for about 30 epochs
-  finetune_start_iter: 10000
+  total_iter: 20000
   warmup_iter: -1  # no warm up
 
   # losses
   mos_loss_opt:
-    type: MSELoss
+    type: L1Loss 
     loss_weight: !!float 1.0
-  
+
 # validation settings
 val:
-  val_freq: !!float 800
+  val_freq: !!float 300 
   save_img: false
   pbar: true
 
@@ -146,7 +153,8 @@ val:
 # logging settings
 logger:
   print_freq: 100
-  save_latest_freq: !!float 5e2
+  save_checkpoint_freq: !!float 5e9
+  save_latest_freq: !!float 1e3
   use_tb_logger: true
   wandb:
     project: ~

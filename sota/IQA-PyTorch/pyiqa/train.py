@@ -7,6 +7,8 @@ import os
 import tarfile
 from os import path as osp
 
+import sys
+sys.path.append(osp.abspath(osp.join(__file__, osp.pardir, osp.pardir)))
 from pyiqa.data import build_dataloader, build_dataset
 from pyiqa.data.data_sampler import EnlargedSampler
 from pyiqa.data.prefetch_dataloader import CPUPrefetcher, CUDAPrefetcher
@@ -32,12 +34,12 @@ def init_tb_loggers(opt):
 
 def create_train_val_dataloader(opt, logger):
     # download meta informatioin for datasets if needed
-    if not os.path.exists(f"{opt['root_path']}/datasets/meta_info"):
-        logger.info('Downloading meta information for datasets.')
-        os.makedirs(f"{opt['root_path']}/datasets", exist_ok=True)
-        file_path = load_file_from_url('https://github.com/chaofengc/IQA-PyTorch/releases/download/v0.1-weights/meta_info.tgz', f"{opt['root_path']}/datasets")
-        metainfo_file = tarfile.open(file_path, mode='r|gz')
-        metainfo_file.extractall(f"{opt['root_path']}/datasets")
+    # if not os.path.exists(f"{opt['root_path']}/datasets/meta_info"):
+    #     logger.info('Downloading meta information for datasets.')
+    #     os.makedirs(f"{opt['root_path']}/datasets", exist_ok=True)
+    #     file_path = load_file_from_url('https://github.com/chaofengc/IQA-PyTorch/releases/download/v0.1-weights/meta_info.tgz', f"{opt['root_path']}/datasets")
+    #     metainfo_file = tarfile.open(file_path, mode='r|gz')
+    #     metainfo_file.extractall(f"{opt['root_path']}/datasets")
 
     # create train and val dataloaders
     train_loader, val_loaders = None, []
@@ -214,11 +216,11 @@ def train_pipeline(root_path, opt=None, args=None):
             save_ckpt_freq = opt['logger'].get('save_checkpoint_freq', 9e9)
             if current_iter % save_ckpt_freq == 0:
                 logger.info('Saving models and training states.')
-                model.save(epoch, current_iter)
+                # model.save(epoch, current_iter)
 
             if current_iter % opt['logger']['save_latest_freq'] == 0:
                 logger.info('Saving latest models and training states.')
-                model.save(epoch, -1) 
+                # model.save(epoch, -1) 
 
             # validation
             if opt.get('val') is not None and (current_iter % opt['val']['val_freq'] == 0):
@@ -243,7 +245,7 @@ def train_pipeline(root_path, opt=None, args=None):
     consumed_time = str(datetime.timedelta(seconds=int(time.time() - start_time)))
     logger.info(f'End of training. Time consumed: {consumed_time}')
     logger.info('Save the latest model.')
-    model.save(epoch=-1, current_iter=-1)  # -1 stands for the latest
+    # model.save(epoch=-1, current_iter=-1)  # -1 stands for the latest
     if opt.get('val') is not None:
         for val_loader in val_loaders:
             model.validation(val_loader, current_iter, tb_logger, opt['val']['save_img'])
@@ -252,6 +254,9 @@ def train_pipeline(root_path, opt=None, args=None):
 
     if opt['rank'] == 0:
         return model.best_metric_results
+
+os.environ["http_proxy"] = 'http://192.168.195.225:7890'
+os.environ["https_proxy"] = 'http://192.168.195.225:7890'
 
 if __name__ == '__main__':
     root_path = osp.abspath(osp.join(__file__, osp.pardir, osp.pardir))

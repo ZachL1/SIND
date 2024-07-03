@@ -67,7 +67,10 @@ class BaseIQADataset(data.Dataset):
                 return mos_label
 
             for item in self.paths_mos:
-                item[1] = normalize(float(item[1]))
+                if self.__class__.__name__ == 'GeneralJSONDataset':
+                    item['score'] = normalize(float(item['score']))
+                else:
+                    item[1] = normalize(float(item[1]))
             self.logger.info(f'mos_label is normalized from {mos_range}, lower_better[{mos_lower_better}] to [0, 1], lower_better[False(higher better)].')
 
     def get_transforms(self, opt):

@@ -16,13 +16,13 @@ define: &test_batch_size 1
 datasets:
   train:
     name: koniq10k
-    type: GeneralNRDataset
-    dataroot_target: ./datasets/koniq10k/512x384
-    meta_info_file: ./datasets/meta_info/meta_info_KonIQ10kDataset.csv
-    split_file: ./datasets/meta_info/koniq10k_official.pkl
+    type: GeneralJSONDataset
+    dataroot_target: ./data
+    meta_info_file: ./data_json/for_leave_one_out/koniq10k/test_for_300_Animal/train.json
+    # split_file: ./datasets/meta_info/koniq10k_official.pkl
     mos_range: [0, 100]
     lower_better: false 
-    mos_normalize: true
+    mos_normalize: false
 
     augment:
       hflip: true
@@ -38,10 +38,10 @@ datasets:
 
   val:
     name: koniq10k
-    type: GeneralNRDataset
-    dataroot_target: ./datasets/koniq10k/512x384
-    meta_info_file: ./datasets/meta_info/meta_info_KonIQ10kDataset.csv
-    split_file: ./datasets/meta_info/koniq10k_official.pkl
+    type: GeneralJSONDataset
+    dataroot_target: ./data
+    meta_info_file: ./data_json/for_leave_one_out/koniq10k/test_for_300_Animal/test.json
+    # split_file: ./datasets/meta_info/koniq10k_official.pkl
 
 # network structures
 network:
@@ -74,8 +74,7 @@ train:
     # step_size: !!float 1e9
     # gamma: 1.0 
 
-  total_iter: 20000 
-  total_epoch: 200
+  total_epoch: 50
   warmup_iter: -1  # no warm up
   
   # losses
@@ -89,7 +88,7 @@ train:
 
 # validation settings
 val:
-  val_freq: !!float 800 
+  val_freq: !!float 2000
   save_img: false
   pbar: true
 
@@ -116,4 +115,4 @@ dist_params:
   backend: nccl
   port: 29500
 
-find_unused_parameters: True
+find_unused_parameters: False
