@@ -46,6 +46,9 @@ class MultiDatasetFolder(Dataset):
             elif name == 'eva':
                 dataset = EVAFolder(
                     root=root, data_json=data_json, transform=transforms)
+            elif name == 'bid':
+                dataset = BIDFolder(
+                    root=root, data_json=data_json, transform=transforms)
             else:
                 raise NotImplementedError(f"Not support dataset: {name}")
             self.datasets.append(dataset)

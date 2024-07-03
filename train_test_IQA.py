@@ -144,43 +144,29 @@ def main(config):
 
 
 def leave_one_out_exp(config):
-    all_json = {
-        'piq23': 'for_leave_one_out/piq23_all.json',
-        'spaq': 'for_leave_one_out/spaq_all.json',
-        # 'koniq10k': 'for_leave_one_out/koniq10k_all.json',
-        
-        'kadid10k': 'for_leave_one_out/kadid10k_all.json',
-        'tid2013': 'for_leave_one_out/tid2013_all.json',
-
-        'eva': 'for_leave_one_out/eva_all.json',
-        'para': 'for_leave_one_out/para_all.json',
-    }
-
     assert len(config.train_dataset) == 1, 'Only support one dataset for leave-one-out experiment'
-
-    dataname = config.train_dataset[0]
-    with open(os.path.join(config.json_dir, all_json[dataname]), 'r') as f:
-        data = json.load(f)
-        datajson = data['files']
-        domain_name = data['domain_name']
-    if dataname == 'spaq':
-        pass # TODO: add scene sampling
-
-    assert len(domain_name) == len(set(item['domain_id'] for item in datajson)), 'Domain number not match'
+    train_data_name = config.train_dataset[0]
+    json_dir = os.path.join(config.json_dir, 'for_leave_one_out', train_data_name)
 
     srcc_all = []
     plcc_all = []
 
     proj_dir = config.project_dir
-    for test_domain, d_name in domain_name.items():
-        test_domain = int(test_domain)
-        print('Training and testing on %s dataset for domain %d .ie %s ...' % (dataname, test_domain, d_name))
+    for domain_dir in os.listdir(json_dir):
+        # if int(domain_dir.split('_')[2]) not in [102, 104, ]:
+        #     continue
+
+        test_domain, d_name = domain_dir.split('_')[-2:]
+        print('Training and testing on %s dataset for domain %s ...' % (train_data_name, d_name))
+
+        with open(os.path.join(json_dir, domain_dir, 'train.json'), 'r') as f:
+            train_datajson = json.load(f)['files']
+        with open(os.path.join(json_dir, domain_dir, 'test.json'), 'r') as f:
+            test_datajson = json.load(f)['files']
+
         config.project_dir = os.path.join(proj_dir, f'test_domain_{test_domain}')
 
-        train_datajson = {dataname : [item for item in datajson if item['domain_id'] != test_domain]}
-        test_datajson = {dataname : [item for item in datajson if item['domain_id'] == test_domain]}
-
-        solver = IQASolver(config, config.data_root, train_datajson, test_datajson)
+        solver = IQASolver(config, config.data_root, {train_data_name: train_datajson}, {train_data_name: test_datajson})
         srcc, plcc = solver.train()
         srcc_all.append(srcc)
         plcc_all.append(plcc)
@@ -278,8 +264,8 @@ if __name__ == '__main__':
 
     config = parser.parse_args()
 
-    # os.environ["http_proxy"] = 'http://10.147.18.225:7890'
-    # os.environ["https_proxy"] = 'http://10.147.18.225:7890'
+    # os.environ["http_proxy"] = 'http://192.168.195.225:7890'
+    # os.environ["https_proxy"] = 'http://192.168.195.225:7890'
 
     if config.exp_type == 'cross-set':
         cross_dataset_exp(config)

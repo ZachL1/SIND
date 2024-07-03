@@ -99,6 +99,13 @@ class IQASolver(object):
             #     self.train_data.sampler.update()
 
             for sample in tqdm(self.train_data, desc=f'Epoch {t+1}/{self.epochs}'):
+            # it_train_data = iter(self.train_data)
+            # for _ in tqdm(range(len(self.train_data)), desc=f'Epoch {t+1}/{self.epochs}'):
+            #     try:
+            #         sample = next(it_train_data)
+            #     except Exception as e:
+            #         print(e)
+            #         continue
                 img = sample['img']
                 label = sample['label'].to(self.device).float()
                 scene = sample['scene'].to(self.device)
@@ -154,6 +161,9 @@ class IQASolver(object):
                                 best_plcc[data_name] = ema_plcc
                                 best_epoch[data_name] = t
                                 # torch.save(self.ema_model.state_dict(), f'{self.project_dir}/best_ema_model.pth')
+                                # save pred and gt scores to txt
+                                pred_gt = np.stack([np.array(pred_scores), np.array(gt_scores)], axis=1)
+                                np.savetxt(f'{self.project_dir}/pred_gt_{data_name}.txt', pred_gt, fmt='%.4f')
                         
                         # pred_scores, gt_scores, scene_list = self.val(test_data)
                         # srcc, plcc = self.log_metrics(pred_scores, gt_scores, scene_list, t, f"{data_name}/")
