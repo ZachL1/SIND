@@ -39,8 +39,8 @@ def classify_image(image_path, labels, text_features):
 # 处理整个数据集的函数
 def classify_images(image_items, data_dir='./data'):
     # 候选场景标签
-    # labels = ["Animal", "Cityscape", "Human", "Indoor scene", "Landscape", "Night scene", "Plant", "Still-life", "Others"]
-    labels = ["Animal", "Cityscape", "Human", "Indoor scene", "Landscape", "Night scene", "Plant", "Still-life"]
+    labels = ["Animal", "Cityscape", "Human", "Indoor scene", "Landscape", "Night scene", "Plant", "Still-life", "Others"]
+    # labels = ["Animal", "Cityscape", "Human", "Indoor scene", "Landscape", "Night scene", "Plant", "Still-life"]
 
     # 将标签转换为CLIP特征向量
     text_inputs = torch.cat([clip.tokenize(f"a photo of {label}") for label in labels]).to(device)
@@ -49,14 +49,26 @@ def classify_images(image_items, data_dir='./data'):
 
     # 为每张图片分配标签
     for item in tqdm(image_items):
-        if 'scene' in item and len(item['scene']) == 1 and "Others" in item['scene']:
-            item['clip_scene'] = "Others"
-            continue
-        
         image_path = os.path.join(data_dir, item['image'])
-        label = classify_image(image_path, labels, text_features)
-        item['scene'] = label
-        item['domain_id'] += labels.index(label)
+
+        if 'scene' in item and isinstance(item['scene'], list):
+            # for SPAQ dataset
+            if len(item['scene']) == 1:
+                item['scene'] = item['scene'][0]
+                item['domain_id'] = item['domain_id'][0]
+                continue
+            else:
+                # slecet one scene according to the clip similarity
+                scene_condidates = item['scene']
+                condidate_idx = [labels.index(scene) for scene in scene_condidates]
+                condidate_features = text_features[condidate_idx, :]
+                label = classify_image(image_path, scene_condidates, condidate_features)
+                item['scene'] = label
+                item['domain_id'] = item['domain_id'][scene_condidates.index(label)]
+        else:
+            label = classify_image(image_path, labels, text_features)
+            item['scene'] = label
+            item['domain_id'] += labels.index(label)
     return image_items
 
 
@@ -84,15 +96,18 @@ def cluster_images(image_items, data_dir='./data', n_clusters=9, domain_id_base=
 
 
 
+if __name__ == "__main__":
+    with open("data_json/for_cross_set/train/koniq10k_train.json", "r") as f:
+        data = json.load(f)
 
-with open("data_json/all/koniq10k_all.json", "r") as f:
-    data = json.load(f)
+    updated_data_json = classify_images(data['files'])
+    # updated_data_json = cluster_images(data['files'])
 
-updated_data_json = classify_images(data['files'])
-# updated_data_json = cluster_images(data['files'])
+    domain_name = {item['domain_id']: item['scene'] for item in updated_data_json}
+    data['domain_name'] = domain_name
 
-with open("data_json/all/koniq10k_all.json", "w") as f:
-    json.dump(data, f, indent=2)
+    with open("data_json/for_cross_set/train/koniq10k_train.json", "w") as f:
+        json.dump(data, f, indent=2)
 
 
 

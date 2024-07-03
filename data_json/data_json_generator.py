@@ -78,10 +78,18 @@ def spaq_generator(domain_id_base = 100):
       image = f'SPAQ/TestImage/{img_name}',
       score = label,
       scene = [scene_dict[scene] for scene in scene_list],
-      domain_id = random.choices([domain_id_base + scene for scene in scene_list])[0], # random select one scene as domain_id
+      domain_id = [domain_id_base + scene for scene in scene_list],
     ))
 
     assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
+  
+  # random select for multi-label scene
+  for item in all_files:
+    item['scene'] = random.choice(item['scene'])
+    item['domain_id'] = random.choice(item['domain_id'])
+  # or CLIP select
+  # from clip_based_scene_classify import classify_images
+  # all_files = classify_images(all_files, data_dir=data_dir)
 
   with open(f'{base_dir}/data_json/all/spaq_all.json', 'w') as f:
     json.dump({
@@ -149,6 +157,10 @@ def koniq_generator(domain_id_base = 300):
       domain_id = domain_id_base,
     ))
     assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
+
+  # CLIP scene classify
+  from clip_based_scene_classify import classify_images
+  all_files = classify_images(all_files, data_dir=data_dir)
 
   with open(f'{base_dir}/data_json/all/koniq10k_all.json', 'w') as f:
     json.dump({'files': all_files}, f, indent=2)
@@ -568,18 +580,18 @@ def check_koniq_spaq_kadia():
   
 
 if __name__ == '__main__':
-  piq23_generator()
-  # spaq_generator()
-  livec_generator()
-  koniq_generator()
-  bid_generator()
-  cid2013_generator()
-  agiqa3k_generator()
-  kadid10k_generator()
-  live_generator()
-  csiq_generator()
-  tid2013_generator()
-  eva_generator()
-  para_generator()
+  # piq23_generator()
+  spaq_generator()
+  # livec_generator()
+  # koniq_generator()
+  # bid_generator()
+  # cid2013_generator()
+  # agiqa3k_generator()
+  # kadid10k_generator()
+  # live_generator()
+  # csiq_generator()
+  # tid2013_generator()
+  # eva_generator()
+  # para_generator()
 
-  check_koniq_spaq_kadia()
+  # check_koniq_spaq_kadia()
