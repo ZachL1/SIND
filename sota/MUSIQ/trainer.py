@@ -19,7 +19,7 @@ def train_epoch(config, epoch, model_transformer, model_backbone, criterion, opt
     pred_epoch = []
     labels_epoch = []
     
-    for data in tqdm(train_loader):
+    for data in tqdm(train_loader, mininterval=100):
         # labels: batch size 
         # d_img_org: 3 x 768 x 1024
         # d_img_scale_1: 3 x 288 x 384
@@ -68,19 +68,19 @@ def train_epoch(config, epoch, model_transformer, model_backbone, criterion, opt
 
     print('[train] epoch:%d / loss:%f / SROCC:%4f / PLCC:%4f' % (epoch+1, loss.item(), rho_s, rho_p))
 
-    # save weights
-    if (epoch+1) % config.save_freq == 0:
-        weights_file_name = "epoch%d.pth" % (epoch+1)
-        weights_file = os.path.join(config.snap_path, weights_file_name)
-        torch.save({
-            'epoch': epoch,
-            'model_backbone_state_dict': model_backbone.state_dict(),
-            'model_transformer_state_dict': model_transformer.state_dict(),
-            'optimizer_state_dict': optimizer.state_dict(),
-            'scheduler_state_dict': scheduler.state_dict(),
-            'loss': loss
-        }, weights_file)
-        print('save weights of epoch %d' % (epoch+1))
+    # # save weights
+    # if (epoch+1) % config.save_freq == 0:
+    #     weights_file_name = "epoch%d.pth" % (epoch+1)
+    #     weights_file = os.path.join(config.snap_path, weights_file_name)
+    #     torch.save({
+    #         'epoch': epoch,
+    #         'model_backbone_state_dict': model_backbone.state_dict(),
+    #         'model_transformer_state_dict': model_transformer.state_dict(),
+    #         'optimizer_state_dict': optimizer.state_dict(),
+    #         'scheduler_state_dict': scheduler.state_dict(),
+    #         'loss': loss
+    #     }, weights_file)
+    #     print('save weights of epoch %d' % (epoch+1))
 
     return np.mean(losses), rho_s, rho_p
 
@@ -99,7 +99,7 @@ def eval_epoch(config, epoch, model_transformer, model_backbone, criterion, test
         pred_epoch = []
         labels_epoch = []
 
-        for data in tqdm(test_loader):
+        for data in tqdm(test_loader, mininterval=10):
             # labels: batch size 
             # d_img_org: batch x 3 x 768 x 1024
             # d_img_scale_1: batch x 3 x 288 x 384

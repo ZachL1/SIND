@@ -2,6 +2,53 @@ import os
 import torch
 import numpy as np
 import cv2
+import json
+
+
+class JSONData(torch.utils.data.Dataset):
+    def __init__(self, db_path, txt_file_name, scale_1, scale_2, transform, train_mode, scene_list, train_size=0.8):
+        with open(txt_file_name,'r') as load_f:
+            self.json_dict = json.load(load_f)['files']
+        
+        if train_mode:
+            max_score = max(item['score'] for item in self.json_dict)
+            min_score = min(item['score'] for item in self.json_dict)
+            for item in self.json_dict:
+                item['score'] = (item['score'] - min_score) / (max_score - min_score)
+
+        self.db_path = db_path
+        # self.txt_file_name = txt_file_name
+        self.scale_1 = scale_1
+        self.scale_2 = scale_2
+        self.transform = transform
+        # self.train_mode = train_mode
+        # self.scene_list = scene_list
+        # self.train_size = train_size
+
+
+    def __len__(self):
+        return len(self.json_dict)
+
+    def __getitem__(self, item):
+        d_img_org = cv2.imread(os.path.join(self.db_path, self.json_dict[item]['image']), cv2.IMREAD_COLOR)
+        d_img_org = cv2.resize(d_img_org, dsize=(1024, 768), interpolation=cv2.INTER_CUBIC) # resize to 1024x768 due to the current model only accepts this size
+        d_img_org = cv2.cvtColor(d_img_org, cv2.COLOR_BGR2RGB)
+        d_img_org = np.array(d_img_org).astype('float32') / 255
+
+        h, w, c = d_img_org.shape
+        d_img_scale_1 = cv2.resize(d_img_org, dsize=(self.scale_1, int(h*(self.scale_1/w))), interpolation=cv2.INTER_CUBIC)
+        d_img_scale_2 = cv2.resize(d_img_org, dsize=(self.scale_2, int(h*(self.scale_2/w))), interpolation=cv2.INTER_CUBIC)
+        d_img_scale_2 = d_img_scale_2[:160, :, :]
+
+        score = self.json_dict[item]['score']
+        score = np.array(score).astype('float32')
+
+        sample = {'d_img_org': d_img_org, 'd_img_scale_1': d_img_scale_1, 'd_img_scale_2':d_img_scale_2, 'score': score}
+
+        if self.transform:
+            sample = self.transform(sample)
+        return sample
+
 
 class IQADataset(torch.utils.data.Dataset):
     def __init__(self, db_path, txt_file_name, scale_1, scale_2, transform, train_mode, scene_list, train_size=0.8):

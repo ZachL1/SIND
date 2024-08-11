@@ -19,6 +19,49 @@ normalize = transforms.Normalize(
             mean=IMAGE_NET_MEAN,
             std=IMAGE_NET_STD)
 
+class JSONData(Dataset):
+    def __init__(self, path_to_csv, images_path, if_train):
+        with open(path_to_csv,'r') as load_f:
+            self.json_dict = json.load(load_f)['files']
+        
+        if if_train:
+            max_score = max(item['score'] for item in self.json_dict)
+            min_score = min(item['score'] for item in self.json_dict)
+            for item in self.json_dict:
+                item['score'] = (item['score'] - min_score) / (max_score - min_score)
+        
+        # if 'eva' in path_to_csv:
+        #     for item in self.json_dict:
+        #         item['score'] = item['score'] / 10
+        # elif 'para' in path_to_csv:
+        #     for item in self.json_dict:
+        #         item['score'] = item['score'] / 5
+        
+        self.images_path = images_path
+
+        if if_train:
+            self.transform = transforms.Compose([
+            transforms.Resize((256, 256)),
+            transforms.RandomHorizontalFlip(),
+            transforms.RandomCrop((224, 224)),
+            transforms.ToTensor(),
+            normalize])
+        else:
+            self.transform = transforms.Compose([
+            transforms.Resize((224, 224)),
+            transforms.ToTensor(),
+            normalize])
+            
+    def __len__(self):
+        return len(self.json_dict)
+
+    def __getitem__(self, item):
+        p = self.json_dict[item]['score']
+        image_path = os.path.join(self.images_path, self.json_dict[item]['image'])
+        image = default_loader(image_path)
+        x = self.transform(image)
+        return x, p
+
 class AVA(Dataset):
     def __init__(self, path_to_csv, images_path, if_train):
         self.df = pd.read_csv(path_to_csv, encoding='ISO-8859-1')

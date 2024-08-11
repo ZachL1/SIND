@@ -74,8 +74,9 @@ class AesCLIP_reg(nn.Module):
         self.aesclip = clip_model.float()
         self.clip_size = clip_size['feature_size']
         self.mlp = nn.Sequential(
-            nn.Linear(self.clip_size, 10),
-            nn.Softmax()
+            nn.Linear(self.clip_size, 1),
+            # nn.Softmax()
+            nn.Sigmoid()
         )
     def select_clip(self, clip_name):
         param = {'feature_size': 768}
