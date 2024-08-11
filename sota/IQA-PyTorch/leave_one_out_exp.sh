@@ -1,9 +1,11 @@
 #!/bin/bash
 
-dataname="spaq"
+# dataname="spaq"
+dataname="para"
 gpu_id=0
 
-methods=("CLIPIQA" "DBCNN" "HyperNet" "TOPIQ")
+# methods=("CLIPIQA" "DBCNN" "HyperNet" "TOPIQ") # IQA
+methods=("NIMA", "CLIPIQA", "TOPIQ") # IAA
 
 for method in "${methods[@]}"; do
   src_yml="options/train/$method/leave_one_out_train_$method.yml"
@@ -28,7 +30,7 @@ for method in "${methods[@]}"; do
         yq eval ".name = \"$exp_name\"" -i "$dst_yml"
         yq eval ".datasets.train.name = \"$dataname\"" -i "$dst_yml"
         yq eval ".datasets.val.name = \"$dataname\"" -i "$dst_yml"
-        if [ "$dataname" == "spaq" ]; then
+        if [[ "$method" != "NIMA" && ( "$dataname" == "spaq" || "$dataname" == "para" ) ]]; then
           yq eval ".datasets.val.augment.resize = 768" -i "$dst_yml"
         fi
 

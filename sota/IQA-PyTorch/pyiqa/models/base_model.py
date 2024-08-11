@@ -163,7 +163,7 @@ class BaseModel():
 
         logger = get_root_logger()
         logger.info(f'Network: {net_cls_str}, with parameters: {net_params:,d}')
-        logger.info(net_str)
+        # logger.info(net_str)
 
     def _set_lr(self, lr_groups_l):
         """Set learning rate for warmup.

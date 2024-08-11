@@ -19,7 +19,7 @@ def transform_mapping(key, args):
     if key == 'vflip' and args:
         return [PairedRandomVerticalFlip()] 
     elif key == 'random_crop':
-        return [PairedRandomCrop(args)]
+        return [PairedRandomCrop(args, pad_if_needed=True)]
     elif key == 'center_crop':
         return [PairedCenterCrop(args)]
     elif key == 'resize':

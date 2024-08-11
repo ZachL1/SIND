@@ -26,7 +26,7 @@ datasets:
 
     augment:
       hflip: true
-      random_crop: *img_size_oneside 
+      random_crop: *img_size_oneside
     img_range: 1
 
     # data loader
