@@ -1,0 +1,4254 @@
+{
+  "files": [
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/821.jpg",
+      "score": 5.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/862.jpg",
+      "score": 6.972222222222222,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/3215.jpg",
+      "score": 5.75,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/3272.jpg",
+      "score": 6.970588235294118,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/3429.jpg",
+      "score": 6.942857142857143,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/3460.jpg",
+      "score": 6.382352941176471,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/3726.jpg",
+      "score": 5.243243243243243,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/4296.jpg",
+      "score": 5.67741935483871,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/5789.jpg",
+      "score": 7.166666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/7744.jpg",
+      "score": 6.470588235294118,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/7967.jpg",
+      "score": 4.696969696969697,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/8117.jpg",
+      "score": 5.6,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/8237.jpg",
+      "score": 5.9,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/8266.jpg",
+      "score": 4.861111111111111,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/8286.jpg",
+      "score": 6.090909090909091,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/9999.jpg",
+      "score": 5.857142857142857,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/15924.jpg",
+      "score": 5.470588235294118,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/28449.jpg",
+      "score": 5.933333333333334,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/28672.jpg",
+      "score": 5.5,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/29032.jpg",
+      "score": 6.341463414634147,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/30593.jpg",
+      "score": 6.433333333333334,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/30710.jpg",
+      "score": 4.67741935483871,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/30956.jpg",
+      "score": 6.486486486486487,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/31044.jpg",
+      "score": 5.555555555555555,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/31787.jpg",
+      "score": 5.948717948717949,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/36459.jpg",
+      "score": 7.470588235294118,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/36470.jpg",
+      "score": 6.466666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/36471.jpg",
+      "score": 6.387096774193548,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/36672.jpg",
+      "score": 5.705882352941177,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/36754.jpg",
+      "score": 7.111111111111111,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/36806.jpg",
+      "score": 6.2368421052631575,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/36877.jpg",
+      "score": 5.914285714285715,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/37432.jpg",
+      "score": 4.666666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/38283.jpg",
+      "score": 5.161290322580645,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/38343.jpg",
+      "score": 6.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/38476.jpg",
+      "score": 5.34375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/38665.jpg",
+      "score": 4.514285714285714,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/38721.jpg",
+      "score": 6.71875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/39009.jpg",
+      "score": 2.935483870967742,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/39096.jpg",
+      "score": 4.382352941176471,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/39133.jpg",
+      "score": 7.194444444444445,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/39348.jpg",
+      "score": 6.333333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/39373.jpg",
+      "score": 6.894736842105263,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/39378.jpg",
+      "score": 5.90625,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/39423.jpg",
+      "score": 6.371428571428571,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/40045.jpg",
+      "score": 6.064516129032258,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/42033.jpg",
+      "score": 5.15625,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/42592.jpg",
+      "score": 5.166666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/42659.jpg",
+      "score": 4.933333333333334,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/49154.jpg",
+      "score": 5.235294117647059,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/50198.jpg",
+      "score": 5.257142857142857,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/50884.jpg",
+      "score": 5.382352941176471,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/50909.jpg",
+      "score": 6.32258064516129,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/51719.jpg",
+      "score": 6.666666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/52122.jpg",
+      "score": 6.7105263157894735,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/52478.jpg",
+      "score": 7.0625,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/53525.jpg",
+      "score": 6.484848484848484,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/55078.jpg",
+      "score": 6.0606060606060606,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/55242.jpg",
+      "score": 6.685714285714286,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/55420.jpg",
+      "score": 6.676470588235294,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/55541.jpg",
+      "score": 6.7,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/55574.jpg",
+      "score": 7.3125,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/55640.jpg",
+      "score": 7.714285714285714,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/55771.jpg",
+      "score": 4.7272727272727275,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/56702.jpg",
+      "score": 5.352941176470588,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/57203.jpg",
+      "score": 5.942857142857143,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/58524.jpg",
+      "score": 4.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/60588.jpg",
+      "score": 4.277777777777778,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/61744.jpg",
+      "score": 6.1875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/61864.jpg",
+      "score": 5.9,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/61924.jpg",
+      "score": 5.935483870967742,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/62081.jpg",
+      "score": 5.333333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/63633.jpg",
+      "score": 4.575,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/63729.jpg",
+      "score": 7.088235294117647,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/63869.jpg",
+      "score": 5.852941176470588,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/64270.jpg",
+      "score": 6.588235294117647,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/65209.jpg",
+      "score": 7.102564102564102,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/65221.jpg",
+      "score": 6.375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/65725.jpg",
+      "score": 6.0588235294117645,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/66917.jpg",
+      "score": 6.733333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/66971.jpg",
+      "score": 6.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/67412.jpg",
+      "score": 7.0588235294117645,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/69653.jpg",
+      "score": 5.774193548387097,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/70302.jpg",
+      "score": 7.194444444444445,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/70724.jpg",
+      "score": 5.0625,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/70815.jpg",
+      "score": 3.125,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/72319.jpg",
+      "score": 6.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/73186.jpg",
+      "score": 5.2439024390243905,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/74979.jpg",
+      "score": 6.428571428571429,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/76253.jpg",
+      "score": 5.875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/76577.jpg",
+      "score": 5.027777777777778,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/76702.jpg",
+      "score": 6.78125,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/76743.jpg",
+      "score": 7.027777777777778,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/76980.jpg",
+      "score": 5.27027027027027,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/78661.jpg",
+      "score": 4.866666666666666,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/78785.jpg",
+      "score": 6.621621621621622,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/78859.jpg",
+      "score": 5.8,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/79237.jpg",
+      "score": 6.648648648648648,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/79829.jpg",
+      "score": 6.566666666666666,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/81045.jpg",
+      "score": 5.513513513513513,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/82260.jpg",
+      "score": 7.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/84807.jpg",
+      "score": 5.617647058823529,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/85052.jpg",
+      "score": 7.333333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/85316.jpg",
+      "score": 6.470588235294118,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/86577.jpg",
+      "score": 4.470588235294118,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/88934.jpg",
+      "score": 6.052631578947368,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/92107.jpg",
+      "score": 5.323529411764706,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/93797.jpg",
+      "score": 5.277777777777778,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/94739.jpg",
+      "score": 4.225806451612903,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/95177.jpg",
+      "score": 6.5,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/95183.jpg",
+      "score": 6.878787878787879,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/95318.jpg",
+      "score": 4.903225806451613,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/95600.jpg",
+      "score": 5.09375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/95650.jpg",
+      "score": 4.387096774193548,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/109439.jpg",
+      "score": 5.2894736842105265,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/120710.jpg",
+      "score": 6.176470588235294,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/123290.jpg",
+      "score": 5.580645161290323,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/158120.jpg",
+      "score": 5.833333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/175478.jpg",
+      "score": 6.911764705882353,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/190259.jpg",
+      "score": 6.076923076923077,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/200517.jpg",
+      "score": 3.2941176470588234,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/204949.jpg",
+      "score": 4.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/205433.jpg",
+      "score": 4.2926829268292686,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/225141.jpg",
+      "score": 5.129032258064516,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/232655.jpg",
+      "score": 4.933333333333334,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/237953.jpg",
+      "score": 5.6875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/258461.jpg",
+      "score": 5.5,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/263700.jpg",
+      "score": 4.888888888888889,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/271315.jpg",
+      "score": 3.911764705882353,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/280577.jpg",
+      "score": 3.1,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/283216.jpg",
+      "score": 7.5,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/283492.jpg",
+      "score": 6.333333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/283713.jpg",
+      "score": 6.848484848484849,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/284231.jpg",
+      "score": 7.583333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/284436.jpg",
+      "score": 5.838709677419355,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/284608.jpg",
+      "score": 5.451612903225806,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/284750.jpg",
+      "score": 5.583333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/284873.jpg",
+      "score": 5.529411764705882,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/284905.jpg",
+      "score": 6.4,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/284984.jpg",
+      "score": 6.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/285018.jpg",
+      "score": 6.6875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/285292.jpg",
+      "score": 5.4,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/285316.jpg",
+      "score": 6.866666666666666,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/285491.jpg",
+      "score": 6.033333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/286141.jpg",
+      "score": 8.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/287050.jpg",
+      "score": 5.605263157894737,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/287838.jpg",
+      "score": 6.351351351351352,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/288645.jpg",
+      "score": 7.219512195121951,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/288937.jpg",
+      "score": 6.454545454545454,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/289013.jpg",
+      "score": 6.7,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/290739.jpg",
+      "score": 5.129032258064516,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/292218.jpg",
+      "score": 6.258064516129032,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/298152.jpg",
+      "score": 6.25,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/302541.jpg",
+      "score": 5.666666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/303243.jpg",
+      "score": 5.694444444444445,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/306011.jpg",
+      "score": 6.15625,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/309879.jpg",
+      "score": 6.848484848484849,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/312808.jpg",
+      "score": 6.8,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/313713.jpg",
+      "score": 7.2,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/314286.jpg",
+      "score": 5.147058823529412,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/317192.jpg",
+      "score": 5.032258064516129,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/317287.jpg",
+      "score": 6.085714285714285,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/317622.jpg",
+      "score": 5.696969696969697,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/317805.jpg",
+      "score": 6.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/318856.jpg",
+      "score": 5.3,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/319006.jpg",
+      "score": 6.108108108108108,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/322374.jpg",
+      "score": 5.694444444444445,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/326495.jpg",
+      "score": 6.416666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/328265.jpg",
+      "score": 5.973684210526316,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/331612.jpg",
+      "score": 6.233333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/332376.jpg",
+      "score": 5.516129032258065,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/335049.jpg",
+      "score": 6.277777777777778,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/335854.jpg",
+      "score": 6.972972972972973,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/336718.jpg",
+      "score": 6.297297297297297,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/337574.jpg",
+      "score": 6.945945945945946,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/341669.jpg",
+      "score": 6.233333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/342512.jpg",
+      "score": 7.151515151515151,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/343710.jpg",
+      "score": 5.90625,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/343910.jpg",
+      "score": 6.666666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/344412.jpg",
+      "score": 5.605263157894737,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/346091.jpg",
+      "score": 6.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/348584.jpg",
+      "score": 7.114285714285714,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/349135.jpg",
+      "score": 6.3,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/349733.jpg",
+      "score": 5.970588235294118,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/353440.jpg",
+      "score": 6.382352941176471,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/356238.jpg",
+      "score": 6.666666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/358477.jpg",
+      "score": 6.083333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/362470.jpg",
+      "score": 5.487179487179487,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/362577.jpg",
+      "score": 6.67741935483871,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/366082.jpg",
+      "score": 6.066666666666666,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/369787.jpg",
+      "score": 6.483870967741935,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/371002.jpg",
+      "score": 4.1,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/371038.jpg",
+      "score": 6.617647058823529,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/372241.jpg",
+      "score": 7.266666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/372904.jpg",
+      "score": 5.46875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/375614.jpg",
+      "score": 6.096774193548387,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/375686.jpg",
+      "score": 6.0625,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/384046.jpg",
+      "score": 4.46875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/384089.jpg",
+      "score": 6.181818181818182,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/384138.jpg",
+      "score": 6.424242424242424,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/387070.jpg",
+      "score": 5.5,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/388692.jpg",
+      "score": 7.290322580645161,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/388868.jpg",
+      "score": 5.823529411764706,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/389921.jpg",
+      "score": 5.4324324324324325,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/395268.jpg",
+      "score": 5.194444444444445,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/396631.jpg",
+      "score": 7.0606060606060606,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/397242.jpg",
+      "score": 5.564102564102564,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/397555.jpg",
+      "score": 6.151515151515151,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/397739.jpg",
+      "score": 5.621621621621622,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/405168.jpg",
+      "score": 5.8125,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/410806.jpg",
+      "score": 7.066666666666666,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/413999.jpg",
+      "score": 5.848484848484849,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/423933.jpg",
+      "score": 5.777777777777778,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/424676.jpg",
+      "score": 5.611111111111111,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/426517.jpg",
+      "score": 7.076923076923077,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/427311.jpg",
+      "score": 7.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/427538.jpg",
+      "score": 6.181818181818182,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/431050.jpg",
+      "score": 4.4,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/431251.jpg",
+      "score": 5.9375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/432011.jpg",
+      "score": 7.216216216216216,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/432390.jpg",
+      "score": 7.205882352941177,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/435055.jpg",
+      "score": 4.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/435326.jpg",
+      "score": 6.375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/435443.jpg",
+      "score": 7.121212121212121,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/435772.jpg",
+      "score": 4.7,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/435779.jpg",
+      "score": 7.45945945945946,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/436136.jpg",
+      "score": 6.533333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/436700.jpg",
+      "score": 5.4375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/436924.jpg",
+      "score": 4.806451612903226,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/437423.jpg",
+      "score": 6.6571428571428575,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/437760.jpg",
+      "score": 6.794871794871795,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/437809.jpg",
+      "score": 5.8125,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/437877.jpg",
+      "score": 6.583333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/437879.jpg",
+      "score": 5.696969696969697,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/438065.jpg",
+      "score": 5.96875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/438112.jpg",
+      "score": 5.25,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/440467.jpg",
+      "score": 5.515151515151516,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/441319.jpg",
+      "score": 5.580645161290323,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/444200.jpg",
+      "score": 6.081081081081081,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/444508.jpg",
+      "score": 6.866666666666666,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/444900.jpg",
+      "score": 5.129032258064516,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/445188.jpg",
+      "score": 5.914285714285715,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/445211.jpg",
+      "score": 5.166666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/446726.jpg",
+      "score": 6.081081081081081,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/447735.jpg",
+      "score": 7.032258064516129,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/448521.jpg",
+      "score": 7.2926829268292686,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/448838.jpg",
+      "score": 6.5,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/449212.jpg",
+      "score": 6.861111111111111,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/449299.jpg",
+      "score": 5.9393939393939394,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/449642.jpg",
+      "score": 7.09375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/449839.jpg",
+      "score": 6.375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/451041.jpg",
+      "score": 6.888888888888889,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/454038.jpg",
+      "score": 7.105263157894737,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/454930.jpg",
+      "score": 5.366666666666666,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/455890.jpg",
+      "score": 6.612903225806452,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/456194.jpg",
+      "score": 7.075,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/456306.jpg",
+      "score": 6.65625,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/456391.jpg",
+      "score": 6.371428571428571,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/456437.jpg",
+      "score": 5.193548387096774,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/456976.jpg",
+      "score": 5.472222222222222,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/457621.jpg",
+      "score": 5.375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/458332.jpg",
+      "score": 6.032258064516129,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/458514.jpg",
+      "score": 7.294117647058823,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/461307.jpg",
+      "score": 5.433333333333334,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/461586.jpg",
+      "score": 5.96875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/470643.jpg",
+      "score": 5.742857142857143,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/474992.jpg",
+      "score": 6.064516129032258,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/475051.jpg",
+      "score": 3.09375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/476886.jpg",
+      "score": 7.529411764705882,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/477116.jpg",
+      "score": 7.766666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/479325.jpg",
+      "score": 7.161290322580645,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/485529.jpg",
+      "score": 7.083333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/486597.jpg",
+      "score": 6.615384615384615,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/486759.jpg",
+      "score": 7.171428571428572,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/487286.jpg",
+      "score": 6.84375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/487750.jpg",
+      "score": 5.75,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/487823.jpg",
+      "score": 5.9393939393939394,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/489465.jpg",
+      "score": 7.027027027027027,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/490589.jpg",
+      "score": 6.84375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/492548.jpg",
+      "score": 5.933333333333334,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/496406.jpg",
+      "score": 6.194444444444445,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/497284.jpg",
+      "score": 6.828571428571428,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/497568.jpg",
+      "score": 6.419354838709677,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/497619.jpg",
+      "score": 5.4375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/497893.jpg",
+      "score": 7.282051282051282,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/500161.jpg",
+      "score": 5.8,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/502018.jpg",
+      "score": 7.375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/502093.jpg",
+      "score": 7.34375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/502448.jpg",
+      "score": 7.371428571428571,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/502630.jpg",
+      "score": 7.605263157894737,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/503335.jpg",
+      "score": 4.486486486486487,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/504467.jpg",
+      "score": 6.382352941176471,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/505652.jpg",
+      "score": 5.28125,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/505837.jpg",
+      "score": 6.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/507149.jpg",
+      "score": 5.714285714285714,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/514261.jpg",
+      "score": 5.46875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/516086.jpg",
+      "score": 6.2,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/517780.jpg",
+      "score": 6.1,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/524724.jpg",
+      "score": 5.766666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/525715.jpg",
+      "score": 5.769230769230769,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/526321.jpg",
+      "score": 6.466666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/528033.jpg",
+      "score": 5.833333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/529168.jpg",
+      "score": 7.2,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/537723.jpg",
+      "score": 2.8484848484848486,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/538086.jpg",
+      "score": 6.323529411764706,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/538206.jpg",
+      "score": 5.871794871794871,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/538347.jpg",
+      "score": 6.096774193548387,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/539252.jpg",
+      "score": 6.972972972972973,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/542065.jpg",
+      "score": 6.193548387096774,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/543319.jpg",
+      "score": 6.7,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/543637.jpg",
+      "score": 6.942857142857143,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/545777.jpg",
+      "score": 6.621621621621622,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/546875.jpg",
+      "score": 7.2,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/547033.jpg",
+      "score": 5.088235294117647,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/547450.jpg",
+      "score": 6.555555555555555,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/553486.jpg",
+      "score": 6.774193548387097,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/555678.jpg",
+      "score": 6.085714285714285,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/557427.jpg",
+      "score": 6.176470588235294,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/560744.jpg",
+      "score": 5.636363636363637,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/561371.jpg",
+      "score": 7.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/563254.jpg",
+      "score": 6.8,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/566260.jpg",
+      "score": 3.65625,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/569920.jpg",
+      "score": 6.3,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/570689.jpg",
+      "score": 4.696969696969697,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/571325.jpg",
+      "score": 6.533333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/572723.jpg",
+      "score": 4.083333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/573721.jpg",
+      "score": 6.394736842105263,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/573887.jpg",
+      "score": 6.114285714285714,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/575937.jpg",
+      "score": 5.333333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/577317.jpg",
+      "score": 5.361111111111111,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/577542.jpg",
+      "score": 6.612903225806452,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/577637.jpg",
+      "score": 6.411764705882353,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/578720.jpg",
+      "score": 7.088235294117647,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/579693.jpg",
+      "score": 6.184210526315789,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/579993.jpg",
+      "score": 6.131578947368421,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/581628.jpg",
+      "score": 6.466666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/581730.jpg",
+      "score": 5.529411764705882,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/581883.jpg",
+      "score": 5.870967741935484,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/582004.jpg",
+      "score": 6.4,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/582325.jpg",
+      "score": 5.0606060606060606,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/582510.jpg",
+      "score": 7.4411764705882355,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/587182.jpg",
+      "score": 5.212121212121212,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/590559.jpg",
+      "score": 7.133333333333334,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/591473.jpg",
+      "score": 4.875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/592220.jpg",
+      "score": 5.333333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/593232.jpg",
+      "score": 5.264705882352941,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/593639.jpg",
+      "score": 3.9743589743589745,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/597293.jpg",
+      "score": 7.722222222222222,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/597667.jpg",
+      "score": 6.6571428571428575,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/597954.jpg",
+      "score": 6.176470588235294,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/598061.jpg",
+      "score": 6.222222222222222,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/598194.jpg",
+      "score": 6.3428571428571425,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/598226.jpg",
+      "score": 6.743589743589744,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/598330.jpg",
+      "score": 7.055555555555555,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/598392.jpg",
+      "score": 6.121951219512195,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/598510.jpg",
+      "score": 5.846153846153846,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/602492.jpg",
+      "score": 7.733333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/603890.jpg",
+      "score": 6.205882352941177,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/604106.jpg",
+      "score": 5.828571428571428,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/604482.jpg",
+      "score": 3.2,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/604881.jpg",
+      "score": 7.705882352941177,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/606136.jpg",
+      "score": 5.676470588235294,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/606617.jpg",
+      "score": 6.3,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/606671.jpg",
+      "score": 5.878787878787879,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/607255.jpg",
+      "score": 6.363636363636363,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/611089.jpg",
+      "score": 7.170731707317073,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/611532.jpg",
+      "score": 6.631578947368421,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/611695.jpg",
+      "score": 6.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/614061.jpg",
+      "score": 6.9714285714285715,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/614196.jpg",
+      "score": 7.057142857142857,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/614563.jpg",
+      "score": 6.366666666666666,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/614695.jpg",
+      "score": 4.942857142857143,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/614902.jpg",
+      "score": 6.454545454545454,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/623078.jpg",
+      "score": 5.805555555555555,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/624346.jpg",
+      "score": 7.363636363636363,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/624667.jpg",
+      "score": 5.909090909090909,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/624764.jpg",
+      "score": 4.225806451612903,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/625987.jpg",
+      "score": 6.3125,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/626466.jpg",
+      "score": 5.666666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/627536.jpg",
+      "score": 6.161290322580645,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/627984.jpg",
+      "score": 5.542857142857143,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/631898.jpg",
+      "score": 6.5,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/634462.jpg",
+      "score": 7.151515151515151,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/635473.jpg",
+      "score": 5.933333333333334,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/635846.jpg",
+      "score": 5.057142857142857,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/637422.jpg",
+      "score": 6.777777777777778,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/637478.jpg",
+      "score": 7.085714285714285,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/638017.jpg",
+      "score": 5.67741935483871,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/638666.jpg",
+      "score": 5.806451612903226,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/638876.jpg",
+      "score": 7.78125,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/638943.jpg",
+      "score": 5.369565217391305,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/638972.jpg",
+      "score": 6.757575757575758,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/638985.jpg",
+      "score": 7.2,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/639017.jpg",
+      "score": 8.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/639691.jpg",
+      "score": 6.32258064516129,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/639787.jpg",
+      "score": 5.71875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/640543.jpg",
+      "score": 6.90625,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/640869.jpg",
+      "score": 5.647058823529412,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/641624.jpg",
+      "score": 5.454545454545454,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/642511.jpg",
+      "score": 5.485714285714286,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/642848.jpg",
+      "score": 5.53125,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/642983.jpg",
+      "score": 5.545454545454546,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/645510.jpg",
+      "score": 6.09375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/646148.jpg",
+      "score": 3.6666666666666665,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/648665.jpg",
+      "score": 6.361111111111111,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/649600.jpg",
+      "score": 5.645161290322581,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/650077.jpg",
+      "score": 5.966666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/650202.jpg",
+      "score": 6.9,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/650328.jpg",
+      "score": 4.67741935483871,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/650571.jpg",
+      "score": 7.205882352941177,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/650607.jpg",
+      "score": 5.645161290322581,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/650634.jpg",
+      "score": 7.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/650749.jpg",
+      "score": 6.774193548387097,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/650793.jpg",
+      "score": 5.235294117647059,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/650847.jpg",
+      "score": 6.5,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/650864.jpg",
+      "score": 6.733333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/651595.jpg",
+      "score": 6.486486486486487,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/654100.jpg",
+      "score": 5.533333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/655503.jpg",
+      "score": 5.212121212121212,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/656665.jpg",
+      "score": 3.8857142857142857,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/658110.jpg",
+      "score": 5.771428571428571,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/658328.jpg",
+      "score": 6.428571428571429,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/659689.jpg",
+      "score": 5.777777777777778,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/660449.jpg",
+      "score": 6.916666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/662424.jpg",
+      "score": 6.142857142857143,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/663183.jpg",
+      "score": 6.088235294117647,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/663768.jpg",
+      "score": 6.0256410256410255,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/663979.jpg",
+      "score": 6.516129032258065,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/664217.jpg",
+      "score": 6.419354838709677,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/664677.jpg",
+      "score": 4.40625,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/664937.jpg",
+      "score": 5.05,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/666132.jpg",
+      "score": 6.774193548387097,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/666440.jpg",
+      "score": 6.9411764705882355,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/666519.jpg",
+      "score": 5.375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/668980.jpg",
+      "score": 7.424242424242424,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/674966.jpg",
+      "score": 7.838709677419355,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/676008.jpg",
+      "score": 6.0606060606060606,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/676062.jpg",
+      "score": 6.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/676963.jpg",
+      "score": 6.909090909090909,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/677856.jpg",
+      "score": 5.875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/678770.jpg",
+      "score": 5.605263157894737,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/680000.jpg",
+      "score": 3.2666666666666666,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/680567.jpg",
+      "score": 6.882352941176471,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/682095.jpg",
+      "score": 6.611111111111111,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/684537.jpg",
+      "score": 6.125,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/685248.jpg",
+      "score": 7.3428571428571425,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/686466.jpg",
+      "score": 5.533333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/689836.jpg",
+      "score": 6.133333333333334,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/692445.jpg",
+      "score": 6.485714285714286,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/692839.jpg",
+      "score": 6.363636363636363,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/693402.jpg",
+      "score": 7.131578947368421,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/698274.jpg",
+      "score": 5.966666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/704341.jpg",
+      "score": 6.3,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/705364.jpg",
+      "score": 6.342105263157895,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/706491.jpg",
+      "score": 6.684210526315789,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/708613.jpg",
+      "score": 6.666666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/712274.jpg",
+      "score": 6.451612903225806,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/712539.jpg",
+      "score": 6.944444444444445,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/712841.jpg",
+      "score": 5.944444444444445,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/713177.jpg",
+      "score": 6.580645161290323,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/713566.jpg",
+      "score": 5.944444444444445,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/713601.jpg",
+      "score": 7.363636363636363,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/713683.jpg",
+      "score": 3.1,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/713725.jpg",
+      "score": 4.514285714285714,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/713734.jpg",
+      "score": 5.552631578947368,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/714118.jpg",
+      "score": 7.75,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/714344.jpg",
+      "score": 6.114285714285714,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/714885.jpg",
+      "score": 7.2727272727272725,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/716237.jpg",
+      "score": 7.366666666666666,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/716850.jpg",
+      "score": 6.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/717960.jpg",
+      "score": 7.171428571428572,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/723389.jpg",
+      "score": 5.617647058823529,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/730292.jpg",
+      "score": 4.966666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/731619.jpg",
+      "score": 6.21875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/732141.jpg",
+      "score": 6.066666666666666,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/732181.jpg",
+      "score": 7.323529411764706,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/732208.jpg",
+      "score": 6.944444444444445,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/732247.jpg",
+      "score": 6.235294117647059,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/733554.jpg",
+      "score": 3.235294117647059,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/735046.jpg",
+      "score": 7.4411764705882355,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/738960.jpg",
+      "score": 6.121212121212121,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/741209.jpg",
+      "score": 6.32258064516129,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/742897.jpg",
+      "score": 6.631578947368421,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/743297.jpg",
+      "score": 6.838709677419355,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/743326.jpg",
+      "score": 5.171428571428572,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/743446.jpg",
+      "score": 6.294117647058823,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/743657.jpg",
+      "score": 5.766666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/745359.jpg",
+      "score": 7.2894736842105265,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/745890.jpg",
+      "score": 6.891891891891892,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/748899.jpg",
+      "score": 7.090909090909091,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/753815.jpg",
+      "score": 4.6,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/754930.jpg",
+      "score": 4.911764705882353,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/756257.jpg",
+      "score": 6.166666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/756688.jpg",
+      "score": 7.428571428571429,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/758981.jpg",
+      "score": 5.5588235294117645,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/760064.jpg",
+      "score": 5.735294117647059,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/763181.jpg",
+      "score": 7.181818181818182,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/763346.jpg",
+      "score": 6.783783783783784,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/763937.jpg",
+      "score": 6.575757575757576,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/764384.jpg",
+      "score": 3.6666666666666665,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/764503.jpg",
+      "score": 5.405405405405405,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/767695.jpg",
+      "score": 7.277777777777778,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/768168.jpg",
+      "score": 5.1,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/768443.jpg",
+      "score": 5.894736842105263,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/769062.jpg",
+      "score": 6.419354838709677,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/769135.jpg",
+      "score": 6.454545454545454,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/769699.jpg",
+      "score": 4.628571428571429,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/770962.jpg",
+      "score": 6.970588235294118,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/771434.jpg",
+      "score": 6.967741935483871,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/771472.jpg",
+      "score": 6.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/771580.jpg",
+      "score": 4.705882352941177,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/771892.jpg",
+      "score": 6.3,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/771956.jpg",
+      "score": 6.7368421052631575,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/772195.jpg",
+      "score": 7.648648648648648,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/772353.jpg",
+      "score": 6.9714285714285715,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/772499.jpg",
+      "score": 7.714285714285714,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/773785.jpg",
+      "score": 6.96969696969697,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/773800.jpg",
+      "score": 6.114285714285714,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/773808.jpg",
+      "score": 7.5588235294117645,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/773937.jpg",
+      "score": 5.885714285714286,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/774643.jpg",
+      "score": 5.53125,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/776281.jpg",
+      "score": 5.516129032258065,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/776624.jpg",
+      "score": 6.212121212121212,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/776636.jpg",
+      "score": 6.2,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/776942.jpg",
+      "score": 7.4324324324324325,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/777055.jpg",
+      "score": 6.903225806451613,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/777175.jpg",
+      "score": 5.804878048780488,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/777287.jpg",
+      "score": 6.129032258064516,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/777552.jpg",
+      "score": 4.133333333333334,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/777593.jpg",
+      "score": 6.647058823529412,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/777913.jpg",
+      "score": 5.911764705882353,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/777918.jpg",
+      "score": 5.419354838709677,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/778195.jpg",
+      "score": 6.774193548387097,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/778271.jpg",
+      "score": 6.03030303030303,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/778297.jpg",
+      "score": 5.466666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/778444.jpg",
+      "score": 4.483870967741935,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/778470.jpg",
+      "score": 6.4411764705882355,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/778579.jpg",
+      "score": 7.0588235294117645,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/778583.jpg",
+      "score": 7.4772727272727275,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/779750.jpg",
+      "score": 4.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/782178.jpg",
+      "score": 5.909090909090909,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/784552.jpg",
+      "score": 7.133333333333334,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/784654.jpg",
+      "score": 7.666666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/784848.jpg",
+      "score": 6.233333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/785263.jpg",
+      "score": 6.5,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/785294.jpg",
+      "score": 6.5,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/785457.jpg",
+      "score": 7.216216216216216,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/785465.jpg",
+      "score": 6.4375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/785905.jpg",
+      "score": 5.775,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/786722.jpg",
+      "score": 7.2926829268292686,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/788596.jpg",
+      "score": 6.848484848484849,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/788854.jpg",
+      "score": 6.914285714285715,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/790097.jpg",
+      "score": 5.352941176470588,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/792836.jpg",
+      "score": 6.647058823529412,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/795946.jpg",
+      "score": 5.529411764705882,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/796012.jpg",
+      "score": 6.433333333333334,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/797506.jpg",
+      "score": 7.514285714285714,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/798104.jpg",
+      "score": 6.828571428571428,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/798511.jpg",
+      "score": 4.382352941176471,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/799094.jpg",
+      "score": 5.323529411764706,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/800458.jpg",
+      "score": 6.393939393939394,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/801340.jpg",
+      "score": 5.9,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/801474.jpg",
+      "score": 7.026315789473684,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/802116.jpg",
+      "score": 6.771428571428571,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/802455.jpg",
+      "score": 3.966666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/802951.jpg",
+      "score": 6.71875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/803485.jpg",
+      "score": 5.071428571428571,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/804257.jpg",
+      "score": 5.742857142857143,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/806806.jpg",
+      "score": 6.032258064516129,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/808651.jpg",
+      "score": 5.709677419354839,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/809652.jpg",
+      "score": 6.027777777777778,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/810128.jpg",
+      "score": 6.029411764705882,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/810250.jpg",
+      "score": 7.466666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/811009.jpg",
+      "score": 6.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/811027.jpg",
+      "score": 6.925,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/813165.jpg",
+      "score": 6.935483870967742,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/813417.jpg",
+      "score": 3.057142857142857,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/814270.jpg",
+      "score": 6.451612903225806,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/815279.jpg",
+      "score": 6.475,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/816810.jpg",
+      "score": 7.523809523809524,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/817221.jpg",
+      "score": 6.578947368421052,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/817488.jpg",
+      "score": 6.967741935483871,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/826110.jpg",
+      "score": 4.666666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/826201.jpg",
+      "score": 3.878787878787879,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/828281.jpg",
+      "score": 5.108108108108108,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/831041.jpg",
+      "score": 3.742857142857143,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/831780.jpg",
+      "score": 5.675675675675675,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/833370.jpg",
+      "score": 5.864864864864865,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/834268.jpg",
+      "score": 6.96969696969697,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/836831.jpg",
+      "score": 7.5,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/837694.jpg",
+      "score": 5.666666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/841084.jpg",
+      "score": 6.484848484848484,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/841324.jpg",
+      "score": 5.911764705882353,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/841421.jpg",
+      "score": 7.323529411764706,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/841628.jpg",
+      "score": 6.742857142857143,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/841663.jpg",
+      "score": 6.583333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/841828.jpg",
+      "score": 6.942857142857143,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/841835.jpg",
+      "score": 7.324324324324325,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/841874.jpg",
+      "score": 7.378378378378378,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/842241.jpg",
+      "score": 6.470588235294118,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/843160.jpg",
+      "score": 5.8,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/844592.jpg",
+      "score": 6.935483870967742,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/845554.jpg",
+      "score": 6.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/846691.jpg",
+      "score": 5.7,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/847318.jpg",
+      "score": 6.771428571428571,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/848307.jpg",
+      "score": 4.580645161290323,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/848837.jpg",
+      "score": 5.815789473684211,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/851078.jpg",
+      "score": 6.333333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/851171.jpg",
+      "score": 6.1,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/851185.jpg",
+      "score": 6.393939393939394,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/851924.jpg",
+      "score": 4.6,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/853823.jpg",
+      "score": 6.818181818181818,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/855683.jpg",
+      "score": 7.628571428571429,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/855872.jpg",
+      "score": 6.166666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/856393.jpg",
+      "score": 6.0588235294117645,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/860645.jpg",
+      "score": 7.5,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/862373.jpg",
+      "score": 6.75,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/862536.jpg",
+      "score": 6.9,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/863873.jpg",
+      "score": 5.6875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/865566.jpg",
+      "score": 5.966666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/865712.jpg",
+      "score": 5.7,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/867054.jpg",
+      "score": 6.129032258064516,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/875738.jpg",
+      "score": 7.235294117647059,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/875807.jpg",
+      "score": 6.5,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/875984.jpg",
+      "score": 8.047619047619047,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/879649.jpg",
+      "score": 6.866666666666666,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/880430.jpg",
+      "score": 6.1891891891891895,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/881229.jpg",
+      "score": 6.0625,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/881341.jpg",
+      "score": 6.470588235294118,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/881396.jpg",
+      "score": 5.848484848484849,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/882291.jpg",
+      "score": 6.633333333333334,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/882385.jpg",
+      "score": 5.583333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/882866.jpg",
+      "score": 7.142857142857143,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/883133.jpg",
+      "score": 6.59375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/883340.jpg",
+      "score": 6.696969696969697,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/885670.jpg",
+      "score": 5.4,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/887532.jpg",
+      "score": 7.032258064516129,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/889463.jpg",
+      "score": 6.484848484848484,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/891826.jpg",
+      "score": 4.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/893921.jpg",
+      "score": 4.516129032258065,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/894232.jpg",
+      "score": 5.516129032258065,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/894233.jpg",
+      "score": 7.03030303030303,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/898038.jpg",
+      "score": 6.428571428571429,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/899075.jpg",
+      "score": 7.371428571428571,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/899090.jpg",
+      "score": 4.8125,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/899094.jpg",
+      "score": 6.6571428571428575,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/899615.jpg",
+      "score": 6.875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/900320.jpg",
+      "score": 5.333333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/900520.jpg",
+      "score": 6.9375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/901279.jpg",
+      "score": 5.6,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/901650.jpg",
+      "score": 6.1,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/902116.jpg",
+      "score": 6.257142857142857,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/902304.jpg",
+      "score": 6.212121212121212,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/902314.jpg",
+      "score": 6.709677419354839,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/902401.jpg",
+      "score": 7.216216216216216,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/902419.jpg",
+      "score": 7.5,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/902495.jpg",
+      "score": 5.333333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/904572.jpg",
+      "score": 6.151515151515151,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/908544.jpg",
+      "score": 5.451612903225806,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/909189.jpg",
+      "score": 3.566666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/912429.jpg",
+      "score": 4.914285714285715,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/912650.jpg",
+      "score": 6.59375,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/912797.jpg",
+      "score": 4.870967741935484,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/913387.jpg",
+      "score": 5.1875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/916988.jpg",
+      "score": 6.0,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/917015.jpg",
+      "score": 6.864864864864865,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/917051.jpg",
+      "score": 5.733333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/917108.jpg",
+      "score": 7.476190476190476,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/917287.jpg",
+      "score": 6.925,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/917319.jpg",
+      "score": 4.911764705882353,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/917324.jpg",
+      "score": 5.9,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/917349.jpg",
+      "score": 6.161290322580645,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/917447.jpg",
+      "score": 6.133333333333334,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/919056.jpg",
+      "score": 4.225806451612903,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/919935.jpg",
+      "score": 5.633333333333334,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/922344.jpg",
+      "score": 7.088235294117647,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/923050.jpg",
+      "score": 5.714285714285714,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/923435.jpg",
+      "score": 5.9393939393939394,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/927383.jpg",
+      "score": 6.228571428571429,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/931878.jpg",
+      "score": 7.1875,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/931930.jpg",
+      "score": 7.15625,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/935448.jpg",
+      "score": 6.181818181818182,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/935641.jpg",
+      "score": 6.388888888888889,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/937696.jpg",
+      "score": 6.676470588235294,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/937824.jpg",
+      "score": 2.466666666666667,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/938152.jpg",
+      "score": 5.911764705882353,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/938393.jpg",
+      "score": 7.151515151515151,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/938569.jpg",
+      "score": 5.133333333333334,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/940429.jpg",
+      "score": 7.133333333333334,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/941435.jpg",
+      "score": 6.741935483870968,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/941565.jpg",
+      "score": 5.733333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/942018.jpg",
+      "score": 7.918918918918919,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/942240.jpg",
+      "score": 7.40625,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/942267.jpg",
+      "score": 5.6,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/943608.jpg",
+      "score": 5.914285714285715,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/944492.jpg",
+      "score": 5.815789473684211,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/946766.jpg",
+      "score": 7.3,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/947940.jpg",
+      "score": 6.805555555555555,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/948271.jpg",
+      "score": 7.228571428571429,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/949055.jpg",
+      "score": 6.529411764705882,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/949119.jpg",
+      "score": 6.833333333333333,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/952449.jpg",
+      "score": 6.193548387096774,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/952960.jpg",
+      "score": 7.323529411764706,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/953097.jpg",
+      "score": 7.114285714285714,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/953794.jpg",
+      "score": 6.564102564102564,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/953863.jpg",
+      "score": 7.0606060606060606,
+      "scene": "animals",
+      "domain_id": 1101
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/1/954101.jpg",
+      "score": 5.676470588235294,
+      "scene": "animals",
+      "domain_id": 1101
+    }
+  ],
+  "domain_name": {
+    "1101": "animals",
+    "1102": "architectures and city scenes",
+    "1103": "human",
+    "1104": "natural and rural scenes",
+    "1105": "still life",
+    "1106": "other"
+  }
+}

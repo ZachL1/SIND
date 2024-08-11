@@ -1,0 +1,4512 @@
+{
+  "files": [
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/71.jpg",
+      "score": 4.6875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/106.jpg",
+      "score": 5.6571428571428575,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/225.jpg",
+      "score": 5.033333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/283.jpg",
+      "score": 7.21875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/759.jpg",
+      "score": 5.75,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/841.jpg",
+      "score": 6.125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/843.jpg",
+      "score": 7.133333333333334,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/845.jpg",
+      "score": 4.787878787878788,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/1313.jpg",
+      "score": 4.4411764705882355,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/1339.jpg",
+      "score": 7.151515151515151,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/1442.jpg",
+      "score": 5.483870967741935,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/1463.jpg",
+      "score": 7.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/1475.jpg",
+      "score": 4.266666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/1493.jpg",
+      "score": 7.193548387096774,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/1621.jpg",
+      "score": 6.933333333333334,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/1677.jpg",
+      "score": 6.266666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/1744.jpg",
+      "score": 6.425,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/1787.jpg",
+      "score": 5.828571428571428,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/2071.jpg",
+      "score": 4.733333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/2155.jpg",
+      "score": 6.064516129032258,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/2206.jpg",
+      "score": 5.848484848484849,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/2324.jpg",
+      "score": 6.026315789473684,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/2558.jpg",
+      "score": 6.548387096774194,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/3544.jpg",
+      "score": 4.794117647058823,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/3579.jpg",
+      "score": 3.914285714285714,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/4209.jpg",
+      "score": 4.709677419354839,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/4310.jpg",
+      "score": 7.1,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/4406.jpg",
+      "score": 6.542857142857143,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/4621.jpg",
+      "score": 5.571428571428571,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/4867.jpg",
+      "score": 5.28125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/5400.jpg",
+      "score": 5.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/5463.jpg",
+      "score": 6.75,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/5516.jpg",
+      "score": 6.647058823529412,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/5579.jpg",
+      "score": 7.533333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/6379.jpg",
+      "score": 5.944444444444445,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/7199.jpg",
+      "score": 6.75,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/7437.jpg",
+      "score": 6.457142857142857,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/7488.jpg",
+      "score": 4.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/7519.jpg",
+      "score": 6.21875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/7620.jpg",
+      "score": 4.527777777777778,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/7685.jpg",
+      "score": 5.78125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/7701.jpg",
+      "score": 6.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/7876.jpg",
+      "score": 7.131578947368421,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/7918.jpg",
+      "score": 6.35,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/7931.jpg",
+      "score": 6.1,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/7955.jpg",
+      "score": 7.21875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/7987.jpg",
+      "score": 5.375,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/8218.jpg",
+      "score": 6.325581395348837,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/8274.jpg",
+      "score": 5.4,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/8624.jpg",
+      "score": 5.717948717948718,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/8635.jpg",
+      "score": 5.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/8645.jpg",
+      "score": 4.375,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/8799.jpg",
+      "score": 5.53125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/8948.jpg",
+      "score": 5.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/8976.jpg",
+      "score": 6.1875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/8995.jpg",
+      "score": 5.909090909090909,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/9029.jpg",
+      "score": 7.483870967741935,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/9345.jpg",
+      "score": 4.787878787878788,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/9482.jpg",
+      "score": 7.026315789473684,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/9496.jpg",
+      "score": 5.064516129032258,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/9538.jpg",
+      "score": 4.806451612903226,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/9578.jpg",
+      "score": 6.868421052631579,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/9586.jpg",
+      "score": 4.914285714285715,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/9636.jpg",
+      "score": 5.878787878787879,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/9643.jpg",
+      "score": 6.1,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/9658.jpg",
+      "score": 7.033333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/9938.jpg",
+      "score": 5.842105263157895,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/10045.jpg",
+      "score": 6.9411764705882355,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/10406.jpg",
+      "score": 4.911764705882353,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/10495.jpg",
+      "score": 4.555555555555555,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/11187.jpg",
+      "score": 5.225806451612903,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/11599.jpg",
+      "score": 5.485714285714286,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/12331.jpg",
+      "score": 5.457142857142857,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/12346.jpg",
+      "score": 6.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/12533.jpg",
+      "score": 6.027777777777778,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/12951.jpg",
+      "score": 5.363636363636363,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/13285.jpg",
+      "score": 6.03030303030303,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/13304.jpg",
+      "score": 5.891891891891892,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/13316.jpg",
+      "score": 4.666666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/13341.jpg",
+      "score": 6.34375,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/13760.jpg",
+      "score": 4.7272727272727275,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/14607.jpg",
+      "score": 5.966666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/15978.jpg",
+      "score": 4.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/16335.jpg",
+      "score": 5.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/16505.jpg",
+      "score": 6.314285714285714,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/16571.jpg",
+      "score": 5.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/16601.jpg",
+      "score": 4.78125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/16914.jpg",
+      "score": 5.794117647058823,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/17291.jpg",
+      "score": 5.205882352941177,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/17569.jpg",
+      "score": 5.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/17690.jpg",
+      "score": 5.527777777777778,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/17842.jpg",
+      "score": 6.3428571428571425,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/17871.jpg",
+      "score": 5.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/17922.jpg",
+      "score": 5.580645161290323,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/17940.jpg",
+      "score": 5.638888888888889,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/18160.jpg",
+      "score": 6.933333333333334,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/18222.jpg",
+      "score": 4.516129032258065,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/18386.jpg",
+      "score": 7.162162162162162,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/18447.jpg",
+      "score": 6.8125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/18536.jpg",
+      "score": 4.53125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/18680.jpg",
+      "score": 7.742857142857143,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/20458.jpg",
+      "score": 6.212121212121212,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/20765.jpg",
+      "score": 5.032258064516129,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/20998.jpg",
+      "score": 6.161290322580645,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/21004.jpg",
+      "score": 6.3428571428571425,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/21103.jpg",
+      "score": 6.066666666666666,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/21121.jpg",
+      "score": 5.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/21384.jpg",
+      "score": 5.628571428571429,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/21424.jpg",
+      "score": 5.911764705882353,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/21843.jpg",
+      "score": 5.935483870967742,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/22135.jpg",
+      "score": 4.882352941176471,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/22228.jpg",
+      "score": 5.454545454545454,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/22371.jpg",
+      "score": 5.65,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/22402.jpg",
+      "score": 3.3225806451612905,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/23014.jpg",
+      "score": 4.6,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/23335.jpg",
+      "score": 6.676470588235294,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/24228.jpg",
+      "score": 5.147058823529412,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/26638.jpg",
+      "score": 6.3125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/27049.jpg",
+      "score": 6.142857142857143,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/27770.jpg",
+      "score": 3.5555555555555554,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/27839.jpg",
+      "score": 4.914285714285715,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/28978.jpg",
+      "score": 5.4,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/29164.jpg",
+      "score": 6.114285714285714,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/29894.jpg",
+      "score": 4.1,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/30260.jpg",
+      "score": 5.513513513513513,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/31952.jpg",
+      "score": 7.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/33184.jpg",
+      "score": 4.354838709677419,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/33653.jpg",
+      "score": 6.193548387096774,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/34015.jpg",
+      "score": 5.424242424242424,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/34365.jpg",
+      "score": 6.161290322580645,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/34578.jpg",
+      "score": 4.694444444444445,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/35160.jpg",
+      "score": 4.916666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/35244.jpg",
+      "score": 5.54054054054054,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/35519.jpg",
+      "score": 3.53125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/35763.jpg",
+      "score": 7.714285714285714,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/36873.jpg",
+      "score": 7.787878787878788,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/38860.jpg",
+      "score": 6.552631578947368,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/40160.jpg",
+      "score": 5.444444444444445,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/42335.jpg",
+      "score": 6.371428571428571,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/42429.jpg",
+      "score": 7.131578947368421,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/42462.jpg",
+      "score": 7.575757575757576,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/42666.jpg",
+      "score": 6.142857142857143,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/42873.jpg",
+      "score": 4.9375,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/43002.jpg",
+      "score": 7.352941176470588,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/43909.jpg",
+      "score": 6.6571428571428575,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/43950.jpg",
+      "score": 6.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/43970.jpg",
+      "score": 6.882352941176471,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/44374.jpg",
+      "score": 6.03030303030303,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/44731.jpg",
+      "score": 6.9714285714285715,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/44999.jpg",
+      "score": 7.181818181818182,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/45451.jpg",
+      "score": 7.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/45550.jpg",
+      "score": 7.28125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/45608.jpg",
+      "score": 5.388888888888889,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/46615.jpg",
+      "score": 6.393939393939394,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/46675.jpg",
+      "score": 4.8,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/47253.jpg",
+      "score": 6.032258064516129,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/49397.jpg",
+      "score": 6.125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/49727.jpg",
+      "score": 6.864864864864865,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/50224.jpg",
+      "score": 5.9411764705882355,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/51473.jpg",
+      "score": 5.9393939393939394,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/51980.jpg",
+      "score": 4.0606060606060606,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/52599.jpg",
+      "score": 4.676470588235294,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/52937.jpg",
+      "score": 6.935483870967742,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/54336.jpg",
+      "score": 7.258064516129032,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/55012.jpg",
+      "score": 5.151515151515151,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/57023.jpg",
+      "score": 6.6,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/57875.jpg",
+      "score": 6.882352941176471,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/58416.jpg",
+      "score": 6.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/58453.jpg",
+      "score": 5.95,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/58894.jpg",
+      "score": 5.323529411764706,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/59127.jpg",
+      "score": 4.108108108108108,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/60283.jpg",
+      "score": 4.7272727272727275,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/60392.jpg",
+      "score": 4.5625,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/60524.jpg",
+      "score": 4.545454545454546,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/60745.jpg",
+      "score": 6.705882352941177,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/60879.jpg",
+      "score": 6.451612903225806,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/60921.jpg",
+      "score": 5.743589743589744,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/60932.jpg",
+      "score": 5.852941176470588,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/60978.jpg",
+      "score": 5.138888888888889,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/62371.jpg",
+      "score": 5.4,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/62546.jpg",
+      "score": 4.787878787878788,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/64533.jpg",
+      "score": 4.818181818181818,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/65321.jpg",
+      "score": 7.096774193548387,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/65327.jpg",
+      "score": 5.666666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/65555.jpg",
+      "score": 6.485714285714286,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/65768.jpg",
+      "score": 6.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/66158.jpg",
+      "score": 7.09375,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/66342.jpg",
+      "score": 6.882352941176471,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/66514.jpg",
+      "score": 5.46875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/66696.jpg",
+      "score": 4.972222222222222,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/67207.jpg",
+      "score": 5.9,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/67637.jpg",
+      "score": 6.7,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/68212.jpg",
+      "score": 6.514285714285714,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/68250.jpg",
+      "score": 5.806451612903226,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/68252.jpg",
+      "score": 6.933333333333334,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/69556.jpg",
+      "score": 5.828571428571428,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/71085.jpg",
+      "score": 6.057142857142857,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/72796.jpg",
+      "score": 5.212121212121212,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/73316.jpg",
+      "score": 4.735294117647059,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/73851.jpg",
+      "score": 3.65625,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/73872.jpg",
+      "score": 6.176470588235294,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/75549.jpg",
+      "score": 6.4324324324324325,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/75761.jpg",
+      "score": 6.967741935483871,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/76081.jpg",
+      "score": 7.033333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/76251.jpg",
+      "score": 4.833333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/77055.jpg",
+      "score": 4.942857142857143,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/77157.jpg",
+      "score": 4.9714285714285715,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/77359.jpg",
+      "score": 5.4,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/79720.jpg",
+      "score": 7.857142857142857,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/83469.jpg",
+      "score": 4.9714285714285715,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/83976.jpg",
+      "score": 4.424242424242424,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/84188.jpg",
+      "score": 6.645161290322581,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/84823.jpg",
+      "score": 5.03030303030303,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/85059.jpg",
+      "score": 5.096774193548387,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/89008.jpg",
+      "score": 6.542857142857143,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/89227.jpg",
+      "score": 5.142857142857143,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/90258.jpg",
+      "score": 4.972222222222222,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/90454.jpg",
+      "score": 4.702702702702703,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/91361.jpg",
+      "score": 5.838709677419355,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/91666.jpg",
+      "score": 5.46875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/92421.jpg",
+      "score": 4.75,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/92678.jpg",
+      "score": 6.878787878787879,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/93715.jpg",
+      "score": 6.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/93807.jpg",
+      "score": 5.542857142857143,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/93887.jpg",
+      "score": 6.580645161290323,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/93920.jpg",
+      "score": 6.433333333333334,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/94859.jpg",
+      "score": 6.1,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/94924.jpg",
+      "score": 5.03030303030303,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/95081.jpg",
+      "score": 6.515151515151516,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/95629.jpg",
+      "score": 6.275,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/97550.jpg",
+      "score": 6.6571428571428575,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/97984.jpg",
+      "score": 6.366666666666666,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/98007.jpg",
+      "score": 5.46875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/98292.jpg",
+      "score": 4.78125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/101914.jpg",
+      "score": 5.96875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/102807.jpg",
+      "score": 4.294117647058823,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/103788.jpg",
+      "score": 6.515151515151516,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/103981.jpg",
+      "score": 5.34375,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/106315.jpg",
+      "score": 6.6875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/106752.jpg",
+      "score": 4.2,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/109944.jpg",
+      "score": 3.806451612903226,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/110069.jpg",
+      "score": 3.78125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/110478.jpg",
+      "score": 5.121212121212121,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/112137.jpg",
+      "score": 5.53125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/114819.jpg",
+      "score": 6.294117647058823,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/115244.jpg",
+      "score": 5.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/115814.jpg",
+      "score": 5.147058823529412,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/116365.jpg",
+      "score": 5.777777777777778,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/116868.jpg",
+      "score": 4.861111111111111,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/117023.jpg",
+      "score": 6.676470588235294,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/118100.jpg",
+      "score": 5.451612903225806,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/118127.jpg",
+      "score": 6.27027027027027,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/118351.jpg",
+      "score": 5.527777777777778,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/120212.jpg",
+      "score": 4.96969696969697,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/120488.jpg",
+      "score": 6.2,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/121048.jpg",
+      "score": 5.6571428571428575,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/121107.jpg",
+      "score": 6.2368421052631575,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/121490.jpg",
+      "score": 6.138888888888889,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/122528.jpg",
+      "score": 4.9411764705882355,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/124853.jpg",
+      "score": 5.96969696969697,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/125923.jpg",
+      "score": 6.114285714285714,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/129214.jpg",
+      "score": 6.416666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/129462.jpg",
+      "score": 6.580645161290323,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/130703.jpg",
+      "score": 5.676470588235294,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/130733.jpg",
+      "score": 3.289473684210526,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/130807.jpg",
+      "score": 5.484848484848484,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/131314.jpg",
+      "score": 5.428571428571429,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/133252.jpg",
+      "score": 7.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/135271.jpg",
+      "score": 5.088235294117647,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/139622.jpg",
+      "score": 3.6666666666666665,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/141367.jpg",
+      "score": 5.555555555555555,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/141791.jpg",
+      "score": 5.090909090909091,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/151184.jpg",
+      "score": 5.1875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/151768.jpg",
+      "score": 6.53125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/151858.jpg",
+      "score": 6.575757575757576,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/154983.jpg",
+      "score": 4.709677419354839,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/155772.jpg",
+      "score": 5.277777777777778,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/157412.jpg",
+      "score": 4.9,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/157994.jpg",
+      "score": 5.363636363636363,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/158175.jpg",
+      "score": 6.25,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/160356.jpg",
+      "score": 5.741935483870968,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/161126.jpg",
+      "score": 6.457142857142857,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/163636.jpg",
+      "score": 3.975609756097561,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/168131.jpg",
+      "score": 5.709677419354839,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/168355.jpg",
+      "score": 5.361111111111111,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/168451.jpg",
+      "score": 5.787878787878788,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/169829.jpg",
+      "score": 4.970588235294118,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/171261.jpg",
+      "score": 5.838709677419355,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/174299.jpg",
+      "score": 6.8125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/175144.jpg",
+      "score": 5.45945945945946,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/179099.jpg",
+      "score": 5.333333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/181718.jpg",
+      "score": 4.451612903225806,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/188284.jpg",
+      "score": 3.909090909090909,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/192290.jpg",
+      "score": 4.4375,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/192761.jpg",
+      "score": 5.676470588235294,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/197407.jpg",
+      "score": 6.612903225806452,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/197909.jpg",
+      "score": 5.314285714285714,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/198400.jpg",
+      "score": 5.676470588235294,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/199291.jpg",
+      "score": 6.033333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/200422.jpg",
+      "score": 5.354838709677419,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/202182.jpg",
+      "score": 6.813953488372093,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/202453.jpg",
+      "score": 6.28125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/202861.jpg",
+      "score": 5.222222222222222,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/203123.jpg",
+      "score": 5.9411764705882355,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/203939.jpg",
+      "score": 5.1875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/205030.jpg",
+      "score": 5.882352941176471,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/206144.jpg",
+      "score": 5.666666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/206162.jpg",
+      "score": 3.903225806451613,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/207660.jpg",
+      "score": 6.444444444444445,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/208551.jpg",
+      "score": 5.117647058823529,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/208653.jpg",
+      "score": 5.741935483870968,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/209607.jpg",
+      "score": 4.72972972972973,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/210526.jpg",
+      "score": 5.823529411764706,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/210559.jpg",
+      "score": 6.333333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/210561.jpg",
+      "score": 2.914285714285714,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/211023.jpg",
+      "score": 4.542857142857143,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/214007.jpg",
+      "score": 6.571428571428571,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/215425.jpg",
+      "score": 6.666666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/216053.jpg",
+      "score": 5.176470588235294,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/221715.jpg",
+      "score": 7.323529411764706,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/224038.jpg",
+      "score": 4.944444444444445,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/224632.jpg",
+      "score": 4.166666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/226212.jpg",
+      "score": 6.8,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/228902.jpg",
+      "score": 4.516129032258065,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/228959.jpg",
+      "score": 5.25,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/230976.jpg",
+      "score": 4.533333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/231586.jpg",
+      "score": 5.696969696969697,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/240351.jpg",
+      "score": 4.766666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/242949.jpg",
+      "score": 4.266666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/244353.jpg",
+      "score": 6.428571428571429,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/251803.jpg",
+      "score": 6.8,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/252167.jpg",
+      "score": 6.117647058823529,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/252350.jpg",
+      "score": 5.25,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/254569.jpg",
+      "score": 4.451612903225806,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/265405.jpg",
+      "score": 6.088235294117647,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/268063.jpg",
+      "score": 6.633333333333334,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/268112.jpg",
+      "score": 5.8125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/268200.jpg",
+      "score": 6.818181818181818,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/269825.jpg",
+      "score": 6.297297297297297,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/269966.jpg",
+      "score": 6.4,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/272158.jpg",
+      "score": 5.694444444444445,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/273137.jpg",
+      "score": 6.285714285714286,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/276277.jpg",
+      "score": 4.290322580645161,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/277088.jpg",
+      "score": 6.176470588235294,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/277651.jpg",
+      "score": 5.461538461538462,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/278638.jpg",
+      "score": 4.641025641025641,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/280483.jpg",
+      "score": 6.2368421052631575,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/280585.jpg",
+      "score": 5.485714285714286,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/285022.jpg",
+      "score": 5.3125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/286195.jpg",
+      "score": 6.75,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/286899.jpg",
+      "score": 4.387096774193548,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/287564.jpg",
+      "score": 4.580645161290323,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/289001.jpg",
+      "score": 4.606060606060606,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/300698.jpg",
+      "score": 4.71875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/303163.jpg",
+      "score": 6.1875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/304967.jpg",
+      "score": 5.9714285714285715,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/309261.jpg",
+      "score": 5.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/310287.jpg",
+      "score": 6.2727272727272725,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/312045.jpg",
+      "score": 6.794117647058823,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/312146.jpg",
+      "score": 6.0625,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/312153.jpg",
+      "score": 5.176470588235294,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/312874.jpg",
+      "score": 4.741935483870968,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/312893.jpg",
+      "score": 7.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/313336.jpg",
+      "score": 4.0606060606060606,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/316153.jpg",
+      "score": 3.7777777777777777,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/316223.jpg",
+      "score": 6.526315789473684,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/316398.jpg",
+      "score": 5.394736842105263,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/317544.jpg",
+      "score": 5.794117647058823,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/317810.jpg",
+      "score": 6.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/321008.jpg",
+      "score": 6.222222222222222,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/321255.jpg",
+      "score": 5.916666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/325203.jpg",
+      "score": 6.8108108108108105,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/325976.jpg",
+      "score": 5.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/328206.jpg",
+      "score": 5.315789473684211,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/328795.jpg",
+      "score": 5.266666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/331869.jpg",
+      "score": 6.0588235294117645,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/334513.jpg",
+      "score": 6.28125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/335475.jpg",
+      "score": 5.5625,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/337392.jpg",
+      "score": 6.064516129032258,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/338198.jpg",
+      "score": 5.2,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/338335.jpg",
+      "score": 6.878787878787879,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/338492.jpg",
+      "score": 6.0625,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/339454.jpg",
+      "score": 6.184210526315789,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/344467.jpg",
+      "score": 6.25,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/346257.jpg",
+      "score": 5.424242424242424,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/348187.jpg",
+      "score": 6.0606060606060606,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/350613.jpg",
+      "score": 6.705882352941177,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/354763.jpg",
+      "score": 5.333333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/355250.jpg",
+      "score": 7.1891891891891895,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/356411.jpg",
+      "score": 6.378378378378378,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/356853.jpg",
+      "score": 5.5625,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/357123.jpg",
+      "score": 6.225806451612903,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/357286.jpg",
+      "score": 7.625,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/357329.jpg",
+      "score": 6.90625,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/359344.jpg",
+      "score": 6.878787878787879,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/360097.jpg",
+      "score": 5.857142857142857,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/361735.jpg",
+      "score": 6.421052631578948,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/364922.jpg",
+      "score": 5.7368421052631575,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/365027.jpg",
+      "score": 6.125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/368790.jpg",
+      "score": 6.472222222222222,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/373720.jpg",
+      "score": 6.882352941176471,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/374085.jpg",
+      "score": 6.515151515151516,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/376996.jpg",
+      "score": 6.483870967741935,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/377310.jpg",
+      "score": 5.233333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/377412.jpg",
+      "score": 5.909090909090909,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/379666.jpg",
+      "score": 6.9,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/379668.jpg",
+      "score": 6.566666666666666,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/383189.jpg",
+      "score": 5.583333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/383684.jpg",
+      "score": 7.27027027027027,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/384175.jpg",
+      "score": 4.166666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/385794.jpg",
+      "score": 7.114285714285714,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/387042.jpg",
+      "score": 5.09375,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/387092.jpg",
+      "score": 6.555555555555555,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/395051.jpg",
+      "score": 6.314285714285714,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/400417.jpg",
+      "score": 4.684210526315789,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/400694.jpg",
+      "score": 4.3,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/400982.jpg",
+      "score": 5.35,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/401563.jpg",
+      "score": 5.05,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/402470.jpg",
+      "score": 5.575757575757576,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/406043.jpg",
+      "score": 6.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/409166.jpg",
+      "score": 4.838709677419355,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/413192.jpg",
+      "score": 5.3428571428571425,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/413200.jpg",
+      "score": 4.970588235294118,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/415437.jpg",
+      "score": 5.766666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/416210.jpg",
+      "score": 6.085714285714285,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/420820.jpg",
+      "score": 7.2368421052631575,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/432665.jpg",
+      "score": 7.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/432779.jpg",
+      "score": 5.181818181818182,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/434157.jpg",
+      "score": 6.333333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/434432.jpg",
+      "score": 5.433333333333334,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/436157.jpg",
+      "score": 6.648648648648648,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/439798.jpg",
+      "score": 4.71875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/440228.jpg",
+      "score": 6.352941176470588,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/440644.jpg",
+      "score": 5.264705882352941,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/441923.jpg",
+      "score": 5.411764705882353,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/444009.jpg",
+      "score": 6.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/445376.jpg",
+      "score": 5.657894736842105,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/445849.jpg",
+      "score": 6.806451612903226,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/446068.jpg",
+      "score": 6.935483870967742,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/451466.jpg",
+      "score": 6.6875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/451781.jpg",
+      "score": 6.4324324324324325,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/452610.jpg",
+      "score": 5.67741935483871,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/453267.jpg",
+      "score": 4.741935483870968,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/455468.jpg",
+      "score": 5.771428571428571,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/455672.jpg",
+      "score": 5.864864864864865,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/458738.jpg",
+      "score": 6.142857142857143,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/459572.jpg",
+      "score": 6.515151515151516,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/460602.jpg",
+      "score": 6.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/460833.jpg",
+      "score": 6.8,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/463602.jpg",
+      "score": 5.833333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/464786.jpg",
+      "score": 7.064516129032258,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/467110.jpg",
+      "score": 6.4,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/467306.jpg",
+      "score": 6.0285714285714285,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/468596.jpg",
+      "score": 5.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/473186.jpg",
+      "score": 6.45945945945946,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/475169.jpg",
+      "score": 5.742857142857143,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/475307.jpg",
+      "score": 7.055555555555555,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/476831.jpg",
+      "score": 4.709677419354839,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/480301.jpg",
+      "score": 5.46875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/482465.jpg",
+      "score": 3.823529411764706,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/482769.jpg",
+      "score": 5.878787878787879,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/486472.jpg",
+      "score": 3.8666666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/488344.jpg",
+      "score": 5.03125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/490024.jpg",
+      "score": 7.514285714285714,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/491363.jpg",
+      "score": 6.371428571428571,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/493475.jpg",
+      "score": 5.7560975609756095,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/494519.jpg",
+      "score": 5.935483870967742,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/494626.jpg",
+      "score": 5.333333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/495872.jpg",
+      "score": 5.142857142857143,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/496003.jpg",
+      "score": 4.9743589743589745,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/501441.jpg",
+      "score": 5.566666666666666,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/502013.jpg",
+      "score": 6.580645161290323,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/503752.jpg",
+      "score": 6.40625,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/505623.jpg",
+      "score": 5.3,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/511265.jpg",
+      "score": 6.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/515284.jpg",
+      "score": 6.032258064516129,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/521444.jpg",
+      "score": 7.741935483870968,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/521991.jpg",
+      "score": 6.454545454545454,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/525283.jpg",
+      "score": 5.5675675675675675,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/527163.jpg",
+      "score": 5.233333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/534350.jpg",
+      "score": 5.875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/534416.jpg",
+      "score": 6.757575757575758,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/537511.jpg",
+      "score": 5.03125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/538546.jpg",
+      "score": 7.151515151515151,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/538795.jpg",
+      "score": 6.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/539858.jpg",
+      "score": 6.133333333333334,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/540929.jpg",
+      "score": 6.933333333333334,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/543104.jpg",
+      "score": 5.485714285714286,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/543952.jpg",
+      "score": 5.638888888888889,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/545985.jpg",
+      "score": 5.930232558139535,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/548661.jpg",
+      "score": 5.722222222222222,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/549209.jpg",
+      "score": 4.566666666666666,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/550270.jpg",
+      "score": 5.90625,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/550549.jpg",
+      "score": 5.242424242424242,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/558090.jpg",
+      "score": 4.742857142857143,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/564384.jpg",
+      "score": 5.064516129032258,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/566173.jpg",
+      "score": 5.636363636363637,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/567925.jpg",
+      "score": 4.461538461538462,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/574311.jpg",
+      "score": 4.935483870967742,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/578489.jpg",
+      "score": 5.394736842105263,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/579427.jpg",
+      "score": 5.805555555555555,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/582552.jpg",
+      "score": 4.8125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/582916.jpg",
+      "score": 4.03125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/584394.jpg",
+      "score": 5.405405405405405,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/584521.jpg",
+      "score": 5.8125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/586902.jpg",
+      "score": 5.857142857142857,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/587886.jpg",
+      "score": 6.580645161290323,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/589354.jpg",
+      "score": 7.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/590860.jpg",
+      "score": 6.064516129032258,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/591798.jpg",
+      "score": 3.75,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/593479.jpg",
+      "score": 6.352941176470588,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/593996.jpg",
+      "score": 5.027027027027027,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/594084.jpg",
+      "score": 5.966666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/597613.jpg",
+      "score": 6.388888888888889,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/598187.jpg",
+      "score": 6.733333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/598241.jpg",
+      "score": 5.354838709677419,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/599328.jpg",
+      "score": 5.533333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/603990.jpg",
+      "score": 5.484848484848484,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/604387.jpg",
+      "score": 5.696969696969697,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/605656.jpg",
+      "score": 5.029411764705882,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/608028.jpg",
+      "score": 6.266666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/609549.jpg",
+      "score": 6.305555555555555,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/609860.jpg",
+      "score": 5.405405405405405,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/612340.jpg",
+      "score": 5.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/612977.jpg",
+      "score": 6.121212121212121,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/620707.jpg",
+      "score": 5.636363636363637,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/620989.jpg",
+      "score": 4.709677419354839,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/622319.jpg",
+      "score": 5.647058823529412,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/622447.jpg",
+      "score": 4.825,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/625394.jpg",
+      "score": 5.258064516129032,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/625534.jpg",
+      "score": 6.135135135135135,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/625602.jpg",
+      "score": 5.2727272727272725,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/632290.jpg",
+      "score": 6.53125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/633598.jpg",
+      "score": 6.233333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/634288.jpg",
+      "score": 5.882352941176471,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/642051.jpg",
+      "score": 6.083333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/643188.jpg",
+      "score": 5.633333333333334,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/646376.jpg",
+      "score": 6.433333333333334,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/654329.jpg",
+      "score": 5.6571428571428575,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/654545.jpg",
+      "score": 5.114285714285714,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/654781.jpg",
+      "score": 4.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/655141.jpg",
+      "score": 5.67741935483871,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/656284.jpg",
+      "score": 2.5806451612903225,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/656909.jpg",
+      "score": 4.290322580645161,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/657092.jpg",
+      "score": 5.714285714285714,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/657130.jpg",
+      "score": 4.294117647058823,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/660678.jpg",
+      "score": 5.7272727272727275,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/661415.jpg",
+      "score": 6.147058823529412,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/664741.jpg",
+      "score": 6.181818181818182,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/664928.jpg",
+      "score": 7.03030303030303,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/664960.jpg",
+      "score": 6.457142857142857,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/667139.jpg",
+      "score": 4.083333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/671440.jpg",
+      "score": 7.176470588235294,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/671853.jpg",
+      "score": 6.766666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/672754.jpg",
+      "score": 6.393939393939394,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/677156.jpg",
+      "score": 6.225806451612903,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/678012.jpg",
+      "score": 7.090909090909091,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/683880.jpg",
+      "score": 3.838709677419355,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/687500.jpg",
+      "score": 5.352941176470588,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/691005.jpg",
+      "score": 2.9444444444444446,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/691042.jpg",
+      "score": 5.823529411764706,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/692228.jpg",
+      "score": 7.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/692411.jpg",
+      "score": 6.28125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/699349.jpg",
+      "score": 7.588235294117647,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/699650.jpg",
+      "score": 5.7631578947368425,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/699701.jpg",
+      "score": 7.533333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/704068.jpg",
+      "score": 7.351351351351352,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/709141.jpg",
+      "score": 7.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/709505.jpg",
+      "score": 7.3,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/710248.jpg",
+      "score": 6.466666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/710763.jpg",
+      "score": 5.648648648648648,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/711978.jpg",
+      "score": 4.771428571428571,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/712958.jpg",
+      "score": 3.375,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/716457.jpg",
+      "score": 7.416666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/719799.jpg",
+      "score": 5.3428571428571425,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/724462.jpg",
+      "score": 6.53125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/724479.jpg",
+      "score": 4.914285714285715,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/725874.jpg",
+      "score": 4.65625,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/731072.jpg",
+      "score": 6.352941176470588,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/734223.jpg",
+      "score": 3.914285714285714,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/734590.jpg",
+      "score": 6.03125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/737932.jpg",
+      "score": 4.914285714285715,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/740238.jpg",
+      "score": 6.818181818181818,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/740979.jpg",
+      "score": 7.184210526315789,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/741458.jpg",
+      "score": 6.363636363636363,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/742031.jpg",
+      "score": 6.694444444444445,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/742501.jpg",
+      "score": 5.9,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/742826.jpg",
+      "score": 7.157894736842105,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/745205.jpg",
+      "score": 7.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/747942.jpg",
+      "score": 6.805555555555555,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/750672.jpg",
+      "score": 6.72972972972973,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/750726.jpg",
+      "score": 8.129032258064516,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/754365.jpg",
+      "score": 6.363636363636363,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/759006.jpg",
+      "score": 5.166666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/759658.jpg",
+      "score": 6.052631578947368,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/760475.jpg",
+      "score": 7.314285714285714,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/761424.jpg",
+      "score": 5.388888888888889,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/764393.jpg",
+      "score": 7.129032258064516,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/765585.jpg",
+      "score": 5.903225806451613,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/765644.jpg",
+      "score": 6.9,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/767095.jpg",
+      "score": 6.837837837837838,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/767528.jpg",
+      "score": 5.205882352941177,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/767548.jpg",
+      "score": 7.033333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/767550.jpg",
+      "score": 5.666666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/768910.jpg",
+      "score": 7.171428571428572,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/770311.jpg",
+      "score": 4.951219512195122,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/774212.jpg",
+      "score": 6.083333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/775434.jpg",
+      "score": 6.2,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/775713.jpg",
+      "score": 5.633333333333334,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/776553.jpg",
+      "score": 5.466666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/777410.jpg",
+      "score": 6.923076923076923,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/777505.jpg",
+      "score": 6.897435897435898,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/778242.jpg",
+      "score": 7.352941176470588,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/778306.jpg",
+      "score": 6.416666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/780536.jpg",
+      "score": 6.470588235294118,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/782565.jpg",
+      "score": 6.222222222222222,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/782631.jpg",
+      "score": 5.813953488372093,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/785907.jpg",
+      "score": 5.0606060606060606,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/786942.jpg",
+      "score": 4.967741935483871,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/787657.jpg",
+      "score": 6.222222222222222,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/791859.jpg",
+      "score": 5.666666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/793329.jpg",
+      "score": 6.451612903225806,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/793764.jpg",
+      "score": 6.848484848484849,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/794746.jpg",
+      "score": 5.771428571428571,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/801871.jpg",
+      "score": 6.419354838709677,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/805017.jpg",
+      "score": 6.25,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/805255.jpg",
+      "score": 4.096774193548387,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/806364.jpg",
+      "score": 6.2,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/807289.jpg",
+      "score": 6.033333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/808574.jpg",
+      "score": 4.5625,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/813947.jpg",
+      "score": 6.228571428571429,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/813986.jpg",
+      "score": 7.625,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/815787.jpg",
+      "score": 6.194444444444445,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/816058.jpg",
+      "score": 6.066666666666666,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/816076.jpg",
+      "score": 5.548387096774194,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/816152.jpg",
+      "score": 4.90625,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/816886.jpg",
+      "score": 7.2,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/817720.jpg",
+      "score": 5.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/817914.jpg",
+      "score": 5.533333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/818020.jpg",
+      "score": 6.4411764705882355,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/818755.jpg",
+      "score": 6.102564102564102,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/819765.jpg",
+      "score": 6.129032258064516,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/820530.jpg",
+      "score": 6.583333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/820702.jpg",
+      "score": 6.382352941176471,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/824520.jpg",
+      "score": 5.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/828898.jpg",
+      "score": 4.314285714285714,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/829011.jpg",
+      "score": 7.354838709677419,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/830948.jpg",
+      "score": 6.9411764705882355,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/831076.jpg",
+      "score": 6.636363636363637,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/833393.jpg",
+      "score": 5.34375,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/833897.jpg",
+      "score": 5.9411764705882355,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/836271.jpg",
+      "score": 5.303030303030303,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/836870.jpg",
+      "score": 5.735294117647059,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/839325.jpg",
+      "score": 6.305555555555555,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/840665.jpg",
+      "score": 4.909090909090909,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/840767.jpg",
+      "score": 7.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/840805.jpg",
+      "score": 5.533333333333333,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/842964.jpg",
+      "score": 5.631578947368421,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/846137.jpg",
+      "score": 6.125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/846407.jpg",
+      "score": 4.580645161290323,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/846777.jpg",
+      "score": 6.571428571428571,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/847104.jpg",
+      "score": 6.794117647058823,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/847426.jpg",
+      "score": 5.967741935483871,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/847595.jpg",
+      "score": 5.891891891891892,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/848207.jpg",
+      "score": 5.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/851605.jpg",
+      "score": 6.75,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/851896.jpg",
+      "score": 5.882352941176471,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/852915.jpg",
+      "score": 6.838709677419355,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/853113.jpg",
+      "score": 6.166666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/857089.jpg",
+      "score": 6.625,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/857132.jpg",
+      "score": 7.057142857142857,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/859067.jpg",
+      "score": 4.166666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/861720.jpg",
+      "score": 6.972972972972973,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/861755.jpg",
+      "score": 6.066666666666666,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/861975.jpg",
+      "score": 5.290322580645161,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/862046.jpg",
+      "score": 7.7,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/862177.jpg",
+      "score": 5.515151515151516,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/862334.jpg",
+      "score": 7.463414634146342,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/862489.jpg",
+      "score": 5.973684210526316,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/863126.jpg",
+      "score": 7.606060606060606,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/864184.jpg",
+      "score": 6.0,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/866295.jpg",
+      "score": 6.205882352941177,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/869696.jpg",
+      "score": 5.27027027027027,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/871581.jpg",
+      "score": 3.7567567567567566,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/876846.jpg",
+      "score": 5.9393939393939394,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/881110.jpg",
+      "score": 6.55,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/881156.jpg",
+      "score": 6.138888888888889,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/881555.jpg",
+      "score": 5.382352941176471,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/881695.jpg",
+      "score": 5.411764705882353,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/882222.jpg",
+      "score": 6.8,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/882709.jpg",
+      "score": 7.027777777777778,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/883884.jpg",
+      "score": 5.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/885560.jpg",
+      "score": 7.55,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/886161.jpg",
+      "score": 6.085714285714285,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/889658.jpg",
+      "score": 6.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/892434.jpg",
+      "score": 5.290322580645161,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/892523.jpg",
+      "score": 5.809523809523809,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/896142.jpg",
+      "score": 5.472222222222222,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/896820.jpg",
+      "score": 6.878787878787879,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/897611.jpg",
+      "score": 5.28125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/899172.jpg",
+      "score": 7.466666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/899505.jpg",
+      "score": 6.28125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/900062.jpg",
+      "score": 6.435897435897436,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/901151.jpg",
+      "score": 5.305555555555555,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/902647.jpg",
+      "score": 6.088235294117647,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/903213.jpg",
+      "score": 6.612903225806452,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/904664.jpg",
+      "score": 5.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/904931.jpg",
+      "score": 5.466666666666667,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/905724.jpg",
+      "score": 6.428571428571429,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/906020.jpg",
+      "score": 4.918918918918919,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/909225.jpg",
+      "score": 5.258064516129032,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/910315.jpg",
+      "score": 5.96875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/912809.jpg",
+      "score": 6.764705882352941,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/913094.jpg",
+      "score": 6.866666666666666,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/913291.jpg",
+      "score": 4.612903225806452,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/915660.jpg",
+      "score": 3.5,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/918947.jpg",
+      "score": 5.542857142857143,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/919158.jpg",
+      "score": 6.67741935483871,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/922769.jpg",
+      "score": 5.4375,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/924113.jpg",
+      "score": 7.161290322580645,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/925134.jpg",
+      "score": 6.34375,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/926972.jpg",
+      "score": 5.451612903225806,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/927034.jpg",
+      "score": 5.742857142857143,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/927486.jpg",
+      "score": 7.032258064516129,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/927917.jpg",
+      "score": 6.46875,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/930651.jpg",
+      "score": 6.914285714285715,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/931929.jpg",
+      "score": 5.424242424242424,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/933139.jpg",
+      "score": 7.133333333333334,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/933192.jpg",
+      "score": 4.852941176470588,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/936154.jpg",
+      "score": 7.194444444444445,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/937312.jpg",
+      "score": 5.363636363636363,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/937962.jpg",
+      "score": 6.366666666666666,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/939475.jpg",
+      "score": 7.131578947368421,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/940513.jpg",
+      "score": 4.4,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/940665.jpg",
+      "score": 6.633333333333334,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/942940.jpg",
+      "score": 6.555555555555555,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/943029.jpg",
+      "score": 6.606060606060606,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/943340.jpg",
+      "score": 5.702702702702703,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/943787.jpg",
+      "score": 5.382352941176471,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/944650.jpg",
+      "score": 5.648648648648648,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/946840.jpg",
+      "score": 5.135135135135135,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/947882.jpg",
+      "score": 7.064516129032258,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/950357.jpg",
+      "score": 6.290322580645161,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/951588.jpg",
+      "score": 6.3125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/952171.jpg",
+      "score": 6.617647058823529,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/952940.jpg",
+      "score": 6.918918918918919,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/954540.jpg",
+      "score": 6.125,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/956585.jpg",
+      "score": 8.1,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/956615.jpg",
+      "score": 6.5625,
+      "scene": "still life",
+      "domain_id": 1105
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/5/957462.jpg",
+      "score": 5.529411764705882,
+      "scene": "still life",
+      "domain_id": 1105
+    }
+  ],
+  "domain_name": {
+    "1101": "animals",
+    "1102": "architectures and city scenes",
+    "1103": "human",
+    "1104": "natural and rural scenes",
+    "1105": "still life",
+    "1106": "other"
+  }
+}

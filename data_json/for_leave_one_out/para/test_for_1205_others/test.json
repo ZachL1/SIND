@@ -1,0 +1,874 @@
+{
+  "files": [
+    {
+      "image": "PARA/imgs/session146/iaa_pub10198_.jpg",
+      "score": 1.24,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session15/iaa_pub1019_.jpg",
+      "score": 1.68,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session146/iaa_pub10206_.jpg",
+      "score": 1.18,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session151/iaa_pub10549_.jpg",
+      "score": 1.34,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session161/iaa_pub11221_.jpg",
+      "score": 1.24137931,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session167/iaa_pub11647_.jpg",
+      "score": 2.22,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session1/iaa_pub11_.jpg",
+      "score": 1.25,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session175/iaa_pub12183_.jpg",
+      "score": 1.296296296,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session185/iaa_pub12888_.jpg",
+      "score": 1.38,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session186/iaa_pub12996_.jpg",
+      "score": 1.65,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session186/iaa_pub13010_.jpg",
+      "score": 1.483333333,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session187/iaa_pub13025_.jpg",
+      "score": 1.516129032,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session187/iaa_pub13087_.jpg",
+      "score": 1.419354839,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session188/iaa_pub13133_.jpg",
+      "score": 1.407407407,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session188/iaa_pub13152_.jpg",
+      "score": 1.444444444,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session191/iaa_pub13338_.jpg",
+      "score": 3.375,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session195/iaa_pub13591_.jpg",
+      "score": 2.096153846,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session202/iaa_pub14082_.jpg",
+      "score": 2.038461538,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session21/iaa_pub1410_.jpg",
+      "score": 1.46,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session203/iaa_pub14191_.jpg",
+      "score": 3.708333333,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session206/iaa_pub14370_.jpg",
+      "score": 2.44,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session207/iaa_pub14451_.jpg",
+      "score": 1.98,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session211/iaa_pub14760_.jpg",
+      "score": 1.519230769,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session212/iaa_pub14817_.jpg",
+      "score": 1.5,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session213/iaa_pub14841_.jpg",
+      "score": 1.36,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session213/iaa_pub14900_.jpg",
+      "score": 1.34,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session216/iaa_pub15098_.jpg",
+      "score": 1.44,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session220/iaa_pub15355_.jpg",
+      "score": 1.38,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session224/iaa_pub15634_.jpg",
+      "score": 2.62,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session225/iaa_pub15720_.jpg",
+      "score": 1.38,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session229/iaa_pub16025_.jpg",
+      "score": 1.895833333,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session234/iaa_pub16351_.jpg",
+      "score": 1.44,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session24/iaa_pub1655_.jpg",
+      "score": 1.54,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session240/iaa_pub16774_.jpg",
+      "score": 2.08,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session25/iaa_pub1708_.jpg",
+      "score": 1.42,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session246/iaa_pub17178_.jpg",
+      "score": 1.48,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session250/iaa_pub17468_.jpg",
+      "score": 1.4,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session251/iaa_pub17533_.jpg",
+      "score": 1.22,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session3/iaa_pub175_.jpg",
+      "score": 1.42,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session254/iaa_pub17741_.jpg",
+      "score": 1.465517241,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session258/iaa_pub18006_.jpg",
+      "score": 4.153846154,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session260/iaa_pub18142_.jpg",
+      "score": 1.44,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session263/iaa_pub18363_.jpg",
+      "score": 2.58,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session263/iaa_pub18404_.jpg",
+      "score": 1.44,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session268/iaa_pub18693_.jpg",
+      "score": 1.34,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session273/iaa_pub19109_.jpg",
+      "score": 2.12,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session276/iaa_pub19282_.jpg",
+      "score": 1.42,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session285/iaa_pub19937_.jpg",
+      "score": 1.3,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session30/iaa_pub2049_.jpg",
+      "score": 1.44,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session30/iaa_pub2066_.jpg",
+      "score": 1.84,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session298/iaa_pub20857_.jpg",
+      "score": 1.38,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session308/iaa_pub21543_.jpg",
+      "score": 1.34,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session310/iaa_pub21675_.jpg",
+      "score": 1.94,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session311/iaa_pub21703_.jpg",
+      "score": 2.32,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session314/iaa_pub21929_.jpg",
+      "score": 3.86,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session314/iaa_pub21952_.jpg",
+      "score": 1.22,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session324/iaa_pub22629_.jpg",
+      "score": 2.28,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session327/iaa_pub22876_.jpg",
+      "score": 1.38,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session33/iaa_pub2302_.jpg",
+      "score": 1.307692308,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session334/iaa_pub23340_.jpg",
+      "score": 1.539473684,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session335/iaa_pub23382_.jpg",
+      "score": 1.26,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session336/iaa_pub23509_.jpg",
+      "score": 1.88,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session338/iaa_pub23615_.jpg",
+      "score": 1.53030303,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session340/iaa_pub23752_.jpg",
+      "score": 1.24,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session342/iaa_pub23934_.jpg",
+      "score": 3.06,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session343/iaa_pub23942_.jpg",
+      "score": 3.833333333,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session352/iaa_pub24636_.jpg",
+      "score": 1.741935484,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session36/iaa_pub2473_.jpg",
+      "score": 1.462962963,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session355/iaa_pub24813_.jpg",
+      "score": 1.26,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session361/iaa_pub25231_.jpg",
+      "score": 3.16,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session363/iaa_pub25344_.jpg",
+      "score": 2.019230769,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session363/iaa_pub25390_.jpg",
+      "score": 1.423076923,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session370/iaa_pub25859_.jpg",
+      "score": 1.828571429,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session370/iaa_pub25890_.jpg",
+      "score": 3.285714286,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session38/iaa_pub2592_.jpg",
+      "score": 1.64,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session371/iaa_pub25950_.jpg",
+      "score": 1.685185185,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session375/iaa_pub26192_.jpg",
+      "score": 1.48,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session377/iaa_pub26327_.jpg",
+      "score": 1.666666667,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session377/iaa_pub26354_.jpg",
+      "score": 2.145833333,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session378/iaa_pub26434_.jpg",
+      "score": 1.68,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session378/iaa_pub26458_.jpg",
+      "score": 2.14,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session380/iaa_pub26598_.jpg",
+      "score": 1.692307692,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session381/iaa_pub26628_.jpg",
+      "score": 1.4,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session388/iaa_pub27091_.jpg",
+      "score": 1.4,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session388/iaa_pub27101_.jpg",
+      "score": 1.74,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session388/iaa_pub27108_.jpg",
+      "score": 2.38,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session389/iaa_pub27188_.jpg",
+      "score": 1.38,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session392/iaa_pub27411_.jpg",
+      "score": 1.291666667,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session393/iaa_pub27468_.jpg",
+      "score": 1.4,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session394/iaa_pub27567_.jpg",
+      "score": 1.354166667,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session398/iaa_pub27805_.jpg",
+      "score": 1.467741935,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session407/iaa_pub28455_.jpg",
+      "score": 1.38,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session408/iaa_pub28492_.jpg",
+      "score": 1.483870968,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session414/iaa_pub28920_.jpg",
+      "score": 1.625,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session416/iaa_pub29099_.jpg",
+      "score": 1.34,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session436/iaa_pub30468_.jpg",
+      "score": 1.28,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session441/iaa_pub30806_.jpg",
+      "score": 1.38,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session443/iaa_pub30944_.jpg",
+      "score": 1.24,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session444/iaa_pub31060_.jpg",
+      "score": 1.56,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session47/iaa_pub3283_.jpg",
+      "score": 2.933333333,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session49/iaa_pub3371_.jpg",
+      "score": 1.6,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session49/iaa_pub3408_.jpg",
+      "score": 1.4,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session55/iaa_pub3823_.jpg",
+      "score": 1.410714286,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session56/iaa_pub3912_.jpg",
+      "score": 1.68,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session59/iaa_pub4107_.jpg",
+      "score": 1.403846154,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session64/iaa_pub4423_.jpg",
+      "score": 1.946428571,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session65/iaa_pub4548_.jpg",
+      "score": 2.6,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session68/iaa_pub4730_.jpg",
+      "score": 1.9,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session69/iaa_pub4763_.jpg",
+      "score": 1.32,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session79/iaa_pub5489_.jpg",
+      "score": 2.72,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session82/iaa_pub5719_.jpg",
+      "score": 1.3,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session94/iaa_pub6531_.jpg",
+      "score": 1.535714286,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session101/iaa_pub7006_.jpg",
+      "score": 2.479166667,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session104/iaa_pub7213_.jpg",
+      "score": 1.925925926,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session104/iaa_pub7261_.jpg",
+      "score": 1.740740741,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session107/iaa_pub7448_.jpg",
+      "score": 1.557692308,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session107/iaa_pub7479_.jpg",
+      "score": 1.826923077,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session11/iaa_pub747_.jpg",
+      "score": 1.46,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session109/iaa_pub7562_.jpg",
+      "score": 1.214285714,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session109/iaa_pub7597_.jpg",
+      "score": 2.107142857,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session110/iaa_pub7658_.jpg",
+      "score": 2.423076923,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session114/iaa_pub7932_.jpg",
+      "score": 1.555555556,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session115/iaa_pub8050_.jpg",
+      "score": 3.06,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session119/iaa_pub8277_.jpg",
+      "score": 1.625,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session124/iaa_pub8640_.jpg",
+      "score": 1.5,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session124/iaa_pub8651_.jpg",
+      "score": 1.392857143,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session131/iaa_pub9114_.jpg",
+      "score": 1.4,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session133/iaa_pub9308_.jpg",
+      "score": 1.428571429,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session135/iaa_pub9389_.jpg",
+      "score": 2.703703704,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session138/iaa_pub9626_.jpg",
+      "score": 2.08,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session143/iaa_pub9973_.jpg",
+      "score": 1.3,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session147/iaa_pub10225_.jpg",
+      "score": 1.32,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session247/iaa_pub17268_.jpg",
+      "score": 1.3,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session293/iaa_pub20469_.jpg",
+      "score": 1.672413793,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session385/iaa_pub26935_.jpg",
+      "score": 1.16,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session405/iaa_pub28342_.jpg",
+      "score": 1.3,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session418/iaa_pub29194_.jpg",
+      "score": 1.38,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session52/iaa_pub3588_.jpg",
+      "score": 3.653846154,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session57/iaa_pub3988_.jpg",
+      "score": 2.285714286,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session102/iaa_pub7114_.jpg",
+      "score": 2.076923077,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session128/iaa_pub8923_.jpg",
+      "score": 1.365384615,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session131/iaa_pub9150_.jpg",
+      "score": 1.48,
+      "scene": "others",
+      "domain_id": 1205
+    },
+    {
+      "image": "PARA/imgs/session135/iaa_pub9429_.jpg",
+      "score": 3.611111111,
+      "scene": "others",
+      "domain_id": 1205
+    }
+  ],
+  "domain_name": {
+    "1200": "animal",
+    "1201": "building",
+    "1202": "food",
+    "1203": "indoor",
+    "1204": "nightScene",
+    "1205": "others",
+    "1206": "plant",
+    "1207": "portrait",
+    "1208": "scene",
+    "1209": "stilllife"
+  }
+}

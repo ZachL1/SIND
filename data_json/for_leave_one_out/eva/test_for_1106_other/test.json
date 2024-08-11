@@ -1,0 +1,1314 @@
+{
+  "files": [
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/376.jpg",
+      "score": 5.966666666666667,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/1351.jpg",
+      "score": 3.972972972972973,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/3114.jpg",
+      "score": 6.96875,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/3289.jpg",
+      "score": 6.451612903225806,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/4825.jpg",
+      "score": 5.0,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/4834.jpg",
+      "score": 5.7272727272727275,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/4967.jpg",
+      "score": 6.633333333333334,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/6144.jpg",
+      "score": 7.205882352941177,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/6358.jpg",
+      "score": 7.027777777777778,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/6541.jpg",
+      "score": 5.419354838709677,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/6968.jpg",
+      "score": 6.066666666666666,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/7103.jpg",
+      "score": 3.125,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/7593.jpg",
+      "score": 5.625,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/7752.jpg",
+      "score": 5.5625,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/8508.jpg",
+      "score": 5.277777777777778,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/9671.jpg",
+      "score": 5.8125,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/9732.jpg",
+      "score": 5.375,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/10188.jpg",
+      "score": 5.133333333333334,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/12568.jpg",
+      "score": 4.151515151515151,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/13895.jpg",
+      "score": 3.806451612903226,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/13948.jpg",
+      "score": 5.342105263157895,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/16348.jpg",
+      "score": 6.75,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/17867.jpg",
+      "score": 5.257142857142857,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/18087.jpg",
+      "score": 5.787878787878788,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/19906.jpg",
+      "score": 5.966666666666667,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/20588.jpg",
+      "score": 6.866666666666666,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/22688.jpg",
+      "score": 3.2,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/23036.jpg",
+      "score": 5.0,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/30890.jpg",
+      "score": 5.129032258064516,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/33448.jpg",
+      "score": 5.694444444444445,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/33828.jpg",
+      "score": 5.516129032258065,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/34837.jpg",
+      "score": 5.897435897435898,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/42042.jpg",
+      "score": 4.733333333333333,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/42969.jpg",
+      "score": 7.257142857142857,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/44275.jpg",
+      "score": 6.625,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/48917.jpg",
+      "score": 5.8125,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/50654.jpg",
+      "score": 6.111111111111111,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/51039.jpg",
+      "score": 6.351351351351352,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/51067.jpg",
+      "score": 5.538461538461538,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/51199.jpg",
+      "score": 6.361111111111111,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/54614.jpg",
+      "score": 3.4722222222222223,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/64656.jpg",
+      "score": 6.787878787878788,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/64833.jpg",
+      "score": 5.794117647058823,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/68544.jpg",
+      "score": 5.064516129032258,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/68624.jpg",
+      "score": 4.96875,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/70123.jpg",
+      "score": 6.166666666666667,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/72834.jpg",
+      "score": 2.5625,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/84092.jpg",
+      "score": 5.405405405405405,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/86392.jpg",
+      "score": 5.870967741935484,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/87103.jpg",
+      "score": 6.40625,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/89750.jpg",
+      "score": 4.685714285714286,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/94788.jpg",
+      "score": 6.354838709677419,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/96619.jpg",
+      "score": 7.516129032258065,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/100397.jpg",
+      "score": 6.7105263157894735,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/110121.jpg",
+      "score": 4.473684210526316,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/114598.jpg",
+      "score": 6.216216216216216,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/120701.jpg",
+      "score": 4.7,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/130642.jpg",
+      "score": 5.176470588235294,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/155106.jpg",
+      "score": 4.03125,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/157028.jpg",
+      "score": 5.447368421052632,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/160306.jpg",
+      "score": 7.193548387096774,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/160406.jpg",
+      "score": 5.818181818181818,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/164034.jpg",
+      "score": 5.0285714285714285,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/165651.jpg",
+      "score": 4.258064516129032,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/166027.jpg",
+      "score": 6.433333333333334,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/170715.jpg",
+      "score": 5.470588235294118,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/177263.jpg",
+      "score": 7.303030303030303,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/183933.jpg",
+      "score": 7.129032258064516,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/190658.jpg",
+      "score": 3.823529411764706,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/234617.jpg",
+      "score": 7.32258064516129,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/238400.jpg",
+      "score": 5.6571428571428575,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/242142.jpg",
+      "score": 6.866666666666666,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/242843.jpg",
+      "score": 5.419354838709677,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/265358.jpg",
+      "score": 6.59375,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/268026.jpg",
+      "score": 6.575757575757576,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/268936.jpg",
+      "score": 6.722222222222222,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/279852.jpg",
+      "score": 5.428571428571429,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/281602.jpg",
+      "score": 7.194444444444445,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/291021.jpg",
+      "score": 4.303030303030303,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/314344.jpg",
+      "score": 5.305555555555555,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/314928.jpg",
+      "score": 6.545454545454546,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/315590.jpg",
+      "score": 6.34375,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/322779.jpg",
+      "score": 5.421052631578948,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/331108.jpg",
+      "score": 6.0,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/338336.jpg",
+      "score": 5.454545454545454,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/339880.jpg",
+      "score": 5.545454545454546,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/340445.jpg",
+      "score": 7.264705882352941,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/342556.jpg",
+      "score": 6.804878048780488,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/344508.jpg",
+      "score": 5.617647058823529,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/345927.jpg",
+      "score": 5.966666666666667,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/346891.jpg",
+      "score": 6.625,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/349429.jpg",
+      "score": 6.1891891891891895,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/356808.jpg",
+      "score": 4.766666666666667,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/358728.jpg",
+      "score": 3.6315789473684212,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/372919.jpg",
+      "score": 6.0,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/377221.jpg",
+      "score": 7.32258064516129,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/383867.jpg",
+      "score": 4.411764705882353,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/387522.jpg",
+      "score": 7.228571428571429,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/388932.jpg",
+      "score": 5.433333333333334,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/394347.jpg",
+      "score": 5.972222222222222,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/395328.jpg",
+      "score": 5.114285714285714,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/395903.jpg",
+      "score": 5.333333333333333,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/412509.jpg",
+      "score": 5.909090909090909,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/420827.jpg",
+      "score": 5.857142857142857,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/433049.jpg",
+      "score": 5.806451612903226,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/433357.jpg",
+      "score": 5.135135135135135,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/434663.jpg",
+      "score": 5.868421052631579,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/435972.jpg",
+      "score": 4.515151515151516,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/437011.jpg",
+      "score": 4.67741935483871,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/438585.jpg",
+      "score": 3.3666666666666667,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/443068.jpg",
+      "score": 6.787878787878788,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/445420.jpg",
+      "score": 7.9375,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/445682.jpg",
+      "score": 6.475,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/446130.jpg",
+      "score": 7.147058823529412,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/446365.jpg",
+      "score": 6.333333333333333,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/450434.jpg",
+      "score": 7.84375,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/451918.jpg",
+      "score": 7.852941176470588,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/458811.jpg",
+      "score": 6.054054054054054,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/466424.jpg",
+      "score": 5.542857142857143,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/469369.jpg",
+      "score": 6.151515151515151,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/471407.jpg",
+      "score": 4.916666666666667,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/473373.jpg",
+      "score": 4.6875,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/475365.jpg",
+      "score": 5.870967741935484,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/476485.jpg",
+      "score": 3.6857142857142855,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/480874.jpg",
+      "score": 7.171428571428572,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/487427.jpg",
+      "score": 5.666666666666667,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/490803.jpg",
+      "score": 3.763157894736842,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/491148.jpg",
+      "score": 7.382352941176471,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/491860.jpg",
+      "score": 7.205882352941177,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/496073.jpg",
+      "score": 6.571428571428571,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/501892.jpg",
+      "score": 5.744186046511628,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/502449.jpg",
+      "score": 6.4,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/508146.jpg",
+      "score": 7.333333333333333,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/516112.jpg",
+      "score": 5.580645161290323,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/532579.jpg",
+      "score": 6.805555555555555,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/544918.jpg",
+      "score": 5.1,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/546860.jpg",
+      "score": 7.25,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/555638.jpg",
+      "score": 7.75,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/572274.jpg",
+      "score": 6.512820512820513,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/588900.jpg",
+      "score": 6.696969696969697,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/592510.jpg",
+      "score": 6.363636363636363,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/615968.jpg",
+      "score": 6.25,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/618975.jpg",
+      "score": 8.375,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/620308.jpg",
+      "score": 6.617647058823529,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/624119.jpg",
+      "score": 6.466666666666667,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/624374.jpg",
+      "score": 5.870967741935484,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/625205.jpg",
+      "score": 4.225806451612903,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/626038.jpg",
+      "score": 4.944444444444445,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/626147.jpg",
+      "score": 5.636363636363637,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/627512.jpg",
+      "score": 6.305555555555555,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/630808.jpg",
+      "score": 3.3666666666666667,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/633871.jpg",
+      "score": 6.375,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/640398.jpg",
+      "score": 8.2,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/652930.jpg",
+      "score": 5.2,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/653731.jpg",
+      "score": 5.166666666666667,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/659551.jpg",
+      "score": 5.3,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/664215.jpg",
+      "score": 5.741935483870968,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/669113.jpg",
+      "score": 6.833333333333333,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/671769.jpg",
+      "score": 6.970588235294118,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/673449.jpg",
+      "score": 5.725,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/704196.jpg",
+      "score": 6.085714285714285,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/710179.jpg",
+      "score": 6.933333333333334,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/714356.jpg",
+      "score": 4.032258064516129,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/719845.jpg",
+      "score": 7.933333333333334,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/727204.jpg",
+      "score": 7.0,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/728483.jpg",
+      "score": 5.833333333333333,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/736694.jpg",
+      "score": 6.027027027027027,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/741682.jpg",
+      "score": 5.533333333333333,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/743339.jpg",
+      "score": 8.142857142857142,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/755271.jpg",
+      "score": 5.589743589743589,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/767608.jpg",
+      "score": 7.083333333333333,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/774284.jpg",
+      "score": 6.166666666666667,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/793504.jpg",
+      "score": 5.771428571428571,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/794324.jpg",
+      "score": 5.111111111111111,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/795186.jpg",
+      "score": 5.805555555555555,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/799197.jpg",
+      "score": 5.483870967741935,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/802119.jpg",
+      "score": 3.566666666666667,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/817297.jpg",
+      "score": 6.243243243243243,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/825618.jpg",
+      "score": 6.513513513513513,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/835307.jpg",
+      "score": 5.225806451612903,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/846746.jpg",
+      "score": 6.133333333333334,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/849963.jpg",
+      "score": 6.5777777777777775,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/854530.jpg",
+      "score": 5.775,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/864074.jpg",
+      "score": 7.166666666666667,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/865240.jpg",
+      "score": 4.8,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/872305.jpg",
+      "score": 6.742857142857143,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/881476.jpg",
+      "score": 6.545454545454546,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/886899.jpg",
+      "score": 6.838709677419355,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/886986.jpg",
+      "score": 5.743589743589744,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/894914.jpg",
+      "score": 2.5588235294117645,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/896739.jpg",
+      "score": 5.444444444444445,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/897941.jpg",
+      "score": 4.451612903225806,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/901299.jpg",
+      "score": 6.771428571428571,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/906030.jpg",
+      "score": 5.764705882352941,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/906299.jpg",
+      "score": 6.28125,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/906643.jpg",
+      "score": 6.606060606060606,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/909828.jpg",
+      "score": 4.575757575757576,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/911528.jpg",
+      "score": 5.722222222222222,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/913335.jpg",
+      "score": 5.53125,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/913373.jpg",
+      "score": 5.470588235294118,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/913793.jpg",
+      "score": 5.621621621621622,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/914301.jpg",
+      "score": 6.32258064516129,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/915141.jpg",
+      "score": 3.9722222222222223,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/915399.jpg",
+      "score": 3.966666666666667,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/916480.jpg",
+      "score": 4.8108108108108105,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/916759.jpg",
+      "score": 8.13888888888889,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/922258.jpg",
+      "score": 8.193548387096774,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/922522.jpg",
+      "score": 4.833333333333333,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/923574.jpg",
+      "score": 5.5,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/925775.jpg",
+      "score": 4.9,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/925935.jpg",
+      "score": 4.903225806451613,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/926725.jpg",
+      "score": 6.705882352941177,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/932461.jpg",
+      "score": 6.588235294117647,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/935421.jpg",
+      "score": 6.566666666666666,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/944862.jpg",
+      "score": 5.175,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/946126.jpg",
+      "score": 6.516129032258065,
+      "scene": "other",
+      "domain_id": 1106
+    },
+    {
+      "image": "EVA/eva-dataset-master/images/EVA_category/EVA_category/6/953944.jpg",
+      "score": 6.3125,
+      "scene": "other",
+      "domain_id": 1106
+    }
+  ],
+  "domain_name": {
+    "1101": "animals",
+    "1102": "architectures and city scenes",
+    "1103": "human",
+    "1104": "natural and rural scenes",
+    "1105": "still life",
+    "1106": "other"
+  }
+}
