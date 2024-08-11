@@ -19,7 +19,7 @@ def stack_crops(crops):
 class DataGenerator(object):
     """Dataset class for IQA databases"""
 
-    def __init__(self, dataset, path, data_json, input_size, batch_size=1, istrain=True, scene_sampling=0):
+    def __init__(self, dataset, path, data_json, input_size, batch_size=1, istrain=True, scene_sampling=0, testing_aug=False):
 
         self.batch_size = batch_size
         self.istrain = istrain
@@ -45,7 +45,7 @@ class DataGenerator(object):
                                                         std=(0.229, 0.224, 0.225))
                 ]) # multi-mini-patch for local finer feature
             ]
-        else:
+        elif testing_aug:
             transforms = [
                 torchvision.transforms.Compose([
                     torchvision.transforms.Resize(size=(input_size+20, input_size+20), interpolation=torchvision.transforms.InterpolationMode.BILINEAR),
@@ -62,6 +62,23 @@ class DataGenerator(object):
                     # FiveCropMiniPatch(size=(input_size, input_size)),
                     NineCropMiniPatch(size=(input_size, input_size)),
                     torchvision.transforms.Lambda(stack_crops),
+                    torchvision.transforms.Normalize(mean=(0.485, 0.456, 0.406),
+                                                    std=(0.229, 0.224, 0.225))
+                ])
+            ]
+        else:
+            transforms = [
+                torchvision.transforms.Compose([
+                    torchvision.transforms.Resize(size=(input_size+20, input_size+20), interpolation=torchvision.transforms.InterpolationMode.BILINEAR),
+                    torchvision.transforms.CenterCrop(size=input_size),
+                    torchvision.transforms.ToTensor(),
+                    torchvision.transforms.Normalize(mean=(0.485, 0.456, 0.406),
+                                                    std=(0.229, 0.224, 0.225))
+                ]),
+                torchvision.transforms.Compose([
+                    torchvision.transforms.Resize(size=input_size*3, interpolation=torchvision.transforms.InterpolationMode.BILINEAR),
+                    torchvision.transforms.ToTensor(),
+                    RandomCropMiniPatch(size=(input_size, input_size), center=True),
                     torchvision.transforms.Normalize(mean=(0.485, 0.456, 0.406),
                                                     std=(0.229, 0.224, 0.225))
                 ])
@@ -106,7 +123,7 @@ class DataGenerator(object):
         elif dataset == 'piq23':
             self.data = folder.PIQ23Folder(
                 root=path, data_json=data_json, transform=transforms)
-        elif dataset == 'spaq':
+        elif dataset == 'spaq' or dataset == 'spaq_mini':
             self.data = folder.SPAQFolder(
                 root=path, data_json=data_json, transform=transforms)
         elif dataset == 'para':

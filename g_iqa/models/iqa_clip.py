@@ -77,7 +77,23 @@ class LocalGlobalClipIQA(nn.Module):
 
         quality = self.head(global_features, local_features)
 
+        local_features = torch.mean(local_features, dim=1)
+        features = torch.cat([global_features, local_features], dim=1)
+        # return quality, features
         return quality
 
+class SimpleClip(nn.Module):
+    def __init__(self, clip_model="openai/ViT-B-16", clip_freeze=True, precision='fp16'):
+        super(SimpleClip, self).__init__()
+        self.clip_freeze = clip_freeze
 
+        self.clip_model, feature_size = load_clip_model(clip_model, clip_freeze, precision)
+        self.head = nn.Linear(feature_size['global_feature'], 1)
+
+    def forward(self, x, x_local):
+        features, _ = self.clip_model.encode_image(x)
+        quality = self.head(features)
+
+        # return quality, features
+        return quality
 

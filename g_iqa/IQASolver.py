@@ -1,4 +1,5 @@
 import math
+import os
 import numpy as np
 from scipy import stats
 from tqdm import tqdm
@@ -11,7 +12,7 @@ from safetensors.torch import load_file, load_model
 import torch
 from torch_ema import ExponentialMovingAverage
 
-from g_iqa.models.iqa_clip import LocalGlobalClipIQA
+from g_iqa.models.iqa_clip import LocalGlobalClipIQA, SimpleClip
 from g_iqa.g_datasets.data_loader import DataGenerator
 from g_iqa.train_utils import loss_by_scene, WarmupCosineLR
 
@@ -39,10 +40,16 @@ class IQASolver(object):
         
         train_loader = DataGenerator(config.train_dataset, path, train_json, config.input_size, batch_size=config.batch_size, istrain=True, scene_sampling=config.scene_sampling)
         self.train_data = train_loader.get_data()
-        self.test_data = {td: DataGenerator(td, path, test_json, config.input_size, batch_size=1, istrain=False).get_data() for td in config.test_dataset}
+        self.test_data = {td: DataGenerator(td, path, test_json, config.input_size, batch_size=1, istrain=False, testing_aug=True).get_data() for td in config.test_dataset}
 
         ############### Model ###############
-        self.model = LocalGlobalClipIQA(clip_model=config.clip_model, clip_freeze=config.clip_freeze, precision='fp32', all_global=config.all_global)
+        if config.local_global:
+            # if use our local global complementary token combination
+            self.model = LocalGlobalClipIQA(clip_model=config.clip_model, clip_freeze=config.clip_freeze, precision='fp32', all_global=config.all_global)
+        else:
+            # use simple clip model
+            self.model = SimpleClip(clip_model=config.clip_model, clip_freeze=config.clip_freeze, precision='fp32')
+
         # self.model.load_state_dict(torch.load('/home/dzc/workspace/ntire/contrast_weight'), strict=False)
         self.model.train(True)
         paras = [{'params': filter(lambda p: p.requires_grad, self.model.clip_model.parameters()), 'lr': config.lr / config.lr_ratio},
@@ -140,20 +147,24 @@ class IQASolver(object):
                     gt_scores = gt_scores + label.cpu().tolist()
                     epoch_loss.append(loss.item())
 
-            if t % 1 == 0:
-                self.accelerator.wait_for_everyone()
-                torch.distributed.barrier()
+            if t % 5 == 0:
+                if torch.distributed.is_available() and torch.distributed.is_initialized():
+                    print('[INFO] Use Distributed Training, wait for all processes to synchronize...')
+                    self.accelerator.wait_for_everyone()
+                    torch.distributed.barrier()
                 if self.is_main_process():
                     train_srcc, _ = stats.spearmanr(pred_scores, gt_scores)
                     train_plcc, _ = stats.pearsonr(pred_scores, gt_scores)
                     print(f'=========Epoch:{t:3d}=========')
                     print(f'Train_SRCC: {train_srcc:.4f}, Train_PLCC: {train_plcc:.4f}')
+                    with self.ema_model.average_parameters():
+                        os.makedirs(f'{self.project_dir}/ema_ckpts', exist_ok=True)
+                        torch.save(self.ema_model.state_dict(), f'{self.project_dir}/ema_ckpts/model_epoch{t:03}.pth')
+                        os.makedirs(f'{self.project_dir}/ckpts', exist_ok=True)
+                        torch.save(self.accelerator.unwrap_model(self.model).state_dict(), f'{self.project_dir}/ckpts/model_epoch{t:03}.pth')
 
                     for data_name, test_data in self.test_data.items():
-                        with self.ema_model.average_parameters():
-                            # os.makedirs(f'{self.project_dir}/ema_ckpts', exist_ok=True)
-                            # torch.save(self.ema_model.state_dict(), f'{self.project_dir}/ema_ckpts/model_epoch{t:03}.pth')
-                            
+                        with self.ema_model.average_parameters():                            
                             pred_scores, gt_scores, scene_list = self.val(test_data)
                             ema_srcc, ema_plcc = self.log_metrics(pred_scores, gt_scores, scene_list, t, f"{data_name}/ema_")
                             if ema_srcc > best_srcc[data_name]:
