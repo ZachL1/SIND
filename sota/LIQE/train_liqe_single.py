@@ -280,100 +280,100 @@ for session in range(0,1):
 
     base_dir = 'exp_log'
 
-    # # for leave one out exp
-    # all_json = {
-    #     'piq23': 'data_json/all/piq23_all.json',
-    #     'spaq': 'data_json/all/spaq_all.json',
-    #     'koniq10k': 'data_json/all/koniq10k_all.json',
+    # for leave one out exp
+    all_json = {
+        'piq23': 'data_json/all/piq23_all.json',
+        'spaq': 'data_json/all/spaq_all.json',
+        'koniq10k': 'data_json/all/koniq10k_all.json',
         
-    #     'kadid10k': 'data_json/all/kadid10k_all.json',
-    #     'tid2013': 'data_json/all/tid2013_all.json',
+        'kadid10k': 'data_json/all/kadid10k_all.json',
+        'tid2013': 'data_json/all/tid2013_all.json',
 
-    #     'eva': 'data_json/all/eva_all.json',
-    #     'para': 'data_json/all/para_all.json',
+        'eva': 'data_json/all/eva_all.json',
+        'para': 'data_json/all/para_all.json',
+    }
+    dataname = 'eva'
+
+    with open(all_json[dataname], 'r') as f:
+        data = json.load(f)
+        datajson = data['files']
+        domain_name = data['domain_name']
+    
+    assert len(domain_name) == len(set(item['domain_id'] for item in datajson)), 'Domain number not match'
+
+    srcc_all = []
+    plcc_all = []
+
+    for test_domain, d_name in domain_name.items():
+        model, preprocess = clip.load("ViT-B/32", device=device, jit=False)
+        optimizer = torch.optim.AdamW(
+            model.parameters(), lr=initial_lr,
+            weight_decay=0.001)
+        scheduler = lr_scheduler.CosineAnnealingLR(optimizer, T_max=5)
+        freeze_model(opt)
+
+        test_domain = int(test_domain)
+        print('Training and testing on %s dataset for domain %d .ie %s ...' % (dataname, test_domain, d_name))
+        save_dir = os.path.join(base_dir, f'leave_one_out/{dataname}', f'test_domain_{test_domain}')
+        os.makedirs(save_dir, exist_ok=True)
+
+        train_datajson = [item for item in datajson if item['domain_id'] != test_domain]
+        test_datajson = {dataname : [item for item in datajson if item['domain_id'] == test_domain]}
+
+        srcc, plcc = train_for_json(train_datajson, test_datajson)
+        srcc_all.append(srcc)
+        plcc_all.append(plcc)
+
+        torch.cuda.empty_cache()
+        del model
+        del optimizer
+        del scheduler
+    
+    print(srcc_all)
+    print(plcc_all)
+
+    # # for cross set exp
+    # train_json = {
+    #     'spaq': 'data_json/for_cross_set/train/spaq_train.json',
+    #     'koniq10k': 'data_json/for_cross_set/train/koniq10k_train.json',
+    #     'kadid10k': 'data_json/for_cross_set/train/kadid10k_train.json',
     # }
-    # dataname = 'spaq'
+    # test_json = {
+    #     'spaq': 'data_json/for_cross_set/test/spaq_test.json',
+    #     'livec': 'data_json/for_cross_set/test/livec.json',
+    #     'koniq10k': 'data_json/for_cross_set/test/koniq10k_test.json',
+    #     'bid': 'data_json/for_cross_set/test/bid.json',
+    #     'cid2013': 'data_json/for_cross_set/test/cid2013.json',
 
-    # with open(all_json[dataname], 'r') as f:
-    #     data = json.load(f)
-    #     datajson = data['files']
-    #     domain_name = data['domain_name']
-    
-    # assert len(domain_name) == len(set(item['domain_id'] for item in datajson)), 'Domain number not match'
+    #     'agiqa3k': 'data_json/for_cross_set/test/agiqa3k.json',
 
-    # srcc_all = []
-    # plcc_all = []
+    #     'kadid10k': 'data_json/for_cross_set/test/kadid10k_test.json',
+    #     'live': 'data_json/for_cross_set/test/live.json',
+    #     'csiq': 'data_json/for_cross_set/test/csiq.json',
+    # }
+    # train_dataname = ['spaq', 'koniq10k']
+    # test_dataname = ['koniq10k', 'spaq', 'livec', 'agiqa3k', 'kadid10k', 'live', 'csiq', 'bid', 'cid2013']
 
-    # for test_domain, d_name in domain_name.items():
-    #     model, preprocess = clip.load("ViT-B/32", device=device, jit=False)
-    #     optimizer = torch.optim.AdamW(
-    #         model.parameters(), lr=initial_lr,
-    #         weight_decay=0.001)
-    #     scheduler = lr_scheduler.CosineAnnealingLR(optimizer, T_max=5)
-    #     freeze_model(opt)
+    # save_dir = os.path.join(base_dir, 'cross_set', '_'.join(train_dataname))
+    # os.makedirs(save_dir, exist_ok=True)
 
-    #     test_domain = int(test_domain)
-    #     print('Training and testing on %s dataset for domain %d .ie %s ...' % (dataname, test_domain, d_name))
-    #     save_dir = os.path.join(base_dir, f'leave_one_out/{dataname}', f'test_domain_{test_domain}')
-    #     os.makedirs(save_dir, exist_ok=True)
+    # train_datajson = []
+    # test_datajson = {}
+    # for train_d in train_dataname:
+    #     with open(train_json[train_d], 'r') as f:
+    #         data = json.load(f)
+    #         train_datajson += data['files']
+    # for test_d in test_dataname:
+    #     with open(test_json[test_d], 'r') as f:
+    #         data = json.load(f)
+    #         test_datajson[test_d] = data['files']
 
-    #     train_datajson = [item for item in datajson if item['domain_id'] != test_domain]
-    #     test_datajson = {dataname : [item for item in datajson if item['domain_id'] == test_domain]}
+    # model, preprocess = clip.load("ViT-B/32", device=device, jit=False)
+    # optimizer = torch.optim.AdamW(
+    #     model.parameters(), lr=initial_lr,
+    #     weight_decay=0.001)
+    # scheduler = lr_scheduler.CosineAnnealingLR(optimizer, T_max=5)
+    # freeze_model(opt)
 
-    #     srcc, plcc = train_for_json(train_datajson, test_datajson)
-    #     srcc_all.append(srcc)
-    #     plcc_all.append(plcc)
-
-    #     torch.cuda.empty_cache()
-    #     del model
-    #     del optimizer
-    #     del scheduler
-    
-    # print(srcc_all)
-    # print(plcc_all)
-
-    # for cross set exp
-    train_json = {
-        'spaq': 'data_json/for_cross_set/train/spaq_train.json',
-        'koniq10k': 'data_json/for_cross_set/train/koniq10k_train.json',
-        'kadid10k': 'data_json/for_cross_set/train/kadid10k_train.json',
-    }
-    test_json = {
-        'spaq': 'data_json/for_cross_set/test/spaq_test.json',
-        'livec': 'data_json/for_cross_set/test/livec.json',
-        'koniq10k': 'data_json/for_cross_set/test/koniq10k_test.json',
-        'bid': 'data_json/for_cross_set/test/bid.json',
-        'cid2013': 'data_json/for_cross_set/test/cid2013.json',
-
-        'agiqa3k': 'data_json/for_cross_set/test/agiqa3k.json',
-
-        'kadid10k': 'data_json/for_cross_set/test/kadid10k_test.json',
-        'live': 'data_json/for_cross_set/test/live.json',
-        'csiq': 'data_json/for_cross_set/test/csiq.json',
-    }
-    train_dataname = ['spaq', 'koniq10k']
-    test_dataname = ['koniq10k', 'spaq', 'livec', 'agiqa3k', 'kadid10k', 'live', 'csiq', 'bid', 'cid2013']
-
-    save_dir = os.path.join(base_dir, 'cross_set', '_'.join(train_dataname))
-    os.makedirs(save_dir, exist_ok=True)
-
-    train_datajson = []
-    test_datajson = {}
-    for train_d in train_dataname:
-        with open(train_json[train_d], 'r') as f:
-            data = json.load(f)
-            train_datajson += data['files']
-    for test_d in test_dataname:
-        with open(test_json[test_d], 'r') as f:
-            data = json.load(f)
-            test_datajson[test_d] = data['files']
-
-    model, preprocess = clip.load("ViT-B/32", device=device, jit=False)
-    optimizer = torch.optim.AdamW(
-        model.parameters(), lr=initial_lr,
-        weight_decay=0.001)
-    scheduler = lr_scheduler.CosineAnnealingLR(optimizer, T_max=5)
-    freeze_model(opt)
-
-    best_srcc, best_plcc = train_for_json(train_datajson, test_datajson)
-    print(f'best_srcc: {best_srcc}, best_plcc: {best_plcc}')
+    # best_srcc, best_plcc = train_for_json(train_datajson, test_datajson)
+    # print(f'best_srcc: {best_srcc}, best_plcc: {best_plcc}')

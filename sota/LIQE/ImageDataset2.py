@@ -333,6 +333,14 @@ class ImageDataset_qonly(Dataset):
             step = 48
         else:
             step = 32
+        smallest_h = kernel_h + step * self.num_patch
+        smallest_w = kernel_w + step * self.num_patch
+        if I.size(2) < smallest_h:
+            ratio = smallest_h / I.size(2)
+            I = torch.nn.functional.interpolate(I, scale_factor=ratio, mode='bilinear')
+        if I.size(3) < smallest_w:
+            ratio = smallest_w / I.size(3)
+            I = torch.nn.functional.interpolate(I, scale_factor=ratio, mode='bilinear')
         patches = I.unfold(2, kernel_h, step).unfold(3, kernel_w, step).permute(2, 3, 0, 1, 4, 5).reshape(-1,
                                                                                                           n_channels,
                                                                                                           kernel_h,
