@@ -139,4 +139,4 @@ def eval_epoch(config, epoch, model_transformer, model_backbone, criterion, test
 
         print('test epoch:%d / loss:%f /SROCC:%4f / PLCC:%4f' % (epoch+1, loss.item(), rho_s, rho_p))
 
-        return np.mean(losses), rho_s, rho_p
+        return np.mean(losses), abs(rho_s), abs(rho_p)
