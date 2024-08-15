@@ -8,7 +8,7 @@ import numpy as np
 import json
 from tqdm import tqdm
 
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import Dataset, DataLoader, Sampler
 from torch.utils.data.dataloader import default_collate
 from torchvision import transforms
 
@@ -22,6 +22,8 @@ from torch.autograd import Variable
 from torchvision import models
 # os.environ["CUDA_VISIBLE_DEVICES"]="0"
 import cv2
+
+from train_utils import loss_by_scene
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -105,7 +107,11 @@ class JSONRatingsDataset(Dataset):
 
         if self.transform:
             sample = self.transform(sample)
+        sample['scene'] = self.paths_mos[index]['domain_id']
         return sample
+    
+    def get_scene_list(self):
+        return [sample['domain_id'] for sample in self.paths_mos]
 
 
 
@@ -335,25 +341,26 @@ def finetune_model(train_json, test_json_dict, epochs=100):
         best_plcc = {dname: 0 for dname in test_json_dict.keys()}
         spearman = 0
         for epoch in range(epochs):
-            print('############# test phase epoch %2d ###############' % epoch)
-            for dname, test_json in test_json_dict.items():
-                dataloader_valid = load_data('test', test_json=test_json)
-                model.eval()
-                model.cuda()
-                srcc, plcc, gt, pred = computeSpearman(dataloader_valid, model)
-                if srcc > best_srcc[dname]:
-                    best_srcc[dname] = srcc
-                    best_plcc[dname] = plcc
-                    pred_gt = np.stack((pred, gt), axis=1)
-                    np.savetxt(f'{save_dir}/pred_gt_{dname}.txt', pred_gt, fmt='%.4f')
+            if epoch % 2 == 0:
+                print('############# test phase epoch %2d ###############' % epoch)
+                for dname, test_json in test_json_dict.items():
+                    dataloader_valid = load_data('test', test_json=test_json)
+                    model.eval()
+                    model.cuda()
+                    srcc, plcc, gt, pred = computeSpearman(dataloader_valid, model)
+                    if srcc > best_srcc[dname]:
+                        best_srcc[dname] = srcc
+                        best_plcc[dname] = plcc
+                        pred_gt = np.stack((pred, gt), axis=1)
+                        np.savetxt(f'{save_dir}/pred_gt_{dname}.txt', pred_gt, fmt='%.4f')
 
-                print(f'Test on {dname} dataset')
-                print('current srocc {:4f}, best srocc {:4f}'.format(srcc, best_srcc[dname]))
-                print('current plcc {:4f}, best plcc {:4f}'.format(plcc, best_plcc[dname]))
+                    print(f'Test on {dname} dataset')
+                    print('current srocc {:4f}, best srocc {:4f}'.format(srcc, best_srcc[dname]))
+                    print('current plcc {:4f}, best plcc {:4f}'.format(plcc, best_plcc[dname]))
 
 
-            print('############# train phase epoch %2d ###############' % epoch)
-            optimizer = exp_lr_scheduler(optimizer, epoch)
+            # print('############# train phase epoch %2d ###############' % epoch)
+            # optimizer = exp_lr_scheduler(optimizer, epoch)
 
             # if epoch == 0:
             #     dataloader_valid = load_data('train')
@@ -368,10 +375,11 @@ def finetune_model(train_json, test_json_dict, epochs=100):
             #print('############# train phase epoch %2d ###############' % epoch)
             dataloader_train = load_data('train', train_json=train_json)
             model.train()  # Set model to training mode
-            for batch_idx, data in enumerate(dataloader_train):
+            for batch_idx, data in enumerate(tqdm(dataloader_train)):
                 inputs = data['image']
                 batch_size = inputs.size()[0]
                 labels = data['rating'].view(batch_size, -1)
+                scene = data['scene']
                 # labels = labels / 100.0
                 if use_gpu:
                     try:
@@ -383,7 +391,10 @@ def finetune_model(train_json, test_json_dict, epochs=100):
 
                 optimizer.zero_grad()
                 outputs = model(inputs)
-                loss = criterion(outputs, labels)
+                if args.alignment:
+                    loss = loss_by_scene(outputs, labels, scene, 'l1')
+                else:
+                    loss = criterion(outputs, labels)
                 loss.backward()
                 optimizer.step()
 
@@ -421,6 +432,64 @@ def my_collate(batch):
     return default_collate(batch)
 
 
+
+
+class SceneSampler(Sampler[int]):
+    '''
+    random sample, sample scene within a batch are all the same
+    '''
+    def __init__(self, data_source, batch_size, scene_sampling=1):
+        self.data_source = data_source
+        self.batch_size = batch_size
+        self.scene_sampling = scene_sampling
+        self.scene_bs = self.batch_size // self.scene_sampling
+        self.data_len = len(data_source)
+
+        self.update()
+
+    def __iter__(self):
+        if self.data_len != len(self.data_source):
+            self.update()
+        # init seed
+        seed = int(torch.empty((), dtype=torch.int64).random_().item())
+        random.seed(seed)
+
+        
+        # pad each len(scene_index) to an integer multiple of batch_size
+        scene_index_pad = {}
+        for s in self.scene:
+            pad = (self.scene_bs - len(self.scene_index[s]) % self.scene_bs) % self.scene_bs
+            # random pad
+            scene_index_pad[s] = self.scene_index[s] + [random.choice(self.scene_index[s]) for _ in range(pad)]
+            # shuffle
+            random.shuffle(scene_index_pad[s])
+
+        # [[scene_batch], [scene_batch], ...]
+        index_scene_batch = []
+        for s in self.scene:
+            scene_batch = [scene_index_pad[s][i:i+self.scene_bs] for i in range(0, len(scene_index_pad[s]), self.scene_bs)]
+            # index_scene_batch.append(scene_batch)
+            index_scene_batch.extend(scene_batch)
+
+        # shuffle scene_batch
+        random.shuffle(index_scene_batch)
+
+        # yield index
+        yield from [index for scene_batch in index_scene_batch for index in scene_batch]
+             
+
+    def __len__(self):
+        if self.data_len != len(self.data_source):
+            self.update()
+        return self.num_samples
+    
+    def update(self):
+        scene_list = self.data_source.get_scene_list()
+        self.scene = set(scene_list)
+        self.scene_index = {s: [i for i, scene in enumerate(scene_list) if scene == s] for s in self.scene}
+        self.num_samples = sum([math.ceil(len(self.scene_index[s]) / self.scene_bs) * self.scene_bs for s in self.scene])
+
+
 def load_data(mod = 'train', train_json=None, test_json=None):
     if mod == 'train':
         with open(train_json, 'r') as f:
@@ -445,8 +514,13 @@ def load_data(mod = 'train', train_json=None, test_json=None):
                                                                                   Normalize(),
                                                                                   ToTensor(),
                                                                                   ]))
-        dataloader = DataLoader(transformed_dataset_train, batch_size=50,
-                                  shuffle=False, num_workers=4, collate_fn=my_collate)
+        if args.alignment:
+            scene_sampler = SceneSampler(transformed_dataset_train, batch_size=128, scene_sampling=4)
+            dataloader = DataLoader(transformed_dataset_train, batch_size=128,
+                                    shuffle=False, num_workers=4, collate_fn=my_collate, sampler=scene_sampler, pin_memory=True, drop_last=True)
+        else:
+            dataloader = DataLoader(transformed_dataset_train, batch_size=50,
+                                    shuffle=False, num_workers=4, collate_fn=my_collate)
     else:
         with open(test_json, 'r') as f:
             data = json.load(f)['files']
@@ -503,6 +577,7 @@ if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--leave_one_out', action='store_true')
     parser.add_argument('--train_data', type=str, default='spaq')
+    parser.add_argument('--alignment', action='store_true')
     args = parser.parse_args()
 
     if args.leave_one_out:
