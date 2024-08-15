@@ -155,7 +155,7 @@ if __name__ == '__main__':
     parser.add_argument('--warmup_epoch', type=int, default=5, help='epoch of warmup')
     ################## important Config ##################
     parser.add_argument('--loss_type', type=str, default='l1', help='loss type for training')
-    parser.add_argument('--scene_sampling', type=int, default=0, help='Number of domain categories, must be greater than 0, otherwise random sampling')
+    parser.add_argument('--scene_sampling', type=int, default=0, help='Number of domain categories, must be greater than 0, otherwise random sampling. Note: it will actually *2 if use DDP')
 
     ################## Abalation Config ##################
     parser.add_argument('--all_global', action="store_true", help='Use all global features')
