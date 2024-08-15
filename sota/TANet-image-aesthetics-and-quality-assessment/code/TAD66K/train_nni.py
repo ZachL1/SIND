@@ -11,7 +11,7 @@ from torch.utils.data import Dataset, DataLoader
 from torch.nn import functional as F
 from util import EDMLoss, AverageMeter
 from torchvision import models
-from dataset import AVADataset
+from dataset import AVADataset, JSONData
 from scipy.stats import pearsonr
 from scipy.stats import spearmanr
 from sklearn.metrics import accuracy_score
@@ -317,13 +317,13 @@ class TANet(nn.Module):
         return x
 
 def create_data_part(opt):
-    train_csv_path = os.path.join(opt['path_to_save_csv'], 'train.csv')
-    test_csv_path = os.path.join(opt['path_to_save_csv'], 'test.csv')
+    train_csv_path = os.path.join(opt['path_to_save_csv'], 'train.json')
+    test_csv_path = os.path.join(opt['path_to_save_csv'], 'test.json')
 
-    train_ds = AVADataset(train_csv_path, opt['path_to_images'], if_train = True)
-    test_ds = AVADataset(test_csv_path, opt['path_to_images'], if_train = False)
+    train_ds = JSONData(train_csv_path, opt['path_to_images'], if_train = True)
+    test_ds = JSONData(test_csv_path, opt['path_to_images'], if_train = False)
 
-    train_loader = DataLoader(train_ds, batch_size=opt['batch_size'], num_workers=opt['num_workers'], shuffle=True)
+    train_loader = DataLoader(train_ds, batch_size=opt['batch_size'], num_workers=opt['num_workers'], shuffle=True, drop_last=True)
     test_loader = DataLoader(test_ds, batch_size=opt['batch_size'], num_workers=opt['num_workers'], shuffle=False)
     return train_loader, test_loader
 
@@ -399,6 +399,8 @@ def start_train(opt):
 
     writer = SummaryWriter(log_dir=os.path.join(opt['experiment_dir_name'], 'logs'))
 
+    best_srcc = 0
+    best_plcc = 0
     for e in range(opt['num_epoch']):
         # adjust_learning_rate(opt, optimizer, e)
         train_loss = train(opt,model=model, loader=dataloader_train, optimizer=optimizer, criterion=criterion,
@@ -409,9 +411,14 @@ def start_train(opt):
                             name=f"{opt['experiment_dir_name']}_by_batch")
 
         nni.report_intermediate_result(
-            {'default': vacc, "vsrcc": vsrcc, "val_loss": val_loss})
+            {'default': vsrcc, "vplcc": vlcc, "val_loss": val_loss})
 
-    nni.report_final_result({'default': vacc, "vsrcc": vsrcc})
+        if vsrcc > best_srcc:
+            best_srcc = vsrcc
+            best_plcc = vlcc
+    print('best_srcc: {}, best_plcc: {}'.format(best_srcc, best_plcc))
+
+    nni.report_final_result({'default': vsrcc, "vplcc": vlcc})
     writer.close()
 
 if __name__ =="__main__":

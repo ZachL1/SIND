@@ -5,6 +5,8 @@ from torch import nn
 import pandas as pd
 from skimage import transform
 import numpy as np
+import json
+from tqdm import tqdm
 
 from torch.utils.data import Dataset, DataLoader
 from torch.utils.data.dataloader import default_collate
@@ -18,7 +20,8 @@ from sklearn.model_selection import train_test_split
 import torch.optim as optim
 from torch.autograd import Variable
 from torchvision import models
-os.environ["CUDA_VISIBLE_DEVICES"]="0"
+# os.environ["CUDA_VISIBLE_DEVICES"]="0"
+import cv2
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -64,6 +67,47 @@ class ImageRatingsDataset(Dataset):
         #     pass
 
 
+class JSONRatingsDataset(Dataset):
+    """General No Reference dataset with meta info file.
+    """
+    def __init__(self, json_data, root_dir, transform=None):
+        self.paths_mos = json_data
+        for path_mos in self.paths_mos:
+            path_mos['image'] = os.path.join(root_dir, path_mos['image'])
+        
+        self.transform = transform
+
+    def __len__(self):
+        return len(self.paths_mos)
+
+    def __getitem__(self, index):
+
+        img_path = self.paths_mos[index]['image']
+        mos_label = float(self.paths_mos[index]['score'])
+
+        im = Image.open(img_path).convert('RGB')
+        if im.mode == 'P':
+            im = im.convert('RGB')
+        image = np.asarray(im)
+
+        # # keep ratio and resize shorter edge to 1024
+        # w, h = img_pil.size
+        # if min(w, h) > 1024:
+        #     if w > h:
+        #         ow = 1024
+        #         oh = int(1024 * h / w)
+        #     else:
+        #         oh = 1024
+        #         ow = int(1024 * w / h)
+        #     img_pil = img_pil.resize((ow, oh), Image.BICUBIC)
+
+        sample = {'image': image, 'rating': mos_label}
+
+        if self.transform:
+            sample = self.transform(sample)
+        return sample
+
+
 
 class Rescale(object):
     """Rescale the image in a sample to a given size.
@@ -91,7 +135,8 @@ class Rescale(object):
 
         new_h, new_w = int(new_h), int(new_w)
 
-        image = transform.resize(image, (new_h, new_w))
+        # image = transform.resize(image, (new_h, new_w))
+        image = cv2.resize(image, (new_w, new_h), interpolation=cv2.INTER_AREA)
 
         return {'image': image, 'rating': rating}
 
@@ -237,7 +282,7 @@ def computeSpearman(dataloader_valid, model):
     predictions = []
     with torch.no_grad():
         cum_loss = 0
-        for batch_idx, data in enumerate(dataloader_valid):
+        for batch_idx, data in enumerate(tqdm(dataloader_valid)):
             inputs = data['image']
             batch_size = inputs.size()[0]
             labels = data['rating'].view(batch_size, -1)
@@ -251,8 +296,8 @@ def computeSpearman(dataloader_valid, model):
                 inputs, labels = Variable(inputs), Variable(labels)
 
             outputs_a = model(inputs)
-            ratings.append(labels.float())
-            predictions.append(outputs_a.float())
+            ratings.append(labels.float().cpu())
+            predictions.append(outputs_a.float().cpu())
 
     ratings_i = np.vstack(ratings)
     predictions_i = np.vstack(predictions)
@@ -260,48 +305,68 @@ def computeSpearman(dataloader_valid, model):
     b = predictions_i[:,0]
     sp = spearmanr(a, b)[0]
     pl = pearsonr(a,b)[0]
-    return sp, pl
+    return abs(sp), abs(pl), a, b
 
-def finetune_model():
-    epochs = 100
+def finetune_model(train_json, test_json_dict, epochs=100):
+    # epochs = 100
     srocc_l = []
 
-    data_dir = os.path.join('LIVE_WILD')
-    images = pd.read_csv(os.path.join(data_dir, 'image_labeled_by_score.csv'), sep=',')
+    # data_dir = os.path.join('LIVE_WILD')
+    # images = pd.read_csv(os.path.join(data_dir, 'image_labeled_by_score.csv'), sep=',')
 
-    images_fold = "LIVE_WILD/"
-    if not os.path.exists(images_fold):
-        os.makedirs(images_fold)
-    for i in range(10):
-        images_train, images_test = train_test_split(images, train_size = 0.8)
+    # images_fold = "LIVE_WILD/"
+    # if not os.path.exists(images_fold):
+    #     os.makedirs(images_fold)
+    for i in range(1):
+        # images_train, images_test = train_test_split(images, train_size = 0.8)
 
-        train_path = images_fold + "train_image" + ".csv"
-        test_path = images_fold + "test_image" + ".csv"
-        images_train.to_csv(train_path, sep=',', index=False)
-        images_test.to_csv(test_path, sep=',', index=False)
+        # train_path = images_fold + "train_image" + ".csv"
+        # test_path = images_fold + "test_image" + ".csv"
+        # images_train.to_csv(train_path, sep=',', index=False)
+        # images_test.to_csv(test_path, sep=',', index=False)
 
-        model = torch.load('model_IQA/TID2013_IQA_Meta_resnet18.pt')
+        model = torch.load('model_IQA/TID2013_KADID10K_IQA_Meta_resnet18.pt')
         criterion = nn.MSELoss()
 
         optimizer = optim.Adam(model.parameters(), lr=1e-4,  weight_decay=0)
         model.cuda()
 
+        best_srcc = {dname: 0 for dname in test_json_dict.keys()}
+        best_plcc = {dname: 0 for dname in test_json_dict.keys()}
         spearman = 0
         for epoch in range(epochs):
+            print('############# test phase epoch %2d ###############' % epoch)
+            for dname, test_json in test_json_dict.items():
+                dataloader_valid = load_data('test', test_json=test_json)
+                model.eval()
+                model.cuda()
+                srcc, plcc, gt, pred = computeSpearman(dataloader_valid, model)
+                if srcc > best_srcc[dname]:
+                    best_srcc[dname] = srcc
+                    best_plcc[dname] = plcc
+                    pred_gt = np.stack((pred, gt), axis=1)
+                    np.savetxt(f'{save_dir}/pred_gt_{dname}.txt', pred_gt, fmt='%.4f')
+
+                print(f'Test on {dname} dataset')
+                print('current srocc {:4f}, best srocc {:4f}'.format(srcc, best_srcc[dname]))
+                print('current plcc {:4f}, best plcc {:4f}'.format(plcc, best_plcc[dname]))
+
+
+            print('############# train phase epoch %2d ###############' % epoch)
             optimizer = exp_lr_scheduler(optimizer, epoch)
 
-            if epoch == 0:
-                dataloader_valid = load_data('train')
-                model.eval()
+            # if epoch == 0:
+            #     dataloader_valid = load_data('train')
+            #     model.eval()
 
-                sp = computeSpearman(dataloader_valid, model)[0]
-                if sp > spearman:
-                    spearman = sp
-                print('no train srocc {:4f}'.format(sp))
+            #     sp = computeSpearman(dataloader_valid, model)[0]
+            #     if sp > spearman:
+            #         spearman = sp
+            #     print('no train srocc {:4f}'.format(sp))
 
             # Iterate over data.
             #print('############# train phase epoch %2d ###############' % epoch)
-            dataloader_train = load_data('train')
+            dataloader_train = load_data('train', train_json=train_json)
             model.train()  # Set model to training mode
             for batch_idx, data in enumerate(dataloader_train):
                 inputs = data['image']
@@ -322,15 +387,15 @@ def finetune_model():
                 loss.backward()
                 optimizer.step()
 
-            #print('############# test phase epoch %2d ###############' % epoch)
-            dataloader_valid = load_data('test')
-            model.eval()
+            # #print('############# test phase epoch %2d ###############' % epoch)
+            # dataloader_valid = load_data('test')
+            # model.eval()
 
-            sp, pl = computeSpearman(dataloader_valid, model)
-            if sp > spearman:
-                spearman = sp
-            print('Validation Results - Epoch: {:2d}, PLCC: {:4f}, SROCC: {:4f}, '
-                  'best SROCC: {:4f}'.format(epoch, pl, sp, spearman))
+            # sp, pl = computeSpearman(dataloader_valid, model)
+            # if sp > spearman:
+            #     spearman = sp
+            # print('Validation Results - Epoch: {:2d}, PLCC: {:4f}, SROCC: {:4f}, '
+            #       'best SROCC: {:4f}'.format(epoch, pl, sp, spearman))
 
         srocc_l.append(spearman)
 
@@ -356,38 +421,121 @@ def my_collate(batch):
     return default_collate(batch)
 
 
-def load_data(mod = 'train'):
+def load_data(mod = 'train', train_json=None, test_json=None):
+    if mod == 'train':
+        with open(train_json, 'r') as f:
+            train_data = json.load(f)['files']
+        # normalize the score to [0, 1]
+        # score_mean = sum(item['score'] for item in train_data) / len(train_data)
+        # score_std = math.sqrt(sum((item['score'] - score_mean)**2 for item in train_data) / len(train_data))
+        # for item in train_data:
+        #     item['score'] = (item['score'] - score_mean) / score_std
+        max_score = max(item['score'] for item in train_data)
+        min_score = min(item['score'] for item in train_data)
+        for item in train_data:
+            item['score'] = (item['score'] - min_score) / (max_score - min_score)
 
-    meta_num = 50
-    data_dir = os.path.join('LIVE_WILD/')
-    train_path = os.path.join(data_dir,  'train_image.csv')
-    test_path = os.path.join(data_dir,  'test_image.csv')
-
-    output_size = (224, 224)
-    transformed_dataset_train = ImageRatingsDataset(csv_file=train_path,
-                                                    root_dir='/home/hancheng/IQA/iqa-db/LIVE_WILD/images/',
-                                                    transform=transforms.Compose([Rescale(output_size=(256, 256)),
+        output_size = (224, 224)
+        transformed_dataset_train = JSONRatingsDataset(train_data, 
+                                                       root_dir='data',
+                                                       transform=transforms.Compose([Rescale(output_size=(256, 256)),
                                                                                   RandomHorizontalFlip(0.5),
                                                                                   RandomCrop(
                                                                                       output_size=output_size),
                                                                                   Normalize(),
                                                                                   ToTensor(),
                                                                                   ]))
-    transformed_dataset_valid = ImageRatingsDataset(csv_file=test_path,
-                                                    root_dir='/home/hancheng/IQA/iqa-db/LIVE_WILD/images/',
-                                                    transform=transforms.Compose([Rescale(output_size=(224, 224)),
-                                                                                  Normalize(),
-                                                                                  ToTensor(),
-                                                                                  ]))
-    bsize = meta_num
-
-    if mod == 'train':
-        dataloader = DataLoader(transformed_dataset_train, batch_size=bsize,
-                                  shuffle=False, num_workers=0, collate_fn=my_collate)
+        dataloader = DataLoader(transformed_dataset_train, batch_size=50,
+                                  shuffle=False, num_workers=4, collate_fn=my_collate)
     else:
+        with open(test_json, 'r') as f:
+            data = json.load(f)['files']
+        output_size = (224, 224)
+        transformed_dataset_valid = JSONRatingsDataset(data, 
+                                                       root_dir='data', 
+                                                       transform=transforms.Compose([Rescale(output_size=(224, 224)),
+                                                                                        Normalize(),
+                                                                                        ToTensor(),
+                                                                                        ]))
         dataloader = DataLoader(transformed_dataset_valid, batch_size= 50,
-                                    shuffle=False, num_workers=0, collate_fn=my_collate)
+                                    shuffle=False, num_workers=4, collate_fn=my_collate)
+
+
+
+    # meta_num = 50
+    # data_dir = os.path.join('LIVE_WILD/')
+    # train_path = os.path.join(data_dir,  'train_image.csv')
+    # test_path = os.path.join(data_dir,  'test_image.csv')
+
+    # output_size = (224, 224)
+    # transformed_dataset_train = ImageRatingsDataset(csv_file=train_path,
+    #                                                 root_dir='/home/hancheng/IQA/iqa-db/LIVE_WILD/images/',
+    #                                                 transform=transforms.Compose([Rescale(output_size=(256, 256)),
+    #                                                                               RandomHorizontalFlip(0.5),
+    #                                                                               RandomCrop(
+    #                                                                                   output_size=output_size),
+    #                                                                               Normalize(),
+    #                                                                               ToTensor(),
+    #                                                                               ]))
+    # transformed_dataset_valid = ImageRatingsDataset(csv_file=test_path,
+    #                                                 root_dir='/home/hancheng/IQA/iqa-db/LIVE_WILD/images/',
+    #                                                 transform=transforms.Compose([Rescale(output_size=(224, 224)),
+    #                                                                               Normalize(),
+    #                                                                               ToTensor(),
+    #                                                                               ]))
+    # bsize = meta_num
+
+    # if mod == 'train':
+    #     dataloader = DataLoader(transformed_dataset_train, batch_size=bsize,
+    #                               shuffle=False, num_workers=0, collate_fn=my_collate)
+    # else:
+    #     dataloader = DataLoader(transformed_dataset_valid, batch_size= 50,
+    #                                 shuffle=False, num_workers=0, collate_fn=my_collate)
 
     return dataloader
 
-finetune_model()
+# finetune_model()
+
+if __name__ == '__main__':
+    # add argument parser
+    import sys
+    from argparse import ArgumentParser
+    parser = ArgumentParser()
+    parser.add_argument('--leave_one_out', action='store_true')
+    parser.add_argument('--train_data', type=str, default='spaq')
+    args = parser.parse_args()
+
+    if args.leave_one_out:
+        # for leave one out exp
+        for domain_dir in os.listdir(f'data_json/for_leave_one_out/{args.train_data}'):
+            save_dir = f'exp_results/leave_one_out/{args.train_data}/{domain_dir}'
+            os.makedirs(save_dir, exist_ok=True)
+
+            train_json = f'data_json/for_leave_one_out/{args.train_data}/{domain_dir}/train.json'
+            test_json = {
+                args.train_data: f'data_json/for_leave_one_out/{args.train_data}/{domain_dir}/test.json'
+            }
+
+            with open(f'{save_dir}/train.log', 'w') as f:
+                sys.stdout = f
+                finetune_model(train_json=train_json, test_json_dict=test_json, epochs=30)
+
+    else:
+        # for cross dataset
+        save_dir = f'exp_results/cross_set/{args.train_data}'
+        os.makedirs(save_dir, exist_ok=True)
+
+        train_json = f'data_json/for_cross_set/train/{args.train_data}_train.json'
+        test_json_dict = {
+            'koniq10k': 'data_json/for_cross_set/test/koniq10k_test.json',
+            'spaq': 'data_json/for_cross_set/test/spaq_test.json',
+            'livec': 'data_json/for_cross_set/test/livec.json',
+            'live': 'data_json/for_cross_set/test/live.json',
+            'csiq': 'data_json/for_cross_set/test/csiq.json',
+            'bid': 'data_json/for_cross_set/test/bid.json',
+            'cid2013': 'data_json/for_cross_set/test/cid2013.json',
+        }
+
+        with open(f'{save_dir}/train.log', 'w') as f:
+            sys.stdout = f
+            finetune_model(train_json=train_json, test_json_dict=test_json_dict)

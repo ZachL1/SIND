@@ -16,7 +16,7 @@ tuner:
     #choice: maximize, minimize
     optimize_mode: maximize
 trial:
-  command: python3 train_nni.py
+  command: python3 train_nni.py --path_to_save_csv data_json/for_leave_one_out/eva/test_for_1101_animals --experiment_dir_name exp_log/eva/test_for_1101_animals
   codeDir: .
   gpuNum: 1
 localConfig:

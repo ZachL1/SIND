@@ -10,13 +10,13 @@ def init():
                         help='directory to project')
     parser.add_argument('--path_to_model_weight', type=str, default='./SRCC_513_LCC_531_MSE_016.pth',
                         help='directory to pretrain model')
-    parser.add_argument('--init_lr_res365_last', type=int, default=0.0003, help='learning_rate')
-    parser.add_argument('--init_lr_mobileNet', type=int, default=0.0003, help='learning_rate')
-    parser.add_argument('--init_lr_head', type=int, default=0.0003, help='learning_rate')
-    parser.add_argument('--init_lr_head_rgb', type=int, default=0.0003, help='learning_rate')
-    parser.add_argument('--init_lr_hypernet', type=int, default=0.0003, help='learning_rate')
-    parser.add_argument('--init_lr_tygertnet', type=int, default=0.0003, help='learning_rate')
-    parser.add_argument('--init_lr', type=int, default=0.0003, help='learning_rate')
+    parser.add_argument('--init_lr_res365_last', type=float, default=0.0003, help='learning_rate')
+    parser.add_argument('--init_lr_mobileNet', type=float, default=0.0003, help='learning_rate')
+    parser.add_argument('--init_lr_head', type=float, default=0.0003, help='learning_rate')
+    parser.add_argument('--init_lr_head_rgb', type=float, default=0.0003, help='learning_rate')
+    parser.add_argument('--init_lr_hypernet', type=float, default=0.0003, help='learning_rate')
+    parser.add_argument('--init_lr_tygertnet', type=float, default=0.0003, help='learning_rate')
+    parser.add_argument('--init_lr', type=float, default=0.0003, help='learning_rate')
     parser.add_argument('--num_epoch', type=int, default=200, help='epoch num for train'
                         )
     parser.add_argument('--batch_size', type=int,default=40,help='16how many pictures to process one time'
