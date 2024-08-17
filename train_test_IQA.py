@@ -90,30 +90,47 @@ def load_datajson_for_cross_set(datasets:list, json_dir:str, istrain:bool, datas
                 item['domain_id'] = int(item['domain_id'] / 100)
     return datajson
 
-# def load_datajson_for_liqe(datasets:list, json_dir:str, istrain:bool, cnt=1):
-#     '''
-#     datasets: list of dataset name
-#     json_dir: directory of json files
-#     istrain: True for training, False for testing
-#     cnt: number of train-test times
-#     '''
-#     datajson = {}
-#     for dataname in datasets:
-#         train_json = f'liqe_split/{dataname}/{cnt}/train.json'
-#         test_json = f'liqe_split/{dataname}/{cnt}/test.json'
-#         json_file = train_json if istrain else test_json
-#         with open(os.path.join(json_dir, json_file), 'r') as f:
-#             datajson[dataname] = json.load(f)['files']
-#     return datajson
+def load_datajson_from_liqe(datasets:list, json_dir:str, istrain:bool, cnt=1):
+    '''
+    datasets: list of dataset name
+    json_dir: directory of json files
+    istrain: True for training, False for testing
+    cnt: number of train-test times
+    '''
+    datajson = {}
+    for dataname in datasets:
+        train_json = f'liqe_split/{dataname}/{cnt}/train.json'
+        test_json = f'liqe_split/{dataname}/{cnt}/test.json'
+        json_file = train_json if istrain else test_json
+        with open(os.path.join(json_dir, json_file), 'r') as f:
+            datajson[dataname] = json.load(f)['files']
+    return datajson
 
-# def liqe_exp(config):
-#     for i in range(1, 11):
-#         print(f'Training and testing on LIQE dataset for {i}th time ...')
-#         train_datajson = load_datajson_for_liqe(config.train_dataset, config.json_dir, istrain=True, cnt=i)
-#         test_datajson = load_datajson_for_liqe(config.test_dataset, config.json_dir, istrain=False, cnt=i)
+def random_split_exp(config):
+    '''
+    Random split dataset for 10 times, following LIQE split
+    '''
+    srcc_all = []
+    plcc_all = []
+    for i in range(1, 11):
+        print('Train-test %d ...' % i)
+        train_datajson = load_datajson_from_liqe(config.train_dataset, config.json_dir, istrain=True, cnt=i)
+        test_datajson = load_datajson_from_liqe(config.test_dataset, config.json_dir, istrain=False, cnt=i)
 
-#         solver = IQASolver(config, config.data_root, train_datajson, test_datajson)
-#         solver.train()
+        solver = IQASolver(config, config.data_root, train_datajson, test_datajson)
+        srcc, plcc = solver.train()
+        srcc_all.append(srcc)
+        plcc_all.append(plcc)
+    
+    print(srcc_all)
+    print(plcc_all)
+    srcc_mean, plcc_mean = np.mean(srcc_all), np.mean(plcc_all)
+    srcc_med, plcc_med = np.median(srcc_all), np.median(plcc_all)
+    srcc_std, plcc_std = np.std(srcc_all), np.std(plcc_all)
+    print('Testing mean SRCC %4.4f,\tmean PLCC %4.4f' % (srcc_mean, plcc_mean))
+    print('Testing median SRCC %4.4f,\tmedian PLCC %4.4f' % (srcc_med, plcc_med))
+    print('Testing std SRCC %4.4f,\tstd PLCC %4.4f' % (srcc_std, plcc_std))
+
 
 def cross_dataset_exp(config):
 
@@ -160,7 +177,7 @@ if __name__ == '__main__':
     ################## Abalation Config ##################
     parser.add_argument('--all_global', action="store_true", help='Use all global features')
     parser.add_argument('--local_global', action="store_true", help='Use our local global complementary token combination')
-    parser.add_argument('--exp_type', type=str, choices=['leave-one-out', 'cross-set'], help='Experiment type')
+    parser.add_argument('--exp_type', type=str, choices=['leave-one-out', 'cross-set', 'random-split'], help='Experiment type')
 
     config = parser.parse_args()
 
@@ -169,9 +186,10 @@ if __name__ == '__main__':
 
     if config.exp_type == 'cross-set':
         cross_dataset_exp(config)
-        # liqe_exp(config)
     elif config.exp_type == 'leave-one-out':
         leave_one_out_exp(config)
+    elif config.exp_type == 'random-split':
+        random_split_exp(config)
     else:
         raise NotImplementedError
 
