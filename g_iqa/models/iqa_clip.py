@@ -1,4 +1,5 @@
 import torch
+import torchvision
 import torch.nn as nn
 import open_clip
 
@@ -97,3 +98,18 @@ class SimpleClip(nn.Module):
         # return quality, features
         return quality
 
+class SimpleResNet(nn.Module):
+    def __init__(self, clip_model="resnet50", clip_freeze=True, precision='fp16'):
+        super(SimpleResNet, self).__init__()
+
+        resnet_model = torchvision.models.resnet50(pretrained=True)
+        fc_in_features = resnet_model.fc.in_features
+
+        self.clip_model = nn.Sequential(*list(resnet_model.children())[:-1])
+        self.head = nn.Linear(fc_in_features, 1)
+    
+    def forward(self, x, x_local):
+        features = self.clip_model(x).squeeze()
+        quality = self.head(features)
+
+        return quality

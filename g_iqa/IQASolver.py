@@ -12,7 +12,7 @@ from safetensors.torch import load_file, load_model
 import torch
 from torch_ema import ExponentialMovingAverage
 
-from g_iqa.models.iqa_clip import LocalGlobalClipIQA, SimpleClip
+from g_iqa.models.iqa_clip import LocalGlobalClipIQA, SimpleClip, SimpleResNet
 from g_iqa.g_datasets.data_loader import DataGenerator
 from g_iqa.train_utils import loss_by_scene, WarmupCosineLR
 
@@ -43,7 +43,9 @@ class IQASolver(object):
         self.test_data = {td: DataGenerator(td, path, test_json, config.input_size, batch_size=1, istrain=False, testing_aug=True).get_data() for td in config.test_dataset}
 
         ############### Model ###############
-        if config.local_global:
+        if config.clip_model == 'resnet50':
+            self.model = SimpleResNet(clip_model=config.clip_model, clip_freeze=config.clip_freeze, precision='fp32')
+        elif config.local_global:
             # if use our local global complementary token combination
             self.model = LocalGlobalClipIQA(clip_model=config.clip_model, clip_freeze=config.clip_freeze, precision='fp32', all_global=config.all_global)
         else:

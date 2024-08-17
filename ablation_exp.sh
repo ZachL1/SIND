@@ -94,6 +94,55 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch \
                     >> $pro_dir/train.log 
 
 
+# export NCCL_IB_DISABLE=1; export NCCL_P2P_DISABLE=1
+
+# ## simple CNN model
+# cd "$(dirname "$0")"
+# pro_dir="./exp_log/ablation/resnet50_epoch35_bs128_spaq"
+# mkdir -p $pro_dir
+# clip_model="resnet50"
+
+# CUDA_VISIBLE_DEVICES=0 accelerate launch \
+#                     train_test_IQA.py  \
+#                     --clip_model $clip_model \
+#                     --epochs 35 \
+#                     --lr 1e-5  \
+#                     --warmup_epoch 5 \
+#                     --weight_decay 1e-5 \
+#                     --batch_size 64 \
+#                     --loss_type l1 \
+#                     --scene_sampling 0 \
+#                     --project_dir $pro_dir \
+#                     --train_dataset spaq \
+#                     --test_dataset koniq10k spaq livec live csiq bid cid2013 \
+#                     --exp_type cross-set \
+#                     >> $pro_dir/train.log 
+
+# ## simple CNN model, with our domain alignment
+# cd "$(dirname "$0")"
+# pro_dir="./exp_log/ablation/resnet50_align_epoch35_bs128_spaq"
+# mkdir -p $pro_dir
+# clip_model="resnet50"
+
+# CUDA_VISIBLE_DEVICES=1 accelerate launch \
+#                     train_test_IQA.py  \
+#                     --clip_model $clip_model \
+#                     --epochs 35 \
+#                     --lr 1e-5  \
+#                     --warmup_epoch 5 \
+#                     --weight_decay 1e-5 \
+#                     --batch_size 64 \
+#                     --loss_type scale_shift \
+#                     --scene_sampling 2 \
+#                     --project_dir $pro_dir \
+#                     --train_dataset spaq \
+#                     --test_dataset koniq10k spaq livec live csiq bid cid2013 \
+#                     --exp_type cross-set \
+#                     >> $pro_dir/train.log 
+
+
+
+
 # ## our full model, but all use cls for global and local
 # cd "$(dirname "$0")"
 # pro_dir="./exp_log/ablation/our_epoch35_bs128_spaq_allcls"
