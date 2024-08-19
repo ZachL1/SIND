@@ -5,6 +5,7 @@ import random
 import numpy as np
 import pandas as pd
 import torch
+import time
 
 from g_iqa.IQASolver import IQASolver
 
@@ -90,7 +91,7 @@ def load_datajson_for_cross_set(datasets:list, json_dir:str, istrain:bool, datas
                 item['domain_id'] = int(item['domain_id'] / 100)
     return datajson
 
-def load_datajson_from_liqe(datasets:list, json_dir:str, istrain:bool, cnt=1):
+def load_datajson_from_liqe(datasets:list, json_dir:str, istrain:bool, cnt=1, dataset_domain=False):
     '''
     datasets: list of dataset name
     json_dir: directory of json files
@@ -104,32 +105,42 @@ def load_datajson_from_liqe(datasets:list, json_dir:str, istrain:bool, cnt=1):
         json_file = train_json if istrain else test_json
         with open(os.path.join(json_dir, json_file), 'r') as f:
             datajson[dataname] = json.load(f)['files']
+        if dataset_domain:
+            for item in datajson[dataname]:
+                item['domain_id'] = int(item['domain_id'] / 100)
     return datajson
 
 def random_split_exp(config):
     '''
     Random split dataset for 10 times, following LIQE split
     '''
-    srcc_all = []
-    plcc_all = []
-    for i in range(1, 11):
+    srcc_all = {dname: [] for dname in config.test_dataset}
+    plcc_all = {dname: [] for dname in config.test_dataset}
+    for i in range(6, 11):
         print('Train-test %d ...' % i)
-        train_datajson = load_datajson_from_liqe(config.train_dataset, config.json_dir, istrain=True, cnt=i)
+        train_datajson = load_datajson_from_liqe(config.train_dataset, config.json_dir, istrain=True, cnt=i, dataset_domain=config.dataset_domain)
         test_datajson = load_datajson_from_liqe(config.test_dataset, config.json_dir, istrain=False, cnt=i)
 
         solver = IQASolver(config, config.data_root, train_datajson, test_datajson)
         srcc, plcc = solver.train()
-        srcc_all.append(srcc)
-        plcc_all.append(plcc)
+        for dname in config.test_dataset:
+            srcc_all[dname].append(srcc[dname])
+            plcc_all[dname].append(plcc[dname])
+        
+        if torch.distributed.is_available() and torch.distributed.is_initialized():
+            torch.distributed.barrier()
+        del solver
+        torch.cuda.empty_cache()
+        time.sleep(60)
     
-    print(srcc_all)
-    print(plcc_all)
-    srcc_mean, plcc_mean = np.mean(srcc_all), np.mean(plcc_all)
-    srcc_med, plcc_med = np.median(srcc_all), np.median(plcc_all)
-    srcc_std, plcc_std = np.std(srcc_all), np.std(plcc_all)
-    print('Testing mean SRCC %4.4f,\tmean PLCC %4.4f' % (srcc_mean, plcc_mean))
-    print('Testing median SRCC %4.4f,\tmedian PLCC %4.4f' % (srcc_med, plcc_med))
-    print('Testing std SRCC %4.4f,\tstd PLCC %4.4f' % (srcc_std, plcc_std))
+    for dname in config.test_dataset:
+        srcc_mean, plcc_mean = np.mean(srcc_all[dname]), np.mean(plcc_all[dname])
+        srcc_med, plcc_med = np.median(srcc_all[dname]), np.median(plcc_all[dname])
+        srcc_std, plcc_std = np.std(srcc_all[dname]), np.std(plcc_all[dname])
+        print('Testing %s dataset:' % dname)
+        print('mean SRCC %4.4f,\tmean PLCC %4.4f' % (srcc_mean, plcc_mean))
+        print('median SRCC %4.4f,\tmedian PLCC %4.4f' % (srcc_med, plcc_med))
+        print('std SRCC %4.4f,\tstd PLCC %4.4f' % (srcc_std, plcc_std))
 
 
 def cross_dataset_exp(config):

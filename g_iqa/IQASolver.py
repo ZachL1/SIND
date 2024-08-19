@@ -3,6 +3,7 @@ import os
 import numpy as np
 from scipy import stats
 from tqdm import tqdm
+import gc
 
 from accelerate import Accelerator
 from accelerate import utils as autils
@@ -102,6 +103,7 @@ class IQASolver(object):
             pred_scores = []
             gt_scores = []
 
+            gc.collect()
             torch.cuda.empty_cache()
             # if hasattr(self.train_data, 'update_scene'): # only for SPAQ, see: g_iqa/g_datasets/folder/SPAQ.py
             #     self.train_data.update_scene()
@@ -159,11 +161,11 @@ class IQASolver(object):
                     train_plcc, _ = stats.pearsonr(pred_scores, gt_scores)
                     print(f'=========Epoch:{t:3d}=========')
                     print(f'Train_SRCC: {train_srcc:.4f}, Train_PLCC: {train_plcc:.4f}')
-                    with self.ema_model.average_parameters():
-                        os.makedirs(f'{self.project_dir}/ema_ckpts', exist_ok=True)
-                        torch.save(self.ema_model.state_dict(), f'{self.project_dir}/ema_ckpts/model_epoch{t:03}.pth')
-                        os.makedirs(f'{self.project_dir}/ckpts', exist_ok=True)
-                        torch.save(self.accelerator.unwrap_model(self.model).state_dict(), f'{self.project_dir}/ckpts/model_epoch{t:03}.pth')
+                    # with self.ema_model.average_parameters():
+                    #     os.makedirs(f'{self.project_dir}/ema_ckpts', exist_ok=True)
+                    #     torch.save(self.ema_model.state_dict(), f'{self.project_dir}/ema_ckpts/model_epoch{t:03}.pth')
+                    #     os.makedirs(f'{self.project_dir}/ckpts', exist_ok=True)
+                    #     torch.save(self.accelerator.unwrap_model(self.model).state_dict(), f'{self.project_dir}/ckpts/model_epoch{t:03}.pth')
 
                     for data_name, test_data in self.test_data.items():
                         with self.ema_model.average_parameters():                            
@@ -187,8 +189,10 @@ class IQASolver(object):
                         #     # self.accelerator.save_state(f'{self.project_dir}/best_model')
                         print(f'Best SRCC: {best_srcc[data_name]:.4f}, Best PLCC: {best_plcc[data_name]:.4f}, Best epoch: {best_epoch[data_name]} \n')
 
-        return next(iter(best_srcc.values())), next(iter(best_plcc.values())) # just for leave-one-out exp, only one dataset for evaluation
+        # return next(iter(best_srcc.values())), next(iter(best_plcc.values())) # just for leave-one-out exp, only one dataset for evaluation
+        return best_srcc, best_plcc
 
+    @torch.no_grad()
     def val(self, test_data):
         """Testing"""
         self.model.train(False)
@@ -213,9 +217,9 @@ class IQASolver(object):
                 pred = pred.view(B, T)
                 pred = torch.mean(pred, dim=1, keepdim=True)
 
-            pred_scores = pred_scores + pred.squeeze(-1).tolist()
-            gt_scores = gt_scores + label.tolist()
-            scene_list = scene_list + scene.tolist()
+            pred_scores = pred_scores + pred.squeeze(-1).cpu().tolist()
+            gt_scores = gt_scores + label.cpu().tolist()
+            scene_list = scene_list + scene.cpu().tolist()
 
         # pred_scores = np.mean(np.reshape(np.array(pred_scores), (-1, self.test_patch_num)), axis=1)
         # gt_scores = np.mean(np.reshape(np.array(gt_scores), (-1, self.test_patch_num)), axis=1)
@@ -233,32 +237,32 @@ class IQASolver(object):
         srcc, plcc = stats.spearmanr(pred_scores, gt_scores)[0], stats.pearsonr(pred_scores, gt_scores)[0]
         self.accelerator.log({f"{prefix}eval/srcc": srcc, f"{prefix}eval/plcc": plcc}, step=epoch)
 
-        # computer srcc, plcc by scene
-        scene_dict = {}
-        for i, scene in enumerate(scene_list):
-            if scene not in scene_dict.keys():
-                scene_dict[scene] = dict(
-                    pred_scores = [],
-                    gt_scores=[],
-                )
-            scene_dict[scene]['pred_scores'].append(pred_scores[i])
-            scene_dict[scene]['gt_scores'].append(gt_scores[i])
+        # # computer srcc, plcc by scene
+        # scene_dict = {}
+        # for i, scene in enumerate(scene_list):
+        #     if scene not in scene_dict.keys():
+        #         scene_dict[scene] = dict(
+        #             pred_scores = [],
+        #             gt_scores=[],
+        #         )
+        #     scene_dict[scene]['pred_scores'].append(pred_scores[i])
+        #     scene_dict[scene]['gt_scores'].append(gt_scores[i])
 
-        srcc_by_scene = []
-        plcc_by_scene = []
-        for k, scene_item in scene_dict.items():
-            scene_srcc, _ = stats.spearmanr(scene_item['pred_scores'], scene_item['gt_scores'])
-            scene_plcc, _ = stats.pearsonr(scene_item['pred_scores'], scene_item['gt_scores'])
-            srcc_by_scene.append(scene_srcc)
-            plcc_by_scene.append(scene_plcc)
-        mean_srcc, med_srcc = np.mean(srcc_by_scene), np.median(srcc_by_scene)
-        mean_plcc, med_plcc = np.mean(plcc_by_scene), np.median(plcc_by_scene)
+        # srcc_by_scene = []
+        # plcc_by_scene = []
+        # for k, scene_item in scene_dict.items():
+        #     scene_srcc, _ = stats.spearmanr(scene_item['pred_scores'], scene_item['gt_scores'])
+        #     scene_plcc, _ = stats.pearsonr(scene_item['pred_scores'], scene_item['gt_scores'])
+        #     srcc_by_scene.append(scene_srcc)
+        #     plcc_by_scene.append(scene_plcc)
+        # mean_srcc, med_srcc = np.mean(srcc_by_scene), np.median(srcc_by_scene)
+        # mean_plcc, med_plcc = np.mean(plcc_by_scene), np.median(plcc_by_scene)
 
-        # print(f'mean srcc: {mean_srcc}, median srcc: {med_srcc}')
-        self.accelerator.log({f"{prefix}eval/mean_srcc": mean_srcc}, step=epoch)
-        self.accelerator.log({f"{prefix}eval/mean_plcc": mean_plcc}, step=epoch)
+        # # print(f'mean srcc: {mean_srcc}, median srcc: {med_srcc}')
+        # self.accelerator.log({f"{prefix}eval/mean_srcc": mean_srcc}, step=epoch)
+        # self.accelerator.log({f"{prefix}eval/mean_plcc": mean_plcc}, step=epoch)
 
         print(f'{prefix} srcc: {srcc:.4f}, plcc: {plcc:.4f}')
-        print(f'{prefix} mean srcc: {mean_srcc:.4f}, median srcc: {med_srcc:.4f}')
-        print(f'{prefix} mean plcc: {mean_plcc:.4f}, median plcc: {med_plcc:.4f}')
+        # print(f'{prefix} mean srcc: {mean_srcc:.4f}, median srcc: {med_srcc:.4f}')
+        # print(f'{prefix} mean plcc: {mean_plcc:.4f}, median plcc: {med_plcc:.4f}')
         return abs(srcc), abs(plcc)
