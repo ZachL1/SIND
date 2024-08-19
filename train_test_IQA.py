@@ -116,7 +116,7 @@ def random_split_exp(config):
     '''
     srcc_all = {dname: [] for dname in config.test_dataset}
     plcc_all = {dname: [] for dname in config.test_dataset}
-    for i in range(6, 11):
+    for i in range(1, 11):
         print('Train-test %d ...' % i)
         train_datajson = load_datajson_from_liqe(config.train_dataset, config.json_dir, istrain=True, cnt=i, dataset_domain=config.dataset_domain)
         test_datajson = load_datajson_from_liqe(config.test_dataset, config.json_dir, istrain=False, cnt=i)
