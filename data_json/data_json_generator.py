@@ -6,7 +6,7 @@ import scipy
 import random
 
 
-base_dir = '/home/ippl7/zach/G-IQA'
+base_dir = '/home/ippl/zach/workspace/G-IQA'
 data_dir = f'{base_dir}/data'
 
 
@@ -468,11 +468,6 @@ def tid2013_generator(domain_id_base = 900):
 
 
 
-
-############################ PARA ############################
-
-
-
 ############################ EVA ############################
 def eva_generator(domain_id_base = 1100):
   
@@ -511,6 +506,9 @@ def eva_generator(domain_id_base = 1100):
       'domain_name': {int(cat) + domain_id_base: cat_dict[cat] for cat in cat_dict.keys()},
       }, f, indent=2)
   print(f'EVA all: {len(all_files)}')
+
+
+############################ PARA ############################
 
 def para_generator(domain_id_base = 1200):
   '''
@@ -557,7 +555,7 @@ def para_generator(domain_id_base = 1200):
       'scene': row['semantic'],
       'domain_id': domain_id_base + scene_dict[row['semantic']],
     })
-    assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
+    assert os.path.exists(os.path.join(data_dir, all_files[-1]['image'])), os.path.join(data_dir, all_files[-1]['image'])
   
   with open(f'{base_dir}/data_json/all/para_all.json', 'w') as f:
     json.dump({
@@ -565,6 +563,24 @@ def para_generator(domain_id_base = 1200):
       'domain_name': {domain_id_base + scene_dict[scene]: scene for scene in all_scene},
       }, f, indent=2)
   print(f'PARA all: {len(all_files)}')
+
+  # split train/test follow official split
+  test_csv = f'{data_dir}/PARA/annotation/PARA-GiaaTest.csv'
+  train_csv = f'{data_dir}/PARA/annotation/PARA-GiaaTrain.csv'
+  # get sessionId/imageName, image_names = PARA/imgs/{sessionId}/{imageName}
+  test_df = pd.read_csv(test_csv)
+  train_df = pd.read_csv(train_csv)
+  test_img = [f'PARA/imgs/{row["sessionId"]}/{row["imageName"]}' for _, row in test_df.iterrows()]
+  train_img = [f'PARA/imgs/{row["sessionId"]}/{row["imageName"]}' for _, row in train_df.iterrows()]
+  test_files = [item for item in all_files if item['image'] in test_img]
+  train_files = [item for item in all_files if item['image'] in train_img]
+  assert len(test_files) == len(test_img)
+  assert len(train_files) == len(train_img)
+  with open(f'{base_dir}/data_json/for_cross_set/train/para_train.json', 'w') as f:
+    json.dump({'files': train_files}, f, indent=2)
+  with open(f'{base_dir}/data_json/for_cross_set/test/para_test.json', 'w') as f:
+    json.dump({'files': test_files}, f, indent=2)
+  print(f'PARA train: {len(train_files)}, test: {len(test_files)}')
 
 
 
@@ -581,7 +597,7 @@ def check_koniq_spaq_kadia():
 
 if __name__ == '__main__':
   # piq23_generator()
-  spaq_generator()
+  # spaq_generator()
   # livec_generator()
   # koniq_generator()
   # bid_generator()
@@ -592,6 +608,6 @@ if __name__ == '__main__':
   # csiq_generator()
   # tid2013_generator()
   # eva_generator()
-  # para_generator()
+  para_generator()
 
   # check_koniq_spaq_kadia()

@@ -1,4 +1,5 @@
 import os
+import random
 import json
 
 work_dir = '.'
@@ -7,10 +8,10 @@ work_dir = '.'
 liqe_split_dir = dict(
   live=f'{work_dir}/sota/LIQE/IQA_Database/databaserelease2/splits2',
   csiq=f'{work_dir}/sota/LIQE/IQA_Database/CSIQ/splits2',
-  # kadid10k=f'{work_dir}/sota/LIQE/IQA_Database/kadid10k/splits2',
-  # bid=f'{work_dir}/sota/LIQE/IQA_Database/BID/splits2',
-  # livec=f'{work_dir}/sota/LIQE/IQA_Database/ChallengeDB_release/splits2',
-  # koniq10k=f'{work_dir}/sota/LIQE/IQA_Database/koniq-10k/splits2',
+  kadid10k=f'{work_dir}/sota/LIQE/IQA_Database/kadid10k/splits2',
+  bid=f'{work_dir}/sota/LIQE/IQA_Database/BID/splits2',
+  livec=f'{work_dir}/sota/LIQE/IQA_Database/ChallengeDB_release/splits2',
+  koniq10k=f'{work_dir}/sota/LIQE/IQA_Database/koniq-10k/splits2',
 
 )
 
@@ -51,6 +52,26 @@ for d_name in liqe_split_dir.keys():
       if len(split_data) != len(img_names):
         print(f'{d_name} {i} {phase} {len(split_data)}/LIQE:{len(img_names)}')
 
-      os.makedirs(f'{work_dir}/data_json/liqe_split/{d_name}/{i}', exist_ok=True)
-      with open(f'{work_dir}/data_json/liqe_split/{d_name}/{i}/{phase}.json', 'w') as f:
+      os.makedirs(f'{work_dir}/data_json/random_split/{d_name}/{i}', exist_ok=True)
+      with open(f'{work_dir}/data_json/random_split/{d_name}/{i}/{phase}.json', 'w') as f:
         json.dump(dict(files=split_data), f, indent=2)
+
+
+
+
+# k-fold split for EVA follow AesCLIP
+eva_all_json = 'data_json/all/eva_all.json'
+with open(eva_all_json, 'r') as f:
+  eva_all_data = json.load(f)['files']
+random.shuffle(eva_all_data)
+single_fold = len(eva_all_data) // 10
+
+for i in range(10):
+  test_data = eva_all_data[i*single_fold:(i+1)*single_fold]
+  train_data = eva_all_data[:i*single_fold] + eva_all_data[(i+1)*single_fold:]
+
+  os.makedirs(f'{work_dir}/data_json/random_split/eva/{i+1}', exist_ok=True)
+  with open(f'{work_dir}/data_json/random_split/eva/{i+1}/train.json', 'w') as f:
+    json.dump(dict(files=train_data), f, indent=2)
+  with open(f'{work_dir}/data_json/random_split/eva/{i+1}/test.json', 'w') as f:
+    json.dump(dict(files=test_data), f, indent=2)

@@ -69,6 +69,8 @@ def load_datajson_for_cross_set(datasets:list, json_dir:str, istrain:bool, datas
     train_json = {
         'spaq': 'for_cross_set/train/spaq_train.json',
         'koniq10k': 'for_cross_set/train/koniq10k_train.json',
+
+        'para': 'for_cross_set/train/para_train.json',
     }
     test_json = {
         'spaq': 'for_cross_set/test/spaq_test.json',
@@ -80,6 +82,8 @@ def load_datajson_for_cross_set(datasets:list, json_dir:str, istrain:bool, datas
 
         'live': 'for_cross_set/test/live.json',
         'csiq': 'for_cross_set/test/csiq.json',
+
+        'para': 'for_cross_set/test/para_test.json',
     }
     datajson = {}
     for dataname in datasets:
