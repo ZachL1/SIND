@@ -73,7 +73,6 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch \
                     --train_dataset spaq \
                     --test_dataset koniq10k spaq livec live csiq bid cid2013 \
                     --exp_type cross-set \
-                    --dataset_domain \
                     >> $pro_dir/train.log 
 
 
