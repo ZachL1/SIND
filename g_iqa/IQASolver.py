@@ -95,6 +95,8 @@ class IQASolver(object):
         best_srcc = {data_name: 0 for data_name in self.test_data.keys()}
         best_plcc = {data_name: 0 for data_name in self.test_data.keys()}
         best_epoch = {data_name: 0 for data_name in self.test_data.keys()}
+        srcc_by_epoch = {data_name: [] for data_name in self.test_data.keys()}
+        plcc_by_epoch = {data_name: [] for data_name in self.test_data.keys()}
 
 
         global_step = self.start_epoch * len(self.train_data)
@@ -171,6 +173,8 @@ class IQASolver(object):
                         with self.ema_model.average_parameters():                            
                             pred_scores, gt_scores, scene_list = self.val(test_data)
                             ema_srcc, ema_plcc = self.log_metrics(pred_scores, gt_scores, scene_list, t, f"{data_name}/ema_")
+                            srcc_by_epoch[data_name].append(ema_srcc)
+                            plcc_by_epoch[data_name].append(ema_plcc)
                             if ema_srcc > best_srcc[data_name]:
                                 best_srcc[data_name] = ema_srcc
                                 best_plcc[data_name] = ema_plcc
@@ -190,7 +194,7 @@ class IQASolver(object):
                         print(f'Best SRCC: {best_srcc[data_name]:.4f}, Best PLCC: {best_plcc[data_name]:.4f}, Best epoch: {best_epoch[data_name]} \n')
 
         # return next(iter(best_srcc.values())), next(iter(best_plcc.values())) # just for leave-one-out exp, only one dataset for evaluation
-        return best_srcc, best_plcc
+        return best_srcc, best_plcc, srcc_by_epoch, plcc_by_epoch
 
     @torch.no_grad()
     def val(self, test_data):

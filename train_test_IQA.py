@@ -40,7 +40,7 @@ def leave_one_out_exp(config):
         config.project_dir = os.path.join(proj_dir, f'test_domain_{test_domain}')
 
         solver = IQASolver(config, config.data_root, {train_data_name: train_datajson}, {train_data_name: test_datajson})
-        srcc, plcc = solver.train()
+        srcc, plcc, _, _ = solver.train()
         srcc_all.append(srcc)
         plcc_all.append(plcc)
 
@@ -112,6 +112,10 @@ def load_datajson_from_random(datasets:list, json_dir:str, istrain:bool, cnt=1, 
         if dataset_domain:
             for item in datajson[dataname]:
                 item['domain_id'] = int(item['domain_id'] / 100)
+        
+        # 4x LIVE and CSIQ
+        if istrain and dataname in ['live', 'csiq']:
+            datajson[dataname] = datajson[dataname] * 4
     return datajson
 
 def random_split_exp(config):
@@ -120,31 +124,52 @@ def random_split_exp(config):
     '''
     srcc_all = {dname: [] for dname in config.test_dataset}
     plcc_all = {dname: [] for dname in config.test_dataset}
+    srcc_by_epoch = {dname: [] for dname in config.test_dataset}
+    plcc_by_epoch = {dname: [] for dname in config.test_dataset}
     for i in range(1, 11):
         print('Train-test %d ...' % i)
         train_datajson = load_datajson_from_random(config.train_dataset, config.json_dir, istrain=True, cnt=i, dataset_domain=config.dataset_domain)
         test_datajson = load_datajson_from_random(config.test_dataset, config.json_dir, istrain=False, cnt=i)
 
         solver = IQASolver(config, config.data_root, train_datajson, test_datajson)
-        srcc, plcc = solver.train()
+        srcc, plcc, srcc_e, plcc_e = solver.train()
         for dname in config.test_dataset:
             srcc_all[dname].append(srcc[dname])
             plcc_all[dname].append(plcc[dname])
+            srcc_by_epoch[dname].append(srcc_e[dname])
+            plcc_by_epoch[dname].append(plcc_e[dname])
         
         if torch.distributed.is_available() and torch.distributed.is_initialized():
             torch.distributed.barrier()
         del solver
         torch.cuda.empty_cache()
         time.sleep(60)
-    
-    for dname in config.test_dataset:
-        srcc_mean, plcc_mean = np.mean(srcc_all[dname]), np.mean(plcc_all[dname])
-        srcc_med, plcc_med = np.median(srcc_all[dname]), np.median(plcc_all[dname])
-        srcc_std, plcc_std = np.std(srcc_all[dname]), np.std(plcc_all[dname])
-        print('Testing %s dataset:' % dname)
-        print('mean SRCC %4.4f,\tmean PLCC %4.4f' % (srcc_mean, plcc_mean))
-        print('median SRCC %4.4f,\tmedian PLCC %4.4f' % (srcc_med, plcc_med))
-        print('std SRCC %4.4f,\tstd PLCC %4.4f' % (srcc_std, plcc_std))
+        
+    if torch.distributed.get_rank() != 0:
+        for dname in config.test_dataset:
+            srcc_mean, plcc_mean = np.mean(srcc_all[dname]), np.mean(plcc_all[dname])
+            srcc_med, plcc_med = np.median(srcc_all[dname]), np.median(plcc_all[dname])
+            srcc_std, plcc_std = np.std(srcc_all[dname]), np.std(plcc_all[dname])
+            print('Testing %s dataset:' % dname)
+            print('mean SRCC %4.4f,\tmean PLCC %4.4f' % (srcc_mean, plcc_mean))
+            print('median SRCC %4.4f,\tmedian PLCC %4.4f' % (srcc_med, plcc_med))
+            print('std SRCC %4.4f,\tstd PLCC %4.4f' % (srcc_std, plcc_std))
+
+            val_epoch_len = len(srcc_by_epoch[dname][0])
+            print(srcc_by_epoch[dname])
+        
+        for e in range(val_epoch_len):
+            print('\n\nEpoch %d:' % e)
+            for dname in config.test_dataset:
+                srcc_e = [srcc_by_epoch[dname][i][e] for i in range(10)]
+                plcc_e = [plcc_by_epoch[dname][i][e] for i in range(10)]
+                srcc_mean, plcc_mean = np.mean(srcc_e), np.mean(plcc_e)
+                srcc_med, plcc_med = np.median(srcc_e), np.median(plcc_e)
+                srcc_std, plcc_std = np.std(srcc_e), np.std(plcc_e)
+                print('Testing %s dataset:' % dname)
+                print('mean SRCC %4.4f,\tmean PLCC %4.4f' % (srcc_mean, plcc_mean))
+                print('median SRCC %4.4f,\tmedian PLCC %4.4f' % (srcc_med, plcc_med))
+                print('std SRCC %4.4f,\tstd PLCC %4.4f' % (srcc_std, plcc_std))
 
 
 def cross_dataset_exp(config):
