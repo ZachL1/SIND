@@ -95,7 +95,7 @@ def load_datajson_for_cross_set(datasets:list, json_dir:str, istrain:bool, datas
                 item['domain_id'] = int(item['domain_id'] / 100)
     return datajson
 
-def load_datajson_from_liqe(datasets:list, json_dir:str, istrain:bool, cnt=1, dataset_domain=False):
+def load_datajson_from_random(datasets:list, json_dir:str, istrain:bool, cnt=1, dataset_domain=False):
     '''
     datasets: list of dataset name
     json_dir: directory of json files
@@ -104,8 +104,8 @@ def load_datajson_from_liqe(datasets:list, json_dir:str, istrain:bool, cnt=1, da
     '''
     datajson = {}
     for dataname in datasets:
-        train_json = f'liqe_split/{dataname}/{cnt}/train.json'
-        test_json = f'liqe_split/{dataname}/{cnt}/test.json'
+        train_json = f'random_split/{dataname}/{cnt}/train.json'
+        test_json = f'random_split/{dataname}/{cnt}/test.json'
         json_file = train_json if istrain else test_json
         with open(os.path.join(json_dir, json_file), 'r') as f:
             datajson[dataname] = json.load(f)['files']
@@ -122,8 +122,8 @@ def random_split_exp(config):
     plcc_all = {dname: [] for dname in config.test_dataset}
     for i in range(1, 11):
         print('Train-test %d ...' % i)
-        train_datajson = load_datajson_from_liqe(config.train_dataset, config.json_dir, istrain=True, cnt=i, dataset_domain=config.dataset_domain)
-        test_datajson = load_datajson_from_liqe(config.test_dataset, config.json_dir, istrain=False, cnt=i)
+        train_datajson = load_datajson_from_random(config.train_dataset, config.json_dir, istrain=True, cnt=i, dataset_domain=config.dataset_domain)
+        test_datajson = load_datajson_from_random(config.test_dataset, config.json_dir, istrain=False, cnt=i)
 
         solver = IQASolver(config, config.data_root, train_datajson, test_datajson)
         srcc, plcc = solver.train()
