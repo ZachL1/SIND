@@ -145,7 +145,7 @@ def random_split_exp(config):
         torch.cuda.empty_cache()
         time.sleep(60)
         
-    if torch.distributed.get_rank() != 0:
+    if torch.distributed.get_rank() == 0:
         for dname in config.test_dataset:
             srcc_mean, plcc_mean = np.mean(srcc_all[dname]), np.mean(plcc_all[dname])
             srcc_med, plcc_med = np.median(srcc_all[dname]), np.median(plcc_all[dname])

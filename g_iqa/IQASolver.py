@@ -163,11 +163,11 @@ class IQASolver(object):
                     train_plcc, _ = stats.pearsonr(pred_scores, gt_scores)
                     print(f'=========Epoch:{t:3d}=========')
                     print(f'Train_SRCC: {train_srcc:.4f}, Train_PLCC: {train_plcc:.4f}')
-                    # with self.ema_model.average_parameters():
-                    #     os.makedirs(f'{self.project_dir}/ema_ckpts', exist_ok=True)
-                    #     torch.save(self.ema_model.state_dict(), f'{self.project_dir}/ema_ckpts/model_epoch{t:03}.pth')
-                    #     os.makedirs(f'{self.project_dir}/ckpts', exist_ok=True)
-                    #     torch.save(self.accelerator.unwrap_model(self.model).state_dict(), f'{self.project_dir}/ckpts/model_epoch{t:03}.pth')
+                    with self.ema_model.average_parameters():
+                        os.makedirs(f'{self.project_dir}/ema_ckpts', exist_ok=True)
+                        torch.save(self.ema_model.state_dict(), f'{self.project_dir}/ema_ckpts/model_epoch{t:03}.pth')
+                        os.makedirs(f'{self.project_dir}/ckpts', exist_ok=True)
+                        torch.save(self.accelerator.unwrap_model(self.model).state_dict(), f'{self.project_dir}/ckpts/model_epoch{t:03}.pth')
 
                     for data_name, test_data in self.test_data.items():
                         with self.ema_model.average_parameters():                            
@@ -179,18 +179,10 @@ class IQASolver(object):
                                 best_srcc[data_name] = ema_srcc
                                 best_plcc[data_name] = ema_plcc
                                 best_epoch[data_name] = t
-                                # torch.save(self.ema_model.state_dict(), f'{self.project_dir}/best_ema_model.pth')
                                 # save pred and gt scores to txt
                                 pred_gt = np.stack([np.array(pred_scores), np.array(gt_scores)], axis=1)
                                 np.savetxt(f'{self.project_dir}/pred_gt_{data_name}.txt', pred_gt, fmt='%.4f')
                         
-                        # pred_scores, gt_scores, scene_list = self.val(test_data)
-                        # srcc, plcc = self.log_metrics(pred_scores, gt_scores, scene_list, t, f"{data_name}/")
-                        # if srcc > best_srcc[data_name]:
-                        #     best_srcc[data_name] = srcc
-                        #     best_plcc[data_name] = plcc
-                        #     best_epoch[data_name] = t
-                        #     # self.accelerator.save_state(f'{self.project_dir}/best_model')
                         print(f'Best SRCC: {best_srcc[data_name]:.4f}, Best PLCC: {best_plcc[data_name]:.4f}, Best epoch: {best_epoch[data_name]} \n')
 
         # return next(iter(best_srcc.values())), next(iter(best_plcc.values())) # just for leave-one-out exp, only one dataset for evaluation
