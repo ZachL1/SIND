@@ -159,7 +159,7 @@ def random_split_exp(config):
             print(srcc_by_epoch[dname])
         
         for e in range(val_epoch_len):
-            print('\n\nEpoch %d:' % e)
+            print('\n\nEpoch %d:' % e * 5)
             for dname in config.test_dataset:
                 srcc_e = [srcc_by_epoch[dname][i][e] for i in range(10)]
                 plcc_e = [plcc_by_epoch[dname][i][e] for i in range(10)]
