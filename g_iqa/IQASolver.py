@@ -26,6 +26,7 @@ class IQASolver(object):
         self.loss_type = config.loss_type
         self.project_dir = config.project_dir
         self.scene_sampling = config.scene_sampling > 0
+        self.eval_every = config.eval_every if "eval_every" in config else 1
 
         # accelerator implementation distributed training
         proj_config = autils.ProjectConfiguration(
@@ -53,11 +54,11 @@ class IQASolver(object):
             # use simple clip model
             self.model = SimpleClip(clip_model=config.clip_model, clip_freeze=config.clip_freeze, precision='fp32')
 
-        # self.model.load_state_dict(torch.load('/home/dzc/workspace/ntire/contrast_weight'), strict=False)
         self.model.train(True)
         paras = [{'params': filter(lambda p: p.requires_grad, self.model.clip_model.parameters()), 'lr': config.lr / config.lr_ratio},
                     {'params': self.model.head.parameters(), 'lr': config.lr}]
 
+        # load model from pretrained checkpoint
         if "load_from" in config and config.load_from is not None:
             if config.load_from.endswith('.pth'):
                 self.model.load_state_dict(torch.load(config.load_from))
@@ -74,21 +75,10 @@ class IQASolver(object):
 
         self.ema_model = ExponentialMovingAverage(self.model.parameters(), decay=config.ema_decay)
 
-        if "resume_from" in config and config.resume_from is not None:
-            self.accelerator.load_state(config.resume_from)
-            self.ema_model.load_state_dict(torch.load(f'{config.resume_from}/ema_model.pth'))
-
-            # temp_model = LocalGlobalClipIQA(clip_model=config.clip_model, clip_freeze=config.clip_freeze, precision='fp32')
-            # temp_model.load_state_dict(torch.load(f'{config.resume_from}/ema_model.pth'))
-            # ema_state = dict()
-            # ema_state['shadow_params'] = list(temp_model.parameters())
-            # ema_state['decay'] = config.ema_decay
-            # ema_state['num_updates'] = len(self.train_data) * config.start_epoch
-            # ema_state['collected_params'] = None
-            # self.ema_model.load_state_dict(ema_state)
-            # del temp_model
-
-        # self.ema_model = ExponentialMovingAverage(self.model.parameters(), decay=config.ema_decay)
+        # # resume training from some checkpoint of some epoch
+        # if "resume_from" in config and config.resume_from is not None:
+        #     self.accelerator.load_state(config.resume_from)
+        #     self.ema_model.load_state_dict(torch.load(f'{config.resume_from}/ema_model.pth'))
 
     def train(self):
         """Training"""
@@ -107,9 +97,6 @@ class IQASolver(object):
 
             gc.collect()
             torch.cuda.empty_cache()
-            # if hasattr(self.train_data, 'update_scene'): # only for SPAQ, see: g_iqa/g_datasets/folder/SPAQ.py
-            #     self.train_data.update_scene()
-            #     self.train_data.sampler.update()
 
             for sample in tqdm(self.train_data, desc=f'Epoch {t+1}/{self.epochs}'):
             # it_train_data = iter(self.train_data)
@@ -153,7 +140,7 @@ class IQASolver(object):
                     gt_scores = gt_scores + label.cpu().tolist()
                     epoch_loss.append(loss.item())
 
-            if t % 5 == 0:
+            if t % self.eval_every == 0:
                 if torch.distributed.is_available() and torch.distributed.is_initialized():
                     print('[INFO] Use Distributed Training, wait for all processes to synchronize...')
                     self.accelerator.wait_for_everyone()
@@ -164,13 +151,12 @@ class IQASolver(object):
                     print(f'=========Epoch:{t:3d}=========')
                     print(f'Train_SRCC: {train_srcc:.4f}, Train_PLCC: {train_plcc:.4f}')
                     with self.ema_model.average_parameters():
-                        os.makedirs(f'{self.project_dir}/ema_ckpts', exist_ok=True)
-                        torch.save(self.ema_model.state_dict(), f'{self.project_dir}/ema_ckpts/model_epoch{t:03}.pth')
-                        os.makedirs(f'{self.project_dir}/ckpts', exist_ok=True)
-                        torch.save(self.accelerator.unwrap_model(self.model).state_dict(), f'{self.project_dir}/ckpts/model_epoch{t:03}.pth')
+                        # os.makedirs(f'{self.project_dir}/ema_ckpts', exist_ok=True)
+                        # torch.save(self.ema_model.state_dict(), f'{self.project_dir}/ema_ckpts/model_epoch{t:03}.pth')
+                        # os.makedirs(f'{self.project_dir}/ckpts', exist_ok=True)
+                        # torch.save(self.accelerator.unwrap_model(self.model).state_dict(), f'{self.project_dir}/ckpts/model_epoch{t:03}.pth')
 
-                    for data_name, test_data in self.test_data.items():
-                        with self.ema_model.average_parameters():                            
+                        for data_name, test_data in self.test_data.items():
                             pred_scores, gt_scores, scene_list = self.val(test_data)
                             ema_srcc, ema_plcc = self.log_metrics(pred_scores, gt_scores, scene_list, t, f"{data_name}/ema_")
                             srcc_by_epoch[data_name].append(ema_srcc)
@@ -183,9 +169,8 @@ class IQASolver(object):
                                 pred_gt = np.stack([np.array(pred_scores), np.array(gt_scores)], axis=1)
                                 np.savetxt(f'{self.project_dir}/pred_gt_{data_name}.txt', pred_gt, fmt='%.4f')
                         
-                        print(f'Best SRCC: {best_srcc[data_name]:.4f}, Best PLCC: {best_plcc[data_name]:.4f}, Best epoch: {best_epoch[data_name]} \n')
+                            print(f'Best SRCC: {best_srcc[data_name]:.4f}, Best PLCC: {best_plcc[data_name]:.4f}, Best epoch: {best_epoch[data_name]} \n')
 
-        # return next(iter(best_srcc.values())), next(iter(best_plcc.values())) # just for leave-one-out exp, only one dataset for evaluation
         return best_srcc, best_plcc, srcc_by_epoch, plcc_by_epoch
 
     @torch.no_grad()
@@ -227,7 +212,7 @@ class IQASolver(object):
         return pred_scores, gt_scores, scene_list
     
     def is_main_process(self):
-        return self.accelerator.is_main_process
+        return not self.accelerator.is_main_process
     
     def log_metrics(self, pred_scores, gt_scores, scene_list, epoch, prefix=""):
         srcc, plcc = stats.spearmanr(pred_scores, gt_scores)[0], stats.pearsonr(pred_scores, gt_scores)[0]

@@ -18,6 +18,8 @@ from .TID2013 import TID2013Folder
 from .PARA import PARAFolder # 1000
 from .EVA import EVAFolder # 1100
 
+from .JSONDataset import JSONFolder
+
 from .MultiDataset import MultiDatasetFolder
 
 __all__ = [
@@ -33,7 +35,9 @@ __all__ = [
     'Kadid_10kFolder',
     'LIVEFolder',
     'CSIQFolder',
-    'TID2013Folder'
+    'TID2013Folder',
+
+    'JSONFolder',
 
     'PARAFolder',
     'EVAFolder',

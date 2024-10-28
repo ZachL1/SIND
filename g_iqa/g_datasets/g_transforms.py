@@ -1,4 +1,5 @@
 import torch
+import torchvision
 import torchvision.transforms.functional as F
 from torch.utils.data import Sampler
 
@@ -66,6 +67,34 @@ class SceneSampler(Sampler[int]):
         self.scene_index = {s: [i for i, scene in enumerate(scene_list) if scene == s] for s in self.scene}
         self.num_samples = sum([math.ceil(len(self.scene_index[s]) / self.scene_bs) * self.scene_bs for s in self.scene])
 
+class ConditionalResize(torchvision.transforms.Resize):
+    def __init__(self, size:int, 
+                 interpolation=F.InterpolationMode.BILINEAR, 
+                 max_short_size=None, 
+                 antialias=True):
+        """
+        Args:
+            size (int): The target size of the short side.
+            interpolation (InterpolationMode): Desired interpolation enum defined by `torchvision.transforms.InterpolationMode`.
+            max_short_size (int, optional): The maximum size of the short side. Default is None.
+            antialias (bool, optional): Whether to use anti-aliasing. Default is True.
+        """
+        super().__init__(size, interpolation, antialias=antialias)
+        assert max_short_size is None or max_short_size > size, "max_short_size should be None or larger than size"
+        self.max_short_size = max_short_size # max size of the short side
+        
+    def forward(self, img):
+        w, h = F.get_image_size(img)
+        min_side = min(w, h)
+        
+        if min_side < self.size:  # only resize when the short side is smaller than the target size
+            return super().forward(img)
+        elif self.max_short_size and min_side > self.max_short_size:
+            scale = self.max_short_size / min_side
+            new_w, new_h = int(w * scale), int(h * scale)
+            return F.resize(img, (new_w, new_h), self.interpolation, antialias=self.antialias)
+        else:
+            return img
 
 class RandomCropMiniPatch(object):
     """Crop the given tensor multi-mini-patch and cat them together."""
@@ -90,7 +119,7 @@ class RandomCropMiniPatch(object):
         scale_w = w // self.patch_num
         scale_h = h // self.patch_num
 
-        assert scale_h > patch_szh and scale_w > patch_szh, "img can not crop to mini patch"
+        assert scale_h > patch_szh and scale_w > patch_szw, "img can not crop to mini patch"
 
         if self.center:
             rd_ps_h = [(scale_h - patch_szh) // 2] * self.patch_num
@@ -148,7 +177,7 @@ class FiveCropMiniPatch(object):
         scale_w = w // self.patch_num
         scale_h = h // self.patch_num
 
-        assert scale_h > patch_szh and scale_w > patch_szh, "img can not crop to mini patch"
+        assert scale_h > patch_szh and scale_w > patch_szw, "img can not crop to mini patch"
 
         positions = [(0, 0), (0, scale_w - patch_szw), (scale_h - patch_szh, 0), (scale_h - patch_szh, scale_w - patch_szw), ((scale_h - patch_szh) // 2, (scale_w - patch_szw) // 2)]
         
@@ -199,7 +228,7 @@ class NineCropMiniPatch(object):
         scale_w = w // self.patch_num
         scale_h = h // self.patch_num
 
-        assert scale_h > patch_szh and scale_w > patch_szh, "img can not crop to mini patch"
+        assert scale_h > patch_szh and scale_w > patch_szw, "img can not crop to mini patch"
 
         positions = [(0, 0), (0, scale_w - patch_szw), (scale_h - patch_szh, 0), (scale_h - patch_szh, scale_w - patch_szw), ((scale_h - patch_szh) // 2, (scale_w - patch_szw) // 2), ((scale_h - patch_szh) // 2, 0), ((scale_h - patch_szh) // 2, scale_w - patch_szw), (0, (scale_w - patch_szw) // 2), (scale_h - patch_szh, (scale_w - patch_szw) // 2)]
         

@@ -4,9 +4,10 @@ import pandas as pd
 import numpy as np
 import scipy
 import random
+from PIL import Image
 
 
-base_dir = '/home/ippl/zach/workspace/G-IQA'
+base_dir = '/home/dzc/workspace/G-IQA'
 data_dir = f'{base_dir}/data'
 
 
@@ -583,6 +584,70 @@ def para_generator(domain_id_base = 1200):
   print(f'PARA train: {len(train_files)}, test: {len(test_files)}')
 
 
+############################ AVA ############################
+def ava_generator(domain_id_base = 1300):
+  def get_mean(ratings:list):
+    sum_rat = 0
+    for rat in range(1,11):
+      sum_rat += ratings[rat-1] * rat
+    return sum_rat / sum(ratings)
+
+  def read_tag(file_path:str) -> dict:
+    tags = {}
+    with open(file_path, 'r') as f:
+      for line in f:
+        line = line.strip()
+        spl = line.find(' ')
+        tag_id, tag = line[:spl], line[spl+1:]
+        tags[int(tag_id)] = tag
+    return tags
+
+  def check_file(file_path):
+    try:
+      Image.open(file_path).convert('RGB')
+    except:
+      return False
+    return True
+
+  # read semantic tags and meta data
+  tags = read_tag(os.path.join(data_dir, 'AVA/data/tags.txt'))
+  meta_data = pd.read_csv(os.path.join(data_dir, 'AVA/data/AVA.txt'), sep=' ', index_col=1, header=None, dtype={1:str})
+
+  all_files = []
+  for img_id in meta_data.index:
+    if not check_file(os.path.join(data_dir, f'AVA/data/image/{img_id}.jpg')):
+      print(os.path.join(data_dir, f'AVA/data/image/{img_id}.jpg'))
+      continue # check if image is valid
+
+    meta = meta_data.loc[img_id,:].to_numpy().tolist()
+    ratings = meta[1:11]
+    sem_tags = [tags[tag] for tag in meta[11:13] if tag != 0]
+    all_files.append({
+      'image': f'AVA/data/image/{img_id}.jpg',
+      'score': get_mean(ratings),
+      'ratings': ratings,
+      'sem_tags': sem_tags,
+      'domain_id': domain_id_base,
+    })
+    assert os.path.exists(os.path.join(data_dir, all_files[-1]['image'])), os.path.join(data_dir, all_files[-1]['image'])
+
+  with open(f'{base_dir}/data_json/all/ava_all.json', 'w') as f:
+    json.dump({'files': all_files}, f, indent=2)
+
+  # split train/test follow by q-align
+  train_img = get_imgnames_from_json(f'{data_dir}/Q-Align/playground/data/training_sft/train_ava.json')
+  test_img = get_imgnames_from_json(f'{data_dir}/Q-Align/playground/data/test_jsons/test_ava.json')
+  assert len(train_img & test_img) == 0
+  train_files = [item for item in all_files if item['image'].replace('AVA/data/image', 'ava_images') in train_img]
+  test_files = [item for item in all_files if item['image'].replace('AVA/data/image', 'ava_images') in test_img]
+  # assert len(train_files) + len(test_files) == len(train_img) + len(test_img)
+  print(len(train_files), len(test_files), len(train_img), len(test_img))
+  with open(f'{base_dir}/data_json/for_cross_set/train/ava_train.json', 'w') as f:
+    json.dump({'files': train_files}, f, indent=2)
+  with open(f'{base_dir}/data_json/for_cross_set/test/ava_test.json', 'w') as f:
+    json.dump({'files': test_files}, f, indent=2)
+  print(f'AVA all: {len(all_files)}, train: {len(train_files)}, test: {len(test_files)}')
+
 
 def check_koniq_spaq_kadia():
   koniq = get_imgnames_from_json(f'{data_dir}/Q-Align/playground/data/training_sft/train_koniq.json')
@@ -608,6 +673,7 @@ if __name__ == '__main__':
   # csiq_generator()
   # tid2013_generator()
   # eva_generator()
-  para_generator()
+  # para_generator()
+  ava_generator()
 
   # check_koniq_spaq_kadia()

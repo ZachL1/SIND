@@ -70,6 +70,9 @@ def load_datajson_for_cross_set(datasets:list, json_dir:str, istrain:bool, datas
         'spaq': 'for_cross_set/train/spaq_train.json',
         'koniq10k': 'for_cross_set/train/koniq10k_train.json',
 
+        'kadid10k': 'for_cross_set/train/kadid10k_train.json',
+
+        'ava': 'for_cross_set/train/ava_train.json',
         'para': 'for_cross_set/train/para_train.json',
     }
     test_json = {
@@ -80,9 +83,13 @@ def load_datajson_for_cross_set(datasets:list, json_dir:str, istrain:bool, datas
         'bid': 'for_cross_set/test/bid.json',
         'cid2013': 'for_cross_set/test/cid2013.json',
 
+        'kadid10k': 'for_cross_set/test/kadid10k_test.json',
         'live': 'for_cross_set/test/live.json',
         'csiq': 'for_cross_set/test/csiq.json',
 
+        'agiqa3k': 'for_cross_set/test/agiqa3k.json',
+
+        'ava': 'for_cross_set/test/ava_test.json',
         'para': 'for_cross_set/test/para_test.json',
     }
     datajson = {}
@@ -90,7 +97,7 @@ def load_datajson_for_cross_set(datasets:list, json_dir:str, istrain:bool, datas
         json_file = train_json[dataname] if istrain else test_json[dataname]
         with open(os.path.join(json_dir, json_file), 'r') as f:
             datajson[dataname] = json.load(f)['files']
-        if dataset_domain:
+        if dataset_domain and dataname not in ['spaq']: # because SPAQ has scene labels
             for item in datajson[dataname]:
                 item['domain_id'] = int(item['domain_id'] / 100)
     return datajson
@@ -126,7 +133,10 @@ def random_split_exp(config):
     plcc_all = {dname: [] for dname in config.test_dataset}
     srcc_by_epoch = {dname: [] for dname in config.test_dataset}
     plcc_by_epoch = {dname: [] for dname in config.test_dataset}
+    proj_dir = config.project_dir
+    config.eval_every = 5
     for i in range(1, 11):
+        config.project_dir = os.path.join(proj_dir, f'split_{i}')
         print('Train-test %d ...' % i)
         train_datajson = load_datajson_from_random(config.train_dataset, config.json_dir, istrain=True, cnt=i, dataset_domain=config.dataset_domain)
         test_datajson = load_datajson_from_random(config.test_dataset, config.json_dir, istrain=False, cnt=i)
@@ -145,7 +155,7 @@ def random_split_exp(config):
         torch.cuda.empty_cache()
         time.sleep(60)
         
-    if torch.distributed.get_rank() == 0:
+    if torch.distributed.get_rank() != 0:
         for dname in config.test_dataset:
             srcc_mean, plcc_mean = np.mean(srcc_all[dname]), np.mean(plcc_all[dname])
             srcc_med, plcc_med = np.median(srcc_all[dname]), np.median(plcc_all[dname])
@@ -159,7 +169,7 @@ def random_split_exp(config):
             print(srcc_by_epoch[dname])
         
         for e in range(val_epoch_len):
-            print('\n\nEpoch %d:' % e * 5)
+            print(f'\n\nEpoch {e * config.eval_every}:')
             for dname in config.test_dataset:
                 srcc_e = [srcc_by_epoch[dname][i][e] for i in range(10)]
                 plcc_e = [plcc_by_epoch[dname][i][e] for i in range(10)]
