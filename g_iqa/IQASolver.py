@@ -212,7 +212,7 @@ class IQASolver(object):
         return pred_scores, gt_scores, scene_list
     
     def is_main_process(self):
-        return not self.accelerator.is_main_process
+        return self.accelerator.is_main_process
     
     def log_metrics(self, pred_scores, gt_scores, scene_list, epoch, prefix=""):
         srcc, plcc = stats.spearmanr(pred_scores, gt_scores)[0], stats.pearsonr(pred_scores, gt_scores)[0]

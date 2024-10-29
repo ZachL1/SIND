@@ -3,7 +3,6 @@ import torchvision
 import torchvision.transforms.functional as F
 from torch.utils.data import Sampler
 
-import matplotlib.pyplot as plt
 import PIL
 
 import random
@@ -141,6 +140,7 @@ class RandomCropMiniPatch(object):
         # torchvision.utils.save_image(recat_patchs, "recat_patchs.png")
 
         # # visualize patchs in img
+        # import matplotlib.pyplot as plt
         # img = img.permute(1,2,0).numpy()
         # fig, ax = plt.subplots(1, 1)
         # ax.imshow(img)
@@ -195,6 +195,7 @@ class FiveCropMiniPatch(object):
             # torchvision.utils.save_image(recat_patchs[-1], "recat_patchs.png")
 
             # # visualize patchs in img
+            # import matplotlib.pyplot as plt
             # img_hwc = img.permute(1,2,0).numpy()
             # fig, ax = plt.subplots(1, 1)
             # ax.imshow(img_hwc)

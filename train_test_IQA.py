@@ -155,7 +155,7 @@ def random_split_exp(config):
         torch.cuda.empty_cache()
         time.sleep(60)
         
-    if torch.distributed.get_rank() != 0:
+    if torch.distributed.get_rank() == 0:
         for dname in config.test_dataset:
             srcc_mean, plcc_mean = np.mean(srcc_all[dname]), np.mean(plcc_all[dname])
             srcc_med, plcc_med = np.median(srcc_all[dname]), np.median(plcc_all[dname])
@@ -222,7 +222,7 @@ if __name__ == '__main__':
     parser.add_argument('--warmup_epoch', type=int, default=5, help='epoch of warmup')
     ################## important Config ##################
     parser.add_argument('--loss_type', type=str, default='l1', help='loss type for training')
-    parser.add_argument('--scene_sampling', type=int, default=0, help='Number of domain categories, must be greater than 0, otherwise random sampling. Note: it will actually *2 if use DDP')
+    parser.add_argument('--scene_sampling', type=int, default=0, help='Number of domain categories pre GPU, must be greater than 0, otherwise random sampling. Note: scene_batch_size = batch_size / scene_sampling')
 
     ################## Abalation Config ##################
     parser.add_argument('--all_global', action="store_true", help='Use all global features')
