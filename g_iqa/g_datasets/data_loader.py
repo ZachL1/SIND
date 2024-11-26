@@ -46,7 +46,7 @@ class DataGenerator(object):
         # To some extent in raw resolution. Actually, it produces similar results to using fixed resolution (672x*).
         # local_resize = ConditionalResize(
         #     size=input_size+32, # resize to 256 if shorter side is less than 256
-        #     max_short_size=input_size*3, # resize to 1120 if shorter side is greater than 1120
+        #     max_short_size=input_size*5, # resize to 1120 if shorter side is greater than 1120
         #     interpolation=torchvision.transforms.InterpolationMode.BILINEAR,
         #     antialias=True
         # )
@@ -117,7 +117,7 @@ class DataGenerator(object):
         if isinstance(dataset, list) and len(dataset) > 1:
             self.data = MultiDatasetFolder(
                 root=path, data_jsons=data_json, transforms=transforms, dataset_names=dataset)
-        elif dataset in ['live', 'livec', 'csiq', 'kadid10k', 'agiqa3k', 'koniq10k', 'bid', 'cid2013', 'tid2013', 'piq23', 'spaq', 'para', 'eva', 'ava', 'common_json']:
+        elif dataset in ['live', 'livec', 'csiq', 'kadid10k', 'agiqa3k', 'koniq10k', 'bid', 'cid2013', 'tid2013', 'piq23', 'spaq', 'para', 'eva', 'ava', 'nnid', 'pipal', 'common_json']:
             self.data = JSONFolder(
                 root=path, data_json=data_json, transforms=transforms)
         else:

@@ -649,6 +649,69 @@ def ava_generator(domain_id_base = 1300):
   print(f'AVA all: {len(all_files)}, train: {len(train_files)}, test: {len(test_files)}')
 
 
+############################ NNID ############################
+def nnid_generator(domain_id_base = 1400):
+  mos_file = {
+    'sub512': f'{data_dir}/NNID/mos512_with_names.txt',
+    'sub1024': f'{data_dir}/NNID/mos1024_with_names.txt',
+    'Sub2048': f'{data_dir}/NNID/mos2048_with_names.txt',
+  }
+  all_files = []
+  for i, (sub, file) in enumerate(mos_file.items()):
+    with open(file, 'r') as f:
+      for line in f:
+        mos, img_name = line.strip().split()
+        all_files.append({
+          'image': f'NNID/{sub}/{img_name}',
+          'score': float(mos),
+          'domain_id': domain_id_base + i,
+        })
+        assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
+
+  with open(f'{base_dir}/data_json/all/nnid_all.json', 'w') as f:
+    json.dump({'files': all_files}, f, indent=2)
+  with open(f'{base_dir}/data_json/for_cross_set/test/nnid.json', 'w') as f:
+    json.dump({'files': all_files}, f, indent=2)
+  print(f'NNID all: {len(all_files)}')
+
+
+############################ PIPAL ############################
+def pipal_generator(domain_id_base = 1500):
+  import glob
+
+  ref_names = os.listdir(f'{data_dir}/PIPAL/training/Train_Ref')
+  select_names = [name.split('.')[0] for name in random.sample(ref_names, k=20)]
+
+  image_names = []
+  image_scores = []
+  for name in select_names:
+    mos_file = f'{data_dir}/PIPAL/training/Train_Label/{name}.txt'
+    with open(mos_file, 'r') as f:
+      for line in f:
+        img_name, score = line.strip().split(',')
+        image_names.append(img_name)
+        image_scores.append(float(score))
+  
+  all_files = []
+  for img_name, score in zip(image_names, image_scores):
+    img_path = glob.glob(f'{data_dir}/PIPAL/training/Distortion_*/{img_name}')
+    assert len(img_path) == 1, img_path
+    all_files.append({
+      'image': img_path[0].replace(data_dir+'/', ''),
+      'score': score,
+      'domain_id': domain_id_base,
+    })
+    assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
+
+  with open(f'{base_dir}/data_json/all/pipal_all.json', 'w') as f:
+    json.dump({'files': all_files}, f, indent=2)
+  with open(f'{base_dir}/data_json/for_cross_set/test/pipal.json', 'w') as f:
+    json.dump({'files': all_files}, f, indent=2)
+  print(f'PIPAL all: {len(all_files)}')
+
+
+
+
 def check_koniq_spaq_kadia():
   koniq = get_imgnames_from_json(f'{data_dir}/Q-Align/playground/data/training_sft/train_koniq.json')
   spaq = get_imgnames_from_json(f'{data_dir}/Q-Align/playground/data/training_sft/train_spaq.json')
@@ -674,6 +737,8 @@ if __name__ == '__main__':
   # tid2013_generator()
   # eva_generator()
   # para_generator()
-  ava_generator()
+  # ava_generator()
+  # nnid_generator()
+  pipal_generator()
 
   # check_koniq_spaq_kadia()

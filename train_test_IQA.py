@@ -24,10 +24,9 @@ def leave_one_out_exp(config):
     srcc_all = []
     plcc_all = []
 
+    config.eval_every = 5
     proj_dir = config.project_dir
     for domain_dir in os.listdir(json_dir):
-        # if int(domain_dir.split('_')[2]) not in [102, 104, ]:
-        #     continue
 
         test_domain, d_name = domain_dir.split('_')[-2:]
         print('Training and testing on %s dataset for domain %s ...' % (train_data_name, d_name))
@@ -48,6 +47,7 @@ def leave_one_out_exp(config):
             torch.distributed.barrier()
         del solver
         torch.cuda.empty_cache()
+        # time.sleep(60)
     
     print(srcc_all)
     print(plcc_all)
@@ -91,6 +91,9 @@ def load_datajson_for_cross_set(datasets:list, json_dir:str, istrain:bool, datas
 
         'ava': 'for_cross_set/test/ava_test.json',
         'para': 'for_cross_set/test/para_test.json',
+
+        'nnid': 'for_cross_set/test/nnid.json',
+        'pipal': 'for_cross_set/test/pipal.json',
     }
     datajson = {}
     for dataname in datasets:
@@ -187,8 +190,27 @@ def cross_dataset_exp(config):
     train_datajson = load_datajson_for_cross_set(config.train_dataset, config.json_dir, istrain=True, dataset_domain=config.dataset_domain)
     test_datajson = load_datajson_for_cross_set(config.test_dataset, config.json_dir, istrain=False)
 
+    config.eval_every = 1
     solver = IQASolver(config, config.data_root, train_datajson, test_datajson)
-    solver.train()
+    srcc, plcc, srcc_e, plcc_e = solver.train()
+
+    # if torch.distributed.get_rank() == 0:
+    #     for dname in config.test_dataset:
+    #         print(f'Testing {dname} dataset:')
+    #         print(f'Best SRCC {srcc[dname]:.4f}, Best PLCC {plcc[dname]:.4f}')
+
+    #         val_epoch_len = len(srcc_e[dname])
+    #         print(srcc_e[dname])
+
+    #     for e in range(val_epoch_len):
+    #         print(f'\nEpoch {e * config.eval_every}:')
+    #         all_srcc = []
+    #         all_plcc = []
+    #         for dname in config.test_dataset:
+    #             print(f'{dname} SRCC {srcc_e[dname][e]:.4f}, PLCC {plcc_e[dname][e]:.4f}')
+    #             all_srcc.append(srcc_e[dname][e])
+    #             all_plcc.append(plcc_e[dname][e])
+    #         print(f'mean SRCC {np.mean(all_srcc):.4f}, mean PLCC {np.mean(all_plcc):.4f}')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()

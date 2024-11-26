@@ -170,6 +170,33 @@ class IQASolver(object):
                                 np.savetxt(f'{self.project_dir}/pred_gt_{data_name}.txt', pred_gt, fmt='%.4f')
                         
                             print(f'Best SRCC: {best_srcc[data_name]:.4f}, Best PLCC: {best_plcc[data_name]:.4f}, Best epoch: {best_epoch[data_name]} \n')
+                
+                # fast evaluation
+                # with self.ema_model.average_parameters():
+                #     rank_idx = torch.distributed.get_rank()
+                #     while rank_idx < len(self.test_data):
+                #         data_name = sorted(self.test_data.keys())[rank_idx]
+                #         test_data = self.test_data[data_name]
+                #         rank_idx += torch.distributed.get_world_size()
+
+                #         pred_scores, gt_scores, scene_list = self.val(test_data)
+                #         ema_srcc, ema_plcc = self.log_metrics(pred_scores, gt_scores, scene_list, t, f"{data_name}/ema_")
+                #         srcc_by_epoch[data_name].append(ema_srcc)
+                #         plcc_by_epoch[data_name].append(ema_plcc)
+                #         if ema_srcc > best_srcc[data_name]:
+                #             best_srcc[data_name] = ema_srcc
+                #             best_plcc[data_name] = ema_plcc
+                #             best_epoch[data_name] = t
+                #             # save pred and gt scores to txt
+                #             pred_gt = np.stack([np.array(pred_scores), np.array(gt_scores)], axis=1)
+                #             np.savetxt(f'{self.project_dir}/pred_gt_{data_name}.txt', pred_gt, fmt='%.4f')
+                    
+                #         print(f'Best SRCC: {best_srcc[data_name]:.4f}, Best PLCC: {best_plcc[data_name]:.4f}, Best epoch: {best_epoch[data_name]} \n')
+                
+                if torch.distributed.is_available() and torch.distributed.is_initialized():
+                    # print('[INFO] Use Distributed Training, wait for all processes to synchronize...')
+                    self.accelerator.wait_for_everyone()
+                    torch.distributed.barrier()
 
         return best_srcc, best_plcc, srcc_by_epoch, plcc_by_epoch
 
