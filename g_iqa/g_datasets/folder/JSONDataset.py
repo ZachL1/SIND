@@ -26,7 +26,8 @@ class JSONFolder(data.Dataset):
         img = pil_loader(path)
         img_pt = img
         if self.transform is not None:
-            img, img_pt = (tf(img) for tf in self.transform)
+            img = self.transform[0](img)
+            img_pt = self.transform[1](img) if len(self.transform) > 1 else img
 
         return dict(
             img=img,

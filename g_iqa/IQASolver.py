@@ -42,7 +42,7 @@ class IQASolver(object):
         
         train_loader = DataGenerator(config.train_dataset, path, train_json, config.input_size, batch_size=config.batch_size, istrain=True, scene_sampling=config.scene_sampling)
         self.train_data = train_loader.get_data()
-        self.test_data = {td: DataGenerator(td, path, test_json, config.input_size, batch_size=1, istrain=False, testing_aug=True).get_data() for td in config.test_dataset}
+        self.test_data = {td: DataGenerator(td, path, test_json, config.input_size, batch_size=config.batch_size, istrain=False, testing_aug=False).get_data() for td in config.test_dataset}
 
         ############### Model ###############
         if config.clip_model == 'resnet50':
@@ -223,9 +223,10 @@ class IQASolver(object):
             pred = val_model(data, data_pt)
             if pred.size(0) != label.size(0):
                 pred = pred.view(B, T)
-                pred = torch.mean(pred, dim=1, keepdim=True)
+                pred = torch.mean(pred, dim=1, keepdim=False)
 
-            pred_scores = pred_scores + pred.squeeze(-1).cpu().tolist()
+            pred = pred.squeeze(1) if len(pred.shape) == 2 else pred
+            pred_scores = pred_scores + pred.cpu().tolist()
             gt_scores = gt_scores + label.cpu().tolist()
             scene_list = scene_list + scene.cpu().tolist()
 

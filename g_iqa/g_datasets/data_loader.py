@@ -27,7 +27,7 @@ def stack_crops(crops):
 class DataGenerator(object):
     """Dataset class for IQA databases"""
 
-    def __init__(self, dataset, path, data_json, input_size, batch_size=1, istrain=True, scene_sampling=0, testing_aug=False):
+    def __init__(self, dataset, path, data_json, input_size, batch_size=1, istrain=True, scene_sampling=0, testing_aug=False, local=False):
 
         self.batch_size = batch_size
         self.istrain = istrain
@@ -109,6 +109,9 @@ class DataGenerator(object):
                 ])
             ]
 
+        if not local:
+            transforms = transforms[0:1]
+        
         if isinstance(dataset, list) and len(dataset) == 1:
             dataset = dataset[0]
         if isinstance(dataset, str):
@@ -133,7 +136,7 @@ class DataGenerator(object):
 
         if self.istrain:
             dataloader = DataLoaderX(
-                self.data, batch_size=self.batch_size, shuffle=shuffle, num_workers=16, pin_memory=True, sampler=scene_sampler, drop_last=True)
+                self.data, batch_size=self.batch_size, shuffle=shuffle, num_workers=8, pin_memory=True, sampler=scene_sampler, drop_last=True)
         else:
             dataloader = DataLoaderX(
                 self.data, batch_size=self.batch_size, shuffle=False, num_workers=8, pin_memory=True)
