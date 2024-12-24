@@ -42,7 +42,7 @@ class IQASolver(object):
         
         train_loader = DataGenerator(config.train_dataset, path, train_json, config.input_size, batch_size=config.batch_size, istrain=True, scene_sampling=config.scene_sampling)
         self.train_data = train_loader.get_data()
-        self.test_data = {td: DataGenerator(td, path, test_json, config.input_size, batch_size=config.batch_size, istrain=False, testing_aug=False).get_data() for td in config.test_dataset}
+        self.test_data = {td: DataGenerator(td, path, test_json, config.input_size, batch_size=1, istrain=False, testing_aug=True).get_data() for td in config.test_dataset}
 
         ############### Model ###############
         if config.clip_model == 'resnet50':
