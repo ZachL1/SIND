@@ -286,6 +286,7 @@ class Net(nn.Module):
 def computeSpearman(dataloader_valid, model):
     ratings = []
     predictions = []
+    scenes = []
     with torch.no_grad():
         cum_loss = 0
         for batch_idx, data in enumerate(tqdm(dataloader_valid)):
@@ -304,13 +305,29 @@ def computeSpearman(dataloader_valid, model):
             outputs_a = model(inputs)
             ratings.append(labels.float().cpu())
             predictions.append(outputs_a.float().cpu())
+            scenes.append(data['scene'].view(batch_size, -1).cpu())
 
     ratings_i = np.vstack(ratings)
     predictions_i = np.vstack(predictions)
+    scenes_i = np.vstack(scenes)
     a = ratings_i[:,0]
     b = predictions_i[:,0]
     sp = spearmanr(a, b)[0]
     pl = pearsonr(a,b)[0]
+
+    # compute the spearman correlation for each scene (pipal, tid2013)
+    if False:
+        sp_list = []
+        pl_list = []
+        for scene in set(scenes_i[:,0]):
+            scene_ratings = ratings_i[scenes_i[:,0] == scene, 0]
+            scene_predictions = predictions_i[scenes_i[:,0] == scene, 0]
+            sp = spearmanr(scene_ratings, scene_predictions)[0]
+            pl = pearsonr(scene_ratings, scene_predictions)[0]
+            sp_list.append(abs(sp))
+            pl_list.append(abs(pl))
+        return np.mean(sp_list), np.mean(pl_list), a, b
+
     return abs(sp), abs(pl), a, b
 
 def finetune_model(train_json, test_json_dict, epochs=100):
@@ -519,7 +536,7 @@ def load_data(mod = 'train', train_json=None, test_json=None):
             dataloader = DataLoader(transformed_dataset_train, batch_size=128,
                                     shuffle=False, num_workers=4, collate_fn=my_collate, sampler=scene_sampler, pin_memory=True, drop_last=True)
         else:
-            dataloader = DataLoader(transformed_dataset_train, batch_size=50,
+            dataloader = DataLoader(transformed_dataset_train, batch_size=128,
                                     shuffle=False, num_workers=4, collate_fn=my_collate)
     else:
         with open(test_json, 'r') as f:
@@ -583,7 +600,7 @@ if __name__ == '__main__':
     if args.leave_one_out:
         # for leave one out exp
         for domain_dir in os.listdir(f'data_json/for_leave_one_out/{args.train_data}'):
-            save_dir = f'exp_results/leave_one_out/{args.train_data}/{domain_dir}'
+            save_dir = f'exp_results/leave_one_out/{args.train_data}_{args.alignment}/{domain_dir}'
             os.makedirs(save_dir, exist_ok=True)
 
             train_json = f'data_json/for_leave_one_out/{args.train_data}/{domain_dir}/train.json'
@@ -593,7 +610,7 @@ if __name__ == '__main__':
 
             with open(f'{save_dir}/train.log', 'w') as f:
                 sys.stdout = f
-                finetune_model(train_json=train_json, test_json_dict=test_json, epochs=30)
+                finetune_model(train_json=train_json, test_json_dict=test_json, epochs=50)
 
     else:
         # for cross dataset
@@ -602,13 +619,16 @@ if __name__ == '__main__':
 
         train_json = f'data_json/for_cross_set/train/{args.train_data}_train.json'
         test_json_dict = {
-            'koniq10k': 'data_json/for_cross_set/test/koniq10k_test.json',
-            'spaq': 'data_json/for_cross_set/test/spaq_test.json',
-            'livec': 'data_json/for_cross_set/test/livec.json',
-            'live': 'data_json/for_cross_set/test/live.json',
-            'csiq': 'data_json/for_cross_set/test/csiq.json',
-            'bid': 'data_json/for_cross_set/test/bid.json',
-            'cid2013': 'data_json/for_cross_set/test/cid2013.json',
+            # 'koniq10k': 'data_json/for_cross_set/test/koniq10k_test.json',
+            # 'spaq': 'data_json/for_cross_set/test/spaq_test.json',
+            # 'livec': 'data_json/for_cross_set/test/livec.json',
+            # 'live': 'data_json/for_cross_set/test/live.json',
+            # 'csiq': 'data_json/for_cross_set/test/csiq.json',
+            # 'bid': 'data_json/for_cross_set/test/bid.json',
+            # 'cid2013': 'data_json/for_cross_set/test/cid2013.json',
+            # 'nnid': 'data_json/for_cross_set/test/nnid.json',
+            'pipal': 'data_json/for_cross_set/test/pipal_test.json',
+            'tid2013': 'data_json/for_cross_set/test/tid2013_test.json',
         }
 
         with open(f'{save_dir}/train.log', 'w') as f:
