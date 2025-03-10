@@ -1,8 +1,9 @@
 import torch
+import os
 from collections import OrderedDict
 from os import path as osp
 from tqdm import tqdm
-
+import numpy as np
 from pyiqa.archs import build_network
 from pyiqa.losses import build_loss
 from pyiqa.metrics import calculate_metric
@@ -207,6 +208,9 @@ class GeneralIQAModel(BaseModel):
                 if to_update:
                     for name, opt_ in self.opt['val']['metrics'].items():
                         self._update_metric_result(dataset_name, name, self.metric_results[name], current_iter)
+                    pred_gt = np.stack([pred_score, gt_mos], axis=1)
+                    os.makedirs(f'{self.opt["path"]["experiments_root"]}/val', exist_ok=True)
+                    np.savetxt(f'{self.opt["path"]["experiments_root"]}/val/pred_gt_{dataset_name}.txt', pred_gt, fmt='%.4f')
                     self.copy_model(self.net, self.net_best)
                     # self.save_network(self.net_best, 'net_best')
             else:

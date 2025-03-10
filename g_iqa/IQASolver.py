@@ -15,7 +15,7 @@ from torch_ema import ExponentialMovingAverage
 
 from g_iqa.models.iqa_clip import LocalGlobalClipIQA, SimpleClip, SimpleResNet
 from g_iqa.g_datasets.data_loader import DataGenerator
-from g_iqa.train_utils import loss_by_scene, WarmupCosineLR
+from g_iqa.train_utils import loss_by_scene, WarmupCosineLR, plcc_loss
 
 class IQASolver(object):
     """Solver for training and testing IQA"""
@@ -94,6 +94,7 @@ class IQASolver(object):
             epoch_loss = []
             pred_scores = []
             gt_scores = []
+            scene_list = []
 
             gc.collect()
             torch.cuda.empty_cache()
@@ -120,6 +121,10 @@ class IQASolver(object):
                     loss = loss_by_scene(pred, label, scene, self.loss_type)
                 elif self.loss_type == 'l1':
                     loss = torch.nn.functional.l1_loss(pred, label)
+                elif self.loss_type == 'l2':
+                    loss = torch.nn.functional.mse_loss(pred, label)
+                elif self.loss_type == 'plcc':
+                    loss = plcc_loss(pred, label)
                 else:
                     raise NotImplementedError(f'Loss type {self.loss_type} not implemented')
                 
@@ -138,6 +143,7 @@ class IQASolver(object):
 
                     pred_scores = pred_scores + pred.cpu().tolist()
                     gt_scores = gt_scores + label.cpu().tolist()
+                    scene_list = scene_list + scene.cpu().tolist()
                     epoch_loss.append(loss.item())
 
             if t % self.eval_every == 0:
@@ -146,10 +152,9 @@ class IQASolver(object):
                     self.accelerator.wait_for_everyone()
                     torch.distributed.barrier()
                 if self.is_main_process():
-                    train_srcc, _ = stats.spearmanr(pred_scores, gt_scores)
-                    train_plcc, _ = stats.pearsonr(pred_scores, gt_scores)
                     print(f'=========Epoch:{t:3d}=========')
-                    print(f'Train_SRCC: {train_srcc:.4f}, Train_PLCC: {train_plcc:.4f}')
+                    _, _ = self.log_metrics(pred_scores, gt_scores, scene_list, t, f"train")
+
                     with self.ema_model.average_parameters():
                         # os.makedirs(f'{self.project_dir}/ema_ckpts', exist_ok=True)
                         # torch.save(self.ema_model.state_dict(), f'{self.project_dir}/ema_ckpts/model_epoch{t:03}.pth')
@@ -158,7 +163,7 @@ class IQASolver(object):
 
                         for data_name, test_data in self.test_data.items():
                             pred_scores, gt_scores, scene_list = self.val(test_data)
-                            ema_srcc, ema_plcc = self.log_metrics(pred_scores, gt_scores, scene_list, t, f"{data_name}/ema_")
+                            ema_srcc, ema_plcc = self.log_metrics(pred_scores, gt_scores, scene_list, t, f"{data_name}/test")
                             srcc_by_epoch[data_name].append(ema_srcc)
                             plcc_by_epoch[data_name].append(ema_plcc)
                             if ema_srcc > best_srcc[data_name]:
@@ -171,7 +176,7 @@ class IQASolver(object):
                         
                             print(f'Best SRCC: {best_srcc[data_name]:.4f}, Best PLCC: {best_plcc[data_name]:.4f}, Best epoch: {best_epoch[data_name]} \n')
                 
-                # fast evaluation
+                # # fast evaluation
                 # with self.ema_model.average_parameters():
                 #     rank_idx = torch.distributed.get_rank()
                 #     while rank_idx < len(self.test_data):
@@ -180,7 +185,7 @@ class IQASolver(object):
                 #         rank_idx += torch.distributed.get_world_size()
 
                 #         pred_scores, gt_scores, scene_list = self.val(test_data)
-                #         ema_srcc, ema_plcc = self.log_metrics(pred_scores, gt_scores, scene_list, t, f"{data_name}/ema_")
+                #         ema_srcc, ema_plcc = self.log_metrics(pred_scores, gt_scores, scene_list, t, f"{data_name}/test")
                 #         srcc_by_epoch[data_name].append(ema_srcc)
                 #         plcc_by_epoch[data_name].append(ema_plcc)
                 #         if ema_srcc > best_srcc[data_name]:
@@ -242,36 +247,96 @@ class IQASolver(object):
     def is_main_process(self):
         return self.accelerator.is_main_process
     
-    def log_metrics(self, pred_scores, gt_scores, scene_list, epoch, prefix=""):
+    def log_metrics(self, pred_scores, gt_scores, scene_list, epoch, prefix="", scene_independent=False):
         srcc, plcc = stats.spearmanr(pred_scores, gt_scores)[0], stats.pearsonr(pred_scores, gt_scores)[0]
         self.accelerator.log({f"{prefix}eval/srcc": srcc, f"{prefix}eval/plcc": plcc}, step=epoch)
 
-        # # computer srcc, plcc by scene
-        # scene_dict = {}
-        # for i, scene in enumerate(scene_list):
-        #     if scene not in scene_dict.keys():
-        #         scene_dict[scene] = dict(
-        #             pred_scores = [],
-        #             gt_scores=[],
-        #         )
-        #     scene_dict[scene]['pred_scores'].append(pred_scores[i])
-        #     scene_dict[scene]['gt_scores'].append(gt_scores[i])
+        # computer srcc, plcc by scene
+        scene_dict = {}
+        for i, scene in enumerate(scene_list):
+            if scene not in scene_dict.keys():
+                scene_dict[scene] = dict(
+                    pred_scores = [],
+                    gt_scores=[],
+                )
+            scene_dict[scene]['pred_scores'].append(pred_scores[i])
+            scene_dict[scene]['gt_scores'].append(gt_scores[i])
 
-        # srcc_by_scene = []
-        # plcc_by_scene = []
-        # for k, scene_item in scene_dict.items():
-        #     scene_srcc, _ = stats.spearmanr(scene_item['pred_scores'], scene_item['gt_scores'])
-        #     scene_plcc, _ = stats.pearsonr(scene_item['pred_scores'], scene_item['gt_scores'])
-        #     srcc_by_scene.append(scene_srcc)
-        #     plcc_by_scene.append(scene_plcc)
-        # mean_srcc, med_srcc = np.mean(srcc_by_scene), np.median(srcc_by_scene)
-        # mean_plcc, med_plcc = np.mean(plcc_by_scene), np.median(plcc_by_scene)
+        srcc_by_scene = []
+        plcc_by_scene = []
+        acc_by_scene = []
+        for k, scene_item in scene_dict.items():
+            scene_srcc, _ = stats.spearmanr(scene_item['pred_scores'], scene_item['gt_scores'])
+            scene_plcc, _ = stats.pearsonr(scene_item['pred_scores'], scene_item['gt_scores'])
+            scene_acc, _, _ = self.calculate_acc(scene_item['pred_scores'], scene_item['gt_scores'], threshold=150)
+            srcc_by_scene.append(scene_srcc)
+            plcc_by_scene.append(scene_plcc)
+            acc_by_scene.append(scene_acc)
+        mean_srcc, std_srcc = np.mean(srcc_by_scene), np.std(srcc_by_scene)
+        mean_plcc, std_plcc = np.mean(plcc_by_scene), np.std(plcc_by_scene)
+        mean_acc, std_acc = np.mean(acc_by_scene), np.std(acc_by_scene)
 
-        # # print(f'mean srcc: {mean_srcc}, median srcc: {med_srcc}')
-        # self.accelerator.log({f"{prefix}eval/mean_srcc": mean_srcc}, step=epoch)
-        # self.accelerator.log({f"{prefix}eval/mean_plcc": mean_plcc}, step=epoch)
+        # print(f'mean srcc: {mean_srcc}, median srcc: {med_srcc}')
+        self.accelerator.log({f"{prefix}eval/mean_srcc": mean_srcc}, step=epoch)
+        self.accelerator.log({f"{prefix}eval/mean_plcc": mean_plcc}, step=epoch)
+        self.accelerator.log({f"{prefix}eval/mean_acc": mean_acc}, step=epoch)
 
         print(f'{prefix} srcc: {srcc:.4f}, plcc: {plcc:.4f}')
-        # print(f'{prefix} mean srcc: {mean_srcc:.4f}, median srcc: {med_srcc:.4f}')
-        # print(f'{prefix} mean plcc: {mean_plcc:.4f}, median plcc: {med_plcc:.4f}')
-        return abs(srcc), abs(plcc)
+        print(f'{prefix} mean srcc: {mean_srcc:.4f}, std srcc: {std_srcc:.4f}')
+        print(f'{prefix} mean plcc: {mean_plcc:.4f}, std plcc: {std_plcc:.4f}')
+        print(f'{prefix} mean acc: {mean_acc:.4f}, std acc: {std_acc:.4f}')
+
+        if scene_independent:
+            # scene independent dataset
+            # e.g. pipal, tid2013, piq2023
+            return abs(mean_srcc), abs(mean_plcc)
+        else:
+            return abs(srcc), abs(plcc)
+
+    def calculate_acc(self, pred_scores, gt_scores, threshold=10000):
+        """
+        计算阈值过滤后的pair准确率
+        
+        Args:
+            pred_scores: 预测分数列表
+            gt_scores: 真实分数列表
+            threshold: gt差值阈值
+            
+        Returns:
+            accuracy: 准确率
+            total_pairs: 总配对数
+            correct_pairs: 正确预测数
+        """
+        assert len(pred_scores) == len(gt_scores), "预测分数和真实分数长度必须相同"
+        
+        n = len(pred_scores)
+        total_pairs = 0
+        correct_pairs = 0
+        
+        # 构建所有可能的配对
+        for i in range(n):
+            for j in range(i+1, n):
+                # 获取一对图像的预测分数和真实分数
+                pred1, pred2 = pred_scores[i], pred_scores[j]
+                gt1, gt2 = gt_scores[i], gt_scores[j]
+                
+                # 计算gt差值
+                gt_diff = abs(gt1 - gt2)
+                
+                # 如果gt差值小于等于阈值，跳过该配对
+                if gt_diff > threshold:
+                    continue
+                    
+                # 确定预测分类和真实分类
+                pred_class = pred1 > pred2
+                gt_class = gt1 > gt2
+                
+                # 统计正确预测
+                total_pairs += 1
+                if pred_class == gt_class:
+                    correct_pairs += 1
+        
+        # 计算准确率
+        accuracy = correct_pairs / total_pairs if total_pairs > 0 else 0
+        
+        return accuracy, total_pairs, correct_pairs

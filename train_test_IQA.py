@@ -74,6 +74,9 @@ def load_datajson_for_cross_set(datasets:list, json_dir:str, istrain:bool, datas
 
         'ava': 'for_cross_set/train/ava_train.json',
         'para': 'for_cross_set/train/para_train.json',
+
+        'pipal': 'for_cross_set/train/pipal_train.json',
+        'tid2013': 'for_cross_set/train/tid2013_train.json',
     }
     test_json = {
         'spaq': 'for_cross_set/test/spaq_test.json',
@@ -93,7 +96,8 @@ def load_datajson_for_cross_set(datasets:list, json_dir:str, istrain:bool, datas
         'para': 'for_cross_set/test/para_test.json',
 
         'nnid': 'for_cross_set/test/nnid.json',
-        'pipal': 'for_cross_set/test/pipal.json',
+        'pipal': 'for_cross_set/test/pipal_test.json',
+        'tid2013': 'for_cross_set/test/tid2013_test.json',
     }
     datajson = {}
     for dataname in datasets:

@@ -107,6 +107,52 @@ def robust_scale_shift_loss(y_pred, y):
     y = (y - t) / (s + 1e-8)
     return torch.nn.functional.l1_loss(y_pred, y).float()
 
+def kld_loss(y_pred, y):
+    B = y.shape[0]
+    idx_i, idx_j = torch.triu_indices(B, B, offset=1)
+    
+    y_i = y[idx_i]
+    y_j = y[idx_j]
+    true_pairs = torch.zeros((len(idx_i), 2), device=y.device)
+    true_pairs[:, 0] = (y_i >= y_j).float()
+    true_pairs[:, 1] = (y_i <= y_j).float()
+    
+    pred_i = y_pred[idx_i]
+    pred_j = y_pred[idx_j]
+    pred_pairs = torch.stack([pred_i, pred_j], dim=1)
+    
+    # loss_list = torch.nn.functional.cross_entropy(pred_pairs, true_pairs, reduction='none')
+    
+    eps = 1e-8
+    pred_pairs = torch.softmax(pred_pairs, dim=1)
+    loss_list = 1.0 - torch.sqrt(pred_pairs * true_pairs + eps).sum(dim=1, keepdim=True)
+    return loss_list.mean()
+
+def fidelity_loss(y_pred, y):
+    """prediction monotonicity related loss"""
+    assert y_pred.size(0) > 1  #
+    y_pred = y_pred.unsqueeze(1)
+    y = y.unsqueeze(1)
+    preds = y_pred-y_pred.t()
+    gts = y - y.t()
+
+    #signed = torch.sign(gts)
+
+    triu_indices = torch.triu_indices(y_pred.size(0), y_pred.size(0), offset=1)
+    preds = preds[triu_indices[0], triu_indices[1]]
+    gts = gts[triu_indices[0], triu_indices[1]]
+    g = 0.5 * (torch.sign(gts) + 1)
+
+    constant = torch.sqrt(torch.Tensor([2.])).to(preds.device)
+    p = 0.5 * (1 + torch.erf(preds / constant))
+
+    g = g.view(-1, 1)
+    p = p.view(-1, 1)
+
+    loss = torch.mean((1 - (torch.sqrt(p * g + 1e-8) + torch.sqrt((1 - p) * (1 - g) + 1e-8))))
+
+    return loss
+
 def loss_by_scene(y_pred, y, scene, loss_type):
     scene_id = torch.unique(scene)
     loss = 0
@@ -124,8 +170,14 @@ def loss_by_scene(y_pred, y, scene, loss_type):
             loss += rank_loss(y_pred_s, y_s)
         elif loss_type == 'plcc+rank':
             loss += plcc_loss(y_pred_s, y_s) + rank_loss(y_pred_s, y_s)
+        elif loss_type == 'plcc+kld':
+            loss += plcc_loss(y_pred_s, y_s) + kld_loss(y_pred_s, y_s)
         elif loss_type == 'scale_shift':
             # loss += scale_shift_loss(y_pred_s, y_s)
             loss += robust_scale_shift_loss(y_pred_s, y_s)
+        elif loss_type == 'kld':
+            loss += kld_loss(y_pred_s, y_s)
+        elif loss_type == 'fidelity':
+            loss += fidelity_loss(y_pred_s, y_s)
     
     return loss / len(scene_id)

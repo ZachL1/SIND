@@ -450,7 +450,8 @@ def tid2013_generator(domain_id_base = 900):
 
   all_files = []
   for img_name, score in mos_with_names[0].items():
-    dist_dype = int(img_name.split('_')[1])
+    # dist_dype = int(img_name.split('_')[1])
+    dist_dype = int(img_name.split('_')[0][1:])
     all_files.append(dict(
       image = f'TID2013/distorted_images/{img_name}',
       score = score,
@@ -464,8 +465,19 @@ def tid2013_generator(domain_id_base = 900):
       'files': all_files,
       'domain_name': {domain_id_base + dist_dype: dist_dype for dist_dype in set([item['dist_dype'] for item in all_files])},
       }, f, indent=2)
-
-  print(f'TID2013 all: {len(all_files)}')
+  
+  # split train/test by image.split('_')[0].lower()
+  all_img = set(item.split('_')[0].lower() for item in mos_with_names[0].keys())
+  train_img = set(random.sample(all_img, k=int(len(all_img)*0.8)))
+  test_img = all_img - train_img
+  train_files = [item for item in all_files if item['image'].replace('TID2013/distorted_images/', '').split('_')[0].lower() in train_img]
+  test_files = [item for item in all_files if item['image'].replace('TID2013/distorted_images/', '').split('_')[0].lower() in test_img]
+  assert len(train_files) + len(test_files) == len(all_files)
+  with open(f'{base_dir}/data_json/for_cross_set/train/tid2013_train.json', 'w') as f:
+    json.dump({'files': train_files}, f, indent=2)
+  with open(f'{base_dir}/data_json/for_cross_set/test/tid2013_test.json', 'w') as f:
+    json.dump({'files': test_files}, f, indent=2)
+  print(f'TID2013 train: {len(train_files)}, test: {len(test_files)}')
 
 
 
@@ -680,7 +692,8 @@ def pipal_generator(domain_id_base = 1500):
   import glob
 
   ref_names = os.listdir(f'{data_dir}/PIPAL/training/Train_Ref')
-  select_names = [name.split('.')[0] for name in random.sample(ref_names, k=20)]
+  # select_names = [name.split('.')[0] for name in random.sample(ref_names, k=20)]
+  select_names = [name.split('.')[0] for name in ref_names]
 
   image_names = []
   image_scores = []
@@ -692,22 +705,44 @@ def pipal_generator(domain_id_base = 1500):
         image_names.append(img_name)
         image_scores.append(float(score))
   
-  all_files = []
+  train_files = []
   for img_name, score in zip(image_names, image_scores):
     img_path = glob.glob(f'{data_dir}/PIPAL/training/Distortion_*/{img_name}')
     assert len(img_path) == 1, img_path
-    all_files.append({
+    train_files.append({
+      'image': img_path[0].replace(data_dir+'/', ''),
+      'score': (score - 868.2988) / (1857 - 868.2988),
+      'domain_id': domain_id_base + int(img_name.split('_')[0][1:]),
+    })
+    assert os.path.exists(os.path.join(data_dir, train_files[-1]['image']))
+
+  with open(f'{base_dir}/data_json/for_cross_set/train/pipal_train.json', 'w') as f:
+    json.dump({'files': train_files}, f, indent=2)
+  
+  image_names = []
+  image_scores = []
+  with open(f'{data_dir}/PIPAL/validation/val_label.txt', 'r') as f:
+    for line in f:
+      img_name, score = line.strip().split(',')
+      image_names.append(img_name)
+      image_scores.append(float(score))
+  test_files = []
+  for img_name, score in zip(image_names, image_scores):
+    img_path = glob.glob(f'{data_dir}/PIPAL/validation/Dis/{img_name}')
+    assert len(img_path) == 1, img_path
+    test_files.append({
       'image': img_path[0].replace(data_dir+'/', ''),
       'score': score,
-      'domain_id': domain_id_base,
+      'domain_id': domain_id_base + int(img_name.split('_')[0][1:]),
     })
-    assert os.path.exists(os.path.join(data_dir, all_files[-1]['image']))
-
+    assert os.path.exists(os.path.join(data_dir, test_files[-1]['image']))
+  
+  with open(f'{base_dir}/data_json/for_cross_set/test/pipal_test.json', 'w') as f:
+    json.dump({'files': test_files}, f, indent=2)
+  
   with open(f'{base_dir}/data_json/all/pipal_all.json', 'w') as f:
-    json.dump({'files': all_files}, f, indent=2)
-  with open(f'{base_dir}/data_json/for_cross_set/test/pipal.json', 'w') as f:
-    json.dump({'files': all_files}, f, indent=2)
-  print(f'PIPAL all: {len(all_files)}')
+    json.dump({'files': train_files + test_files}, f, indent=2)
+  print(f'PIPAL train: {len(train_files)}, test: {len(test_files)}')
 
 
 
@@ -734,11 +769,11 @@ if __name__ == '__main__':
   # kadid10k_generator()
   # live_generator()
   # csiq_generator()
-  # tid2013_generator()
+  tid2013_generator()
   # eva_generator()
   # para_generator()
   # ava_generator()
   # nnid_generator()
-  pipal_generator()
+  # pipal_generator()
 
   # check_koniq_spaq_kadia()
