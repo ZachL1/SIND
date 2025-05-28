@@ -17,7 +17,7 @@ def _list_image_files_recursively(data_dir):
   for entry in sorted(bf.listdir(data_dir)):
     full_path = bf.join(data_dir, entry)
     ext = entry.split(".")[-1]
-    if "." in entry and ext.lower() in ["jpg", "jpeg", "png", "gif"]:
+    if "." in entry and ext.lower() in ["jpg", "jpeg", "png", "gif", "tif", "tiff"]:
       results.append(full_path)
     elif bf.isdir(full_path):
       results.extend(_list_image_files_recursively(full_path))
@@ -52,7 +52,7 @@ def load_json_data(data_dir, batch_size, json_file, input_size):
     if 'domain_id' not in item.keys():
       item['domain_id'] = 0 # domain_id is not necessary when testing, set it to 0 for convenience
 
-  data_loader = DataGenerator(dataset='common_json', path=data_dir, data_json=data, input_size=input_size, batch_size=batch_size, istrain=False, testing_aug=True).get_data()
+  data_loader = DataGenerator(dataset='common_json', path=data_dir, data_json=data, input_size=input_size, batch_size=batch_size, istrain=False, testing_aug=True, local=True).get_data()
   return data_loader
 
 def load_directory_data(data_dir, batch_size, input_size):
@@ -68,7 +68,7 @@ def load_directory_data(data_dir, batch_size, input_size):
   for file in _list_image_files_recursively(data_dir)[:650000]:
     data.append({"image": file, "score": 0, "domain_id": 0})
   
-  data_loader = DataGenerator(dataset='common_json', path=data_dir, data_json=data, input_size=input_size, batch_size=batch_size, istrain=False, testing_aug=True).get_data()
+  data_loader = DataGenerator(dataset='common_json', path='.', data_json=data, input_size=input_size, batch_size=batch_size, istrain=False, testing_aug=True, local=True).get_data()
   return data_loader
 
 @torch.no_grad()
@@ -141,3 +141,9 @@ if __name__ == '__main__':
     df = pd.DataFrame({'img_name': img_names, 'gt_score': gt_scores, 'pred_score': pred_scores})
     df.to_csv(os.path.join(args.save_dir, 'imagenet_results_0_650000.csv'), index=False)
 
+  # with open('data/HUAWEI_test/results.json', 'r') as f:
+  #   results = json.load(f)
+  # for img_name, pred_score in zip(img_names, pred_scores):
+  #   results[img_name.split('/HUAWEI_test/')[-1]]['SIND_score'] = pred_score
+  # with open('data/HUAWEI_test/results.json', 'w') as f:
+  #   json.dump(results, f, indent=2)
