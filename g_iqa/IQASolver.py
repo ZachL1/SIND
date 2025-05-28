@@ -235,12 +235,6 @@ class IQASolver(object):
             gt_scores = gt_scores + label.cpu().tolist()
             scene_list = scene_list + scene.cpu().tolist()
 
-        # pred_scores = np.mean(np.reshape(np.array(pred_scores), (-1, self.test_patch_num)), axis=1)
-        # gt_scores = np.mean(np.reshape(np.array(gt_scores), (-1, self.test_patch_num)), axis=1)
-
-        # computer srcc by scene
-        # scene_list = np.mean(np.reshape(np.array(scene_list), (-1, self.test_patch_num)), axis=1, dtype=np.int32).tolist()
-
         self.model.train(True)
         return pred_scores, gt_scores, scene_list
     
@@ -250,8 +244,14 @@ class IQASolver(object):
     def log_metrics(self, pred_scores, gt_scores, scene_list, epoch, prefix="", scene_independent=False):
         srcc, plcc = stats.spearmanr(pred_scores, gt_scores)[0], stats.pearsonr(pred_scores, gt_scores)[0]
         self.accelerator.log({f"{prefix}eval/srcc": srcc, f"{prefix}eval/plcc": plcc}, step=epoch)
+        print(f'{prefix} srcc: {srcc:.4f}, plcc: {plcc:.4f}')
+
+        if not scene_independent:
+            return abs(srcc), abs(plcc)
 
         # computer srcc, plcc by scene
+        # for scene independent dataset, we should treat each scene independently
+        # e.g. pipal, tid2013, piq2023
         scene_dict = {}
         for i, scene in enumerate(scene_list):
             if scene not in scene_dict.keys():
@@ -276,22 +276,16 @@ class IQASolver(object):
         mean_plcc, std_plcc = np.mean(plcc_by_scene), np.std(plcc_by_scene)
         mean_acc, std_acc = np.mean(acc_by_scene), np.std(acc_by_scene)
 
-        # print(f'mean srcc: {mean_srcc}, median srcc: {med_srcc}')
         self.accelerator.log({f"{prefix}eval/mean_srcc": mean_srcc}, step=epoch)
         self.accelerator.log({f"{prefix}eval/mean_plcc": mean_plcc}, step=epoch)
         self.accelerator.log({f"{prefix}eval/mean_acc": mean_acc}, step=epoch)
 
-        print(f'{prefix} srcc: {srcc:.4f}, plcc: {plcc:.4f}')
         print(f'{prefix} mean srcc: {mean_srcc:.4f}, std srcc: {std_srcc:.4f}')
         print(f'{prefix} mean plcc: {mean_plcc:.4f}, std plcc: {std_plcc:.4f}')
         print(f'{prefix} mean acc: {mean_acc:.4f}, std acc: {std_acc:.4f}')
 
-        if scene_independent:
-            # scene independent dataset
-            # e.g. pipal, tid2013, piq2023
-            return abs(mean_srcc), abs(mean_plcc)
-        else:
-            return abs(srcc), abs(plcc)
+        return abs(mean_srcc), abs(mean_plcc)
+
 
     def calculate_acc(self, pred_scores, gt_scores, threshold=10000):
         """
