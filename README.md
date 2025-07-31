@@ -163,6 +163,37 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch \
 # - dataset_domain: use dataset-domain alignment instead of scene-domain alignment
 ```
 
+### Intra-dataset Evaludation
+Follow the experimental settings of [LIQE](https://github.com/zwx8981/LIQE). We mix six datasets for the training set and learn a single set of weights to test on six test sets. Refer to `random_split_exp.sh` for more details.
+
+> We conduct experiments on six IQA datasets, among which LIVE, CSIQ, and KADID-10k contain synthetic distortions, while LIVE Challenge, BID, and KonIQ-10K include realistic distortions. We randomly sample 70% and 10% images from each dataset to construct the training and validation set, respectively, leaving the remaining 20% for testing. We repeat this procedure ten times, and report median SRCC and PLCC results as prediction monotonicity and precision measures, respectively.
+
+```bash
+# [Example] Joint training on mix datasets: koniq10k livec bid kadid10k csiq live
+# use dataset-domain alignment
+pro_dir="./exp_log/random-split/our_epoch35_bs128_all_dataset"
+mkdir -p $pro_dir
+clip_model="openai/ViT-B-16"
+
+CUDA_VISIBLE_DEVICES=0,1 accelerate launch \
+                    train_test_IQA.py  \
+                    --clip_model $clip_model \
+                    --epochs 35 \
+                    --lr 1e-5  \
+                    --warmup_epoch 5 \
+                    --weight_decay 1e-5 \
+                    --batch_size 64 \
+                    --local_global \
+                    --loss_type scale_shift  \
+                    --scene_sampling 2 \
+                    --project_dir $pro_dir \
+                    --train_dataset koniq10k livec bid kadid10k csiq live \
+                    --test_dataset koniq10k livec bid kadid10k csiq live \
+                    --exp_type random-split \
+                    --dataset_domain \
+                    >> $pro_dir/train.log 
+```
+
 ### Experiment Types
 
 The framework supports three types of experiments:
@@ -193,12 +224,20 @@ Cross-scene validation results on SPAQ, KonIQ-10k, EVA, and PARA datasets:
 | EVA | 0.778 | 0.792 |
 | PARA | 0.902 | 0.940 |
 
-Cross-dataset validation:
+Cross-dataset Evaludation:
 
 <p align="center">
   <img src="figs/radar_chart.png" width="100%"/>
   </br>
   <em>Cross dataset generalization performance of different methods when trained on SPAQ or KonIQ-10k. Metric is (SRCC+PLCC)/2.</em>
+</p>
+
+Intra-dataset Evaludation:
+
+<p align="center">
+  <img src="figs/intra.png" width="100%"/>
+  </br>
+  <em>SRCC/PLCC values of intra-dataset validation for the TQA task.</em>
 </p>
 
 ## Citation
