@@ -1,4 +1,4 @@
-# SIND: Scene-Invariant Distribution Learning for Generalizable Image Quality Assessment
+# SIND: Scene-Invariant Distribution Learning for Generalizable Image Quality Assessment [TCSVT]
 
 This repository contains the official implementation of the paper "SIND: Scene-Invariant Distribution Learning for Generalizable Image Quality Assessment".
 
