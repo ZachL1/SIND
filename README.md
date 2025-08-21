@@ -240,6 +240,18 @@ Intra-dataset Evaludation:
   <em>SRCC/PLCC values of intra-dataset validation for the TQA task.</em>
 </p>
 
+## NTIRE 2024 Champion
+
+Our method won the **NTIRE 2024 Portrait Quality Assessment Challenge** ([paper](https://arxiv.org/abs/2404.11159)), demonstrating superior generalization capabilities, especially on DXOMARK's internal `Challenge Test` dataset.
+
+<p align="center">
+  <img src="figs/ntire24.png" width="100%"/>
+  </br>
+  <em>Deep Portrait Quality Assessment. A NTIRE 2024 Challenge Survey</em>
+</p>
+
+The final submission code and trained weights for the competition are available in the [NTIRE2024/Submission](https://github.com/ZachL1/SIND/NTIRE2024/Submission).
+
 ## Citation
 
 If you find this work useful for your research, please cite our paper:
