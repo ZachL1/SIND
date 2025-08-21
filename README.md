@@ -1,10 +1,18 @@
-# Learning Scene-invariant Distribution for Generalizable Blind Image Quality Assessment
+# SIND: Learning Scene-invariant Distribution for Generalizable Blind Image Quality Assessment
 
-This repository contains the official implementation of the paper "[Learning Scene-invariant Distribution for Generalizable Blind Image Quality Assessment, TCSVT2025](https://ieeexplore.ieee.org/abstract/document/11108304)".
+[![Paper](https://img.shields.io/badge/Paper-IEEE%20TCSVT%202025-blue)](https://ieeexplore.ieee.org/abstract/document/11108304)
+[![NTIRE 2024 Champion](https://img.shields.io/badge/NTIRE%202024-Champion-gold)](#ntire-2024-champion)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## Introduction
+**Official implementation of "Learning Scene-invariant Distribution for Generalizable Blind Image Quality Assessment" (IEEE TCSVT 2025)**
 
-Image Quality Assessment (IQA) is crucial for various computer vision tasks, but existing deep learning-based IQA models often struggle with generalization across different scenes. We propose SIND, a novel framework that learns scene-invariant distributions for robust quality assessment through cross-scene distribution alignment.
+🏆 **NTIRE 2024 Portrait Quality Assessment Challenge Winner**
+
+## Abstract
+
+The inherent diversity of visual scenes poses a fundamental challenge in blind image quality assessment (BIQA), leading to compromised model generalizability when dealing with unseen scenes. We found that human annotations for images with different visual scenes exhibit distinct quality distribution discrepancies, causing existing BIQA models to overfit to such diversified distributions.
+
+This work presents **SIND** (Scene-INvariant Distribution), a generalizable BIQA model that addresses this challenge through a distribution alignment framework. Our approach automatically scales and shifts cross-scene distributions into a unified distribution, enabling scene-invariant and quality-aware feature representation. Additionally, we design a token-complementary patch reasoning network to extract comprehensive quality-aware features from both image overview and details.
 
 <p align="center">
   <img src="figs/teaser.png" width="800px"/>
@@ -20,52 +28,65 @@ Image Quality Assessment (IQA) is crucial for various computer vision tasks, but
   <em>Overview of SIND: (1) Scene Sampling selects k scenes and n images per scene, (2) Distribution Alignment learns scene-specific transformations, (3) Model learns scene-invariant distributions</em>
 </p>
 
-## Features
+<!-- ## Features
 
 - Scene-invariant distribution learning framework
 - Cross-scene distribution alignment strategy
 - Token-complementary patch reasoning network
 - Support for both technical and aesthetic quality assessment
-- Model-agnostic design compatible with various backbones (ViT, ResNet)
-
-## Installation
-
-```bash
-git clone https://github.com/username/SIND
-cd SIND
-pip install -r requirements.txt
-```
-
-## Data Preparation
-
-1. Download the following datasets:
-   - Technical Quality Assessment (TQA):
-     - SPAQ
-     - KonIQ-10k
-     - LIVEW
-     - CID2013
-     - RBID
-     - LIVE
-   - Aesthetic Quality Assessment (AQA):
-     - EVA
-     - PARA
-2. Organize the data following this structure:
-```
-data/
-├── SPAQ/
-├── KonIQ-10k/
-├── LIVEW/
-├── CID2013/
-├── RBID/
-├── EVA/
-└── PARA/
-```
-3. [Optional] Split the data into training and validation sets and generate JSON files. Most of the datasets are splited following [Q-Align](https://github.com/Q-Future/Q-Align), please refer `data_json/data_json_generator.py` for details.
-
-    Or you can directly use the provided JSON files in `data_json/`.
+- Model-agnostic design compatible with various backbones (ViT, ResNet) -->
 
 
-## Training and Evaluation
+## 📁 Data Preparation
+
+### Supported Datasets
+
+#### Technical Quality Assessment (TQA)
+| Dataset | Images | Description |
+|---------|--------|--------------|
+| [SPAQ](https://github.com/h4nwei/SPAQ) | 11,125 | Smartphone Photography Attribute and Quality |
+| [KonIQ-10k](http://database.mmsp-kn.de/koniq-10k-database.html) | 10,073 | Konstanz Natural Image Quality Database |
+| [LIVEC/LIVEW](https://live.ece.utexas.edu/research/ChallengeDB/) | 1,162 | LIVE In the Wild Image Quality Challenge Database |
+| [LIVE](https://live.ece.utexas.edu/research/Quality/subjective.htm) | 779 | Laboratory for Image & Video Engineering |
+| [BID](https://github.com/zwx8981/UNIQUE?tab=readme-ov-file#link-to-download-the-bid-dataset) | 585 | Blur Image Database |
+| [CID2013](https://qualinet.github.io/databases/image/cid2013_camera_image_database/) | 474 | Color Image Database 2013 |
+
+#### Aesthetic Quality Assessment (AQA)
+| Dataset | Images | Description |
+|---------|--------|--------------|
+| [EVA]() | 4,070 | Explainable Visual Aesthetics |
+| [PARA](https://web.xidian.edu.cn/ldli/en/dataset.html) | 31220 | Personalized image Aesthetics database with Rich Attributes |
+
+### Setup Instructions
+
+1. **Download datasets** following the links above
+
+2. **Organize data structure**:
+   ```
+   data/
+   ├── SPAQ/
+   ├── KonIQ-10k/
+   ├── LIVEC/
+   ├── CID2013/
+   ├── BID/
+   ├── LIVE/
+   ├── EVA/
+   └── PARA/
+   ```
+
+3. **Prepare data splits** (Optional):
+   ```bash
+   # Generate custom data splits
+   python data_json/data_json_generator.py
+   
+   # Or use provided splits (recommended)
+   # Pre-generated JSON files are available in data_json/
+   ```
+
+> 📝 **Note**: Most of the datasets are splited following [Q-Align](https://github.com/Q-Future/Q-Align), please refer `data_json/data_json_generator.py` for details.
+
+
+## 🎯 Quick Start & Training
 
 ### Cross-scene Validation
 Train and evaluate on a single dataset with leave-one-out cross-scene validation. Refer to paper and `train_test_IQA.py` for more details.
@@ -163,7 +184,7 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch \
 # - dataset_domain: use dataset-domain alignment instead of scene-domain alignment
 ```
 
-### Intra-dataset Evaludation
+### Intra-dataset Evaluation
 Follow the experimental settings of [LIQE](https://github.com/zwx8981/LIQE). We mix six datasets for the training set and learn a single set of weights to test on six test sets. Refer to `random_split_exp.sh` for more details.
 
 > We conduct experiments on six IQA datasets, among which LIVE, CSIQ, and KADID-10k contain synthetic distortions, while LIVE Challenge, BID, and KonIQ-10K include realistic distortions. We randomly sample 70% and 10% images from each dataset to construct the training and validation set, respectively, leaving the remaining 20% for testing. We repeat this procedure ten times, and report median SRCC and PLCC results as prediction monotonicity and precision measures, respectively.
@@ -200,7 +221,7 @@ The framework supports three types of experiments:
 
 - `leave-one-out`: Cross-scene validation within a single dataset
 - `cross-set`: Cross-dataset validation
-- `random-split`: Random split validation floowing the [LIQE](https://github.com/zwx8981/LIQE) setup
+- `random-split`: Random split validation following the [LIQE](https://github.com/zwx8981/LIQE) setup
 
 ### Main Arguments
 
@@ -213,9 +234,11 @@ The framework supports three types of experiments:
 - `--dataset_domain`: Use dataset-domain alignment instead of scene-domain alignment
 
 
-## Results
+## 📊 Results
 
-Cross-scene validation results on SPAQ, KonIQ-10k, EVA, and PARA datasets:
+### Cross-scene Validation Performance
+
+Leave-one-out cross-scene validation on SPAQ, KonIQ-10k, EVA, and PARA datasets:
 
 | Dataset | SRCC | PLCC |
 | --- | --- | --- |
@@ -224,7 +247,9 @@ Cross-scene validation results on SPAQ, KonIQ-10k, EVA, and PARA datasets:
 | EVA | 0.778 | 0.792 |
 | PARA | 0.902 | 0.940 |
 
-Cross-dataset Evaludation:
+### Cross-dataset Evaluation
+
+Generalization performance across different datasets:
 
 <p align="center">
   <img src="figs/radar_chart.png" width="100%"/>
@@ -232,7 +257,9 @@ Cross-dataset Evaludation:
   <em>Cross dataset generalization performance of different methods when trained on SPAQ or KonIQ-10k. Metric is (SRCC+PLCC)/2.</em>
 </p>
 
-Intra-dataset Evaludation:
+### Intra-dataset Evaluation
+
+Performance following the [LIQE](https://github.com/zwx8981/LIQE) protocol:
 
 <p align="center">
   <img src="figs/intra.png" width="100%"/>
@@ -242,7 +269,7 @@ Intra-dataset Evaludation:
 
 ## NTIRE 2024 Champion
 
-Our method won the **NTIRE 2024 Portrait Quality Assessment Challenge** ([paper](https://arxiv.org/abs/2404.11159)), demonstrating superior generalization capabilities, especially on DXOMARK's internal `Challenge Test` dataset.
+Our method won the [**NTIRE 2024 Portrait Quality Assessment Challenge**](https://arxiv.org/abs/2404.11159), demonstrating superior generalization capabilities, especially on DXOMARK's internal `Challenge Test` dataset.
 
 <p align="center">
   <img src="figs/ntire24.png" width="100%"/>
@@ -250,7 +277,7 @@ Our method won the **NTIRE 2024 Portrait Quality Assessment Challenge** ([paper]
   <em>Deep Portrait Quality Assessment. A NTIRE 2024 Challenge Survey</em>
 </p>
 
-The final submission code and trained weights for the competition are available in the [NTIRE2024/Submission](https://github.com/ZachL1/SIND/NTIRE2024/Submission).
+The final submission code and trained weights for the competition are available in the [NTIRE2024/Submission](./NTIRE2024/Submission).
 
 ## Citation
 
