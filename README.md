@@ -15,7 +15,7 @@ The inherent diversity of visual scenes poses a fundamental challenge in blind i
 This work presents **SIND** (Scene-INvariant Distribution), a generalizable BIQA model that addresses this challenge through a distribution alignment framework. Our approach automatically scales and shifts cross-scene distributions into a unified distribution, enabling scene-invariant and quality-aware feature representation. Additionally, we design a token-complementary patch reasoning network to extract comprehensive quality-aware features from both image overview and details.
 
 <p align="center">
-  <img src="figs/teaser.png" width="800px"/>
+  <img src="figs/teaser.png" width="80%"/>
   </br>
   <em>Distribution alignment visualization: (a) Training data from three scenes, (b) Prediction without alignment, (c) Distribution alignment process, (d) Prediction with alignment</em>
 </p>
@@ -23,7 +23,7 @@ This work presents **SIND** (Scene-INvariant Distribution), a generalizable BIQA
 ## Framework
 
 <p align="center">
-  <img src="figs/IQA_main.png" width="100%"/>
+  <img src="figs/IQA_main.png" width="80%"/>
   </br>
   <em>Overview of SIND: (1) Scene Sampling selects k scenes and n images per scene, (2) Distribution Alignment learns scene-specific transformations, (3) Model learns scene-invariant distributions</em>
 </p>
@@ -39,9 +39,11 @@ This work presents **SIND** (Scene-INvariant Distribution), a generalizable BIQA
 
 ## 📁 Data Preparation
 
-### Supported Datasets
-
 #### Technical Quality Assessment (TQA)
+
+<details>
+  <summary>Dataset Links</summary>
+
 | Dataset | Images | Description |
 |---------|--------|--------------|
 | [SPAQ](https://github.com/h4nwei/SPAQ) | 11,125 | Smartphone Photography Attribute and Quality |
@@ -57,7 +59,7 @@ This work presents **SIND** (Scene-INvariant Distribution), a generalizable BIQA
 | [EVA]() | 4,070 | Explainable Visual Aesthetics |
 | [PARA](https://web.xidian.edu.cn/ldli/en/dataset.html) | 31220 | Personalized image Aesthetics database with Rich Attributes |
 
-### Setup Instructions
+</details>
 
 1. **Download datasets** following the links above
 
@@ -252,7 +254,7 @@ Leave-one-out cross-scene validation on SPAQ, KonIQ-10k, EVA, and PARA datasets:
 Generalization performance across different datasets:
 
 <p align="center">
-  <img src="figs/radar_chart.png" width="100%"/>
+  <img src="figs/radar_chart.png" width="60%"/>
   </br>
   <em>Cross dataset generalization performance of different methods when trained on SPAQ or KonIQ-10k. Metric is (SRCC+PLCC)/2.</em>
 </p>
@@ -262,7 +264,7 @@ Generalization performance across different datasets:
 Performance following the [LIQE](https://github.com/zwx8981/LIQE) protocol:
 
 <p align="center">
-  <img src="figs/intra.png" width="100%"/>
+  <img src="figs/intra.png" width="80%"/>
   </br>
   <em>SRCC/PLCC values of intra-dataset validation for the TQA task.</em>
 </p>
@@ -272,7 +274,7 @@ Performance following the [LIQE](https://github.com/zwx8981/LIQE) protocol:
 Our method won the [**NTIRE 2024 Portrait Quality Assessment Challenge**](https://arxiv.org/abs/2404.11159), demonstrating superior generalization capabilities, especially on DXOMARK's internal `Challenge Test` dataset.
 
 <p align="center">
-  <img src="figs/ntire24.png" width="100%"/>
+  <img src="figs/ntire24.png" width="80%"/>
   </br>
   <em>Deep Portrait Quality Assessment. A NTIRE 2024 Challenge Survey</em>
 </p>
